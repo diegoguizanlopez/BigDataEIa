@@ -4,6 +4,7 @@
     SIEMPRE SE QUEDA CON EL MENOR DE LOS CASOS HASTA QUE SLO QUEDE LA OTRA ESQUINA, CALCULA LOS PESOS DE CADA GRAFO
 """
 
+import pprint
 import matplotlib.pyplot as plt
 import numpy as np
 from PersonalizedException import PersonalizedException as pe
@@ -13,6 +14,7 @@ class Grafo():
         self.nodos = {}
         self.abiertos=[]
         self.cerrados=[]
+        self.nodosVistos={}
     
     def add_node(self,nodo,**kargs) -> None:
         if nodo in self.nodos: raise pe("YA EXISTE EL NODO")
@@ -53,14 +55,18 @@ class Grafo():
         adyacentes = [n for n in self.nodos[nodo]["edges"]]
         return adyacentes
 
+
+
+
     def pop_abiertos(self):
-        return self.abiertos.pop(0)
+        values = {}
+        for x in self.abiertos:
+            values[x] = self.get_node_attributtes(x,"peso",np.inf)
+        return self.abiertos.pop(self.abiertos.index(min(self.abiertos)))
 
       # si el nodo es una solución del problema devuelve TRUE
     def es_solucion(self, nodo_actual):
-        if nodo_actual is not(None):
-            for v in self.nodos[nodo_actual].get("edges",None):
-                print(v)
+        print(f"Procesando nodo: {nodo_actual}")
         return False
 
   # devuelve una lista con todos los nodos conectados al nodo actual
@@ -74,32 +80,50 @@ class Grafo():
       return hijos
     
     
-    def recorrer_grafo_algortimo(self,nodo_inicial=None):
+    def recorre_grafo(self, nodo_inicial = None):
 
-        if nodo_inicial is None: nodo_inicial=list(self.nodos.keys())[0]
+        # si no se proporciona inicial escojo el primero que se creó
+        if nodo_inicial is None: nodo_inicial = list(self.nodos.keys())[0]
 
+        # poner en todos los nodos un atributo distanciaOrg = inf
+        # excepto en el inicial que es 0
+
+        # metemos en abiertos el nodo inicial
         self.abiertos.append(nodo_inicial)
 
         while len(self.abiertos) > 0: # mientras en abiertos existan nodos
-        # quitar un nodo
+            # quitar un nodo
             actual = self.pop_abiertos()
-
-        # mirar si es una solución
-        # si tal break
+            # mirar si es una solución
+            # si tal break
             if self.es_solucion(actual):
                 break
 
-        # actual a cerrado
+            # actual a cerrado
             self.cerrados.append(actual)
 
-        # generar sucesores
+            # generar sucesores
             hijos = self.genera_sucesores(actual)
 
-        # que hacer con los repetidos
+            # si estamos en modo dijkstra
+            # para cada hijo,
+            # Si (distanciaOrg de actual + coste hacia el hijo )   <    distanciaOrg del hijo
+            #       distanciaOrg del hijo = (distanciaOrg de actual + coste hacia el hijo )
+            self.procesamiento_peso(actual)
+            # que hacer con los repetidos
             hijos = self.procesa_repetidos(hijos)
 
+
+            # insertar los hijos en abiertos
             for hijo in hijos:
-                self.abiertos.append(hijo)
+              self.abiertos.append(hijo)
+
+    def procesamiento_peso(self,nodo_actual):
+        if nodo_actual is not(None):
+            for nodo_conectado in self.nodos[nodo_actual].get("edges",None):
+                if nodo_conectado not in self.nodosVistos:
+                    if self.get_node_attributtes(nodo_conectado,"peso",np.inf)  > self.get_node_attributtes(nodo_actual,"peso",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"coste",0):
+                        self.set_node_atributtes(nodo_conectado,peso=self.get_node_attributtes(nodo_actual,"peso",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"coste",0)) 
 
 
 g = Grafo()
@@ -116,7 +140,8 @@ try:
     g.add_edge("B", "D", coste=5)
     g.add_edge("B", "E", coste=1)
     g.add_edge("D", "E", coste=7)
-    g.recorrer_grafo_algortimo()
+    g.recorre_grafo()
+    pprint.pprint(g.nodos)
 except pe:
     pe.getErrorMessage()
     
