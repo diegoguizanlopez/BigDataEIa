@@ -62,7 +62,7 @@ class Grafo():
         values = {}
         for x in self.abiertos:
             values[x] = self.get_node_attributtes(x,"peso",np.inf)
-        return self.abiertos.pop(self.abiertos.index(min(self.abiertos)))
+        return self.abiertos.pop(self.abiertos.index(min(values)))
 
       # si el nodo es una solución del problema devuelve TRUE
     def es_solucion(self, nodo_actual):
