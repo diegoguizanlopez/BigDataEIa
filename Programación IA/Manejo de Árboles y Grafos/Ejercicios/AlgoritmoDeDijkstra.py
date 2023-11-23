@@ -54,6 +54,25 @@ class Grafo():
     def adj(self, nodo):
         adyacentes = [n for n in self.nodos[nodo]["edges"]]
         return adyacentes
+    
+    def dibuja(self):
+        fig, ax = plt.subplots()
+        # para cada nodo, dibuja un circulo en la posicion Xn, Yn
+        for n in self.nodos:
+          Xn = self.get_node_attributtes(n, "x", 0)
+          Yn = self.get_node_attributtes(n, "y", 0)
+          ax.scatter(Xn, Yn, s=300)
+          ax.text(Xn,Yn, n)
+          # para cada arista
+          for arista in self.nodos[n]["edges"]:
+            # mira la posicion del nodo destino Xd, Yd
+            Xd = self.get_node_attributtes(arista, "x", 0)
+            Yd = self.get_node_attributtes(arista, "y", 0)
+            ax.plot([Xn, Xd], [Yn, Yd], color="b", linewidth=0.5)
+            # Escribe el coste en la mitad de camino entre los dos nodos
+            ax.text((Xn+Xd)/2, (Yn+Yd)/2, self.get_edge_atributtes(n, arista, "coste", 0), alpha=0.5)
+        plt.show(block=False)
+        plt.pause(10)
 
 
 
@@ -140,8 +159,6 @@ try:
     g.add_edge("B", "D", coste=5)
     g.add_edge("B", "E", coste=1)
     g.add_edge("D", "E", coste=7)
-    g.recorre_grafo()
-    pprint.pprint(g.nodos)
 except pe:
     pe.getErrorMessage()
     
