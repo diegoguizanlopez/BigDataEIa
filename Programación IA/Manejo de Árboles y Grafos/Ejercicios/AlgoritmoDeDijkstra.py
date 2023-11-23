@@ -77,11 +77,18 @@ class Grafo():
 
 
 
-    def pop_abiertos(self):
-        values = {}
-        for x in self.abiertos:
-            values[x] = self.get_node_attributtes(x,"peso",np.inf)
-        return self.abiertos.pop(self.abiertos.index(min(values)))
+    def pop_abiertos(self,modo="Dijkstra"):
+        ret = None
+        if modo == "profundidad":
+          ret = self.abiertos.pop()
+        elif modo == "anchura":
+          ret = self.abiertos.pop(0)
+        elif modo == "Dijkstra":
+            values = {}
+            for x in self.abiertos:
+                values[x] = self.get_node_attributtes(x,"peso",np.inf)
+            ret = self.abiertos.pop(self.abiertos.index(min(values)))
+        return ret
 
       # si el nodo es una solución del problema devuelve TRUE
     def es_solucion(self, nodo_actual):
@@ -159,6 +166,8 @@ try:
     g.add_edge("B", "D", coste=5)
     g.add_edge("B", "E", coste=1)
     g.add_edge("D", "E", coste=7)
+    g.recorre_grafo()
+    pprint.pprint(g.nodos)
 except pe:
     pe.getErrorMessage()
     
