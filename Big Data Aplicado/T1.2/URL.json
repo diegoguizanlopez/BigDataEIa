@@ -1,0 +1,24 @@
+{
+    "periodicos":[
+        {
+        "name": "La voz de galicia",
+        "URL" : "http://www.lavozdegalicia.com"
+        },
+        {
+        "name": "SPORTS",
+        "URL" : "https://www.sport.es/es/"
+        },
+        {
+        "name": "El diario",
+        "URL" : "https://www.eldiario.es/"
+        },
+        {
+        "name": "El mundo",
+        "URL" : "https://www.elmundo.es/"
+        },
+        {
+        "name": "El país",
+        "URL" : "https://elpais.com/"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+Big data es el conjunto de tecnologías que obtiene, limpia y procesa datos de gran tamaño o que puede que no encuadren bien en una
+base de datos relacional, para poder trabajar con ellos de una manera “inteligente” .
+
+El bigdata es una red que analiza e interpreta un gran volumen de datos
+
+Chámase Big Data a grandes conxuntos de datos etiquetados e a o seu uso para diferentes aplicacións.
+
+Enténdese que o volume de datos é demasiado grande para ser xestionado de forma convencional.
+
+Grandes cantidades de datos.
+
+Big Data fai referencia a grandes cantidades de datos
+dos cales se poden sacar estadísticas e funcionalidades dependentes destas (computación)
+que sin chegar a ese tamaño non o permítirian.
+
+Grandes cantidades de datos etiquetados difíciles de analizar y procesar
+
+El big data es un conjuntos de datos de mayor tamaño y más complejos, especialmente procedentes de nuevas fuentes de datos.
+datos masivos, inteligencia de datos, datos a gran escala es un término que hace referencia a conjuntos de datos tan grandes y complejos que precisan de aplicaciones informáticas no tradicionales de procesamiento de datos para tratarlos adecuadamente.
+
+Big data es el almacenamiento, procesamiento, selección y gestión de datos de cualquier tipo a gran escala.
+
+Analisis de una gran cantidad de datos para sacar conclusiones.
+
+Tratamento e analise de grandes cantidades de datos.
+
+La manipulación de una gran cantidad de datos y la consulta de estos con el fin de analizar diferentes situaciones y llegar a conclusiones y predicciones.
+
+El Big Data es un conjunto de herramientas que consiste en: Obtener, limpiar y procesar datos de un gran tamaño para después manipular o encontrar correlaciones entre estos datos.
+
+Big data es la combinación o un gran conjunto de datos que se puede llegar a almacenar y/o procesar
+
+Entendemos por Big Data el análisis, procesado y gestión de un elevado conjunto de datos con una finalidad específica.
+
+Big Data es un conjunto de técnicas que nos permite analizar tramitar y sacar conclusiones de volúmenes de datos a gran escala mediante el uso de operaciones complejas
+
+Big Data es un conjunto de datos tratados con software especializado en Big Data que su principal característica es su gran tamaño (dependiendo del punto de vista del hardware se define como gran cantidad), la velocidad de archivos con los que se transfiere o se trata y la gran variedad de tipos de estos mismos
+
+Big Data es un término que describe el gran volumen de datos, tanto estructurados como no estructurados.
+
+O bigdata é unha gran cantidade de datos que se tratan y se procesan de manera diferente a la tradicional. Estos datos se analizan luego para sacar unhas conclusiones
+
+Se define como big data a la transmisión, gestión y procesado de grandes cantidades de formación con el propósito de sacar conclusiones y resultados
