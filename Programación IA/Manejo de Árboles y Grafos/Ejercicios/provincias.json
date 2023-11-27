@@ -1,0 +1,926 @@
+{
+	"Almer\u00eda": {
+		"edges": {
+			"Murcia": {
+				"weight": 219.0
+			},
+			"Granada": {
+				"weight": 166.0
+			}
+		},
+		"x": -2.3448128003,
+		"y": 37.1960852121
+	},
+	"C\u00e1diz": {
+		"edges": {
+			"Sevilla": {
+				"weight": 125.0
+			},
+			"Huelva": {
+				"weight": 219.0
+			},
+			"M\u00e1laga": {
+				"weight": 265.0
+			}
+		},
+		"x": -5.7604183752,
+		"y": 36.5538729195
+	},
+	"C\u00f3rdoba": {
+		"edges": {
+			"Sevilla": {
+				"weight": 138.0
+			},
+			"Ja\u00e9n": {
+				"weight": 104.0
+			},
+			"Granada": {
+				"weight": 166.0
+			},
+			"M\u00e1laga": {
+				"weight": 187.0
+			},
+			"Badajoz": {
+				"weight": 272.0
+			},
+			"Ciudad Real": {
+				"weight": 201.0
+			}
+		},
+		"x": -4.80926161095,
+		"y": 37.9926944409
+	},
+	"Granada": {
+		"edges": {
+			"Almer\u00eda": {
+				"weight": 166.0
+			},
+			"C\u00f3rdoba": {
+				"weight": 166.0
+			},
+			"M\u00e1laga": {
+				"weight": 129.0
+			},
+			"Ja\u00e9n": {
+				"weight": 99.0
+			},
+			"Murcia": {
+				"weight": 278.0
+			},
+			"Albacete": {
+				"weight": 363.0
+			}
+		},
+		"x": -3.26788107732,
+		"y": 37.3125169672
+	},
+	"Huelva": {
+		"edges": {
+			"C\u00e1diz": {
+				"weight": 219.0
+			},
+			"Sevilla": {
+				"weight": 94.0
+			},
+			"Badajoz": {
+				"weight": 251.0
+			}
+		},
+		"x": -6.82930221031,
+		"y": 37.5771794021
+	},
+	"Ja\u00e9n": {
+		"edges": {
+			"C\u00f3rdoba": {
+				"weight": 104.0
+			},
+			"Granada": {
+				"weight": 99.0
+			},
+			"Albacete": {
+				"weight": 264.0
+			},
+			"Ciudad Real": {
+				"weight": 179.0
+			}
+		},
+		"x": -3.44169215171,
+		"y": 38.0165122783
+	},
+	"M\u00e1laga": {
+		"edges": {
+			"C\u00e1diz": {
+				"weight": 265.0
+			},
+			"C\u00f3rdoba": {
+				"weight": 187.0
+			},
+			"Granada": {
+				"weight": 129.0
+			},
+			"Sevilla": {
+				"weight": 219.0
+			}
+		},
+		"x": -4.72586195603,
+		"y": 36.8138591651
+	},
+	"Sevilla": {
+		"edges": {
+			"C\u00e1diz": {
+				"weight": 125.0
+			},
+			"C\u00f3rdoba": {
+				"weight": 138.0
+			},
+			"Huelva": {
+				"weight": 94.0
+			},
+			"M\u00e1laga": {
+				"weight": 219.0
+			},
+			"Badajoz": {
+				"weight": 217.0
+			}
+		},
+		"x": -5.68277303032,
+		"y": 37.4356699135
+	},
+	"Huesca": {
+		"edges": {
+			"Lleida": {
+				"weight": 118.0
+			},
+			"Zaragoza": {
+				"weight": 72.0
+			},
+			"Pamplona": {
+				"weight": 163.0
+			}
+		},
+		"x": -0.0728865943582,
+		"y": 42.2030557371
+	},
+	"Teruel": {
+		"edges": {
+			"Zaragoza": {
+				"weight": 181.0
+			},
+			"Guadalajara": {
+				"weight": 244.0
+			},
+			"Valencia": {
+				"weight": 145.0
+			},
+			"Castell\u00f3n": {
+				"weight": 152.0
+			},
+			"Tarragona": {
+				"weight": 311.0
+			},
+			"Cuenca": {
+				"weight": 153.0
+			}
+		},
+		"x": -0.815532258446,
+		"y": 40.6612619615
+	},
+	"Zaragoza": {
+		"edges": {
+			"Huesca": {
+				"weight": 72.0
+			},
+			"Teruel": {
+				"weight": 181.0
+			},
+			"Guadalajara": {
+				"weight": 267.0
+			},
+			"Soria": {
+				"weight": 157.0
+			},
+			"Lleida": {
+				"weight": 140.0
+			},
+			"Tarragona": {
+				"weight": 231.0
+			},
+			"Pamplona": {
+				"weight": 175.0
+			}
+		},
+		"x": -1.06449678144,
+		"y": 41.6203648019
+	},
+	"Oviedo": {
+		"edges": {
+			"Le\u00f3n": {
+				"weight": 118.0
+			},
+			"Santander": {
+				"weight": 207.0
+			},
+			"Lugo": {
+				"weight": 242.0
+			}
+		},
+		"x": -5.99350932547,
+		"y": 43.292357861
+	},
+	"Santander": {
+		"edges": {
+			"Oviedo": {
+				"weight": 207.0
+			},
+			"Le\u00f3n": {
+				"weight": 293.0
+			},
+			"Palencia": {
+				"weight": 201.0
+			},
+			"Burgos": {
+				"weight": 156.0
+			},
+			"Bilbao": {
+				"weight": 108.0
+			}
+		},
+		"x": -4.03002122038,
+		"y": 43.1975220484
+	},
+	"Albacete": {
+		"edges": {
+			"Granada": {
+				"weight": 363.0
+			},
+			"Ja\u00e9n": {
+				"weight": 264.0
+			},
+			"Murcia": {
+				"weight": 150.0
+			},
+			"Valencia": {
+				"weight": 191.0
+			},
+			"Cuenca": {
+				"weight": 142.0
+			},
+			"Alicante": {
+				"weight": 171.0
+			},
+			"Ciudad Real": {
+				"weight": 207.0
+			}
+		},
+		"x": -1.98037326935,
+		"y": 38.8254086192
+	},
+	"Ciudad Real": {
+		"edges": {
+			"C\u00f3rdoba": {
+				"weight": 201.0
+			},
+			"Ja\u00e9n": {
+				"weight": 179.0
+			},
+			"Albacete": {
+				"weight": 207.0
+			},
+			"Toledo": {
+				"weight": 119.0
+			},
+			"Badajoz": {
+				"weight": 318.0
+			}
+		},
+		"x": -3.82809764894,
+		"y": 38.9256128254
+	},
+	"Cuenca": {
+		"edges": {
+			"Teruel": {
+				"weight": 153.0
+			},
+			"Albacete": {
+				"weight": 142.0
+			},
+			"Valencia": {
+				"weight": 220.0
+			},
+			"Guadalajara": {
+				"weight": 486.0
+			},
+			"Toledo": {
+				"weight": 187.0
+			},
+			"Madrid": {
+				"weight": 167.0
+			}
+		},
+		"x": -2.19567153274,
+		"y": 39.8960496846
+	},
+	"Guadalajara": {
+		"edges": {
+			"Teruel": {
+				"weight": 244.0
+			},
+			"Zaragoza": {
+				"weight": 267.0
+			},
+			"Cuenca": {
+				"weight": 486.0
+			},
+			"Soria": {
+				"weight": 173.0
+			},
+			"Madrid": {
+				"weight": 58.0
+			}
+		},
+		"x": -2.62368878371,
+		"y": 40.8134495654
+	},
+	"Toledo": {
+		"edges": {
+			"Ciudad Real": {
+				"weight": 119.0
+			},
+			"Cuenca": {
+				"weight": 187.0
+			},
+			"Madrid": {
+				"weight": 71.0
+			},
+			"C\u00e1ceres": {
+				"weight": 264.0
+			},
+			"\u00c1vila": {
+				"weight": 137.0
+			}
+		},
+		"x": -4.14815562595,
+		"y": 39.7937341614
+	},
+	"\u00c1vila": {
+		"edges": {
+			"Toledo": {
+				"weight": 137.0
+			},
+			"Salamanca": {
+				"weight": 97.0
+			},
+			"Segovia": {
+				"weight": 67.0
+			},
+			"Valladolid": {
+				"weight": 121.0
+			},
+			"C\u00e1ceres": {
+				"weight": 229.0
+			},
+			"Madrid": {
+				"weight": 115.0
+			}
+		},
+		"x": -4.94553505619,
+		"y": 40.5710367492
+	},
+	"Burgos": {
+		"edges": {
+			"Santander": {
+				"weight": 156.0
+			},
+			"Vitoria": {
+				"weight": 114.0
+			},
+			"Logro\u00f1o": {
+				"weight": 115.0
+			},
+			"Soria": {
+				"weight": 141.0
+			},
+			"Palencia": {
+				"weight": 86.0
+			},
+			"Segovia": {
+				"weight": 197.0
+			},
+			"Valladolid": {
+				"weight": 122.0
+			},
+			"Bilbao": {
+				"weight": 158.0
+			}
+		},
+		"x": -3.58574245567,
+		"y": 42.3687127267
+	},
+	"Le\u00f3n": {
+		"edges": {
+			"Oviedo": {
+				"weight": 118.0
+			},
+			"Santander": {
+				"weight": 293.0
+			},
+			"Palencia": {
+				"weight": 130.0
+			},
+			"Zamora": {
+				"weight": 135.0
+			},
+			"Ourense": {
+				"weight": 271.0
+			},
+			"Lugo": {
+				"weight": 236.0
+			}
+		},
+		"x": -5.83988102629,
+		"y": 42.6199552439
+	},
+	"Palencia": {
+		"edges": {
+			"Santander": {
+				"weight": 201.0
+			},
+			"Burgos": {
+				"weight": 86.0
+			},
+			"Le\u00f3n": {
+				"weight": 130.0
+			},
+			"Valladolid": {
+				"weight": 47.0
+			}
+		},
+		"x": -4.53585717538,
+		"y": 42.3718338546
+	},
+	"Salamanca": {
+		"edges": {
+			"\u00c1vila": {
+				"weight": 97.0
+			},
+			"C\u00e1ceres": {
+				"weight": 210.0
+			},
+			"Zamora": {
+				"weight": 62.0
+			},
+			"Valladolid": {
+				"weight": 115.0
+			}
+		},
+		"x": -6.06541224773,
+		"y": 40.8049892162
+	},
+	"Segovia": {
+		"edges": {
+			"\u00c1vila": {
+				"weight": 67.0
+			},
+			"Burgos": {
+				"weight": 197.0
+			},
+			"Soria": {
+				"weight": 194.0
+			},
+			"Madrid": {
+				"weight": 87.0
+			},
+			"Valladolid": {
+				"weight": 111.0
+			}
+		},
+		"x": -4.05415057783,
+		"y": 41.1710254065
+	},
+	"Soria": {
+		"edges": {
+			"Zaragoza": {
+				"weight": 157.0
+			},
+			"Guadalajara": {
+				"weight": 173.0
+			},
+			"Burgos": {
+				"weight": 141.0
+			},
+			"Segovia": {
+				"weight": 194.0
+			},
+			"Logro\u00f1o": {
+				"weight": 105.0
+			}
+		},
+		"x": -2.58874304739,
+		"y": 41.6207742504
+	},
+	"Valladolid": {
+		"edges": {
+			"\u00c1vila": {
+				"weight": 121.0
+			},
+			"Burgos": {
+				"weight": 122.0
+			},
+			"Palencia": {
+				"weight": 47.0
+			},
+			"Salamanca": {
+				"weight": 115.0
+			},
+			"Segovia": {
+				"weight": 111.0
+			},
+			"Zamora": {
+				"weight": 96.0
+			}
+		},
+		"x": -4.84719141141,
+		"y": 41.6341260695
+	},
+	"Zamora": {
+		"edges": {
+			"Le\u00f3n": {
+				"weight": 135.0
+			},
+			"Salamanca": {
+				"weight": 62.0
+			},
+			"Valladolid": {
+				"weight": 96.0
+			},
+			"Ourense": {
+				"weight": 284.0
+			}
+		},
+		"x": -5.98053925522,
+		"y": 41.7271743961
+	},
+	"Barcelona": {
+		"edges": {
+			"Tarragona": {
+				"weight": 98.0
+			},
+			"Girona": {
+				"weight": 100.0
+			},
+			"Lleida": {
+				"weight": 156.0
+			}
+		},
+		"x": 1.98405401772,
+		"y": 41.7310008895
+	},
+	"Girona": {
+		"edges": {
+			"Barcelona": {
+				"weight": 100.0
+			},
+			"Lleida": {
+				"weight": 256.0
+			}
+		},
+		"x": 2.6735559327,
+		"y": 42.1280117119
+	},
+	"Lleida": {
+		"edges": {
+			"Huesca": {
+				"weight": 118.0
+			},
+			"Zaragoza": {
+				"weight": 140.0
+			},
+			"Barcelona": {
+				"weight": 156.0
+			},
+			"Girona": {
+				"weight": 256.0
+			},
+			"Tarragona": {
+				"weight": 91.0
+			}
+		},
+		"x": 1.04798206104,
+		"y": 42.0439686698
+	},
+	"Tarragona": {
+		"edges": {
+			"Teruel": {
+				"weight": 311.0
+			},
+			"Zaragoza": {
+				"weight": 231.0
+			},
+			"Barcelona": {
+				"weight": 98.0
+			},
+			"Lleida": {
+				"weight": 91.0
+			},
+			"Castell\u00f3n": {
+				"weight": 186.0
+			}
+		},
+		"x": 0.818127863314,
+		"y": 41.0876143957
+	},
+	"Madrid": {
+		"edges": {
+			"Cuenca": {
+				"weight": 167.0
+			},
+			"Guadalajara": {
+				"weight": 58.0
+			},
+			"Toledo": {
+				"weight": 71.0
+			},
+			"\u00c1vila": {
+				"weight": 115.0
+			},
+			"Segovia": {
+				"weight": 87.0
+			}
+		},
+		"x": -3.71704619215,
+		"y": 40.4950873744
+	},
+	"Pamplona": {
+		"edges": {
+			"Huesca": {
+				"weight": 163.0
+			},
+			"Zaragoza": {
+				"weight": 175.0
+			},
+			"Vitoria": {
+				"weight": 93.0
+			},
+			"Donostia": {
+				"weight": 92.0
+			},
+			"Logro\u00f1o": {
+				"weight": 88.0
+			}
+		},
+		"x": -1.64611414443,
+		"y": 42.6672011509
+	},
+	"Alicante": {
+		"edges": {
+			"Albacete": {
+				"weight": 171.0
+			},
+			"Valencia": {
+				"weight": 166.0
+			},
+			"Murcia": {
+				"weight": 75.0
+			}
+		},
+		"x": -0.568699068376,
+		"y": 38.4786378049
+	},
+	"Castell\u00f3n": {
+		"edges": {
+			"Teruel": {
+				"weight": 152.0
+			},
+			"Tarragona": {
+				"weight": 186.0
+			},
+			"Valencia": {
+				"weight": 65.0
+			}
+		},
+		"x": -0.146777086937,
+		"y": 40.2413705852
+	},
+	"Valencia": {
+		"edges": {
+			"Teruel": {
+				"weight": 145.0
+			},
+			"Albacete": {
+				"weight": 191.0
+			},
+			"Cuenca": {
+				"weight": 220.0
+			},
+			"Alicante": {
+				"weight": 166.0
+			},
+			"Castell\u00f3n": {
+				"weight": 65.0
+			},
+			"Murcia": {
+				"weight": 241.0
+			}
+		},
+		"x": -0.800789615081,
+		"y": 39.3702562375
+	},
+	"Badajoz": {
+		"edges": {
+			"C\u00f3rdoba": {
+				"weight": 272.0
+			},
+			"Huelva": {
+				"weight": 251.0
+			},
+			"Sevilla": {
+				"weight": 217.0
+			},
+			"Ciudad Real": {
+				"weight": 318.0
+			},
+			"C\u00e1ceres": {
+				"weight": 89.0
+			}
+		},
+		"x": -6.14158521981,
+		"y": 38.7097707381
+	},
+	"C\u00e1ceres": {
+		"edges": {
+			"Toledo": {
+				"weight": 264.0
+			},
+			"\u00c1vila": {
+				"weight": 229.0
+			},
+			"Salamanca": {
+				"weight": 210.0
+			},
+			"Badajoz": {
+				"weight": 89.0
+			}
+		},
+		"x": -6.16082194997,
+		"y": 39.7118899607
+	},
+	"A Coru\u00f1a": {
+		"edges": {
+			"Lugo": {
+				"weight": 98.0
+			},
+			"Pontevedra": {
+				"weight": 121.0
+			}
+		},
+		"x": -8.4642836868,
+		"y": 43.1257958229
+	},
+	"Lugo": {
+		"edges": {
+			"Oviedo": {
+				"weight": 242.0
+			},
+			"Le\u00f3n": {
+				"weight": 236.0
+			},
+			"A Coru\u00f1a": {
+				"weight": 98.0
+			},
+			"Ourense": {
+				"weight": 95.0
+			},
+			"Pontevedra": {
+				"weight": 148.0
+			}
+		},
+		"x": -7.44638404764,
+		"y": 43.011764
+	},
+	"Ourense": {
+		"edges": {
+			"Le\u00f3n": {
+				"weight": 271.0
+			},
+			"Zamora": {
+				"weight": 284.0
+			},
+			"Lugo": {
+				"weight": 95.0
+			},
+			"Pontevedra": {
+				"weight": 102.0
+			}
+		},
+		"x": -7.59259790937,
+		"y": 42.1964503002
+	},
+	"Pontevedra": {
+		"edges": {
+			"A Coru\u00f1a": {
+				"weight": 121.0
+			},
+			"Lugo": {
+				"weight": 148.0
+			},
+			"Ourense": {
+				"weight": 102.0
+			}
+		},
+		"x": -8.46106294738,
+		"y": 42.435764706
+	},
+	"Logro\u00f1o": {
+		"edges": {
+			"Burgos": {
+				"weight": 115.0
+			},
+			"Soria": {
+				"weight": 105.0
+			},
+			"Pamplona": {
+				"weight": 88.0
+			},
+			"Vitoria": {
+				"weight": 86.0
+			}
+		},
+		"x": -2.5170441194,
+		"y": 42.2748706958
+	},
+	"Vitoria": {
+		"edges": {
+			"Burgos": {
+				"weight": 114.0
+			},
+			"Pamplona": {
+				"weight": 93.0
+			},
+			"Logro\u00f1o": {
+				"weight": 86.0
+			},
+			"Donostia": {
+				"weight": 118.0
+			},
+			"Bilbao": {
+				"weight": 66.0
+			}
+		},
+		"x": -2.72060346921,
+		"y": 42.8351264353
+	},
+	"Donostia": {
+		"edges": {
+			"Pamplona": {
+				"weight": 92.0
+			},
+			"Vitoria": {
+				"weight": 118.0
+			},
+			"Bilbao": {
+				"weight": 119.0
+			}
+		},
+		"x": -2.19417845709,
+		"y": 43.1437759117
+	},
+	"Bilbao": {
+		"edges": {
+			"Santander": {
+				"weight": 108.0
+			},
+			"Burgos": {
+				"weight": 158.0
+			},
+			"Vitoria": {
+				"weight": 66.0
+			},
+			"Donostia": {
+				"weight": 119.0
+			}
+		},
+		"x": -2.85260007926,
+		"y": 43.2376797057
+	},
+	"Murcia": {
+		"edges": {
+			"Almer\u00eda": {
+				"weight": 219.0
+			},
+			"Granada": {
+				"weight": 278.0
+			},
+			"Albacete": {
+				"weight": 150.0
+			},
+			"Alicante": {
+				"weight": 75.0
+			},
+			"Valencia": {
+				"weight": 241.0
+			}
+		},
+		"x": -1.48575629332,
+		"y": 38.0023681653
+	}
+}

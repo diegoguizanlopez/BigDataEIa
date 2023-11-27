@@ -4,10 +4,29 @@
     SIEMPRE SE QUEDA CON EL MENOR DE LOS CASOS HASTA QUE SLO QUEDE LA OTRA ESQUINA, CALCULA LOS PESOS DE CADA GRAFO
 """
 
+import json
 import pprint
 import matplotlib.pyplot as plt
 import numpy as np
 from PersonalizedException import PersonalizedException as pe
+
+import sys
+try:
+  import google.colab
+  IN_COLAB = True
+except:
+  IN_COLAB = False
+
+if IN_COLAB:
+    # montar el drive, que es donde tenemos el dataset
+    from google.colab import drive
+    drive.mount("/content/drive")
+    data_dir = "/content/drive/MyDrive/2023/Publica/Alumnos/"
+    sys.path.append(data_dir)
+else:
+    import os
+    data_dir = os.path.dirname(__file__) + "/"
+
 
 class Grafo():
     def __init__(self) -> None:
@@ -56,7 +75,7 @@ class Grafo():
         return adyacentes
     
     def dibuja(self):
-        fig, ax = plt.subplots()
+        fig, ax = plt.subplots(figsize=[20,20])
         # para cada nodo, dibuja un circulo en la posicion Xn, Yn
         for n in self.nodos:
           Xn = self.get_node_attributtes(n, "x", 0)
@@ -70,20 +89,18 @@ class Grafo():
             Yd = self.get_node_attributtes(arista, "y", 0)
             ax.plot([Xn, Xd], [Yn, Yd], color="b", linewidth=0.5)
             # Escribe el coste en la mitad de camino entre los dos nodos
-            ax.text((Xn+Xd)/2, (Yn+Yd)/2, self.get_edge_atributtes(n, arista, "coste", 0), alpha=0.5)
-        plt.show(block=False)
-        plt.pause(10)
+            ax.text((Xn+Xd)/2, (Yn+Yd)/2, self.get_edge_atributtes(n, arista, "weight", 0), alpha=0.5)
 
 
 
 
-    def pop_abiertos(self,modo="Dijkstra"):
+    def pop_abiertos(self,modo="djkstra"):
         ret = None
         if modo == "profundidad":
           ret = self.abiertos.pop()
         elif modo == "anchura":
           ret = self.abiertos.pop(0)
-        elif modo == "Dijkstra":
+        elif modo == "djkstra":
             values = {}
             for x in self.abiertos:
                 values[x] = self.get_node_attributtes(x,"peso",np.inf)
@@ -106,7 +123,7 @@ class Grafo():
       return hijos
     
     
-    def recorre_grafo(self, nodo_inicial = None):
+    def recorre_grafo(self, nodo_inicial = None,modo='djkstra'):
 
         # si no se proporciona inicial escojo el primero que se creó
         if nodo_inicial is None: nodo_inicial = list(self.nodos.keys())[0]
@@ -144,30 +161,47 @@ class Grafo():
             for hijo in hijos:
               self.abiertos.append(hijo)
 
+    def genera_ruta(self, inicial, puntero="antecesor"):
+        listasucesos=[]
+        nodo = inicial
+        while nodo is not None and nodo not in listasucesos:
+            listasucesos.append(nodo)
+            nodo=self.get_node_attributtes(nodo,puntero)
+        return listasucesos
+
+    def dibuja_ruta(self,ruta):
+        for i, n in enumerate(ruta):
+            if i == 0: continue
+            x1 = self.get_node_attributtes(ruta[i-1], "x")
+            y1 = self.get_node_attributtes(ruta[i-1], "y")
+            x2 = self.get_node_attributtes(ruta[i], "x")
+            y2 = self.get_node_attributtes(ruta[i], "y")
+            plt.plot([x1, x2], [y1, y2], color="k", linewidth=3)
+        plt.show()
+ 
+
+    def rellenar_data(self,jsonFile):
+      with open(jsonFile) as line:
+        data = json.load(line)
+      self.nodos=data
+
     def procesamiento_peso(self,nodo_actual):
         if nodo_actual is not(None):
             for nodo_conectado in self.nodos[nodo_actual].get("edges",None):
                 if nodo_conectado not in self.nodosVistos:
-                    if self.get_node_attributtes(nodo_conectado,"peso",np.inf)  > self.get_node_attributtes(nodo_actual,"peso",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"coste",0):
-                        self.set_node_atributtes(nodo_conectado,peso=self.get_node_attributtes(nodo_actual,"peso",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"coste",0)) 
+                    if self.get_node_attributtes(nodo_conectado,"peso",np.inf)  > self.get_node_attributtes(nodo_actual,"peso",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"weight",0):
+                        self.set_node_atributtes(nodo_conectado,peso=self.get_node_attributtes(nodo_actual,"peso",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"weight",0)) 
+                        self.set_node_atributtes(nodo_conectado, antecesor=nodo_actual)
+
 
 
 g = Grafo()
 try:
-    g.add_node("A", x=1, y=5,peso=0)
-    g.add_node("B", x=3, y=6)
-    g.add_node("C", x=2, y=0)
-    g.add_node("D", x=4, y=2)
-    g.add_node("E", x=5, y=7)
-    g.add_edge("A", "B", coste=3)
-    g.add_edge("A", "C", coste=1)
-    g.add_edge("B", "C", coste=7)
-    g.add_edge("C", "D", coste=2)
-    g.add_edge("B", "D", coste=5)
-    g.add_edge("B", "E", coste=1)
-    g.add_edge("D", "E", coste=7)
-    g.recorre_grafo()
+    g.rellenar_data(data_dir+"provincias.json")
+    g.recorre_grafo(nodo_inicial="A Coruña",modo='djkstra')
     pprint.pprint(g.nodos)
+    g.dibuja()
+    g.dibuja_ruta(g.genera_ruta('Barcelona'))
 except pe:
     pe.getErrorMessage()
     
