@@ -105,6 +105,13 @@ class Grafo():
             for x in self.abiertos:
                 values[x] = self.get_node_attributtes(x,"peso",np.inf)
             ret = self.abiertos.pop(self.abiertos.index(min(values)))
+        elif modo == "avaricioso":
+            # escoger de todos los de abiertos el que tenga menor
+            # valor de distanciaDst %%%%%
+            listaV={}
+            for x in self.abiertos:
+                listaV[x] = self.get_node_attributtes(x,"distanciaDst",np.inf)
+            ret = self.abiertos.pop(self.abiertos.index(min(listaV)))
         return ret
 
       # si el nodo es una solución del problema devuelve TRUE
@@ -123,7 +130,7 @@ class Grafo():
       return hijos
     
     
-    def recorre_grafo(self, nodo_inicial = None,modo='djkstra'):
+    def recorre_grafo(self, nodo_inicial = None,nodo_destino=None,modo='djkstra'):
 
         # si no se proporciona inicial escojo el primero que se creó
         if nodo_inicial is None: nodo_inicial = list(self.nodos.keys())[0]
@@ -136,7 +143,7 @@ class Grafo():
 
         while len(self.abiertos) > 0: # mientras en abiertos existan nodos
             # quitar un nodo
-            actual = self.pop_abiertos()
+            actual = self.pop_abiertos(modo)
             # mirar si es una solución
             # si tal break
             if self.es_solucion(actual):
@@ -147,6 +154,10 @@ class Grafo():
 
             # generar sucesores
             hijos = self.genera_sucesores(actual)
+            for hijo in hijos:
+                if nodo_destino:
+                  d_destino = self.calcula_distanciaDst(hijo, nodo_destino)
+                  self.set_node_atributtes(hijo, distanciaDst=d_destino)
 
             # si estamos en modo dijkstra
             # para cada hijo,
@@ -193,12 +204,15 @@ class Grafo():
                         self.set_node_atributtes(nodo_conectado,peso=self.get_node_attributtes(nodo_actual,"peso",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"weight",0)) 
                         self.set_node_atributtes(nodo_conectado, antecesor=nodo_actual)
 
+    def calcula_distanciaDst(self, destino, origen):
+      return self.get_edge_atributtes(origen,destino,"weight",0) if destino != origen else 0
+
 
 
 g = Grafo()
 try:
     g.rellenar_data(data_dir+"provincias.json")
-    g.recorre_grafo(nodo_inicial="A Coruña",modo='djkstra')
+    g.recorre_grafo(nodo_inicial="A Coruña",modo='avaricioso',nodo_destino="Lugo")
     pprint.pprint(g.nodos)
     g.dibuja()
     g.dibuja_ruta(g.genera_ruta('Barcelona'))
