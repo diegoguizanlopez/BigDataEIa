@@ -111,10 +111,9 @@ class Grafo():
         elif modo == "avaricioso":
             # escoger de todos los de abiertos el que tenga menor
             # valor de distanciaDst %%%%%
-            listaV={}
-            for x in self.abiertos:
-                listaV[x] = self.get_node_attributtes(x,"distanciaDst",np.inf)
-            ret = self.abiertos.pop(self.abiertos.index(min(listaV)))
+            value = list((map(
+               lambda x: self.get_node_attributtes(x,"distanciaDst",0),self.abiertos)))
+            ret = self.abiertos.pop(self.abiertos.index(self.abiertos[(value.index(min(value)))]))
         return ret
 
       # si el nodo es una solución del problema devuelve TRUE
@@ -231,7 +230,9 @@ try:
     g.recorre_grafo(nodo_inicial="A Coruña",modo='avaricioso',nodo_destino="Lugo")
     pprint.pprint(g.nodos)
     g.dibuja()
-    g.dibuja_ruta(g.genera_ruta('Barcelona'))
+    g.dibuja_ruta(g.genera_ruta('Almería'))
 except pe:
     pe.getErrorMessage()
+except Exception as e:
+    print(e)
     
