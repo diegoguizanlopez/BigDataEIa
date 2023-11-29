@@ -5,11 +5,18 @@
 """
 
 import json
+import math
+from pathlib import Path
 import pprint
 import matplotlib.pyplot as plt
 import numpy as np
-from PersonalizedException import PersonalizedException as pe
+from Grafo import Grafo
 from GrafoConProvincias import GrafoConProvincias
+
+import sys
+
+
+
 
 import sys
 try:
@@ -28,14 +35,20 @@ else:
     import os
     data_dir = os.path.dirname(__file__) + "/"
 
+path = str(Path(Path(Path(__file__).parent.absolute()).parent.absolute()).parent.absolute().parent.absolute())      #MANEJO DE CLASES Y MÉTODOS LLAMADOS ATRÁS
+sys.path.insert(0, path)
+
+from Clases import GetRoute,PersonalizedException as pe
 
 g = GrafoConProvincias()
 try:
     g.rellenar_data(data_dir+"provincias.json")
-    g.recorre_grafo(nodo_inicial="A Coruña")
-    pprint.pprint(g.nodos)
+    g.recorre_grafo(nodo_inicial="A Coruña",modo='A*',nodo_destino="León")
+    #pprint.pprint(g.nodos)
     g.dibuja()
-    g.dibuja_ruta(g.genera_ruta('Barcelona'))
+    g.dibuja_ruta(g.genera_ruta('Cádiz'))
 except pe:
     pe.getErrorMessage()
+except Exception as e:
+    print(e)
     

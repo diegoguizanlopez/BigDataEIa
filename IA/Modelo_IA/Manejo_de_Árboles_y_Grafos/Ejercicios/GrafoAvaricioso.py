@@ -5,13 +5,17 @@
 """
 
 import json
+import math
 import pprint
 import matplotlib.pyplot as plt
 import numpy as np
-from PersonalizedException import PersonalizedException as pe
+from Grafo import Grafo
 from GrafoConProvincias import GrafoConProvincias
 
 import sys
+
+import PersonalizedException as pe
+
 try:
   import google.colab
   IN_COLAB = True
@@ -32,10 +36,12 @@ else:
 g = GrafoConProvincias()
 try:
     g.rellenar_data(data_dir+"provincias.json")
-    g.recorre_grafo(nodo_inicial="A Coruña")
+    g.recorre_grafo(nodo_inicial="A Coruña",modo='avaricioso',)
     pprint.pprint(g.nodos)
     g.dibuja()
-    g.dibuja_ruta(g.genera_ruta('Barcelona'))
+    g.dibuja_ruta(g.genera_ruta('Albacete'))
 except pe:
     pe.getErrorMessage()
+except Exception as e:
+    print(e)
     

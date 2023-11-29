@@ -1,35 +1,13 @@
-"""
-    Es un algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista
-
-    SIEMPRE SE QUEDA CON EL MENOR DE LOS CASOS HASTA QUE SLO QUEDE LA OTRA ESQUINA, CALCULA LOS PESOS DE CADA GRAFO
-"""
-
 import json
 import math
-import pprint
+from pathlib import Path
+import sys
+path = str(Path(Path(Path(__file__).parent.absolute()).parent.absolute()).parent.absolute().parent.absolute())
+sys.path.insert(0, path)
+from Clases import PersonalizedException as pe
+import __init__
 import matplotlib.pyplot as plt
 import numpy as np
-
-import sys
-
-import PersonalizedException as pe
-
-try:
-  import google.colab
-  IN_COLAB = True
-except:
-  IN_COLAB = False
-
-if IN_COLAB:
-    # montar el drive, que es donde tenemos el dataset
-    from google.colab import drive
-    drive.mount("/content/drive")
-    data_dir = "/content/drive/MyDrive/2023/Publica/Alumnos/"
-    sys.path.append(data_dir)
-else:
-    import os
-    data_dir = os.path.dirname(__file__) + "/"
-
 
 class Grafo():
     def __init__(self) -> None:
@@ -94,34 +72,6 @@ class Grafo():
             # Escribe el coste en la mitad de camino entre los dos nodos
             ax.text((Xn+Xd)/2, (Yn+Yd)/2, self.get_edge_atributtes(n, arista, "weight", 0), alpha=0.5)
 
-
-
-
-    def pop_abiertos(self,modo="djkstra"):
-        ret = None
-        if modo == "profundidad":
-          ret = self.abiertos.pop()
-        elif modo == "anchura":
-          ret = self.abiertos.pop(0)
-        elif modo == "djkstra":
-            values = {}
-            for x in self.abiertos:
-                values[x] = self.get_node_attributtes(x,"peso",np.inf)
-            ret = self.abiertos.pop(self.abiertos.index(min(values)))
-        elif modo == "avaricioso":
-            # escoger de todos los de abiertos el que tenga menor
-            # valor de distanciaDst %%%%%
-            value = list((map(
-               lambda x: self.get_node_attributtes(x,"distanciaDst",0),self.abiertos)))
-            ret = self.abiertos.pop(self.abiertos.index(self.abiertos[(value.index(min(value)))]))
-        return ret
-
-      # si el nodo es una solución del problema devuelve TRUE
-    def es_solucion(self, nodo_actual):
-        print(f"Procesando nodo: {nodo_actual}")
-        return False
-
-  # devuelve una lista con todos los nodos conectados al nodo actual
     def genera_sucesores(self, nodo_actual):
         return self.adj(nodo_actual)
 
@@ -130,9 +80,48 @@ class Grafo():
       # print(f"procesa_repetidos: {hijos_iniciales}")
       hijos = [h for h in hijos_iniciales if h not in self.abiertos and h not in self.cerrados]
       return hijos
+
+    def rellenar_data(self,jsonFile):
+      with open(jsonFile) as line:
+        data = json.load(line)
+      self.nodos=data
+
+class GrafoAvanzado(Grafo):
+
+    def pop_abiertos(self,modo="djkstra"):
+     ret = None
+     if modo == "profundidad":
+       ret = self.abiertos.pop()
+     elif modo == "anchura":
+       ret = self.abiertos.pop(0)
+     elif modo == "djkstra":
+         values = {}
+         for x in self.abiertos:
+             values[x] = self.get_node_attributtes(x,"distaciaOrg",np.inf)
+         ret = self.abiertos.pop(self.abiertos.index(min(values)))
+     elif modo == "avaricioso":
+         # escoger de todos los de abiertos el que tenga menor
+         # valor de distanciaDst %%%%%
+         value = list((map(
+            lambda x: self.get_node_attributtes(x,"distanciaDst",0),self.abiertos)))
+         ret = self.abiertos.pop(self.abiertos.index(self.abiertos[(value.index(min(value)))]))
+     elif modo == "A*":
+         # escoger de todos los de abiertos el que tenga menor
+         # valor de distanciaDst %%%%%
+         value = list((map(
+            lambda x: (self.get_node_attributtes(x,"distanciaDst",0)+
+                       self.get_node_attributtes(x,"distaciaOrg",0)
+                       )/2,self.abiertos)))
+         ret = self.abiertos.pop(self.abiertos.index(self.abiertos[(value.index(min(value)))]))
+     return ret
+
+      # si el nodo es una solución del problema devuelve TRUE
+    def es_solucion(self, nodo_actual):
+        print(f"Procesando nodo: {nodo_actual}")
+        return False
     
     
-    def recorre_grafo(self, nodo_inicial = None,nodo_destino=None,modo='djkstra'):
+    def recorre_grafo(self, nodo_inicial = None,nodo_destino=None,modo='A*'):
 
         # si no se proporciona inicial escojo el primero que se creó
         if nodo_inicial is None: nodo_inicial = list(self.nodos.keys())[0]
@@ -205,34 +194,12 @@ class Grafo():
         plt.show()
  
 
-    def rellenar_data(self,jsonFile):
-      with open(jsonFile) as line:
-        data = json.load(line)
-      self.nodos=data
-
     def procesamiento_peso(self,nodo_actual):
         if nodo_actual is not(None):
             for nodo_conectado in self.nodos[nodo_actual].get("edges",None):
                 if nodo_conectado not in self.nodosVistos:
-                    if self.get_node_attributtes(nodo_conectado,"peso",np.inf)  > self.get_node_attributtes(nodo_actual,"peso",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"weight",0):
-                        self.set_node_atributtes(nodo_conectado,peso=self.get_node_attributtes(nodo_actual,"peso",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"weight",0)) 
+                    if self.get_node_attributtes(nodo_conectado,"distaciaOrg",np.inf)  > self.get_node_attributtes(nodo_actual,"distaciaOrg",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"weight",0):
+                        self.set_node_atributtes(nodo_conectado,distaciaOrg=self.get_node_attributtes(nodo_actual,"distaciaOrg",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"weight",0)) 
                         self.set_node_atributtes(nodo_conectado, antecesor=nodo_actual)
 
-    def calcula_distanciaDst(self, destino, origen):
-      return math.sqrt((self.get_node_attributtes(origen,"x",0)-self.get_node_attributtes(destino,"x",0))**2
-                       +(self.get_node_attributtes(origen,"y",0)-self.get_node_attributtes(destino,"y",0))**2)
 
-
-
-g = Grafo()
-try:
-    g.rellenar_data(data_dir+"provincias.json")
-    g.recorre_grafo(nodo_inicial="A Coruña",modo='avaricioso',nodo_destino="Lugo")
-    pprint.pprint(g.nodos)
-    g.dibuja()
-    g.dibuja_ruta(g.genera_ruta('Almería'))
-except pe:
-    pe.getErrorMessage()
-except Exception as e:
-    print(e)
-    
