@@ -88,7 +88,7 @@ class Grafo():
 
 class GrafoAvanzado(Grafo):
 
-    def pop_abiertos(self,modo="djkstra"):
+    def pop_abiertos(self,modo="djkstra",avaricioso=0,dijkstra=0):
      ret = None
      if modo == "profundidad":
        ret = self.abiertos.pop()
@@ -109,8 +109,8 @@ class GrafoAvanzado(Grafo):
          # escoger de todos los de abiertos el que tenga menor
          # valor de distanciaDst %%%%%
          value = list((map(
-            lambda x: (self.get_node_attributtes(x,"distanciaDst",0)+
-                       self.get_node_attributtes(x,"distaciaOrg",0)
+            lambda x: ((self.get_node_attributtes(x,"distanciaDst",0)*(1-avaricioso))+
+                        (self.get_node_attributtes(x,"distaciaOrg",0)*dijkstra)
                        )/2,self.abiertos)))
          ret = self.abiertos.pop(self.abiertos.index(self.abiertos[(value.index(min(value)))]))
      return ret
@@ -121,24 +121,29 @@ class GrafoAvanzado(Grafo):
         return False
     
     
-    def recorre_grafo(self, nodo_inicial = None,nodo_destino=None,modo='A*'):
+    def recorre_grafo(self, nodo_inicial = None,nodo_destino=None,modo='A*',**kargs):
 
         # si no se proporciona inicial escojo el primero que se creó
         if nodo_inicial is None: nodo_inicial = list(self.nodos.keys())[0]
 
         # poner en todos los nodos un atributo distanciaOrg = inf
         # excepto en el inicial que es 0
+        for n in self.nodos:
+          self.set_node_atributtes(n, distanciaOrg=np.inf)
+          self.set_node_atributtes(n, antecesor=None)
+        self.set_node_atributtes(nodo_inicial, distanciaOrg=0)
 
         # metemos en abiertos el nodo inicial
         self.abiertos.append(nodo_inicial)
 
         while len(self.abiertos) > 0: # mientras en abiertos existan nodos
             # quitar un nodo
-            actual = self.pop_abiertos(modo)
+            actual = self.pop_abiertos(modo,dijkstra=kargs.get("dijkstra",0),avaricioso=kargs.get("avaricioso",0))
             # mirar si es una solución
             # si tal break
             if self.es_solucion(actual):
                 break
+            
 
             # actual a cerrado
             self.cerrados.append(actual)
@@ -156,6 +161,7 @@ class GrafoAvanzado(Grafo):
               if (c_hijo + d_actual) < d_hijo:
                 self.set_node_atributtes(hijo, distanciaOrg=(c_hijo+d_actual))
                 self.set_node_atributtes(hijo, antecesor=actual)
+                self.set_node_atributtes(hijo, nivel=self.get_node_attributtes(actual,"nivel",0)+1)
             # calcular la distancia a destino de cada hijo y anotarla en él
               if nodo_destino:
                 d_destino = self.calcula_distanciaDst(hijo, nodo_destino)
@@ -202,4 +208,6 @@ class GrafoAvanzado(Grafo):
                         self.set_node_atributtes(nodo_conectado,distaciaOrg=self.get_node_attributtes(nodo_actual,"distaciaOrg",0) + self.get_edge_atributtes(nodo_conectado,nodo_actual,"weight",0)) 
                         self.set_node_atributtes(nodo_conectado, antecesor=nodo_actual)
 
-
+    def calcula_distanciaDst(self, destino, origen):
+        return math.sqrt((self.get_node_attributtes(origen,"x",0)-self.get_node_attributtes(destino,"x",0))**2
+                       +(self.get_node_attributtes(origen,"y",0)-self.get_node_attributtes(destino,"y",0))**2)*111

@@ -6,6 +6,7 @@
 
 import json
 import math
+from pathlib import Path
 import pprint
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,7 +15,10 @@ from GrafoConProvincias import GrafoConProvincias
 
 import sys
 
-import PersonalizedException as pe
+path = str(Path(Path(Path(__file__).parent.absolute()).parent.absolute()).parent.absolute().parent.absolute())      #MANEJO DE CLASES Y MÉTODOS LLAMADOS ATRÁS
+sys.path.insert(0, path)
+
+from Clases import PersonalizedException as pe
 
 try:
   import google.colab

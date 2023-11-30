@@ -5,10 +5,10 @@
 """
 
 import json
+from pathlib import Path
 import pprint
 import matplotlib.pyplot as plt
 import numpy as np
-from PersonalizedException import PersonalizedException as pe
 from GrafoConProvincias import GrafoConProvincias
 
 import sys
@@ -27,6 +27,12 @@ if IN_COLAB:
 else:
     import os
     data_dir = os.path.dirname(__file__) + "/"
+
+    
+path = str(Path(Path(Path(__file__).parent.absolute()).parent.absolute()).parent.absolute().parent.absolute())      #MANEJO DE CLASES Y MÉTODOS LLAMADOS ATRÁS
+sys.path.insert(0, path)
+
+from Clases import PersonalizedException as pe
 
 
 g = GrafoConProvincias()
