@@ -88,7 +88,7 @@ class Grafo():
 
 class GrafoAvanzado(Grafo):
 
-    def pop_abiertos(self,modo="djkstra",avaricioso=0,dijkstra=0):
+    def pop_abiertos(self,modo="djkstra",avaricioso=0.5,dijkstra=0.5):
      ret = None
      if modo == "profundidad":
        ret = self.abiertos.pop()
@@ -116,8 +116,11 @@ class GrafoAvanzado(Grafo):
      return ret
 
       # si el nodo es una solución del problema devuelve TRUE
-    def es_solucion(self, nodo_actual):
+    def es_solucion(self, nodo_actual,nivel_max):
         print(f"Procesando nodo: {nodo_actual}")
+        print(self.get_node_attributtes(nodo_actual,"nivel",0))
+        if self.get_node_attributtes(nodo_actual,"nivel",0)>=nivel_max:
+           return True
         return False
     
     
@@ -138,11 +141,10 @@ class GrafoAvanzado(Grafo):
 
         while len(self.abiertos) > 0: # mientras en abiertos existan nodos
             # quitar un nodo
-            actual = self.pop_abiertos(modo,dijkstra=kargs.get("dijkstra",0),avaricioso=kargs.get("avaricioso",0))
+            actual = self.pop_abiertos(modo,dijkstra=kargs.get("dijkstra",0.5),avaricioso=kargs.get("avaricioso",0.5))
             # mirar si es una solución
             # si tal break
-            if self.es_solucion(actual):
-                break
+            
             
 
             # actual a cerrado
@@ -168,6 +170,8 @@ class GrafoAvanzado(Grafo):
                 # actualizar en hijo esta distancia
                 self.set_node_atributtes(hijo, distanciaDst=d_destino)
 
+            if self.es_solucion(actual,nivel_max=kargs.get("nivel_max",np.inf)):
+                break
             # si estamos en modo dijkstra
             # para cada hijo,
             # Si (distanciaOrg de actual + coste hacia el hijo )   <    distanciaOrg del hijo

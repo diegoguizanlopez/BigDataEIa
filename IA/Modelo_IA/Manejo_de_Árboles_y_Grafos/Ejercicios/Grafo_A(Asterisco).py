@@ -47,9 +47,10 @@ from Clases import PersonalizedException as pe
 g = GrafoConProvincias()
 try:
     g.rellenar_data(data_dir+"provincias.json")
-    g.recorre_grafo(nodo_inicial="A Coruña",modo='A*',nodo_destino="León",dijkstra=0,avaricioso=1)
+    g.recorre_grafo(nodo_inicial="A Coruña",modo='A*',nodo_destino="León",dijkstra=0,avaricioso=1,nivel_max=5)
     g.dibuja()
-    g.dibuja_ruta(g.genera_ruta('Cádiz'))
+    pprint.pprint(g.nodos)
+    g.dibuja_ruta(g.genera_ruta('Oviedo'))
 except pe:
     pe.getErrorMessage()
 except Exception as e:
