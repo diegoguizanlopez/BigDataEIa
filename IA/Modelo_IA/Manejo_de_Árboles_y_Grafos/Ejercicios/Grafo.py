@@ -191,6 +191,14 @@ class GrafoAvanzado(Grafo):
         while nodo is not None and nodo not in listasucesos:
             listasucesos.append(nodo)
             nodo=self.get_node_attributtes(nodo,puntero)
+        if inicial not in listasucesos:
+           nodoFinal=listasucesos[0]
+           z=0
+           for hijos in self.nodos:
+              value=math.sqrt(((self.get_node_attributtes(hijos,"x",0)**2)+(self.get_node_attributtes(hijos,"x",0)**2)))*111
+              if(value>z and self.get_node_attributtes):
+                 z=value
+
         return listasucesos
 
     def dibuja_ruta(self,ruta):
