@@ -2,7 +2,7 @@ import json
 import math
 from pathlib import Path
 import sys
-path = str(Path(Path(Path(__file__).parent.absolute()).parent.absolute()).parent.absolute().parent.absolute())
+path = str(Path(__file__).parent.parent.parent.parent.parent.absolute()) 
 sys.path.insert(0, path)
 from Clases import PersonalizedException as pe
 import __init__
@@ -15,6 +15,7 @@ class Grafo():
         self.abiertos=[]
         self.cerrados=[]
         self.nodosVistos={}
+        self.nvMax=np.inf
     
     def add_node(self,nodo,**kargs) -> None:
         if nodo in self.nodos: raise pe("YA EXISTE EL NODO")
@@ -28,9 +29,11 @@ class Grafo():
         self.nodos.pop(nodo)
 
     def add_edge(self,nodo1,nodo2,**kargs) -> None :
-        if nodo1 not in self.nodos or nodo2 not in self.nodos: raise pe("ERROR UNO DE LOS BORDES NO ENCONTRADOS")
-        self.nodos[nodo1]["edges"][nodo2]=kargs
-        self.nodos[nodo2]["edges"][nodo1]=kargs
+        if nodo1 not in self.nodos or nodo2 not in self.nodos: raise pe
+        if nodo1 in self.nodos and nodo2 in self.nodos and nodo1 not in self.nodos[nodo1]["edges"] and nodo2 not in self.nodos[nodo1]:
+            self.nodos[nodo1]["edges"][nodo2] = kargs
+            self.nodos[nodo2]["edges"][nodo1] = kargs
+
 
     def remove_edge(self,nodo1,nodo2):
         if nodo1 not in self.nodos or nodo2 not in self.nodos: raise pe("BORDE NO ENCONTRADO")
@@ -88,7 +91,7 @@ class Grafo():
 
 class GrafoAvanzado(Grafo):
 
-    def pop_abiertos(self,modo="djkstra",avaricioso=0.5,dijkstra=0.5):
+    def pop_abiertos(self,modo="anchura",avaricioso=0.5,dijkstra=0.5):
      ret = None
      if modo == "profundidad":
        ret = self.abiertos.pop()
@@ -116,10 +119,9 @@ class GrafoAvanzado(Grafo):
      return ret
 
       # si el nodo es una solución del problema devuelve TRUE
-    def es_solucion(self, nodo_actual,nivel_max):
-        print(f"Procesando nodo: {nodo_actual}")
+    def es_solucion(self, nodo_actual,**kargs):
         print(self.get_node_attributtes(nodo_actual,"nivel",0))
-        if self.get_node_attributtes(nodo_actual,"nivel",0)>=nivel_max:
+        if self.get_node_attributtes(nodo_actual,"nivel",0)>=kargs.get("nivel_max",np.inf):
            return True
         return False
     
@@ -128,7 +130,9 @@ class GrafoAvanzado(Grafo):
 
         # si no se proporciona inicial escojo el primero que se creó
         if nodo_inicial is None: nodo_inicial = list(self.nodos.keys())[0]
-
+        self.nvMax=kargs.get("nivel_max",np.inf)
+        if nodo_inicial not in self.nodos:
+            self.add_node(nodo_inicial, distanciaOrg = 0,  distanciaDst = np.inf)
         # poner en todos los nodos un atributo distanciaOrg = inf
         # excepto en el inicial que es 0
         for n in self.nodos:
@@ -142,9 +146,11 @@ class GrafoAvanzado(Grafo):
         while len(self.abiertos) > 0: # mientras en abiertos existan nodos
             # quitar un nodo
             actual = self.pop_abiertos(modo,dijkstra=kargs.get("dijkstra",0.5),avaricioso=kargs.get("avaricioso",0.5))
+
+            if self.es_solucion(actual,nivel_max=kargs.get("nivel_max",np.inf)+1):
+                break
             # mirar si es una solución
             # si tal break
-            
             
 
             # actual a cerrado
@@ -169,9 +175,6 @@ class GrafoAvanzado(Grafo):
                 d_destino = self.calcula_distanciaDst(hijo, nodo_destino)
                 # actualizar en hijo esta distancia
                 self.set_node_atributtes(hijo, distanciaDst=d_destino)
-
-            if self.es_solucion(actual,nivel_max=kargs.get("nivel_max",np.inf)):
-                break
             # si estamos en modo dijkstra
             # para cada hijo,
             # Si (distanciaOrg de actual + coste hacia el hijo )   <    distanciaOrg del hijo
@@ -185,21 +188,15 @@ class GrafoAvanzado(Grafo):
             for hijo in hijos:
               self.abiertos.append(hijo)
 
+
     def genera_ruta(self, inicial, puntero="antecesor"):
         listasucesos=[]
         nodo = inicial
         while nodo is not None and nodo not in listasucesos:
             listasucesos.append(nodo)
             nodo=self.get_node_attributtes(nodo,puntero)
-        if inicial not in listasucesos:
-           nodoFinal=listasucesos[0]
-           z=0
-           for hijos in self.nodos:
-              value=math.sqrt(((self.get_node_attributtes(hijos,"x",0)**2)+(self.get_node_attributtes(hijos,"x",0)**2)))*111
-              if(value>z and self.get_node_attributtes):
-                 z=value
-
         return listasucesos
+    
 
     def dibuja_ruta(self,ruta):
         for i, n in enumerate(ruta):

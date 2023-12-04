@@ -9,7 +9,8 @@ from pathlib import Path
 import pprint
 import matplotlib.pyplot as plt
 import numpy as np
-from GrafoConProvincias import GrafoConProvincias
+from Grafos.GrafoConProvincias import GrafoConProvincias
+from Clases.PersonalizedException import PersonalizedException as pe
 
 import sys
 try:
@@ -32,7 +33,7 @@ else:
 path = str(Path(Path(Path(__file__).parent.absolute()).parent.absolute()).parent.absolute().parent.absolute())      #MANEJO DE CLASES Y MÉTODOS LLAMADOS ATRÁS
 sys.path.insert(0, path)
 
-from Clases import PersonalizedException as pe
+from Clases import PersonalizedException
 
 
 g = GrafoConProvincias()
@@ -42,6 +43,5 @@ try:
     pprint.pprint(g.nodos)
     g.dibuja()
     g.dibuja_ruta(g.genera_ruta('Barcelona'))
-except pe:
-    pe.getErrorMessage()
-    
+except PersonalizedException as p:
+    p.getErrorMessage()

@@ -10,15 +10,15 @@ from pathlib import Path
 import pprint
 import matplotlib.pyplot as plt
 import numpy as np
-from Grafo import Grafo
-from GrafoConProvincias import GrafoConProvincias
+from Grafos.Grafo import Grafo
+from Grafos.GrafoConProvincias import GrafoConProvincias
 
 import sys
 
 path = str(Path(Path(Path(__file__).parent.absolute()).parent.absolute()).parent.absolute().parent.absolute())      #MANEJO DE CLASES Y MÉTODOS LLAMADOS ATRÁS
 sys.path.insert(0, path)
 
-from Clases import PersonalizedException as pe
+from Clases.PersonalizedException import PersonalizedException as pe
 
 try:
   import google.colab
@@ -40,7 +40,7 @@ else:
 g = GrafoConProvincias()
 try:
     g.rellenar_data(data_dir+"provincias.json")
-    g.recorre_grafo(nodo_inicial="A Coruña",modo='avaricioso',)
+    g.recorre_grafo(nodo_inicial="A Coruña",modo='avaricioso')
     pprint.pprint(g.nodos)
     g.dibuja()
     g.dibuja_ruta(g.genera_ruta('Albacete'))
