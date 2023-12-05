@@ -1,7 +1,5 @@
 """
-    Es un algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista
-
-    SIEMPRE SE QUEDA CON EL MENOR DE LOS CASOS HASTA QUE SLO QUEDE LA OTRA ESQUINA, CALCULA LOS PESOS DE CADA GRAFO
+    EL QUE TENGA LA DISTANCIA DESTINO MÁS CORTA ES EL DESCARTADO
 """
 
 import json

@@ -25,6 +25,11 @@ class GrafoConProvincias(GrafoAvanzado):
         return numeros[el_menor(diferencia)]
     
     def genera_ruta(self, inicial, puntero="antecesor"):
+        """
+        Este genera ruta funciona de manera que si tiene un tope máximo y no llego a esa ruta pueda llegar al punto más cercano que encontró por coordenadas
+        :param inicial nodo: Nodo inicial
+        :param puntero str: lo que se va buscar
+        """
         listasucesos=[]
         nodo = inicial
         while nodo is not None and nodo not in listasucesos:
@@ -32,9 +37,6 @@ class GrafoConProvincias(GrafoAvanzado):
             nodo=self.get_node_attributtes(nodo,puntero)
         if len(listasucesos)==1:
             nodoFinal=listasucesos[0]
-            #value = list((map(
-            #    lambda x: self.get_node_attributtes(x,"nivel",np.inf),self.nodos)))
-            #nodoInicial = self.nodos[(value.index(min(value)))]
             listaNodosNum=[]
             listaNodosNom=[]
             for hijos in self.nodos:
