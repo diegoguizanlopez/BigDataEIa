@@ -2,75 +2,59 @@ import numpy as np
 from Grafos.Grafo import GrafoAvanzado
 
 class CanibalesGrafo(GrafoAvanzado):
-    def es_posicion_valida(self,listaCanivales,listaMisioneros,barca,movimiento):
-        if listaCanivales.count(1) > listaMisioneros.count(1): return False
-        if listaCanivales.count(0) > listaMisioneros.count(0): return False
-        if barca == movimiento: return False
+    def es_posicion_valida(self,listaCanivales,listaMisioneros,misionero,pbarca,canibal=2):
+        if listaCanivales.count(1) > listaMisioneros.count(1) and listaMisioneros.count(1)!=0: return False
+        if listaCanivales.count(0) > listaMisioneros.count(0) and listaMisioneros.count(0)!=0: return False
+        if misionero != pbarca: return False
+        if misionero != canibal: return False
         return True
-  
-    def check_canibales(self,listaCanivales,listaMisioneros,hijos,pbarca,cCRema=False):
-        listaCanivales[0] = 1-listaCanivales[0]
-        if self.es_posicion_valida(listaCanivales,listaMisioneros,pbarca):
-          hijos.append(f"{listaCanivales[0]}{listaCanivales[1]}{listaCanivales[2]}{listaMisioneros[0]}{listaMisioneros[1]}{listaMisioneros[2]}{pbarca}")
-        listaCanivales[0] = 1-listaCanivales[0]
-
-        listaCanivales[1] = 1-listaCanivales[1]
-        if self.es_posicion_valida(listaCanivales,listaMisioneros,pbarca):
-          hijos.append(f"{listaCanivales[0]}{listaCanivales[1]}{listaCanivales[2]}{listaMisioneros[0]}{listaMisioneros[1]}{listaMisioneros[2]}{pbarca}")
-        listaCanivales[1] = 1-listaCanivales[1]
-
-        listaCanivales[2] = 1-listaCanivales[2]
-        if self.es_posicion_valida(listaCanivales,listaMisioneros,pbarca) and not(cCRema):
-          hijos.append(f"{listaCanivales[0]}{listaCanivales[1]}{listaCanivales[2]}{listaMisioneros[0]}{listaMisioneros[1]}{listaMisioneros[2]}{pbarca}")
-        listaCanivales[2] = 1-listaCanivales[2]
-        
-    
+         
     def genera_sucesores(self, nodo):
-        hijos = []
-        listaMisioneros = [(int)(nodo[0]),(int)(nodo[1]),(int)(nodo[2])]
-        listaCanivales = [(int)(nodo[3]),(int)(nodo[4]),(int)(nodo[5])]
-        posicionBarca = (int)(nodo[6])
-        
-        listaMisioneros[0] = 1-listaMisioneros[0]
-        posicionBarca=1-posicionBarca
-        if self.es_posicion_valida(listaCanivales,listaMisioneros,posicionBarca):
-          hijos.append(f"{listaCanivales[0]}{listaCanivales[1]}{listaCanivales[2]}{listaMisioneros[0]}{listaMisioneros[1]}{listaMisioneros[2]}{posicionBarca}")
+      hijos=[]
+      for i in range(128):
+        s = format(i, "07b")
+        if s[0] == nodo[0]: continue
+        if s[1:5] == nodo [1:5]: continue
+        if s[1:4].count("0") > 0 and s[1:4].count("0") < s[4:].count("0"): continue
+        if s[1:7] == nodo[1:7] : continue
+        if s[5] != nodo[5] and s[6]!=nodo[6]: continue
+        if s[1:3].count("1")<s[4:6].count("1") and s[1:3].count("1")!=0: continue
+        if s[1:3].count("0")<s[4:6].count("0") and s[1:3].count("0")!=0: continue
+        if nodo[1:7].count("1")+2<s[1:7].count("1"): continue
+        if nodo[1:7].count("0")+2<s[1:7].count("0"): continue
+        if nodo[0] == 1 and s[1:7].count("1")>nodo[1:7].count("1"): continue
+        if nodo[0] == 0 and s[1:7].count("0")>nodo[1:7].count("0"): continue
+        print(f"{s}-{nodo}")
+        #if nodo[0:6].count("1") == s[0:6].count("1"): continue
+        #if nodo[0:6].count("0") == s[0:6].count("0"): continue
+        #if nodo[6] == s[6]: continue
+        #if nodo[0:6].count("1")+2<s[0:6].count("1"):continue
+        #if nodo[0:6].count("0")+2<s[0:6].count("0"):continue
+        #if nodo[6] == "1" and s[0:6].count("1")>nodo[0:6].count("1"):continue
+        #if nodo[6] == "0" and s[0:6].count("0")>nodo[0:6].count("0"):continue
+        #if s[0:3].count("1")<s[3:6].count("1") and s[0:3].count("1")!=0:continue
+        #if s[0:3].count("0")<s[3:6].count("0") and s[0:3].count("0")!=0:continue
+        #if nodo[6] == "1" and s[0:4].count("1")>=nodo[0:4].count("1"):continue
+        #if nodo[6] == "0" and s[0:4].count("0")>=nodo[0:4].count("0"):continue
+        #if compare_strings(s[0:4],nodo[0:4])>2: continue
+        hijos.append(s)
+      return hijos
 
-        self.check_canibales(listaCanivales,listaMisioneros,hijos,posicionBarca)
-        listaMisioneros[0] = 1-listaMisioneros[0]
-        posicionBarca=1-posicionBarca
+    def compare_strings(self,a, b):
+      if a is None or b is None:
+          print("Number of Same Characters: 0")
+          return
 
-        listaMisioneros[1] = 1-listaMisioneros[1]
-        posicionBarca=1-posicionBarca
-        if self.es_posicion_valida(listaCanivales,listaMisioneros,posicionBarca):
-          hijos.append(f"{listaCanivales[0]}{listaCanivales[1]}{listaCanivales[2]}{listaMisioneros[0]}{listaMisioneros[1]}{listaMisioneros[2]}{posicionBarca}")
-        self.check_canibales(listaCanivales,listaMisioneros,hijos,posicionBarca)
-        listaMisioneros[1] = 1-listaMisioneros[1]
-        posicionBarca=1-posicionBarca
+      size = min(len(a), len(b))  # Finding the minimum length
+      count = 0  # A counter to keep track of same characters
 
+      for i in range(size):
+          if a[i] == b[i]:
+              count += 1  # Updating the counter when characters are same at an index
+      return count
 
-        listaMisioneros[2] = 1-listaMisioneros[2]
-        posicionBarca=1-posicionBarca
-        if self.es_posicion_valida(listaCanivales,listaMisioneros,posicionBarca):
-          hijos.append(f"{listaCanivales[0]}{listaCanivales[1]}{listaCanivales[2]}{listaMisioneros[0]}{listaMisioneros[1]}{listaMisioneros[2]}{posicionBarca}")
-        self.check_canibales(listaCanivales,listaMisioneros,hijos,posicionBarca)
-        listaMisioneros[2] = 1-listaMisioneros[2]
-        posicionBarca=1-posicionBarca
-        
-
-        listaCanivales[2] = 1-listaCanivales[2]
-        posicionBarca=1-posicionBarca
-        if self.es_posicion_valida(listaCanivales,listaMisioneros,posicionBarca,1 if listaCanivales[2]==0 else 0):
-          hijos.append(f"{listaCanivales[0]}{listaCanivales[1]}{listaCanivales[2]}{listaMisioneros[0]}{listaMisioneros[1]}{listaMisioneros[2]}{posicionBarca}")
-        self.check_canibales(listaCanivales,listaMisioneros,hijos,posicionBarca)
-        listaCanivales[2] = 1-listaCanivales[2]
-        posicionBarca=1-posicionBarca
-
-
-        return hijos
-  
     def es_solucion(self, nodo_actual,**kargs):
-        return nodo_actual == "111111"
+        return nodo_actual == "1111111"
 
 
     def recorre_grafo(self, nodo_inicial = None,nodo_destino=None,modo='A*',**kargs):   
