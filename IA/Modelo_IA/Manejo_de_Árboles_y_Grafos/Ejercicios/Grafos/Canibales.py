@@ -18,18 +18,13 @@ class CanibalesGrafo(GrafoAvanzado):
         if s[1:4].count("0") > 0 and s[1:4].count("0") < s[4:].count("0"): continue
         if s[1:7] == nodo[1:7] : continue
         if s[5] != nodo[5] and s[6]!=nodo[6]: continue
-        if nodo[1:7].count("1")+2<s[1:7].count("1"): continue
-        if nodo[1:7].count("0")+2<s[1:7].count("0"): continue
+
         if nodo[1:7].count("1") == s[1:7].count("1"): continue
         if nodo[1:7].count("0") == s[1:7].count("0"): continue
-        if nodo[1:7].count("1")+2<s[1:7].count("1"):continue
-        if nodo[1:7].count("0")+2<s[1:7].count("0"):continue
         if nodo[0] == "1" and s[1:7].count("1")>nodo[1:7].count("1"):continue
         if nodo[0] == "0" and s[1:7].count("0")>nodo[1:7].count("0"):continue
         if s[1:4].count("1")<s[4:7].count("1") and s[1:4].count("1")!=0:continue
         if s[1:4].count("0")<s[4:7].count("0") and s[1:4].count("0")!=0:continue
-        if nodo[0] == "1" and s[1:5].count("1")>=nodo[1:5].count("1"):continue
-        if nodo[0] == "0" and s[1:5].count("0")>=nodo[1:5].count("0"):continue
         if self.compare_strings(s[1:7],nodo[1:7])<4: continue
         hijos.append(s)
       return hijos

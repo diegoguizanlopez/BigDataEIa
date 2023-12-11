@@ -1,4 +1,3 @@
-import pprint
 from Grafos.Canibales import CanibalesGrafo
 from Clases.PersonalizedException import PersonalizedException as pe
 
