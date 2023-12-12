@@ -100,7 +100,7 @@ class GrafoAvanzado(Grafo):
      elif modo == "djkstra":
          values = {}
          for x in self.abiertos:
-             values[x] = self.get_node_attributtes(x,"distaciaOrg",np.inf)
+             values[x] = self.get_node_attributtes(x,"distanciaOrg",np.inf)
          ret = self.abiertos.pop(self.abiertos.index(min(values)))
      elif modo == "avaricioso":
          # escoger de todos los de abiertos el que tenga menor
