@@ -45,7 +45,7 @@ class Grafo():
             self.nodos[nodo][k]=v
 
     def get_node_attributtes(self,nodo,attributte,default=None):
-        return self.nodos[nodo].get(attributte,default)
+        return self.nodos[nodo].get(attributte,default) if nodo in self.nodos else default
     
     def set_edge_atributtes(self,nodo1,nodo2,**kargs):
         for k,v in kargs.items():
