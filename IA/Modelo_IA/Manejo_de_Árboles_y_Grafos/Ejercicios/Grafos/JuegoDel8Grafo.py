@@ -23,11 +23,7 @@ class PuzleN(GrafoAvanzado):
                  listaDistancias.append(0 if indexInicial==index else (int(inicial)-index))
         return sum(list(map(lambda x:x**2,listaDistancias)))
         
-
-
-
-
-
+        
 
 
     # devuelve una lista de nodos hijo
