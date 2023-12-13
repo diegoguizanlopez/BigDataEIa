@@ -74,7 +74,7 @@ class PuzleN(GrafoAvanzado):
 
         while len(self.abiertos) > 0: # mientras en abiertos existan nodos
           # quitar un nodo
-          actual = self.pop_abiertos(modo)
+          actual = self.pop_abiertos(modo,avaricioso=kargs.get("avaricioso",0.5),dijkstra=kargs.get("djkistra",0.5))
 
           # mirar si es una solución
           # si tal CAMBIAMOS A RETURN

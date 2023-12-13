@@ -1,8 +1,8 @@
 from Grafos.JuegoDel8Grafo import PuzleN
 
-#g = PuzleN(8)
-#final = "1-2-3-4-5-6-7-8-0"
-#inicial = "2-7-0-4-5-3-8-6-1"
+g = PuzleN(8)
+final = "1-2-3-4-5-6-7-8-0"
+inicial = "2-7-0-4-5-3-8-6-1"
 #g = PuzleN(15)
 #final = "1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-0"
 #inicial = "14-1-5-4-2-7-6-8-9-10-15-12-13-3-11-0"   # (762 

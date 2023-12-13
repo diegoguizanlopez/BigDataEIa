@@ -120,7 +120,7 @@ class GrafoAvanzado(Grafo):
 
       # si el nodo es una solución del problema devuelve TRUE
     def es_solucion(self, nodo_actual,**kargs):
-        print(self.get_node_attributtes(nodo_actual,"nivel",0))
+        print(nodo_actual)
         if self.get_node_attributtes(nodo_actual,"nivel",0)>=kargs.get("nivel_max",np.inf):
            return True
         return False
