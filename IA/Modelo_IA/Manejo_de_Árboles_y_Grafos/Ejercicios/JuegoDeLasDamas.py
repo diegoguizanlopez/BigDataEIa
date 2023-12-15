@@ -1,4 +1,4 @@
 from Grafos.LasDamas import GrafoDamas
 
-gDamas = GrafoDamas()
-gDamas.genera_elementos(8)
+gDamas = GrafoDamas(100)
+gDamas.genera_nelementos()
