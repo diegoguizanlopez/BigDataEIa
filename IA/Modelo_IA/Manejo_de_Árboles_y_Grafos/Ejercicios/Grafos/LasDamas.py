@@ -66,28 +66,16 @@ class GrafoDamas(GrafoAvanzado):
         hijo=hijo.split(']')
         hijo.pop(-1)
         value=deepcopy(hijo)
-        for indexC,row in enumerate(value):
-           hijo[indexC]=[int(x) for x in (row.replace(' ','')).split(",")]
+        # Líneas horizontales
+        lineas_horizontales = [list(hijo[i, :]) for i in range(self.nElementos)]
 
-        #HORIZONTAL
-        for horizontal in hijo:
-          errorHijo+=self.valora_errores_posicion(horizontal)
+        # Líneas verticales
+        lineas_verticales = [list(hijo[:, i]) for i in range(self.nElementos)]
 
-        #VERTICAL
-        #for Ivertical in range(self.nElementos):
-        #  valuesVERTICAL=[]
-        #  for Ihorizontal in range(self.nElementos):
-        #    valuesVERTICAL.append(hijo[Ivertical][Ihorizontal])
-        #  errorHijo+=self.valora_errores_posicion(valuesVERTICAL)
-        #listErrores[index]=deepcopy(errorHijo)
+        # Cruces
+        cruz_principal = [hijo[i, i] for i in range(self.nElementos)]
+        cruz_secundaria = [hijo[i, self.nElementos-i-1] for i in range(self.nElementos)]
 
-        #CRUZ
-        #matrix = np.array(
-        #         hijo)
-        #diags = [matrix[::-1,:].diagonal(i) for i in range(-3,4)]
-        #diags.extend(matrix.diagonal(i) for i in range(3,-4,-1))
-        #for n in diags:
-        #  errorHijo+=self.valora_errores_posicion(n.tolist())
         listErrores[index]=deepcopy(errorHijo)
       min_values = sorted(listErrores.values())[:len(hijos)]
       min_keys = [key for key, value in listErrores.items() if value in min_values]
