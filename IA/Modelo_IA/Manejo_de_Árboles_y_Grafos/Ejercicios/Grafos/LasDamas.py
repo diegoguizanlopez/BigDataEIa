@@ -48,11 +48,17 @@ class GrafoDamas(GrafoAvanzado):
       nodo_actual=nodo_actual.split(']')
       nodo_actual.pop(-1)
       value=deepcopy(nodo_actual)
+      errorLinea=0
       for index,row in enumerate(value):
-         nodo_actual[index]=[int(x) for x in (row.replace(' ','')).split(",")]
+        nodo_actual[index]=[int(x) for x in (row.replace(' ','')).split(",")]
+        errorLinea+=self.valora_errores_posicion(nodo_actual[index])
+        if(nodo_actual.count(1)==0):
+          errorLinea+=1
+      if(errorLinea==0):
+        return True
       return False
 
-    def procesa_peor_posiciones(self,hijos,indexV):
+    def procesa_peor_posiciones(self,hijos):
       listErrores={}
       for index,hijo in enumerate(hijos):
         errorHijo=0
@@ -68,23 +74,25 @@ class GrafoDamas(GrafoAvanzado):
           errorHijo+=self.valora_errores_posicion(horizontal)
 
         #VERTICAL
-        for Ivertical in range(self.nElementos):
-          valuesVERTICAL=[]
-          for Ihorizontal in range(self.nElementos):
-            valuesVERTICAL.append(hijo[Ivertical][Ihorizontal])
-          errorHijo+=self.valora_errores_posicion(valuesVERTICAL)
+        #for Ivertical in range(self.nElementos):
+        #  valuesVERTICAL=[]
+        #  for Ihorizontal in range(self.nElementos):
+        #    valuesVERTICAL.append(hijo[Ivertical][Ihorizontal])
+        #  errorHijo+=self.valora_errores_posicion(valuesVERTICAL)
+        #listErrores[index]=deepcopy(errorHijo)
+
+        #CRUZ
+        #matrix = np.array(
+        #         hijo)
+        #diags = [matrix[::-1,:].diagonal(i) for i in range(-3,4)]
+        #diags.extend(matrix.diagonal(i) for i in range(3,-4,-1))
+        #for n in diags:
+        #  errorHijo+=self.valora_errores_posicion(n.tolist())
         listErrores[index]=deepcopy(errorHijo)
-
-        #CRUZ 
-        for Ivertical in range(self.nElementos):
-          valuesCRUZ=[]
-          for Ihorizontal in range(self.nElementos):
-            valuesCRUZ.append(hijo[0][Ihorizontal])
-          errorHijo+=self.valora_errores_posicion(valuesCRUZ)
-
-      min_values = sorted(listErrores.values())[:indexV-1]
+      min_values = sorted(listErrores.values())[:len(hijos)]
       min_keys = [key for key, value in listErrores.items() if value in min_values]
-      return [hijos[x] for x in min_keys][:indexV-1]
+      print(min_values)
+      return [hijos[x] for x in min_keys][:len(hijos)]
 #Generar una población inicial
 #durante un número máximo de iteraciones:
 #  ordenar la poblacion
@@ -143,8 +151,7 @@ class GrafoDamas(GrafoAvanzado):
         # que hacer con los repetidos
         hijos = self.procesa_repetidos(hijos)
 
-        hijos = self.procesa_peor_posiciones(hijos,10)
-        print(actual)
+        hijos = self.procesa_peor_posiciones(hijos)
         # insertar los hijos en abiertos
         for hijo in hijos:
           self.abiertos.append(hijo)
