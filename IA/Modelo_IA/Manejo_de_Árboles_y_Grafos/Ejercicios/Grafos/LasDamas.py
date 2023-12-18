@@ -1,3 +1,5 @@
+from copy import deepcopy
+import random
 import numpy as np
 from Grafos.Grafo import GrafoAvanzado
 import pprint
@@ -5,22 +7,84 @@ import pprint
 class GrafoDamas(GrafoAvanzado):
 
     def __init__(self, n):
+        GrafoAvanzado.__init__(self)
         self.nElementos = n
-        self.poblacion = []
+        self.poblacion = [[0 for i in range(self.nElementos)] for i in range(self.nElementos)]
         pass
 
     # generar nelem individuos al azar
     def genera_nelementos(self):
-       return [[0 for i in range(self.nElementos)] for i in range(self.nElementos)]
+       return []
 
     # valora cuantos errores tiene la posición
     # 0 es ningún error, cualquier otro valor es positivo
-    def valora_errores_posicion(self, pos):
-        for i in self.poblacion:
-           print(i)
-        return pos.count(1)
+    def valora_errores_posicion(self,pos):
+      if pos.count(1)>1 : 
+         return pos.count(1)
+      return 0
+    
+    def genera_sucesores(self, nodo_actual):
+      nodo_actual=nodo_actual.replace('[','')
+      nodo_actual=nodo_actual.split(']')
+      nodo_actual.pop(-1)
+      value=deepcopy(nodo_actual)
+      for index,row in enumerate(value):
+         nodo_actual[index]=[int(x) for x in (row.replace(' ','')).split(",")]
+      value=deepcopy(nodo_actual)
+      listValues=[]
+      if len(value)>0:
+        for i in range(self.nElementos):
+          for j in range(self.nElementos):
+            x = random.randint(0,self.nElementos-1)
+            y = random.randint(0,self.nElementos-1)
+            value[x][y] = 1
+            listValues.append(deepcopy(value))
+            value[x][y] = 0
+      return (':'.join(str(v) for v in listValues).replace("]]","]").replace("[[","[").replace("], ","]").split(":"))
 
 
+    def es_solucion(self, nodo_actual, **kargs):
+      nodo_actual=nodo_actual.replace('[','')
+      nodo_actual=nodo_actual.split(']')
+      nodo_actual.pop(-1)
+      value=deepcopy(nodo_actual)
+      for index,row in enumerate(value):
+         nodo_actual[index]=[int(x) for x in (row.replace(' ','')).split(",")]
+      return False
+
+    def procesa_peor_posiciones(self,hijos,indexV):
+      listErrores={}
+      for index,hijo in enumerate(hijos):
+        errorHijo=0
+        hijo=hijo.replace('[','')
+        hijo=hijo.split(']')
+        hijo.pop(-1)
+        value=deepcopy(hijo)
+        for indexC,row in enumerate(value):
+           hijo[indexC]=[int(x) for x in (row.replace(' ','')).split(",")]
+
+        #HORIZONTAL
+        for horizontal in hijo:
+          errorHijo+=self.valora_errores_posicion(horizontal)
+
+        #VERTICAL
+        for Ivertical in range(self.nElementos):
+          valuesVERTICAL=[]
+          for Ihorizontal in range(self.nElementos):
+            valuesVERTICAL.append(hijo[Ivertical][Ihorizontal])
+          errorHijo+=self.valora_errores_posicion(valuesVERTICAL)
+        listErrores[index]=deepcopy(errorHijo)
+
+        #CRUZ 
+        for Ivertical in range(self.nElementos):
+          valuesCRUZ=[]
+          for Ihorizontal in range(self.nElementos):
+            valuesCRUZ.append(hijo[0][Ihorizontal])
+          errorHijo+=self.valora_errores_posicion(valuesCRUZ)
+
+      min_values = sorted(listErrores.values())[:indexV-1]
+      min_keys = [key for key, value in listErrores.items() if value in min_values]
+      return [hijos[x] for x in min_keys][:indexV-1]
 #Generar una población inicial
 #durante un número máximo de iteraciones:
 #  ordenar la poblacion
@@ -50,7 +114,7 @@ class GrafoDamas(GrafoAvanzado):
         actual = self.pop_abiertos(modo,avaricioso=kargs.get("avaricioso",0.5),dijkstra=kargs.get("djkistra",0.5))
         # mirar si es una solución
         # si tal CAMBIAMOS A RETURN
-        if self.es_solucion(actual,nodo_destino):
+        if self.es_solucion(nodo_actual=actual):
           return actual
         # actual a cerrado
         self.cerrados.append(actual)
@@ -78,6 +142,9 @@ class GrafoDamas(GrafoAvanzado):
             self.set_node_atributtes(hijo, distanciaDst=d_destino)
         # que hacer con los repetidos
         hijos = self.procesa_repetidos(hijos)
+
+        hijos = self.procesa_peor_posiciones(hijos,10)
+        print(actual)
         # insertar los hijos en abiertos
         for hijo in hijos:
           self.abiertos.append(hijo)

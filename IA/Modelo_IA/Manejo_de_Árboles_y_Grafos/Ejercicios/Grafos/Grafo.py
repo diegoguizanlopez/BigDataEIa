@@ -52,7 +52,9 @@ class Grafo():
             self.nodos[nodo1]["edges"][nodo2][k]=v
 
     def get_edge_atributtes(self,nodo1,nodo2,attributte,default=None):
-        return self.nodos[nodo1]["edges"][nodo2].get(attributte,default)
+        if(nodo2 in self.nodos[nodo1]["edges"]):
+            return self.nodos[nodo1]["edges"][nodo2].get(attributte,default)
+        return default
     
     def adj(self, nodo):
         adyacentes = [n for n in self.nodos[nodo]["edges"]]
