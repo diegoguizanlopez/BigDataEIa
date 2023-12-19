@@ -33,13 +33,12 @@ class GrafoDamas(GrafoAvanzado):
       value=deepcopy(nodo_actual)
       listValues=[]
       if len(value)>0:
-        for i in range(self.nElementos):
-          for j in range(self.nElementos):
-            x = random.randint(0,self.nElementos-1)
-            y = random.randint(0,self.nElementos-1)
-            value[x][y] = 1
-            listValues.append(deepcopy(value))
-            value[x][y] = 0
+        for i in range(self.nElementos**2):
+          x = random.randint(0,len(value)-1)
+          y = random.randint(0,len(value)-1)
+          value[x][y] = 1 if value[x][y]==0 else 1
+          listValues.append(deepcopy(value))
+          value[x][y] = 0 if value[x][y]==1 else 0
       return (':'.join(str(v) for v in listValues).replace("]]","]").replace("[[","[").replace("], ","]").split(":"))
 
 
@@ -48,39 +47,48 @@ class GrafoDamas(GrafoAvanzado):
       nodo_actual=nodo_actual.split(']')
       nodo_actual.pop(-1)
       value=deepcopy(nodo_actual)
-      errorLinea=0
       for index,row in enumerate(value):
         nodo_actual[index]=[int(x) for x in (row.replace(' ','')).split(",")]
-        errorLinea+=self.valora_errores_posicion(nodo_actual[index])
-        if(nodo_actual.count(1)==0):
-          errorLinea+=1
-      if(errorLinea==0):
+      if np.count_nonzero(np.array(nodo_actual) == 1)==self.nElementos and self.get_errores(nodo_actual)==0:
+        print("FIN")
+        self.poblacion = nodo_actual
         return True
       return False
 
     def procesa_peor_posiciones(self,hijos):
       listErrores={}
-      for index,hijo in enumerate(hijos):
+      for indexC,hijo in enumerate(hijos):
         errorHijo=0
         hijo=hijo.replace('[','')
         hijo=hijo.split(']')
         hijo.pop(-1)
         value=deepcopy(hijo)
-        # Líneas horizontales
-        lineas_horizontales = [list(hijo[i, :]) for i in range(self.nElementos)]
+        for index,row in enumerate(value):
+           hijo[index]=[int(x) for x in (row.replace(' ','')).split(",")]
+        errorHijo = self.get_errores(hijo)
 
-        # Líneas verticales
-        lineas_verticales = [list(hijo[:, i]) for i in range(self.nElementos)]
-
-        # Cruces
-        cruz_principal = [hijo[i, i] for i in range(self.nElementos)]
-        cruz_secundaria = [hijo[i, self.nElementos-i-1] for i in range(self.nElementos)]
-
-        listErrores[index]=deepcopy(errorHijo)
-      min_values = sorted(listErrores.values())[:len(hijos)]
+        listErrores[indexC]=deepcopy(errorHijo)
+      min_values = sorted(listErrores.values())
       min_keys = [key for key, value in listErrores.items() if value in min_values]
-      print(min_values)
-      return [hijos[x] for x in min_keys][:len(hijos)]
+      v = [hijos[x] for x in min_keys][:int(len(min_keys)/2)]
+      return v
+    
+    def get_errores(self,nodo):
+        matriz=np.array(nodo)
+        errorHijo=0
+        # Líneas horizontales
+        for i in [fila for fila in matriz]:
+          errorHijo+=self.valora_errores_posicion(list(i))
+        # Líneas verticales
+        for i in [columna for columna in matriz.T]:
+          errorHijo+=self.valora_errores_posicion(list(i))
+        # Cruces
+        for i in range(-matriz.shape[0] + 1, matriz.shape[1]):
+          errorHijo+=self.valora_errores_posicion(list(matriz.diagonal(i)))
+
+        for i in range(-np.fliplr(matriz).shape[0] + 1, np.fliplr(matriz).shape[1]):
+          errorHijo += self.valora_errores_posicion(list(np.fliplr(matriz).diagonal(i)))
+        return errorHijo
 #Generar una población inicial
 #durante un número máximo de iteraciones:
 #  ordenar la poblacion
@@ -138,8 +146,14 @@ class GrafoDamas(GrafoAvanzado):
             self.set_node_atributtes(hijo, distanciaDst=d_destino)
         # que hacer con los repetidos
         hijos = self.procesa_repetidos(hijos)
-
         hijos = self.procesa_peor_posiciones(hijos)
+        print(actual)
         # insertar los hijos en abiertos
         for hijo in hijos:
           self.abiertos.append(hijo)
+
+    def pinta_tablero(self):
+      for i in range(len(self.poblacion)):
+        for j in self.poblacion[i]:
+          print(f"| { '-' if j==0 else 'X'} |", end='')
+        print("")
