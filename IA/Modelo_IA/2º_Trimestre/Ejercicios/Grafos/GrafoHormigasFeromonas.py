@@ -38,9 +38,12 @@ else:
     data_dir = os.path.dirname(__file__) + "/Útiles/"
 
 def set_feromonas(grafo,value):
-   for nodo in grafo.nodos:
+    ciudades=[]
+    for nodo in grafo.nodos:
       for arista in grafo.get_node_attributtes(nodo,'edges'):
          grafo.set_edge_atributtes(nodo,arista,feromonas=value)
+      ciudades.append(nodo)
+    return ciudades
 
 maxiter=1000
 maxtrans=100
@@ -55,7 +58,7 @@ finc = (fero_max - fero_min) * 10
 g = GrafoAvanzado()
 g.set_edge_atributtes
 g.rellenar_data(data_dir+"provincias.json")
-set_feromonas(g,fero_min)
+ciudades=set_feromonas(g,fero_min)
 while iter < maxiter:
    print("a")
 plt.show()
