@@ -63,6 +63,7 @@ class GrafoDamas(GrafoAvanzado):
         hijo=hijo.split(']')
         hijo.pop(-1)
         value=deepcopy(hijo)
+        
         for index,row in enumerate(value):
            hijo[index]=[int(x) for x in (row.replace(' ','')).split(",")]
         errorHijo = self.get_errores(hijo)
@@ -88,6 +89,7 @@ class GrafoDamas(GrafoAvanzado):
 
         for i in range(-np.fliplr(matriz).shape[0] + 1, np.fliplr(matriz).shape[1]):
           errorHijo += self.valora_errores_posicion(list(np.fliplr(matriz).diagonal(i)))
+          
         return errorHijo
 #Generar una población inicial
 #durante un número máximo de iteraciones:
@@ -146,6 +148,7 @@ class GrafoDamas(GrafoAvanzado):
             self.set_node_atributtes(hijo, distanciaDst=d_destino)
         # que hacer con los repetidos
         hijos = self.procesa_repetidos(hijos)
+
         hijos = self.procesa_peor_posiciones(hijos)
         print(actual)
         # insertar los hijos en abiertos
