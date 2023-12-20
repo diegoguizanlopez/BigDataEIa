@@ -95,7 +95,7 @@ class NDamas():
 
     def genero_anhadidos(self):
         lista=[]
-        for index in range(128):
+        for index in range(32):
             fila=[]
             for i in range(self.nElementos):
                 valor = random.randint(0,self.nElementos-1)
@@ -112,15 +112,14 @@ class NDamas():
                 temp.remove(array)
         self.poblacion=temp
 
-
-damas = NDamas(15)
+random.seed(1)
+damas = NDamas(20)
 start_time = time.time()
 while True:
     listErrores={}
     fin=False
     damas.poblacion+=damas.genero_anhadidos()
     for indexC,array in enumerate(damas.poblacion):
-        print(array)
         value = damas.valora_errores_posicion(array)
         listErrores[indexC]=deepcopy(value)
         if value == 0: 

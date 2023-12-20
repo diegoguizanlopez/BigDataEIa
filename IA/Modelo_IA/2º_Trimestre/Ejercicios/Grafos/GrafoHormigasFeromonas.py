@@ -17,8 +17,11 @@ una vez alzanzado el máximo número de saltos:
     las hormigas que hubiesen llegado a destino depositan una cantidad de feromona
     finc en su ruta. Esta cantidad es inv. proporcional a la lg de la ruta
 """
+import random
 import sys
-from Grafos_Clases.Grafo import GrafoAvanzado
+
+import numpy as np
+from Grafos_Clases.GrafoConProvincias import GrafoConProvincias
 
 from matplotlib import pyplot as plt
 try:
@@ -46,6 +49,12 @@ def set_feromonas(grafo,value):
       ciudades.append(nodo)
     return ciudades
 
+class Hormigas():
+    def __init__(self,posicioninicial) -> None:
+      self.posicion_inicial=posicioninicial
+      self.posicion_actual=posicioninicial
+      self.visitas=[]
+
 maxiter=1000
 maxtrans=100
 totalh=50
@@ -56,11 +65,50 @@ fero_min = 1
 fero_max = 300
 finc = (fero_max - fero_min) * 10
 
-g = GrafoAvanzado()
+g = GrafoConProvincias()
 g.set_edge_atributtes
 g.rellenar_data(data_dir+"provincias.json")
 g.dibuja()
 ciudades=set_feromonas(g,fero_min)
-#while iter < maxiter:
-#   print("a")
+iteract=0
+trans=0
+lHormigas=[]
+
+for i in range(300):
+  lHormigas.append(Hormigas(random.choice(list(g.nodos))))
+
+while iteract < maxiter:
+    while trans < maxtrans:
+      for hormiga in lHormigas:
+         if(hormiga.posicion_actual!="A Coruña"):
+            distanciaMin=np.inf
+            feromonas=0
+            localizacionCercanaW=''
+            localizacionCercanaF=''
+            lFeromonas=[]
+            hormiga_end=False
+            for adyacente in g.get_node_attributtes(hormiga.posicion_actual,'edges'):
+              weight=g.get_edge_atributtes(hormiga.posicion_actual,adyacente,'weight')
+              fero=g.get_edge_atributtes(hormiga.posicion_actual,adyacente,'feromonas')
+              if weight<distanciaMin:
+                distanciaMin=weight
+                localizacionCercanaW=adyacente
+              if feromonas == fero:
+                 lFeromonas.append(adyacente)
+              if feromonas<fero:
+                 feromonas=fero
+                 localizacionCercanaF=adyacente
+                 lFeromonas.clear()
+            if len(lFeromonas)==0:
+               g.set_edge_atributtes(hormiga.posicion_actual,localizacionCercanaF,feromonas=g.get_edge_atributtes(hormiga.posicion_actual,localizacionCercanaF,'feromonas')+1)
+               hormiga.posicion_actual=localizacionCercanaF
+               hormiga.visitas.append(localizacionCercanaF)
+               print(int(g.get_edge_atributtes(hormiga.posicion_actual,localizacionCercanaF,'feromonas')+1))
+            else:
+               g.set_edge_atributtes(hormiga.posicion_actual,localizacionCercanaW,feromonas=g.get_edge_atributtes(hormiga.posicion_actual,localizacionCercanaF,'feromonas')+1)
+               hormiga.posicion_actual=localizacionCercanaW
+               hormiga.visitas.append(localizacionCercanaW)
+               print(int(g.get_edge_atributtes(hormiga.posicion_actual,localizacionCercanaW,'feromonas'))+1)
+      trans+=1
+    iteract+=1
 plt.show()
