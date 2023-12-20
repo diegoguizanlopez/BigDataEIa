@@ -37,6 +37,7 @@ else:
     import os
     data_dir = os.path.dirname(__file__) + "/Útiles/"
 
+
 def set_feromonas(grafo,value):
     ciudades=[]
     for nodo in grafo.nodos:
@@ -58,7 +59,8 @@ finc = (fero_max - fero_min) * 10
 g = GrafoAvanzado()
 g.set_edge_atributtes
 g.rellenar_data(data_dir+"provincias.json")
+g.dibuja()
 ciudades=set_feromonas(g,fero_min)
-while iter < maxiter:
-   print("a")
+#while iter < maxiter:
+#   print("a")
 plt.show()
