@@ -104,6 +104,13 @@ class NDamas():
                 fila.append(deepcopy(valor))
             lista.append(fila)
         return lista
+    
+    def drop_duplicates(self):
+        temp=deepcopy(self.poblacion)
+        for array in self.poblacion:
+            if self.poblacion.count(array)>1:
+                temp.remove(array)
+        self.poblacion=temp
 
 
 damas = NDamas(15)
@@ -127,3 +134,4 @@ while True:
     lista_ordenada = sorted(listErrores.items(), key=lambda x: x[1])
     v=[damas.poblacion[key] for key,value in lista_ordenada][:(int(128/2)+1)]
     damas.poblacion=damas.genero_hijos(v)+v
+    damas.drop_duplicates()
