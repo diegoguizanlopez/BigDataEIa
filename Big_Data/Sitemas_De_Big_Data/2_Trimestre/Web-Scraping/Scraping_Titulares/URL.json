@@ -1,0 +1,34 @@
+{
+    "periodicos":[
+        {
+        "name": "La voz de galicia",
+        "URL" : "http://www.lavozdegalicia.com",
+        "HTML" : "h4",
+        "class" : "a-min-headline"
+        },
+        {
+        "name": "SPORTS",
+        "URL" : "https://www.sport.es/es/",
+        "HTML" : "h2",
+        "class" : "title"
+        },
+        {
+        "name": "El diario",
+        "URL" : "https://www.eldiario.es/",
+        "HTML" : "h2",
+        "class" : "ni-title"
+        },
+        {
+        "name": "El mundo",
+        "URL" : "https://www.elmundo.es/",
+        "HTML" : "div",
+        "class" : "ue-c-cover-content__main"
+        },
+        {
+        "name": "El país",
+        "URL" : "https://elpais.com/",
+        "HTML" : "h2",
+        "class" : "c_t"
+        }
+    ]
+}
