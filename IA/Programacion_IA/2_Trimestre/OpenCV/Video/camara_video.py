@@ -1,4 +1,5 @@
 import os
+from turtle import color
 import cv2 as cv
 import numpy as np
 
@@ -32,13 +33,11 @@ while(True):
             hsv = cv.cvtColor(frame,cv.COLOR_BGR2HSV)
             color_minimo = np.array([color_punto[0,0,0] - 10,10,10])
             color_maximo = np.array([color_punto[0,0,0] + 10,255,255])
+            #color_minimo = np.array([color_punto[0,0,0] - ])
             mascara = cv.inRange(hsv, color_minimo, color_maximo)
             cv.namedWindow("Mascara")
             cv.imshow("Mascara", mascara)
             color_punto = None
-
-    if ret == False:
-        video.set(cv.CAP_PROP_POS_FRAMES, 0)
     if cv.waitKey(10) & 0xFF == 27: break
 
 video.release()
