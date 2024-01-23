@@ -10,8 +10,8 @@ def click_raton(event,x,y,flags,param):
         color_punto = np.uint8([[[b,g,r]]])
         color_punto = cv.cvtColor(color_punto,cv.COLOR_BGR2HSV)
 
-        lower_color = np.array([np.array(color_punto[0,0,0])-2,10,10])
-        upper_color = np.array([np.array(color_punto[0,0,0])+2,255,255])
+        lower_color = np.array([np.array(color_punto[0,0,0])-10,10,10])
+        upper_color = np.array([np.array(color_punto[0,0,0])+10,255,255])
         objeto_capa = frame
         print(f"{lower_color} - {upper_color} - {color_punto}")
 
