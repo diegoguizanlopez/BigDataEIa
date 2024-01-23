@@ -16,9 +16,7 @@ def click_raton(event,x,y,flags,param):
         # PRINTAMOS
         print(f"Cick en {x}, {y}, color:{color_punto}")
 
-data_dir = os.path.dirname(__file__)
-fichero = os.path.abspath(os.path.join(data_dir, os.pardir))+"/videos/ciudad.mp4"
-video = cv.VideoCapture(fichero)
+video = cv.VideoCapture(0)
 color_punto=None
 cv.namedWindow("Salida")
 cv.setMouseCallback("Salida",click_raton)
