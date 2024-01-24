@@ -17,8 +17,8 @@ def click_raton(event,x,y,flags,param):
         b,g,r = frame[y,x]
         color_punto = np.uint8([[[b,g,r]]])
         color_punto = cv.cvtColor(color_punto,cv.COLOR_BGR2HSV)
-        lower_color = np.array([np.array(color_punto[0,0,0])-10,10,10])
-        upper_color = np.array([np.array(color_punto[0,0,0])+10,255,255])
+        lower_color = np.array([np.array(color_punto[0,0,0]) - 10,10,10])
+        upper_color = np.array([np.array(color_punto[0,0,0]) + 10,255,255])
         objeto_capa = frame
     
         print(f"{lower_color} - {upper_color} - {color_punto}")
@@ -47,10 +47,10 @@ while(True):
         hsv = cv.cvtColor(frame,cv.COLOR_BGR2HSV) 
         cv.namedWindow("Mascara")
         white=cv.inRange(hsv,lower_color,upper_color)
-        frame_inicial_gray = cv.cvtColor(frame_inicial, cv.COLOR_BGR2GRAY)
         mask_negra = cv.inRange(white, 0, 128)  # Máscara para la región negra
         mask_blanca = cv.inRange(white, 129, 255)  # Máscara para la región blanca
         img1 = cv.bitwise_and(frame, frame, mask=mask_negra)
+        cv.imshow("Mascara", white)
         img2 = cv.bitwise_and(frame_inicial, frame_inicial, mask=mask_blanca)
         img_final = cv.add(img1, img2)
         cv.imshow("AND",img_final)
