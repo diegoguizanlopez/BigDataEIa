@@ -4,15 +4,23 @@ import cv2 as cv
 import numpy as np
 
 def click_raton(event,x,y,flags,param):
+    """Recoge el color del punto actual y genera un margen donde se va situar esa imagen
+    Args:
+        event (_type_): Tipo de evento
+        x (_type_): Posición de X
+        y (_type_): Posición de Y
+        flags (_type_): Null
+        param (_type_): Null
+    """
     global color_punto,lower_color,upper_color,objeto_capa
     if event == cv.EVENT_LBUTTONDBLCLK:
         b,g,r = frame[y,x]
         color_punto = np.uint8([[[b,g,r]]])
         color_punto = cv.cvtColor(color_punto,cv.COLOR_BGR2HSV)
-
         lower_color = np.array([np.array(color_punto[0,0,0])-10,10,10])
         upper_color = np.array([np.array(color_punto[0,0,0])+10,255,255])
         objeto_capa = frame
+    
         print(f"{lower_color} - {upper_color} - {color_punto}")
 
 video = cv.VideoCapture(0)
