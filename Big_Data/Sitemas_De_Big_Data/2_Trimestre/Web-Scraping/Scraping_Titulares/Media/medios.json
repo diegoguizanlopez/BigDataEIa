@@ -1,0 +1,58 @@
+{
+    "La voz de galicia": {
+        "url": "http://www.lavozdegalicia.com",
+        "tag": "h4",
+        "clase": "a-min-headline",
+        "HTMLURL": "a",
+        "valueURL": "href"
+    },
+    "20 Minutos": {
+        "url": "https://www.20minutos.es",
+        "tag": "h1",
+        "clase": "",
+        "HTMLURL": "a",
+        "valueURL": "href"
+    },
+    "El Espanol": {
+        "url": "https://www.elespanol.com/quincemil",
+        "tag": "div",
+        "clase": "titulo",
+        "HTMLURL": "a",
+        "valueURL": "href"
+    },
+    "El diario": {
+        "url": "https://www.eldiario.es/",
+        "tag": "h2",
+        "clase": "ni-title",
+        "HTMLURL": "a",
+        "valueURL": "href"
+    },
+    "El mundo": {
+        "url": "https://www.elmundo.es/",
+        "tag": "a",
+        "clase": "ue-c-cover-content__link",
+        "HTMLURL": ".",
+        "valueURL": "href"
+    },
+    "El país": {
+        "url": "https://elpais.com/",
+        "tag": "h2",
+        "clase": "c_t",
+        "HTMLURL": "a",
+        "valueURL": "href"
+    },
+    "La opinión Coruña":{
+        "url": "https://www.laopinioncoruna.es/",
+        "tag": "a",
+        "clase": "new__headline",
+        "HTMLURL": ".",
+        "valueURL": "href"
+    },
+    "El As":{
+        "url": "https://as.com",
+        "tag": "h2",
+        "clase": "s__tl",
+        "HTMLURL": "a",
+        "valueURL": "href"
+    }
+}

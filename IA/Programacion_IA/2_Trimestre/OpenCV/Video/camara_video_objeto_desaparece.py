@@ -20,7 +20,6 @@ def click_raton(event,x,y,flags,param):
         lower_color = np.array([np.array(color_punto[0,0,0]) - 10,10,10])
         upper_color = np.array([np.array(color_punto[0,0,0]) + 10,255,255])
         objeto_capa = frame
-    
         print(f"{lower_color} - {upper_color} - {color_punto}")
 
 video = cv.VideoCapture(0)
@@ -33,17 +32,24 @@ objeto_capa = None
 
 while(True):
     ret, frame = video.read()
+    
+    # SI SE ESTÁ EJECUTANDO SE RECOGE EL FRAME
     if ret == True:
         frame = cv.flip(frame, 1)
         cv.imshow("Salida", frame)
+    
+    # SI SE LE DA A ESCAPE ROMPEMOS
     if cv.waitKey(10) & 0xFF == 27: break
+
+    # SI SE LE DA ESPACIO GUARDAMOS EL FONDO
     if cv.waitKey(10) & 0xFF == 32: 
         if frame_inicial is None:
             cv.namedWindow("Mascara")
             cv.imshow("Mascara", frame)
             frame_inicial = frame
 
-    if objeto_capa is not None:
+    # SI SE LE DA CLICK RECOGE EL COLOR SELECCIONADO
+    if objeto_capa is not None and frame_inicial is not None:
         hsv = cv.cvtColor(frame,cv.COLOR_BGR2HSV) 
         cv.namedWindow("Mascara")
         white=cv.inRange(hsv,lower_color,upper_color)
