@@ -29,6 +29,12 @@
         "URL" : "https://elpais.com/",
         "HTML" : "h2",
         "class" : "c_t"
+        },
+        {
+        "name": "La Opinión Coruña",
+        "URL" : "https://www.laopinioncoruna.es/",
+        "HTML" : "a",
+        "class" : "new__headline"
         }
     ]
 }
