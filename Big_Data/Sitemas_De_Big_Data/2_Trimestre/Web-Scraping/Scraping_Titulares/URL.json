@@ -21,8 +21,8 @@
         {
         "name": "El mundo",
         "URL" : "https://www.elmundo.es/",
-        "HTML" : "div",
-        "class" : "ue-c-cover-content__main"
+        "HTML" : "a",
+        "class" : "ue-c-cover-content__link"
         },
         {
         "name": "El país",
