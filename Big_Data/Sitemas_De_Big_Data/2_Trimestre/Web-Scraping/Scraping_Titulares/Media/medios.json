@@ -3,56 +3,70 @@
         "url": "http://www.lavozdegalicia.com",
         "tag": "h4",
         "clase": "a-min-headline",
-        "HTMLURL": "a",
+        "tagURL": "a",
         "valueURL": "href"
     },
     "20 Minutos": {
         "url": "https://www.20minutos.es",
         "tag": "h1",
         "clase": "",
-        "HTMLURL": "a",
+        "tagURL": "a",
         "valueURL": "href"
     },
     "El Espanol": {
         "url": "https://www.elespanol.com/quincemil",
         "tag": "div",
         "clase": "titulo",
-        "HTMLURL": "a",
+        "tagURL": "a",
         "valueURL": "href"
     },
     "El diario": {
         "url": "https://www.eldiario.es/",
         "tag": "h2",
         "clase": "ni-title",
-        "HTMLURL": "a",
+        "tagURL": "a",
         "valueURL": "href"
     },
     "El mundo": {
         "url": "https://www.elmundo.es/",
         "tag": "a",
         "clase": "ue-c-cover-content__link",
-        "HTMLURL": ".",
+        "tagURL": ".",
         "valueURL": "href"
     },
     "El país": {
         "url": "https://elpais.com/",
         "tag": "h2",
         "clase": "c_t",
-        "HTMLURL": "a",
+        "tagURL": "a",
         "valueURL": "href"
     },
     "La opinión Coruña":{
         "url": "https://www.laopinioncoruna.es/",
         "tag": "a",
         "clase": "new__headline",
-        "HTMLURL": ".",
+        "tagURL": ".",
         "valueURL": "href"
     },
     "El As":{
-        "url": "https://as.com",
+        "url": "https://as.com/",
         "tag": "h2",
         "clase": "s__tl",
-        "HTMLURL": "a",
+        "tagURL": "a",
+        "valueURL": "href"
+    },
+    "El periódico":{
+        "url": "https://www.elperiodico.com/es/",
+        "tag": "h2",
+        "clase": "title",
+        "tagURL": "a",
+        "valueURL": "href"
+    },
+    "La razón":{
+        "url": "https://www.larazon.es/",
+        "tag": "h2",
+        "clase": "article__title small",
+        "tagURL": "a",
         "valueURL": "href"
     }
 }
