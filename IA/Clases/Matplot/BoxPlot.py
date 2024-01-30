@@ -23,6 +23,8 @@ class BoxPlot:
                       # MEDIANA
                       medianprops=dict(color=deepColor),
                       # LINEA MEDIA
-                      showmeans=True,)
-        if num_cols % 2:
-            fig.delaxes(axs[index // 2, 1])
+                      showmeans=True,
+                      )
+            ax.yaxis.grid(True)
+        if (num_cols-1) % 2 == 1:
+            fig.delaxes(axs[(index) // 2, 1])
