@@ -10,7 +10,6 @@ class HeatMap():
         axes.set_xticks(np.arange(len(x)), labels=xlabel)
         plt.setp(axes.get_xticklabels(), rotation=90, ha="right", rotation_mode="anchor")
         axes.set_yticks(np.arange(len(y)), labels=ylabel)
-    
         for i in range(len(x)):
             for j in range(len(y)):
                 v = values.iloc[i,j] if dataframe else values[i][j] # type: ignore
