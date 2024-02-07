@@ -5,6 +5,21 @@ import numpy as np
 class HeatMap():
     
     def heat_map(values,x,y,xlabel,ylabel,dataframe=True,textColor="lightblue",cmap="hot",figsize=(10,10),fontsize=10,weight=None):
+        """Heat Map de DataSet
+
+        Args:
+            values (_type_): Valores a usar en HeatMap
+            x (_type_): Valores en X
+            y (_type_): Valores en Y
+            xlabel (_type_): Labels en X
+            ylabel (_type_): Labels en Y
+            dataframe (bool, optional): Si es un DataFrame
+            textColor (str, optional): Color del Texto. Defaults to "lightblue".
+            cmap (str, optional): Tipo de Cmap. Defaults to "hot".
+            figsize (tuple, optional): Tamaño. Defaults to (10,10).
+            fontsize (int, optional): Tamaño de letra. Defaults to 10.
+            weight (_type_, optional): Peso. Defaults to None.
+        """
         fig, axes = plt.subplots(figsize=figsize)
         im=plt.imshow(values, cmap=cmap, interpolation='nearest')
         axes.set_xticks(np.arange(len(x)), labels=xlabel)
