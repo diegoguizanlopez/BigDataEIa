@@ -42,7 +42,7 @@ class BoxPlot:
                       # LINEA MEDIA
                       showmeans=True,
                       )
-                ax.xaxis.set_major_locator(MaxNLocator(nbins=num_xticks))
+            ax.xaxis.set_major_locator(MaxNLocator(nbins=num_xticks))
             ax.yaxis.grid(True)
         if (num_cols-1) % 2 == 1:
             fig.delaxes(axs[(index) // 2, 1])
