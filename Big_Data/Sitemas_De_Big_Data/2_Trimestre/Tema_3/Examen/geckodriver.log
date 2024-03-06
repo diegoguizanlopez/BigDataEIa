@@ -399,3 +399,28 @@ DevTools listening on ws://127.0.0.1:61006/devtools/browser/5168cf3f-79fd-472c-b
 1709672840579	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 1709673014426	Marionette	INFO	Stopped listening on port 61013
 Dynamically enable window occlusion 1
+1709755009463	geckodriver	INFO	Listening on 127.0.0.1:51672
+1709755012499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DIEGO~1.GUI\\AppData\\Local\\Temp\\rust_mozprofilewraFLd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709755012785	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709755012885	Marionette	INFO	Listening on port 51680
+WebDriver BiDi listening on ws://127.0.0.1:51673
+Read port: 51680
+1709755013049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51673/devtools/browser/a84c4cbf-68e7-408a-9eaa-08da6f7e9036
+1709755042868	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1709755589394	Marionette	INFO	Stopped listening on port 51680
+Dynamically enable window occlusion 1
+1709755611086	geckodriver	INFO	Listening on 127.0.0.1:51983
+1709755614119	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51984" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DIEGO~1.GUI\\AppData\\Local\\Temp\\rust_mozprofileq6JJSk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709755614398	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709755614503	Marionette	INFO	Listening on port 51991
+WebDriver BiDi listening on ws://127.0.0.1:51984
+Read port: 51991
+1709755614654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51984/devtools/browser/17e61464-3d37-4903-a5eb-c03e0218a76a
