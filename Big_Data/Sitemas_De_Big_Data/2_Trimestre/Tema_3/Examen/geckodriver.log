@@ -425,3 +425,16 @@ Read port: 51991
 1709755614654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 DevTools listening on ws://127.0.0.1:51984/devtools/browser/17e61464-3d37-4903-a5eb-c03e0218a76a
 1709755644429	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1709756267679	geckodriver	INFO	Listening on 127.0.0.1:52191
+1709756270730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52192" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DIEGO~1.GUI\\AppData\\Local\\Temp\\rust_mozprofilehiTp35"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709756271036	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709756271153	Marionette	INFO	Listening on port 52199
+WebDriver BiDi listening on ws://127.0.0.1:52192
+Read port: 52199
+1709756271368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52192/devtools/browser/23ba7aa2-a6a5-4ee1-a206-42181d15582b
+1709756301050	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
