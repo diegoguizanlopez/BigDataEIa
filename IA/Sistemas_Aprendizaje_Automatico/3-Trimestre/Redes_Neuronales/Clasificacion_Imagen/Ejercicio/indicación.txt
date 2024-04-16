@@ -1,0 +1,12 @@
+La carpeta de imagenes tiene que ser
+
+assets:
+	train
+		NORMAL
+		PNEUMONIA
+	test
+		NORMAL
+		PNEUMONIA
+	val
+		NORMAL
+		PNEUMONIA
