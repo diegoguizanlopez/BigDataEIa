@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:04,000
+The stale smell of old beer lingers.
+
+2
+00:00:04,000 --> 00:00:07,000
+It takes heat to bring out the odor.
+
+3
+00:00:07,000 --> 00:00:10,000
+A cold dip restores health and zest.
+
+4
+00:00:10,000 --> 00:00:12,000
+A salt pickle tastes fine with ham.
+
+5
+00:00:12,000 --> 00:00:15,000
+Tacos al pastor are my favorite.
+
+6
+00:00:15,000 --> 00:00:18,000
+A zestful food is the hot cross bun.
+

@@ -1,1447 +1,1447 @@
-,Graphics card,Type,Performance,Architecture,Year,Price now,TDP
-0,GeForce RTX 4090,desktop,100.00,Ada Lovelace,2022,1756 USD,450 W
-1,GeForce RTX 4080,desktop,89.40,Ada Lovelace,2022,1451 USD,320 W
-2,GeForce RTX 4080 SUPER,desktop,88.36,Ada Lovelace,2024,−,320 W
-3,GeForce RTX 4070 Ti,desktop,81.99,Ada Lovelace,2023,837 USD,285 W
-4,GeForce RTX 4070 Ti SUPER,desktop,81.92,Ada Lovelace,2024,−,285 W
-5,Radeon RX 7900 XTX,desktop,79.89,RDNA 3,2022,859 USD,355 W
-6,GeForce RTX 4070 SUPER,desktop,77.57,Ada Lovelace,2024,−,285 W
-7,GeForce RTX 3090 Ti,desktop,76.82,Ampere,2022,1251 USD,450 W
-8,RTX 4500 Ada Generation,desktop,76.65,Ada Lovelace,2023,−,130 W
-9,GeForce RTX 4090 D,desktop,75.93,Ada Lovelace,2023,−,425 W
-10,Radeon PRO W7900,workstation,75.51,RDNA 3.0,2023,4649 USD,295 W
-11,Radeon PRO W7800,workstation,74.82,RDNA 3.0,2023,3907 USD,260 W
-12,Radeon RX 7900 XT,desktop,74.43,RDNA 3,2022,884 USD,315 W
-13,Radeon RX 6950 XT,desktop,73.11,Navi / RDNA2,2022,961 USD,335 W
-14,RTX 6000 Ada Generation,desktop,72.58,Ada Lovelace,2022,−,300 W
-15,GeForce RTX 3080 Ti,desktop,70.28,Ampere,2020,1135 USD,350 W
-16,GeForce RTX 4070,desktop,69.76,Ada Lovelace,2023,791 USD,200 W
-17,Radeon RX 6900 XT,desktop,69.32,Navi / RDNA2,2020,957 USD,300 W
-18,GeForce RTX 3090,desktop,69.26,Ampere,2020,1198 USD,350 W
-19,GeForce RTX 3080 12 GB,desktop,69.05,Ampere,2022,1053 USD,350 W
-20,Radeon RX 7900 GRE,desktop,68.35,RDNA 3,2023,−,260 W
-21,RTX 4000 Ada Generation,desktop,66.92,Ada Lovelace,2023,−,130 W
-22,GeForce RTX 3080,desktop,65.37,Ampere,2020,823 USD,320 W
-23,Radeon RX 6800 XT,desktop,64.79,Navi / RDNA2,2020,696 USD,300 W
-24,RTX 5000 Ada Generation,desktop,62.39,Ada Lovelace,2023,−,250 W
-25,Radeon RX 7800 XT,desktop,62.00,RDNA 3,2023,−,300 W
-26,GeForce RTX 3070 Ti,desktop,61.10,Ampere,2021,757 USD,290 W
-27,GeForce RTX 4060 Ti,desktop,59.19,Ada Lovelace,2023,461 USD,160 W
-28,RTX A5000,workstation,59.13,Ampere,2021,3327 USD,230 W
-29,GeForce RTX 3070,desktop,57.86,Ampere,2020,662 USD,220 W
-30,Radeon RX 7900M,notebook,57.85,RDNA 3,−,−,180 W
-31,Radeon RX 6800,desktop,57.62,Navi / RDNA2,2020,781 USD,250 W
-32,RTX A4500,workstation,56.23,Ampere,2021,2591 USD,200 W
-33,GeForce RTX 2080 Ti,desktop,56.23,Turing,2018,297 USD,270 W
-34,Radeon RX 7700 XT,desktop,55.54,RDNA 3,2023,−,245 W
-35,RTX A5500,desktop,54.52,Ampere,2022,3965 USD,230 W
-36,Radeon RX 6750 XT,desktop,53.70,Navi / RDNA2,2022,559 USD,250 W
-37,GeForce RTX 4090 Mobile,notebook,53.48,Ada Lovelace,2023,−,150 W
-38,Radeon PRO W7700,workstation,53.46,RDNA 3.0,2023,−,190 W
-39,Radeon RX 6750 GRE 10 GB,desktop,53.29,RDNA 2.0,2023,−,170 W
-40,RTX 4000 SFF Ada Generation,desktop,53.11,Ada Lovelace,2023,−,70 W
-41,GeForce RTX 3060 Ti,desktop,53.07,Ampere,2020,361 USD,220 W
-42,GeForce RTX 4080 Mobile,notebook,52.45,Ada Lovelace,2023,−,150 W
-43,GeForce RTX 4060 Ti 8G,desktop,52.39,Ada Lovelace,2023,424 USD,160 W
-44,RTX 5000 Ada Generation Mobile,notebook,52.17,Ada Lovelace,2023,−,150 W
-45,Quadro GV100,workstation,51.68,Volta,2018,5183 USD,250 W
-46,Radeon Pro W6800,workstation,51.42,Navi / RDNA2,2021,1990 USD,250 W
-47,Radeon RX 6700 XT,desktop,51.34,Navi / RDNA2,2021,685 USD,230 W
-48,GeForce RTX 4060,desktop,50.68,Ada Lovelace,2023,340 USD,115 W
-49,GeForce RTX 2080 Super,desktop,50.61,Turing,2019,599 USD,250 W
-50,RTX A4000,workstation,50.15,Ampere,2021,1112 USD,140 W
-51,TITAN Xp,desktop,50.14,Pascal,2017,174 USD,250 W
-52,Quadro RTX 8000,workstation,50.00,Turing,2018,3230 USD,260 W
-53,RTX 2000 Ada Generation,desktop,49.51,Ada Lovelace,2024,−,70 W
-54,GeForce RTX 4060 Ti 16G,desktop,49.42,Ada Lovelace,−,−,−
-55,Radeon RX 6750 GRE 12 GB,desktop,48.82,RDNA 2.0,2023,−,250 W
-56,Quadro RTX 6000,workstation,48.72,Turing,2018,3083 USD,260 W
-57,TITAN RTX,desktop,48.68,Turing,2018,1035 USD,280 W
-58,GeForce RTX 2080,desktop,48.56,Turing,2018,426 USD,215 W
-59,A10G,desktop,48.33,Ampere,2021,216 USD,150 W
-60,Radeon RX 6700,desktop,48.12,RDNA 2.0,2021,551 USD,175 W
-61,GeForce GTX 1080 Ti,desktop,47.90,Pascal,2017,321 USD,250 W
-62,GeForce RTX 2070 Super,desktop,47.12,Turing,2019,261 USD,215 W
-63,Radeon PRO W7600,workstation,46.48,RDNA 3.0,2023,−,130 W
-64,Radeon RX 6850M XT,notebook,46.33,RDNA 2,2022,−,145 W
-65,GeForce RTX 3080 Ti Mobile,notebook,45.89,Ampere,2022,−,150 W
-66,GeForce RTX 4070 Mobile,notebook,45.52,Ada Lovelace,2023,−,115 W
-67,Radeon Pro W5700X,workstation,45.41,RDNA 1.0,2019,−,205 W
-68,Radeon RX 7600 XT,desktop,45.04,RDNA 3.0,2024,−,190 W
-69,Radeon RX 6650 XT,desktop,44.67,Navi / RDNA2,2022,465 USD,176 W
-70,TITAN V,desktop,44.21,Volta,2017,228 USD,250 W
-71,GeForce RTX 3060,desktop,44.10,Ampere,2021,317 USD,170 W
-72,TITAN V CEO Edition,desktop,43.85,Volta,2018,1630 USD,250 W
-73,Arc A750,desktop,43.77,Generation 12.7,2022,625 USD,225 W
-74,Radeon VII,desktop,43.08,Vega,2019,160 USD,295 W
-75,Radeon RX 5700 XT,desktop,43.04,Navi / RDNA,2019,111 USD,225 W
-76,Radeon RX 5700 XT 50th Anniversary,desktop,42.91,RDNA 1.0,2019,409 USD,225 W
-77,GeForce RTX 2060 Super,desktop,42.78,Turing,2019,374 USD,175 W
-78,Radeon RX 6600 XT,desktop,42.55,Navi / RDNA2,2021,283 USD,160 W
-79,Quadro GP100,workstation,42.27,Pascal,2016,1482 USD,235 W
-80,GeForce RTX 4060 Mobile,notebook,42.14,Ada Lovelace,2023,−,115 W
-81,GeForce RTX 3070 Ti Mobile,notebook,42.01,Ampere,2022,−,125 W
-82,Radeon RX 7600,desktop,41.96,RDNA 3.0,2023,352 USD,165 W
-83,Quadro RTX A6000,workstation,41.94,Ampere,2020,8932 USD,300 W
-84,GeForce RTX 2070,desktop,41.74,Turing,2018,309 USD,175 W
-85,GeForce RTX 3080 Mobile,notebook,41.69,Ampere,2021,−,150 W
-86,Quadro RTX 5000,workstation,41.39,Turing,2018,1540 USD,230 W
-87,GeForce GTX 1070 SLI Mobile,notebook,41.38,Pascal,2016,274 USD,−
-88,Arc A580,desktop,41.36,,2023,−,175 W
-89,Radeon Pro Vega II Duo,workstation,41.24,GCN 5.1,2019,5226 USD,475 W
-90,GeForce RTX 2060 12 GB,desktop,41.00,Turing,2021,530 USD,184 W
-91,Radeon Pro W6600,workstation,40.95,RDNA 2.0,2021,1522 USD,100 W
-92,Radeon RX 6800S,notebook,40.31,RDNA 2,2021,−,100 W
-93,GeForce GTX 1080,desktop,40.08,Pascal,2016,241 USD,180 W
-94,Arc A770M,notebook,40.07,Xe HPG,2022,−,150 W
-95,RTX A5500 Mobile,notebook,39.98,Ampere,2022,−,165 W
-96,Radeon Pro Vega II,workstation,39.94,GCN 5.1,2019,9999 USD,475 W
-97,GeForce RTX 3060 8 GB,desktop,39.90,Ampere,2022,384 USD,170 W
-98,Quadro RTX 4000,workstation,39.78,Turing,2018,974 USD,160 W
-99,RTX A5000 Mobile,notebook,39.76,Ampere,2021,−,165 W
-100,Radeon Pro W5700,workstation,39.33,RDNA 1.0,2019,748 USD,205 W
-101,GeForce RTX 2080 Super Mobile,notebook,39.08,Turing,2020,1671 USD,150 W
-102,Radeon RX 7700S,notebook,39.07,RDNA 3,2023,−,100 W
-103,Radeon RX 6600,desktop,39.03,Navi / RDNA2,2021,358 USD,132 W
-104,GeForce RTX 2080 Mobile,notebook,39.00,Turing,2019,2003 USD,150 W
-105,GeForce RTX 4050 Mobile,notebook,38.98,Ada Lovelace,2023,−,115 W
-106,Quadro P6000,workstation,38.82,Pascal,2016,989 USD,250 W
-107,GeForce GTX 980 SLI Mobile,notebook,38.78,Maxwell,2015,301 USD,330 W
-108,GeForce GTX 1070 SLI,desktop,38.56,Pascal,2016,185 USD,300 W
-109,Radeon RX 6700S,notebook,38.40,RDNA 2,2022,−,80 W
-110,Radeon Pro VII,workstation,38.35,GCN 5.1,2020,2378 USD,250 W
-111,Quadro RTX 5000 Mobile,mobile workstation,38.29,Turing,2019,3065 USD,110 W
-112,GeForce GTX 1070 Ti,desktop,37.90,Pascal,2017,231 USD,180 W
-113,Radeon PRO W7500,workstation,37.89,RDNA 3.0,2023,−,70 W
-114,Radeon Pro Vega 64X,workstation,37.77,GCN 5.0,2019,366 USD,250 W
-115,Radeon RX 6650M,notebook,37.59,RDNA 2,2022,−,120 W
-116,GeForce GTX 1080 SLI Mobile,notebook,37.47,Pascal,2016,352 USD,−
-117,Radeon RX 5700,desktop,37.45,Navi / RDNA,2019,116 USD,180 W
-118,Radeon RX Vega 64,desktop,37.16,Vega,2017,125 USD,295 W
-119,GeForce RTX 3070 Mobile,notebook,37.08,Ampere,2021,−,125 W
-120,GeForce RTX 2070 Super Mobile,notebook,36.59,Turing,2020,1443 USD,115 W
-121,GeForce RTX 2060,desktop,36.52,Turing,2019,397 USD,175 W
-122,RTX 2000 Ada Generation Mobile,notebook,36.49,Ada Lovelace,2023,−,115 W
-123,Radeon RX 7600S,notebook,36.19,RDNA 3,2023,−,75 W
-124,RTX 3000 Ada Generation Mobile,notebook,36.06,Ada Lovelace,2023,−,115 W
-125,Radeon Pro WX 8200,workstation,35.96,GCN 5.0,2018,2172 USD,230 W
-126,GeForce RTX 2070 Super Max-Q,notebook,35.95,Turing,2020,812 USD,80 W
-127,GeForce RTX 2080 Max-Q,notebook,35.87,Turing,2019,1268 USD,80 W
-128,GeForce GTX 1080 Mobile,notebook,35.71,Pascal,2016,230 USD,150 W
-129,GeForce GTX 980 Ti,desktop,35.67,Maxwell,2015,1195 USD,250 W
-130,GeForce RTX 2080 Super Max-Q,notebook,35.60,Turing,2020,812 USD,90 W
-131,RTX A2000,desktop,35.55,Ampere,2021,567 USD,70 W
-132,Arc A730M,notebook,35.54,Xe HPG,2022,−,120 W
-133,RTX A2000 12 GB,desktop,35.41,Ampere,2021,967 USD,70 W
-134,Radeon RX 5600 XT,desktop,35.35,RDNA 1.0,2020,94 USD,150 W
-135,Radeon RX 6600S,notebook,35.31,RDNA 2,2022,−,80 W
-136,Quadro RTX 5000 Max-Q,mobile workstation,35.21,Turing,2019,2130 USD,80 W
-137,Radeon RX 6600M,notebook,35.09,RDNA 2,2020,−,100 W
-138,Radeon Pro W6600M,mobile workstation,34.98,RDNA 2,2021,−,90 W
-139,GeForce GTX 1070,desktop,34.87,Pascal,2016,180 USD,150 W
-140,Radeon RX 6700M,notebook,34.59,RDNA 2,2020,−,135 W
-141,Radeon Vega Frontier Edition,desktop,34.40,GCN 5.0,2017,961 USD,300 W
-142,Radeon RX Vega 56,desktop,34.35,Vega,2017,224 USD,210 W
-143,Radeon RX 6800M,notebook,34.32,RDNA 2,2021,−,145 W
-144,Radeon Pro W6600X,workstation,33.85,RDNA 2.0,2021,−,120 W
-145,GeForce GTX TITAN X,desktop,33.68,Maxwell 2.0,2015,290 USD,250 W
-146,Titan X Pascal,desktop,33.63,Pascal,2016,312 USD,250 W
-147,Radeon Pro Vega 64,workstation,33.52,GCN 5.0,2017,6074 USD,250 W
-148,GeForce GTX 1660 Ti,desktop,33.37,Turing,2019,284 USD,120 W
-149,Radeon PRO WX 9100,workstation,33.34,GCN 5.0,2017,1880 USD,230 W
-150,RTX A3000 Mobile,notebook,33.09,Ampere,2021,−,130 W
-151,Quadro RTX 4000 Max-Q,mobile workstation,33.03,Turing,2019,−,80 W
-152,GeForce GTX 1660 Super,desktop,32.98,Turing,2019,277 USD,125 W
-153,Tesla P40,workstation,32.72,Pascal,2016,131 USD,250 W
-154,Tesla T10,workstation,32.65,Turing,−,−,260 W
-155,Quadro RTX 4000 Mobile,mobile workstation,32.59,Turing,2019,2890 USD,110 W
-156,Radeon Pro 5700 XT,workstation,32.56,RDNA 1.0,2020,−,130 W
-157,GeForce RTX 3050 8 GB,desktop,32.56,Ampere,2022,385 USD,130 W
-158,GeForce RTX 3060 Mobile,notebook,32.40,Ampere,2021,−,115 W
-159,Quadro P5200 Max-Q,workstation,31.89,Pascal,2018,−,100 W
-160,GeForce RTX 2070 Mobile,notebook,31.89,Turing,2019,1758 USD,115 W
-161,Radeon Pro Vega 56,workstation,31.89,Vega,2017,4999 USD,210 W
-162,Quadro P5000,workstation,31.85,Pascal,2016,1270 USD,180 W
-163,Quadro P5200,mobile workstation,31.73,Pascal,2017,3894 USD,150 W
-164,GeForce RTX 3050 OEM,desktop,31.07,Ampere,2022,−,130 W
-165,Radeon RX 5600 OEM,desktop,30.87,RDNA 1.0,2020,154 USD,150 W
-166,Quadro M6000 24 GB,workstation,30.68,Maxwell 2.0,2016,2104 USD,250 W
-167,Radeon Pro 5700,workstation,30.57,RDNA 1.0,2020,356 USD,130 W
-168,GeForce RTX 2070 Max-Q,notebook,30.37,Turing,2019,1311 USD,80 W
-169,Quadro M6000,workstation,30.36,Maxwell 2.0,2015,1792 USD,250 W
-170,GeForce GTX 1660,desktop,30.18,Turing,2019,252 USD,120 W
-171,Quadro P4000,workstation,30.09,Pascal,2017,485 USD,105 W
-172,Quadro P5000 Mobile,mobile workstation,29.84,Pascal,2017,2137 USD,100 W
-173,L4,desktop,29.73,Ada Lovelace,2023,240 USD,72 W
-174,Quadro P4200 Max-Q,workstation,29.34,Pascal,2018,−,100 W
-175,GeForce RTX 2060 Mobile,notebook,29.31,Turing,2019,1250 USD,80 W
-176,Radeon Pro Vega 48,workstation,29.17,GCN 5.0,2019,671 USD,−
-177,Radeon RX 7600M XT,notebook,29.06,RDNA 3,2023,−,120 W
-178,GeForce GTX 980,desktop,28.71,Maxwell,2014,339 USD,220 W
-179,CMP 40HX,desktop,28.58,Turing,2021,152 USD,185 W
-180,GeForce GTX 1070 Mobile,notebook,28.40,Pascal,2016,379 USD,115 W
-181,Radeon Pro SSG,workstation,28.32,GCN 3.0,2016,321 USD,260 W
-182,Fiji,desktop,28.26,GCN 3.0,−,22 USD,−
-183,Tesla T4,workstation,28.16,Turing,2018,782 USD,70 W
-184,Tesla M40 24 GB,workstation,27.04,Maxwell 2.0,2015,250 USD,250 W
-185,GeForce GTX 1060 6 GB,desktop,26.46,Pascal,2016,911 USD,120 W
-186,GeForce GTX 1080 Max-Q,notebook,26.35,Pascal,2017,1008 USD,90 W
-187,GeForce GTX 1660 Ti Mobile,notebook,26.33,Turing,2019,682 USD,80 W
-188,Tesla M40,workstation,26.28,Maxwell 2.0,2015,101 USD,250 W
-189,GeForce GTX 1650 SUPER,desktop,26.18,Turing,2019,206 USD,125 W
-190,Quadro RTX 3000 Mobile,mobile workstation,26.11,Turing,2019,2393 USD,80 W
-191,Radeon R9 FURY X,desktop,25.85,GCN 3.0,2015,350 USD,275 W
-192,Arc A770,desktop,25.77,Alchemist,2022,597 USD,225 W
-193,RTX A2000 Mobile,notebook,25.52,Ampere,2021,−,95 W
-194,GeForce RTX 2060 Max-Q,notebook,25.32,Turing,2019,1680 USD,65 W
-195,Quadro P4200,mobile workstation,25.03,Pascal,2018,1526 USD,115 W
-196,GeForce RTX 3050 6GB Mobile,notebook,24.98,Ampere,2023,−,60 W
-197,GeForce RTX 3050 Ti Mobile,notebook,24.97,Ampere,2021,−,60 W
-198,GeForce GTX 970,desktop,24.90,Maxwell,2014,105 USD,150 W
-199,GeForce RTX 3050 4GB Mobile,notebook,24.81,Ampere,2021,−,60 W
-200,Radeon R9 Fury,desktop,24.76,GCN 1.2,2015,44 USD,275 W
-201,GeForce GTX 1060 3 GB,desktop,24.75,Pascal,2016,1112 USD,120 W
-202,GeForce GTX 980M SLI,notebook,24.67,Maxwell,2014,499 USD,200 W
-203,GeForce GTX 780 Ti,desktop,24.56,Kepler,2013,461 USD,250 W
-204,Radeon RX 6500 XT,desktop,24.56,Navi / RDNA2,2022,274 USD,107 W
-205,Radeon RX 590,desktop,24.42,Polaris,2018,133 USD,175 W
-206,Radeon R9 390X,desktop,24.36,GCN,2015,20 USD,275 W
-207,GeForce GTX 970M SLI,notebook,24.21,Maxwell,2014,1326 USD,162 W
-208,Quadro M5000,workstation,24.21,Maxwell 2.0,2015,823 USD,150 W
-209,Quadro P2200,workstation,24.12,Pascal,2019,409 USD,75 W
-210,Radeon Pro 5600M,mobile workstation,24.04,Navi / RDNA,2020,−,50 W
-211,Quadro P3200 Max-Q,mobile workstation,23.80,Pascal,2018,−,75 W
-212,Arc A550M,notebook,23.67,Xe HPG,2022,−,80 W
-213,Radeon RX 5500 XT,desktop,23.65,RDNA 1.0,2019,317 USD,130 W
-214,Radeon Pro W5500,workstation,23.61,RDNA 1.0,2020,308 USD,125 W
-215,GeForce RTX 3050 Mobile,notebook,23.55,Ampere,2022,−,130 W
-216,GeForce GTX TITAN BLACK,desktop,23.36,Kepler,2014,799 USD,250 W
-217,GeForce GTX 1060 5 GB,desktop,23.33,Pascal,2017,203 USD,120 W
-218,GeForce GTX TITAN Z,desktop,23.20,Kepler,2014,830 USD,375 W
-219,Radeon R9 390,desktop,23.09,GCN 2.0,2015,20 USD,300 W
-220,RTX A1000 Mobile,notebook,23.05,Ampere,2022,−,95 W
-221,Quadro P3200,mobile workstation,23.02,Pascal,2017,2122 USD,78 W
-222,Radeon RX 6550M,notebook,23.02,RDNA 2,2023,−,80 W
-223,Radeon RX 580,desktop,22.92,Polaris,2017,138 USD,185 W
-224,Quadro P4000 Max-Q,mobile workstation,22.75,Pascal,2017,803 USD,80 W
-225,GeForce GTX 1660 Ti Max-Q,notebook,22.75,Turing,2019,1037 USD,60 W
-226,Radeon RX 5500,desktop,22.72,RDNA 1.0,2019,444 USD,110 W
-227,Tesla P4,workstation,22.38,Pascal,2016,92 USD,75 W
-228,Radeon RX 5600M,notebook,22.33,Navi / RDNA,2020,525 USD,60 W
-229,Radeon R9 295X2,desktop,22.30,GCN 2.0,2014,600 USD,500 W
-230,Radeon RX 480,desktop,22.29,Polaris,2016,174 USD,150 W
-231,GeForce GTX 980 Mobile,notebook,22.13,Maxwell,2014,251 USD,100 W
-232,Radeon R9 Nano,desktop,21.91,GCN 1.2,2015,27 USD,175 W
-233,GeForce GTX 880M SLI,notebook,21.90,Kepler,2014,3098 USD,206 W
-234,Quadro RTX 3000 Max-Q,mobile workstation,21.59,Turing,2019,−,60 W
-235,Radeon Pro 5500 XT,workstation,21.58,RDNA 1.0,2020,2499 USD,125 W
-236,Hawaii,desktop,21.25,GCN 2.0,−,11 USD,−
-237,Quadro P4000 Mobile,mobile workstation,21.13,Pascal,2017,1053 USD,73.4 W
-238,GeForce GTX TITAN,desktop,21.12,Kepler,2013,640 USD,250 W
-239,GeForce GTX 1060 Mobile,notebook,21.06,Pascal,2016,240 USD,80 W
-240,Radeon Pro Duo,workstation,21.00,GCN 3.0,2016,4200 USD,350 W
-241,Radeon RX 470,desktop,20.90,Polaris,2016,14 USD,120 W
-242,Radeon R9 290,desktop,20.89,GCN 2.0,2013,20 USD,275 W
-243,Quadro K6000,workstation,20.80,Kepler,2013,429 USD,225 W
-244,GeForce GTX 780,desktop,20.68,Kepler,2013,100 USD,250 W
-245,Quadro T2000 Mobile,mobile workstation,20.61,Turing,2019,2221 USD,60 W
-246,FirePro W9100,workstation,20.54,GCN 2.0,2014,1566 USD,275 W
-247,Radeon Pro W6400,workstation,20.53,RDNA 2.0,2022,206 USD,50 W
-248,Radeon RX 580 Mobile,notebook,20.50,Polaris,2017,410 USD,100 W
-249,Tesla M60,workstation,20.46,Maxwell 2.0,2015,81 USD,300 W
-250,Quadro M5500,mobile workstation,20.43,Maxwell,2016,1700 USD,150 W
-251,Radeon Pro WX 7100,workstation,20.35,Polaris,2017,582 USD,130 W
-252,GeForce GTX 1650,desktop,20.33,Turing,2019,185 USD,75 W
-253,Radeon RX 6500M,notebook,20.30,RDNA 2,2022,−,50 W
-254,Radeon RX 6500,notebook,20.25,,−,−,−
-255,Radeon RX 580X,desktop,20.13,GCN 4.0,2018,191 USD,185 W
-256,GeForce GTX 1650 Ti Mobile,notebook,20.12,Turing,2020,892 USD,50 W
-257,Radeon Pro 580,workstation,20.01,GCN 4.0,2017,5999 USD,150 W
-258,GeForce GTX 780M SLI,notebook,19.99,Kepler,2013,149 USD,200 W
-259,Radeon RX 580 2048SP,desktop,19.91,GCN 4.0,2018,110 USD,150 W
-260,T1200 Mobile,notebook,19.90,Turing,2021,−,95 W
-261,Quadro T1200 Mobile,mobile workstation,19.90,Turing,2021,−,95 W
-262,T1000,desktop,19.79,Turing,2021,119 USD,50 W
-263,T1000 8 GB,desktop,19.70,Turing,2021,690 USD,50 W
-264,Radeon RX 5300,desktop,19.69,RDNA 1.0,2020,558 USD,100 W
-265,Ellesmere,desktop,19.52,GCN 4.0,−,16 USD,−
-266,Radeon R9 M290X Crossfire,notebook,19.52,GCN,2014,−,200 W
-267,Radeon Pro 580X,workstation,19.46,GCN 4.0,2019,5999 USD,150 W
-268,Radeon RX 6400,desktop,19.45,RDNA 2.0,2022,376 USD,53 W
-269,Quadro P3000 Mobile,mobile workstation,19.19,Pascal,2017,537 USD,75 W
-270,Radeon R9 290X,desktop,19.17,GCN,2013,20 USD,350 W
-271,Radeon HD 8970M Crossfire,notebook,18.97,GCN,2012,170 USD,200 W
-272,GeForce GTX 980M,notebook,18.97,Maxwell,2014,583 USD,100 W
-273,Radeon RX 470 Mobile,notebook,18.82,Polaris,2016,148 USD,120 W
-274,FirePro W8100,workstation,18.79,GCN 2.0,2014,590 USD,220 W
-275,Quadro P2000,workstation,18.76,Pascal,2017,371 USD,75 W
-276,Radeon Pro 5300,workstation,18.66,RDNA 1.0,2020,1300 USD,85 W
-277,GeForce RTX 2050 Mobile,notebook,18.55,Ampere,2021,−,30 W
-278,Radeon 780M,notebook,18.37,RDNA 3,2023,−,54 W
-279,GeForce GTX 1650 Mobile,notebook,18.37,Turing,2019,301 USD,50 W
-280,Radeon RX 570,desktop,17.98,Polaris,2017,114 USD,120 W
-281,Radeon Pro W5500X,workstation,17.98,RDNA 1.0,2019,224 USD,125 W
-282,GeForce GTX 1070 Max-Q,notebook,17.94,Pascal,2017,1244 USD,115 W
-283,Arc A310,notebook,17.91,Xe HPG,2022,−,75 W
-284,Quadro M5000M,mobile workstation,17.89,Maxwell,2015,468 USD,100 W
-285,Quadro T2000 Max-Q,mobile workstation,17.87,Turing,2019,−,35 W
-286,Arc 8-Cores iGPU,notebook,17.81,Xe LPG,−,−,−
-287,Radeon Pro 5500M,mobile workstation,17.59,Navi / RDNA,2019,1950 USD,50 W
-288,Quadro T1000 Max-Q,mobile workstation,17.34,Turing,2019,−,35 W
-289,Arc 7-Cores iGPU,notebook,17.31,Xe LPG,−,−,−
-290,Quadro M4000,workstation,17.27,Maxwell 2.0,2015,314 USD,120 W
-291,Radeon R9 285,desktop,17.24,GCN 3.0,2014,85 USD,190 W
-292,GeForce GTX 965M SLI,notebook,17.23,Maxwell,2015,149 USD,−
-293,Quadro T1000,workstation,17.03,Turing,2019,920 USD,50 W
-294,Radeon RX Vega M GH,notebook,16.93,Vega,2018,1031 USD,100 W
-295,Radeon 680M,notebook,16.91,RDNA 2,2022,−,45 W
-296,Quadro T1000 Mobile,mobile workstation,16.88,Turing,2019,1890 USD,50 W
-297,Quadro P2000 Mobile,mobile workstation,16.86,Pascal,2017,1477 USD,50 W
-298,T600,desktop,16.69,Turing,2021,143 USD,40 W
-299,GeForce GTX 1650 Ti Max-Q,notebook,16.56,Turing,2020,1183 USD,35 W
-300,GeForce GTX 680M SLI,notebook,16.50,Kepler,2012,149 USD,−
-301,P106-100,desktop,16.41,Pascal,2017,15 USD,120 W
-302,Quadro T600 Mobile,mobile workstation,16.36,Turing,2021,−,40 W
-303,Radeon Pro 570,workstation,16.36,GCN 4.0,2017,356 USD,120 W
-304,GeForce GTX 1050 Ti,desktop,16.30,Pascal,2016,207 USD,70 W
-305,Radeon R9 380X,desktop,16.06,GCN 3.0,2015,12 USD,250 W
-306,Tesla K80,workstation,16.03,Kepler 2.0,2014,83 USD,300 W
-307,Radeon HD 7970M Crossfire,notebook,15.98,GCN,2012,126 USD,200 W
-308,Quadro M4000M,mobile workstation,15.98,Maxwell,2015,832 USD,100 W
-309,GeForce GTX 1650 Max-Q,notebook,15.91,Turing,2019,1185 USD,35 W
-310,Radeon R9 380,desktop,15.88,GCN,2015,13 USD,220 W
-311,GeForce MX570 A,desktop,15.88,Ampere,2022,1574 USD,25 W
-312,FirePro W9000,workstation,15.84,GCN 1.0,2012,877 USD,274 W
-313,Arc A370M,notebook,15.76,Xe HPG,2022,−,50 W
-314,GeForce GTX 960,desktop,15.65,Maxwell,2015,440 USD,100 W
-315,Quadro K5200,workstation,15.56,Kepler,2014,451 USD,150 W
-316,GeForce MX570,notebook,15.54,Ampere,2021,−,15 W
-317,Radeon Pro 5300M,mobile workstation,15.47,Navi / RDNA,2019,2068 USD,65 W
-318,Tesla M6,workstation,15.32,Maxwell 2.0,2015,350 USD,100 W
-319,Radeon RX 6300,desktop,15.30,RDNA 2.0,−,−,32 W
-320,GeForce GTX 770,desktop,15.29,Kepler,2013,254 USD,230 W
-321,GeForce GTX 1050 Ti Mobile,notebook,15.28,Pascal,2017,545 USD,75 W
-322,Radeon PRO W6300,workstation,15.22,RDNA 2.0,2022,−,25 W
-323,Radeon 760M,notebook,15.22,RDNA 3,2023,−,54 W
-324,GeForce GTX 1060 Max-Q 6 GB,notebook,15.21,Pascal,2017,1010 USD,60 W
-325,Radeon R9 280X,desktop,15.07,GCN,2013,12 USD,200 W
-326,FirePro W7100,workstation,14.96,GCN 3.0,2014,466 USD,150 W
-327,GeForce GTX 970M,notebook,14.80,Maxwell,2014,848 USD,81 W
-328,Arc A380,notebook,14.45,Generation 12.7,2022,591 USD,75 W
-329,GeForce GTX 690,desktop,14.43,Kepler,2012,411 USD,300 W
-330,Radeon Pro WX 5100,workstation,14.42,GCN 4.0,2016,854 USD,75 W
-331,Radeon HD 7990,desktop,14.37,GCN 1.0,2013,486 USD,375 W
-332,Radeon R9 280,desktop,14.36,GCN 1.0,2014,91 USD,200 W
-333,GeForce GTX 770M SLI,notebook,14.35,Kepler,2013,149 USD,150 W
-334,Tonga,desktop,14.31,GCN 3.0,−,23 USD,−
-335,Radeon RX Vega M GL / 870,notebook,14.31,Vega,2018,−,65 W
-336,Quadro M3000M,mobile workstation,14.31,Maxwell,2015,981 USD,75 W
-337,GeForce GTX 680,desktop,14.30,Kepler,2012,156 USD,195 W
-338,UHD Graphics 730 (Rocket Lake),notebook,14.23,,2021,−,15 W
-339,Arc A350M,notebook,14.16,Xe HPG,2022,−,35 W
-340,Radeon RX 5500M,notebook,14.15,Navi / RDNA,2019,998 USD,85 W
-341,Radeon E8950,desktop,14.15,GCN 3.0,2015,−,95 W
-342,Apple M1 8-Core GPU,notebook,14.03,,2020,−,−
-343,GeForce GTX 760 Ti OEM,desktop,14.01,Kepler,2013,229 USD,170 W
-344,GeForce GTX 1050 Ti Max-Q,notebook,13.87,Pascal,2018,1140 USD,40 W
-345,FirePro D700,workstation,13.83,GCN 1.0,2014,413 USD,274 W
-346,GeForce GTX 950,desktop,13.78,Maxwell,2015,13 USD,90 W
-347,GeForce GTX 670,desktop,13.76,Kepler,2012,22 USD,170 W
-348,Radeon Pro Vega 20,mobile workstation,13.68,Vega,2018,360 USD,100 W
-349,Quadro P2000 Max-Q,mobile workstation,13.64,Pascal,2017,426 USD,−
-350,Radeon HD 7970,desktop,13.55,GCN,2011,89 USD,250 W
-351,GRID M60-2Q,workstation,13.43,Maxwell 2.0,2015,−,225 W
-352,Radeon R9 M395X,notebook,13.41,GCN 3,2014,−,125 W
-353,Radeon R9 M295X Mac Edition,desktop,13.38,GCN 3.0,2014,−,250 W
-354,Radeon R9 M295X,notebook,13.29,GCN 3,2014,−,125 W
-355,GeForce GTX 1050 3 GB,desktop,13.26,Pascal,2018,1118 USD,75 W
-356,FirePro S9000,workstation,13.06,GCN 1.0,2012,433 USD,225 W
-357,GeForce GTX 1050,desktop,13.03,Pascal,2016,211 USD,60 W
-358,Radeon R9 M395,notebook,12.97,GCN,2015,1288 USD,−
-359,GeForce GTX 1630,desktop,12.91,Turing,2022,213 USD,75 W
-360,GeForce GTX 1050 3GB Mobile,notebook,12.77,,2018,−,−
-361,FirePro S9050,workstation,12.65,GCN 1.0,2014,782 USD,225 W
-362,Radeon R9 270X,desktop,12.62,GCN,2013,136 USD,180 W
-363,Radeon Pro Vega 16,mobile workstation,12.41,Vega,2018,511 USD,75 W
-364,GeForce GTX 760,desktop,12.36,Kepler,2013,136 USD,170 W
-365,FirePro S10000,workstation,12.31,GCN 1.0,2012,22 USD,375 W
-366,Radeon HD 7950,desktop,12.30,GCN 1.0,2012,431 USD,200 W
-367,Radeon Sky 500,desktop,12.30,GCN 1.0,2013,129 USD,150 W
-368,GeForce GTX 860M SLI,notebook,12.27,Maxwell,2014,489 USD,120 W
-369,Radeon R9 370,desktop,12.19,GCN 1.0,2015,325 USD,110 W
-370,Radeon Pro WX Vega M GL,mobile workstation,11.99,Vega,2018,1359 USD,65 W
-371,Radeon HD 7870,desktop,11.96,GCN,2012,200 USD,200 W
-372,GeForce MX550,notebook,11.91,Turing,2021,−,15 W
-373,GeForce GTX 580,desktop,11.78,Fermi,2010,15 USD,244 W
-374,FirePro S7000,workstation,11.68,GCN 1.0,2012,300 USD,150 W
-375,Radeon R7 370,desktop,11.67,GCN 1.0,2015,378 USD,100 W
-376,Tesla K40c,workstation,11.60,Kepler,2013,360 USD,245 W
-377,Radeon HD 7870 XT,desktop,11.54,GCN 1.0,2012,133 USD,185 W
-378,GeForce GTX 1050 Mobile,notebook,11.52,Pascal,2017,256 USD,75 W
-379,Quadro P1000,workstation,11.50,Pascal,2017,301 USD,40 W
-380,Tesla K20m,workstation,11.44,Kepler,2013,5781 USD,225 W
-381,Iris Xe MAX Graphics,notebook,11.39,Gen. 12 Xe,2020,−,25 W
-382,GeForce GTX 660 Ti,desktop,11.37,Kepler,2012,189 USD,150 W
-383,Radeon RX 560 Mobile,notebook,11.24,Polaris,2017,468 USD,75 W
-384,Quadro K4200,workstation,11.16,Kepler,2014,311 USD,108 W
-385,Radeon RX 5300M,notebook,11.12,Navi / RDNA,2019,525 USD,65 W
-386,Radeon R9 270,desktop,11.12,GCN 1.0,2013,229 USD,150 W
-387,Radeon RX 560X Mobile,notebook,11.08,Polaris,2017,520 USD,60 W
-388,Quadro M2200,mobile workstation,11.07,Maxwell,2017,1967 USD,55 W
-389,FirePro W7000,workstation,11.02,GCN 1.0,2012,195 USD,150 W
-390,CMP 30HX,desktop,10.97,Turing,2021,24 USD,125 W
-391,GeForce GTX 680MX,notebook,10.69,Kepler,2012,200 USD,122 W
-392,Iris Xe Graphics G7,notebook,10.66,Gen. 11 Ice Lake,2020,−,−
-393,GeForce GTX 765M SLI,notebook,10.60,Kepler,2013,149 USD,130 W
-394,GeForce GTX 480,desktop,10.59,Fermi,2010,16 USD,295 W
-395,Radeon RX 460,desktop,10.59,Polaris,2016,397 USD,75 W
-396,FirePro W8000,workstation,10.57,GCN 1.0,2012,215 USD,225 W
-397,GeForce GTX 1050 Max-Q,notebook,10.43,Pascal,2018,1085 USD,34 W
-398,T550 Mobile,notebook,10.35,Turing,2022,−,25 W
-399,GeForce GTX 780 Rev. 2,desktop,10.34,Kepler,2013,270 USD,250 W
-400,FirePro D500,workstation,10.34,GCN 1.0,2014,475 USD,274 W
-401,Radeon R7 265,desktop,10.33,GCN 1.0,2014,242 USD,150 W
-402,GeForce GTX 660,desktop,10.32,Kepler,2012,172 USD,140 W
-403,Quadro M2000,workstation,10.31,Maxwell 2.0,2016,285 USD,75 W
-404,Quadro K5000,workstation,10.29,Kepler,2012,289 USD,122 W
-405,Radeon RX 7600M,notebook,10.17,RDNA 3,2023,−,90 W
-406,Radeon RX 460 Mobile,notebook,10.15,Polaris,2016,95 USD,75 W
-407,GeForce GTX 580M SLI,notebook,10.15,Fermi,2011,249 USD,100 W
-408,GeForce GTX 570,desktop,10.13,Fermi,2010,13 USD,219 W
-409,GeForce GTX 750 Ti,desktop,10.08,Maxwell,2014,357 USD,75 W
-410,GRID M60-8Q,workstation,10.02,Maxwell 2.0,2015,−,225 W
-411,Radeon HD 8970M,notebook,10.01,GCN,2013,135 USD,100 W
-412,Radeon HD 6990M Crossfire,notebook,9.99,Terascale 2,2011,170 USD,−
-413,Tiger Lake-U Xe Graphics G7,notebook,9.97,Gen. 11 Ice Lake,2020,−,−
-414,Radeon HD 7850,desktop,9.95,GCN 1.0,2012,267 USD,130 W
-415,Radeon HD 7970M,notebook,9.93,GCN,2012,338 USD,100 W
-416,GeForce GTX 880M,notebook,9.92,Kepler,2014,1544 USD,103 W
-417,GeForce GTX 780M,notebook,9.86,Kepler,2013,1093 USD,100 W
-418,Radeon R9 M390,notebook,9.81,GCN,2015,−,−
-419,GeForce GTX 670MX SLI,notebook,9.79,Kepler,2012,−,150 W
-420,FirePro D300,workstation,9.79,GCN 1.0,2014,260 USD,150 W
-421,Radeon 660M,notebook,9.78,RDNA 2,2022,−,45 W
-422,GeForce GTX 965M,notebook,9.74,Maxwell,2015,1546 USD,50 W
-423,GeForce MX450,notebook,9.63,Turing,2020,−,25 W
-424,T400 4 GB,desktop,9.61,Turing,2021,216 USD,30 W
-425,Radeon Pro WX 4100,workstation,9.59,GCN 4.0,2016,711 USD,50 W
-426,GRID M60-1Q,workstation,9.54,Maxwell 2.0,2015,−,225 W
-427,Tesla K8,workstation,9.52,Kepler,2014,249 USD,100 W
-428,Radeon Pro 560X,mobile workstation,9.49,Polaris,2017,133 USD,35 W
-429,Tesla M2090,workstation,9.46,Fermi 2.0,2011,1844 USD,250 W
-430,Radeon R9 M485X,notebook,9.45,GCN 3,2016,2500 USD,125 W
-431,Radeon RX 560,desktop,9.41,GCN 4.0,2017,381 USD,75 W
-432,P104-100,desktop,9.40,Pascal,2017,17 USD,−
-433,Radeon RX Vega M GL,notebook,9.38,GCN 4.0,2018,1307 USD,65 W
-434,T400,desktop,9.37,Turing,2021,83 USD,30 W
-435,Quadro P620,workstation,9.35,Pascal,2019,170 USD,25 W
-436,Radeon R9 M390X,notebook,9.29,GCN 3,2015,−,125 W
-437,GeForce GTX 775M,notebook,9.27,Kepler,2013,780 USD,100 W
-438,GRID M6-8Q,workstation,9.21,Maxwell 2.0,2015,−,100 W
-439,GeForce GTX 485M SLI,notebook,9.19,Fermi,2011,149 USD,100 W
-440,Quadro K2200,workstation,9.16,Maxwell,2014,313 USD,68 W
-441,Radeon 740M,notebook,9.15,RDNA 3,2023,−,30 W
-442,GRID K520,workstation,9.08,Kepler,2013,80 USD,225 W
-443,Radeon RX Vega 8 (Ryzen 4000/5000),notebook,9.06,Vega,2020,−,15 W
-444,Quadro 7000,workstation,9.05,Fermi 2.0,2012,965 USD,204 W
-445,Iris Xe Graphics G7 96EUs,notebook,9.02,Gen. 11 Ice Lake,2020,−,28 W
-446,Radeon HD 6970M Crossfire,notebook,8.99,Terascale 2,2011,170 USD,−
-447,Radeon Pro 560,mobile workstation,8.97,Polaris,2017,127 USD,35 W
-448,Quadro K2200M,workstation,8.95,Maxwell,2014,228 USD,65 W
-449,Quadro M2000M,mobile workstation,8.94,Maxwell,2015,363 USD,55 W
-450,Quadro T500 Mobile,mobile workstation,8.92,Turing,2019,−,25 W
-451,Radeon Pro 460,mobile workstation,8.91,Polaris,2016,100 USD,35 W
-452,GeForce GTX 870M,notebook,8.90,Kepler,2014,403 USD,100 W
-453,Tesla K20c,workstation,8.90,Kepler,2012,591 USD,225 W
-454,GeForce GTX 960M,notebook,8.78,Maxwell,2015,799 USD,75 W
-455,GeForce GTX 675M SLI,notebook,8.75,Fermi,2011,499 USD,2 W
-456,Tesla C2075,workstation,8.68,Fermi 2.0,2011,2237 USD,247 W
-457,GeForce GTX 750,desktop,8.67,Maxwell,2014,340 USD,55 W
-458,GeForce GT 755M SLI,notebook,8.67,Kepler,2013,545 USD,2 W
-459,GeForce GTX 650 Ti Boost,desktop,8.65,Kepler,2013,285 USD,134 W
-460,GeForce GTX 590,desktop,8.62,Fermi,2011,600 USD,365 W
-461,Tesla K40m,workstation,8.47,Kepler,2013,744 USD,245 W
-462,Quadro P600,workstation,8.45,Pascal,2017,207 USD,25 W
-463,Radeon R9 M290X,notebook,8.42,GCN,2014,613 USD,100 W
-464,Radeon R9 M470X,notebook,8.37,GCN 2,2016,−,−
-465,Quadro M1200,mobile workstation,8.37,Maxwell,2017,1372 USD,45 W
-466,Radeon Pro 555X,mobile workstation,8.35,Polaris,2017,894 USD,−
-467,GeForce GTX 680M,notebook,8.30,Kepler,2012,293 USD,100 W
-468,Radeon RX 560X,desktop,8.25,GCN 4.0,2018,999 USD,75 W
-469,Radeon R7 260X,desktop,8.21,GCN 2.0,2013,204 USD,115 W
-470,Tesla C2050,workstation,8.20,Fermi,2011,70 USD,238 W
-471,Tesla M10,workstation,8.19,Maxwell,2016,1999 USD,225 W
-472,Bonaire,desktop,8.17,GCN 2.0,−,41 USD,−
-473,FirePro W7170M,mobile workstation,8.16,GCN 3,2015,600 USD,100 W
-474,GeForce GTX 560 Ti 448,desktop,8.15,Fermi 2.0,2011,624 USD,210 W
-475,Radeon Pro 555,mobile workstation,8.11,Polaris,2017,894 USD,−
-476,Baffin,desktop,8.09,GCN 4.0,−,127 USD,−
-477,Radeon Pro 455,mobile workstation,8.03,Polaris,2016,696 USD,−
-478,GeForce GTX 470,desktop,8.01,Fermi,2010,10 USD,225 W
-479,Radeon R7 360,desktop,7.98,GCN 2.0,2015,14 USD,80 W
-480,Radeon HD 7790,desktop,7.98,GCN 2.0,2013,219 USD,85 W
-481,Quadro K5100M,mobile workstation,7.93,Kepler,2013,440 USD,100 W
-482,GeForce GTX 560 Ti,desktop,7.84,Fermi,2011,130 USD,160 W
-483,GeForce GTX 860M,notebook,7.81,Maxwell,2014,875 USD,75 W
-484,FirePro W5100,workstation,7.78,GCN 2.0,2014,220 USD,50 W
-485,Radeon HD 6990,desktop,7.78,TeraScale 3,2011,144 USD,375 W
-486,Cypress,desktop,7.68,TeraScale 2,−,12 USD,−
-487,FirePro W5000,workstation,7.67,GCN 1.0,2012,141 USD,75 W
-488,Tahiti,desktop,7.66,GCN 1.0,−,20 USD,−
-489,GRID M3-3020,workstation,7.63,Maxwell,2016,−,−
-490,GRID K260Q,workstation,7.61,Kepler,2013,−,225 W
-491,Iris Xe Graphics G7 80EUs,notebook,7.60,Gen. 11 Ice Lake,2020,−,28 W
-492,Quadro K1200,workstation,7.54,Maxwell,2015,124 USD,45 W
-493,Tesla K20Xm,workstation,7.53,Kepler,2012,−,235 W
-494,FirePro W4300,workstation,7.47,GCN 2.0,2015,129 USD,50 W
-495,Radeon R7 260,desktop,7.46,GCN 2.0,2013,205 USD,95 W
-496,Quadro M1000M,mobile workstation,7.43,Maxwell,2015,706 USD,40 W
-497,Radeon RX Vega 7,notebook,7.43,Vega,2020,387 USD,15 W
-498,Radeon Pro V340 MxGPU,workstation,7.36,GCN 5.0,2018,−,300 W
-499,GRID K280Q,workstation,7.33,Kepler,2013,−,225 W
-500,Tesla C2070,workstation,7.33,Fermi,2011,5193 USD,238 W
-501,Radeon HD 6970,desktop,7.32,Terascale 2,2010,189 USD,250 W
-502,Quadro M620,mobile workstation,7.27,Maxwell,2017,1958 USD,30 W
-503,Radeon HD 6930,desktop,7.25,TeraScale 3,2011,12 USD,186 W
-504,GeForce MX350,notebook,7.24,Pascal,2020,−,25 W
-505,GeForce GTX 770M,notebook,7.20,Kepler,2013,178 USD,50 W
-506,Radeon RX 540,notebook,7.20,Polaris,2017,166 USD,75 W
-507,Quadro K5000M,mobile workstation,7.17,Kepler,2012,382 USD,100 W
-508,UHD Graphics 64EUs (Alder Lake 12th Gen),notebook,7.17,Gen. 12,2022,−,−
-509,Radeon R9 M380,notebook,7.13,GCN,2015,−,−
-510,GeForce GTX 675MX,notebook,7.08,Kepler,2012,868 USD,100 W
-511,GRID K2,workstation,7.06,Kepler,2013,10 USD,225 W
-512,GeForce GTX 560,desktop,7.06,Fermi 2.0,2011,76 USD,150 W
-513,Quadro K4100M,mobile workstation,7.06,Kepler,2013,323 USD,100 W
-514,FirePro S7150,workstation,7.04,GCN 3.0,2016,7738 USD,150 W
-515,Quadro K4000,workstation,7.03,Kepler,2013,330 USD,80 W
-516,Radeon Pro 450,mobile workstation,7.03,Polaris,2016,183 USD,75 W
-517,GeForce GTX 570 Rev. 2,desktop,7.03,Fermi 2.0,2010,249 USD,219 W
-518,Radeon RX 550,desktop,7.00,GCN 4.0,2017,121 USD,50 W
-519,Quadro 6000,workstation,6.99,Fermi,2010,1730 USD,204 W
-520,Radeon RX 550 Mobile,notebook,6.92,Polaris,2017,294 USD,50 W
-521,GeForce GTX 465,desktop,6.88,Fermi,2010,16 USD,200 W
-522,GeForce GT 750M SLI,notebook,6.88,Kepler,2013,545 USD,−
-523,FirePro R5000,workstation,6.83,GCN 1.0,2013,500 USD,150 W
-524,Radeon HD 6950,desktop,6.74,TeraScale 3,2010,320 USD,200 W
-525,GRID M10-8Q,workstation,6.73,Maxwell,2016,−,225 W
-526,GeForce GTX 950A,desktop,6.72,Maxwell,2015,1099 USD,75 W
-527,GeForce GTX 950M,notebook,6.68,Maxwell,2015,797 USD,75 W
-528,GeForce GTX 780M Mac Edition,desktop,6.67,Kepler,2013,149 USD,122 W
-529,GeForce GTX 470M SLI,notebook,6.62,Fermi,2010,149 USD,−
-530,GRID K240Q,workstation,6.56,Kepler,2013,−,225 W
-531,Radeon HD 6850 X2,desktop,6.54,TeraScale 2,2011,−,254 W
-532,FireStream 9370,desktop,6.53,TeraScale 2,2010,−,225 W
-533,GeForce GTX 650 Ti,desktop,6.51,Kepler,2012,251 USD,110 W
-534,Radeon PRO WX 3100,mobile workstation,6.50,Polaris,2017,242 USD,65 W
-535,GeForce GTX 850M,notebook,6.49,Maxwell,2014,163 USD,45 W
-536,GeForce GTX 560M SLI,notebook,6.45,Fermi,2011,149 USD,100 W
-537,Radeon Pro WX 4150,mobile workstation,6.45,Polaris,2017,2000 USD,50 W
-538,GeForce GTX 480M SLI,notebook,6.44,Fermi,2010,149 USD,100 W
-539,GeForce GT 1030,desktop,6.38,Pascal,2017,137 USD,30 W
-540,GeForce MX330,notebook,6.33,Pascal,2020,1079 USD,25 W
-541,Radeon Pro WX 3200,workstation,6.27,Polaris,2019,740 USD,65 W
-542,GeForce MX250,notebook,6.25,Pascal,2019,1165 USD,10 W
-543,Radeon RX Vega 6 (Ryzen 4000/5000),notebook,6.24,Vega,2020,−,15 W
-544,GeForce GTX 960A,desktop,6.22,Maxwell,2015,243 USD,75 W
-545,UHD Graphics 770,desktop,6.13,Alder Lake,2022,878 USD,15 W
-546,GeForce GTX 485M,notebook,6.09,Fermi,2010,163 USD,100 W
-547,FirePro W6150M,workstation,6.09,GCN 2.0,2015,299 USD,−
-548,P106-090,desktop,6.05,Pascal,2017,26 USD,75 W
-549,Radeon RX 550X Mobile,notebook,6.04,Polaris,2019,299 USD,50 W
-550,Radeon R9 M470,notebook,6.01,GCN 2,2016,−,−
-551,FirePro V7900,workstation,5.95,TeraScale 3,2011,165 USD,150 W
-552,Radeon HD 5970,desktop,5.94,TeraScale 2,2009,69 USD,294 W
-553,GeForce MX150,notebook,5.88,Pascal,2017,1049 USD,25 W
-554,Quadro K3100M,mobile workstation,5.86,Kepler,2013,683 USD,75 W
-555,Radeon HD 6970M,notebook,5.86,Terascale 2,2011,257 USD,75 W
-556,Radeon R7 250X,desktop,5.85,GCN 1.0,2014,207 USD,80 W
-557,GeForce GTX 460,desktop,5.84,Fermi,2010,128 USD,160 W
-558,Radeon RX 550X,desktop,5.82,GCN 4.0,2018,259 USD,50 W
-559,Quadro K620,workstation,5.77,Maxwell,2014,286 USD,45 W
-560,Radeon HD 6870,desktop,5.73,Terascale 2,2010,332 USD,151 W
-561,Radeon HD 5870,desktop,5.72,TeraScale 2,2009,125 USD,188 W
-562,FirePro W5170M,mobile workstation,5.66,GCN,2015,1530 USD,−
-563,Radeon RX Vega 9,notebook,5.61,Vega,2017,302 USD,15 W
-564,Radeon HD 7770,desktop,5.60,GCN,2012,300 USD,80 W
-565,Radeon R7 350,desktop,5.56,GCN 1.0,2016,142 USD,55 W
-566,Quadro M600M,mobile workstation,5.54,Maxwell,2015,103 USD,30 W
-567,Iris Plus Graphics G7 (Ice Lake 64 EU),notebook,5.53,Gen. 11 Ice Lake,2019,−,12 W
-568,FirePro M6100,mobile workstation,5.48,GCN,2013,120 USD,−
-569,Juniper,desktop,5.47,TeraScale 2,−,23 USD,−
-570,Radeon RX Vega 11,desktop,5.47,Vega,2017,475 USD,65 W
-571,GeForce 945M,notebook,5.44,Maxwell,2015,163 USD,75 W
-572,Quadro P520,mobile workstation,5.43,Pascal,2019,1670 USD,18 W
-573,FirePro M5100,mobile workstation,5.43,GCN,2013,105 USD,−
-574,GeForce GTX 580M,notebook,5.35,Fermi,2011,170 USD,100 W
-575,Radeon R9 M385,notebook,5.32,GCN,2015,999 USD,−
-576,Quadro 5000M,mobile workstation,5.32,Fermi,2010,3732 USD,100 W
-577,Radeon HD 6990M,notebook,5.22,Terascale 2,2011,190 USD,100 W
-578,Iris Pro Graphics P580,notebook,5.21,Gen. 9 Skylake,2015,−,15 W
-579,GeForce GTX 460 SE,desktop,5.19,Fermi,2010,350 USD,150 W
-580,Radeon Pro W5500M,workstation,5.19,RDNA 1.0,2020,2381 USD,85 W
-581,Radeon R9 M385X,notebook,5.14,GCN,2015,999 USD,−
-582,GeForce GTX 765M,notebook,5.14,Kepler,2013,93 USD,60 W
-583,Radeon HD 5850,desktop,5.13,Terascale 2,2009,120 USD,151 W
-584,Radeon HD 6850,desktop,5.09,TeraScale 2,2010,177 USD,127 W
-585,GeForce GT 650M SLI,notebook,5.09,Kepler,2012,545 USD,−
-586,Radeon Pro WX 4130,mobile workstation,5.07,Polaris,2017,2000 USD,50 W
-587,Quadro K4000M,mobile workstation,5.06,Kepler,2012,240 USD,100 W
-588,GeForce GTX 470M,notebook,5.04,Fermi,2010,78 USD,75 W
-589,Radeon RX 640,notebook,5.03,Polaris,2019,193 USD,50 W
-590,GeForce GTX 670MX,notebook,5.03,Kepler,2012,−,75 W
-591,GeForce GTX 675M,notebook,4.98,Fermi,2012,218 USD,100 W
-592,Quadro 5000,workstation,4.98,Fermi,2011,991 USD,152 W
-593,Radeon RX 570X,desktop,4.96,GCN 4.0,2018,186 USD,120 W
-594,GeForce GTX 560 SE,desktop,4.94,Fermi 2.0,2012,703 USD,150 W
-595,GeForce GTX 460M SLI,notebook,4.92,Fermi,2010,149 USD,−
-596,Radeon 550,desktop,4.87,GCN 4.0,2017,94 USD,50 W
-597,Tesla M2070,workstation,4.86,Fermi,2011,4064 USD,225 W
-598,Mobility Radeon HD 5870 Crossfire,notebook,4.85,Terascale 2,2010,56 USD,120 W
-599,Qualcomm Adreno 690,notebook,4.85,,2018,−,7 W
-600,GeForce GTX 460 v2,desktop,4.83,Fermi 2.0,2011,235 USD,160 W
-601,Quadro M520,mobile workstation,4.83,Maxwell,2017,−,25 W
-602,GeForce GTX 570M,notebook,4.81,Fermi,2011,163 USD,75 W
-603,GeForce MX130,notebook,4.79,Maxwell,2018,899 USD,15 W
-604,GeForce 945A,desktop,4.78,Maxwell,2015,−,33 W
-605,Iris Pro Graphics 580,notebook,4.75,Gen. 9 Skylake,2015,2427 USD,15 W
-606,GeForce MX230,notebook,4.75,Pascal,2019,1221 USD,10 W
-607,Radeon R9 M360,desktop,4.74,GCN 1.0,2015,1140 USD,−
-608,Radeon PRO WX 2100,mobile workstation,4.73,Polaris,2018,343 USD,50 W
-609,UHD Graphics Xe 32EUs (Tiger Lake-H),notebook,4.70,Gen. 12,2021,−,−
-610,FirePro M6000,mobile workstation,4.70,GCN,2012,162 USD,43 W
-611,Radeon RX Vega 5,notebook,4.65,Vega,2020,287 USD,15 W
-612,Quadro 5010M,mobile workstation,4.57,Fermi,2011,134 USD,100 W
-613,Iris Plus Graphics 650,notebook,4.54,Gen. 9.5 Kaby Lake,2017,949 USD,15 W
-614,UHD Graphics Xe G4 48EUs,notebook,4.53,Gen. 11 Ice Lake,2020,−,28 W
-615,GeForce GTX 650,desktop,4.52,Kepler,2012,207 USD,65 W
-616,Radeon R9 M375X,desktop,4.49,GCN 1.0,2015,448 USD,−
-617,Radeon RX Vega 8 (Ryzen 2000/3000),notebook,4.48,Vega,2017,−,15 W
-618,GeForce GTX 670M,notebook,4.48,Fermi,2012,3 USD,75 W
-619,Radeon HD 5830,desktop,4.48,TeraScale 2,2010,12 USD,175 W
-620,UHD Graphics 750,notebook,4.47,Generation 12.1,2021,1454 USD,15 W
-621,GeForce GTX 760M,notebook,4.43,Kepler,2013,163 USD,45 W
-622,Radeon HD 5770,desktop,4.40,Terascale 2,2009,103 USD,108 W
-623,UHD Graphics Xe 750 32EUs,notebook,4.39,Gen. 12,2021,−,−
-624,Radeon HD 7750,desktop,4.38,GCN 1.0,2012,108 USD,55 W
-625,GeForce GTS 450 Rev. 2,desktop,4.38,Fermi 2.0,2011,−,106 W
-626,GeForce GTX 460 768MB,desktop,4.38,Fermi,−,149 USD,−
-627,GeForce GT 755M,notebook,4.35,Kepler,2013,310 USD,50 W
-628,Radeon E8860,desktop,4.35,GCN 1.0,2014,−,37 W
-629,Radeon Graphics (Ryzen 7000),notebook,4.33,RDNA 2,2022,−,−
-630,GeForce GT 750M Mac Edition,desktop,4.32,Kepler,2013,50 USD,50 W
-631,FirePro W600,workstation,4.31,GCN 1.0,2012,358 USD,75 W
-632,Radeon R7 M380,notebook,4.31,GCN,2015,−,−
-633,Radeon R7 250E,desktop,4.28,GCN 1.0,2013,599 USD,55 W
-634,Quadro K3000M,mobile workstation,4.25,Kepler,2012,223 USD,75 W
-635,GRID M40,workstation,4.25,Maxwell,2016,484 USD,50 W
-636,Radeon RX Vega 10,notebook,4.23,Vega,2017,449 USD,15 W
-637,Radeon HD 8870M,notebook,4.23,GCN,2012,338 USD,−
-638,Quadro P400,workstation,4.23,Pascal,2017,73 USD,30 W
-639,Quadro P500,mobile workstation,4.21,Pascal,2017,300 USD,18 W
-640,GeForce GTX 285M SLI,notebook,4.20,G9x,2009,149 USD,150 W
-641,Iris Plus Graphics 655,notebook,4.20,Gen. 9.5 Kaby Lake,2017,999 USD,15 W
-642,Radeon R7 M465X,desktop,4.19,GCN 1.0,2016,−,−
-643,GeForce GTX 480M,notebook,4.17,Fermi,2010,163 USD,100 W
-644,Radeon HD 6790,desktop,4.17,Terascale 2,2011,184 USD,150 W
-645,FirePro M4000,mobile workstation,4.14,GCN,2012,433 USD,33 W
-646,Quadro K2000D,workstation,4.07,Kepler,2013,438 USD,51 W
-647,Quadro K2000,workstation,4.07,Kepler,2013,550 USD,51 W
-648,Iris Plus Graphics G4 (Ice Lake 48 EU),notebook,4.02,Gen. 11 Ice Lake,2019,−,12 W
-649,GeForce GTX 550 Ti,desktop,3.99,Fermi,2011,197 USD,116 W
-650,Radeon R9 M370X,notebook,3.99,GCN 1.0,2015,−,−
-651,Iris Plus Graphics 645,notebook,3.97,Gen. 9.5 Coffee Lake,2019,−,15 W
-652,Radeon R9 M275X,desktop,3.97,GCN 1.0,2014,10 USD,−
-653,FirePro W4100,workstation,3.94,GCN,2015,916 USD,50 W
-654,GeForce 845M,notebook,3.93,Maxwell,2014,163 USD,33 W
-655,GeForce GTX 285,desktop,3.91,Tesla 2.0,2008,98 USD,204 W
-656,GeForce 940MX,notebook,3.91,Maxwell,2016,950 USD,15 W
-657,Iris Pro Graphics 6200,notebook,3.90,Gen. 8 Broadwell,2015,645 USD,15 W
-658,Radeon HD 7870M,notebook,3.89,GCN,2012,338 USD,45 W
-659,Radeon HD 4890,desktop,3.89,TeraScale,2009,12 USD,190 W
-660,GeForce GT 740,desktop,3.85,Kepler,2014,279 USD,64 W
-661,Iris Plus Graphics 640,notebook,3.84,Gen. 9.5 Kaby Lake,2017,669 USD,15 W
-662,Radeon R9 M365X,notebook,3.82,GCN,2015,−,−
-663,Quadro 4000,workstation,3.82,Fermi,2010,295 USD,142 W
-664,Radeon 550X,desktop,3.77,GCN 4.0,2019,468 USD,50 W
-665,GeForce MX110,notebook,3.73,Maxwell,2018,1057 USD,30 W
-666,GeForce GTX 660M,notebook,3.69,Kepler,2012,276 USD,50 W
-667,Radeon 540X,notebook,3.68,GCN 4.0,2019,421 USD,50 W
-668,Maxwell GPU Surface Book,notebook,3.67,Maxwell,2015,−,−
-669,Oland,desktop,3.66,GCN 1.0,−,166 USD,−
-670,Radeon R7 M370,notebook,3.66,GCN,2015,875 USD,−
-671,FirePro V5800,workstation,3.65,TeraScale 2,2010,354 USD,74 W
-672,GeForce GTX 275,desktop,3.65,Tesla 2.0,2009,82 USD,219 W
-673,"Maxwell GPU Surface Book (940M, GDDR5)",notebook,3.65,Maxwell,2015,−,−
-674,FirePro W5130M,mobile workstation,3.64,GCN,2015,1041 USD,−
-675,UHD Graphics 32EUs (Alder Lake),notebook,3.58,,−,−,−
-676,Iris Graphics 550,notebook,3.58,Gen. 9 Skylake,2015,−,15 W
-677,Radeon HD 7770M,notebook,3.55,GCN,2012,338 USD,32 W
-678,Radeon HD 7850M,notebook,3.54,GCN,2012,338 USD,32 W
-679,Radeon HD 6950M,notebook,3.53,Terascale 2,2011,338 USD,50 W
-680,Radeon HD 4870,desktop,3.53,TeraScale,2008,162 USD,150 W
-681,Radeon 540,desktop,3.51,GCN 4.0,2019,1233 USD,50 W
-682,Quadro K2100M,mobile workstation,3.51,Kepler,2013,208 USD,55 W
-683,GeForce GT 640 Rev. 2,desktop,3.51,Kepler 2.0,2013,230 USD,49 W
-684,GeForce GTX 280M SLI,notebook,3.46,G9x,2009,149 USD,150 W
-685,FireStream 9270,desktop,3.46,TeraScale,2008,−,160 W
-686,Quadro 4000M,mobile workstation,3.43,Fermi,2011,118 USD,100 W
-687,GeForce GT 750M,notebook,3.42,Kepler,2013,1119 USD,35 W
-688,GeForce GTS 450,desktop,3.42,Fermi,2010,127 USD,106 W
-689,FirePro M5950,mobile workstation,3.39,Terascale 2,2011,386 USD,35 W
-690,Radeon HD 4870 X2,desktop,3.38,TeraScale,2008,202 USD,286 W
-691,Tesla M2070-Q,workstation,3.37,Fermi,2011,−,225 W
-692,Radeon HD 8790M,notebook,3.37,GCN,2012,460 USD,−
-693,Radeon R7 M275DX,notebook,3.37,GCN,2014,−,−
-694,GeForce GTX 280,desktop,3.35,Tesla 2.0,2008,159 USD,236 W
-695,GeForce GTX 660 OEM,desktop,3.34,Kepler,2012,481 USD,130 W
-696,GeForce 930MX,notebook,3.34,Maxwell,2016,1808 USD,15 W
-697,Cayman,desktop,3.31,TeraScale 3,−,15 USD,−
-698,Radeon 630,notebook,3.28,GCN 1.0,2019,65 USD,50 W
-699,FirePro V5900,workstation,3.28,TeraScale 3,2011,89 USD,75 W
-700,GeForce 930A,desktop,3.27,Maxwell,2015,350 USD,33 W
-701,GeForce GTX 260M SLI,notebook,3.23,G9x,2009,149 USD,150 W
-702,Radeon HD 6770,desktop,3.22,TeraScale 2,2011,150 USD,108 W
-703,GeForce GTX 560M,notebook,3.20,Fermi,2011,1198 USD,75 W
-704,GeForce GTX 460M,notebook,3.19,Fermi,2010,88 USD,50 W
-705,GeForce GT 745A,desktop,3.17,Kepler,2013,530 USD,33 W
-706,GeForce GTX 760A,desktop,3.16,Kepler,2014,−,55 W
-707,GeForce GTX 260,desktop,3.16,Tesla 2.0,2008,49 USD,182 W
-708,Quadro FX 5800,workstation,3.16,Tesla 2.0,2008,157 USD,189 W
-709,Mobility Radeon HD 4870 X2,notebook,3.15,Terascale 1,2009,305 USD,−
-710,GeForce GTX 775M Mac Edition,desktop,3.14,Kepler,2013,149 USD,100 W
-711,GeForce GT 650M,notebook,3.11,Kepler,2012,679 USD,45 W
-712,GeForce GTX 295,desktop,3.11,Tesla 2.0,2009,200 USD,289 W
-713,Radeon HD 7730,desktop,3.11,GCN 1.0,2013,207 USD,47 W
-714,Radeon R9 M270X,desktop,3.11,GCN 1.0,2014,−,−
-715,GeForce 9800M GTX SLI,notebook,3.10,G9x,2008,149 USD,150 W
-716,HD Graphics P630,desktop,3.09,Gen. 9.5 Kaby Lake,2016,1449 USD,15 W
-717,HD Graphics 630,desktop,3.09,Gen. 9.5 Kaby Lake,2017,370 USD,15 W
-718,GRID K340,workstation,3.08,Kepler,2013,99 USD,225 W
-719,UHD Graphics 630,desktop,3.08,Gen. 9.5,2017,457 USD,15 W
-720,Radeon HD 7750M,notebook,3.07,GCN,2012,338 USD,36 W
-721,Iris Graphics 540,notebook,3.05,Gen. 9 Skylake,2015,1043 USD,15 W
-722,Radeon R7 512 Cores (Kaveri Desktop),desktop,3.05,GCN,2014,−,−
-723,Hainan,desktop,3.05,Sea Islands,−,23 USD,−
-724,NVS 810,workstation,3.04,Maxwell,2015,848 USD,68 W
-725,GeForce 840A,desktop,3.04,Maxwell,2014,−,33 W
-726,GeForce GT 640,desktop,3.04,Kepler,2012,157 USD,65 W
-727,UHD Graphics G1 (Ice Lake 32 EU),notebook,3.03,Gen. 11 Ice Lake,2019,−,12 W
-728,GeForce GTX 460 OEM,desktop,3.03,Fermi,2010,99 USD,150 W
-729,UHD Graphics Xe 750 32EUs (Rocket Lake),desktop,3.03,Gen. 12,2021,−,−
-730,Quadro M500M,mobile workstation,3.03,Maxwell,2015,775 USD,30 W
-731,Radeon RX Vega 6 (Ryzen 2000/3000),notebook,3.03,Vega,2018,−,15 W
-732,FireStream 9250,desktop,3.00,TeraScale,2008,−,150 W
-733,FirePro W4190M,mobile workstation,3.00,GCN,2015,4205 USD,−
-734,Quadro K620M,mobile workstation,3.00,Maxwell,2015,−,30 W
-735,Radeon HD 5750,desktop,3.00,TeraScale 2,2009,189 USD,86 W
-736,Iris Pro Graphics 5200,notebook,2.98,Gen. 7.5 Haswell,2013,1086 USD,30 W
-737,Radeon RX Vega 3,notebook,2.97,Vega,2018,371 USD,15 W
-738,Mobility Radeon HD 5870,notebook,2.95,Terascale 2,2010,108 USD,50 W
-739,Radeon HD 8770M,notebook,2.94,GCN,2012,338 USD,−
-740,GeForce 830A,desktop,2.94,Maxwell,2014,−,33 W
-741,Radeon R9 M265X,notebook,2.93,GCN,2014,−,−
-742,Radeon HD 4850 X2,desktop,2.92,TeraScale,2008,−,250 W
-743,GeForce 940M,notebook,2.90,Maxwell,2015,879 USD,25 W
-744,FirePro M4170,workstation,2.89,GCN 1.0,2015,474 USD,−
-745,Radeon R9 M275,notebook,2.88,GCN,2014,912 USD,−
-746,Radeon 610M,notebook,2.87,RDNA 2,2022,−,15 W
-747,Radeon R6 M340DX,notebook,2.86,GCN,2015,−,−
-748,GeForce 940A,desktop,2.86,Maxwell,2015,−,33 W
-749,GeForce GT 545,desktop,2.84,Fermi 2.0,2011,195 USD,70 W
-750,Radeon R7 M465,notebook,2.83,GCN,2017,−,−
-751,GeForce GT 745M,notebook,2.82,Kepler,2013,55 USD,25 W
-752,Radeon R7 M350,desktop,2.82,GCN 3.0,2015,−,35 W
-753,Radeon R7 M460,notebook,2.81,GCN,2016,900 USD,−
-754,Quadro K1100M,mobile workstation,2.81,Kepler,2013,350 USD,45 W
-755,GeForce 840M,notebook,2.80,Maxwell,2014,743 USD,33 W
-756,Radeon 625,notebook,2.80,GCN 1.0,2019,68 USD,50 W
-757,GeForce 920MX,notebook,2.78,Maxwell,2015,1597 USD,16 W
-758,HD Graphics P530,notebook,2.77,Gen. 9 Skylake,2015,895 USD,15 W
-759,Radeon R7 250,desktop,2.77,GCN,2013,256 USD,65 W
-760,Radeon HD 8550G + HD 8750M Dual Graphics,notebook,2.75,,2013,105 USD,−
+,Graphics card,Type,Performance,Architecture,Year,Price Now,TDP
+0,NVIDIA GeForce RTX 4090,desktop,100.00,Ada Lovelace,2022,1756 USD,450 W
+1,NVIDIA GeForce RTX 4080,desktop,89.40,Ada Lovelace,2022,1451 USD,320 W
+2,NVIDIA GeForce RTX 4080 SUPER,desktop,88.40,Ada Lovelace,2024,−,320 W
+3,NVIDIA GeForce RTX 4070 Ti SUPER,desktop,82.03,Ada Lovelace,2024,−,285 W
+4,NVIDIA GeForce RTX 4070 Ti,desktop,81.99,Ada Lovelace,2023,837 USD,285 W
+5,AMD Radeon RX 7900 XTX,desktop,79.94,RDNA 3,2022,859 USD,355 W
+6,NVIDIA GeForce RTX 4070 SUPER,desktop,77.40,Ada Lovelace,2024,−,220 W
+7,NVIDIA GeForce RTX 3090 Ti,desktop,76.82,Ampere,2022,1251 USD,450 W
+8,NVIDIA RTX 4500 Ada Generation,desktop,76.67,Ada Lovelace,2023,−,210 W
+9,NVIDIA GeForce RTX 4090 D,desktop,75.94,Ada Lovelace,2023,−,425 W
+10,AMD Radeon PRO W7900,workstation,75.53,RDNA 3.0,2023,4649 USD,295 W
+11,AMD Radeon PRO W7800,workstation,74.89,RDNA 3.0,2023,3907 USD,260 W
+12,AMD Radeon RX 7900 XT,desktop,74.42,RDNA 3,2022,884 USD,315 W
+13,AMD Radeon RX 6950 XT,desktop,73.13,Navi / RDNA2,2022,961 USD,335 W
+14,NVIDIA RTX 6000 Ada Generation,desktop,72.59,Ada Lovelace,2022,−,300 W
+15,NVIDIA GeForce RTX 3080 Ti,desktop,70.27,Ampere,2020,1135 USD,350 W
+16,NVIDIA GeForce RTX 4070,desktop,69.76,Ada Lovelace,2023,791 USD,200 W
+17,AMD Radeon RX 6900 XT,desktop,69.34,Navi / RDNA2,2020,957 USD,300 W
+18,NVIDIA GeForce RTX 3090,desktop,69.24,Ampere,2020,1198 USD,350 W
+19,NVIDIA GeForce RTX 3080 12 GB,desktop,69.05,Ampere,2022,1053 USD,350 W
+20,AMD Radeon RX 7900 GRE,desktop,68.31,RDNA 3,2023,−,260 W
+21,NVIDIA RTX 4000 Ada Generation,desktop,67.04,Ada Lovelace,2023,−,130 W
+22,NVIDIA GeForce RTX 3080,desktop,65.38,Ampere,2020,823 USD,320 W
+23,AMD Radeon RX 6800 XT,desktop,64.85,Navi / RDNA2,2020,696 USD,300 W
+24,AMD Radeon RX 7800 XT,desktop,61.94,RDNA 3,2023,−,263 W
+25,NVIDIA GeForce RTX 3070 Ti,desktop,61.10,Ampere,2021,757 USD,290 W
+26,NVIDIA RTX 5000 Ada Generation,desktop,61.02,Ada Lovelace,2023,−,250 W
+27,NVIDIA GeForce RTX 4060 Ti,desktop,59.17,Ada Lovelace,2023,461 USD,160 W
+28,NVIDIA RTX A5000,workstation,59.13,Ampere,2021,3327 USD,230 W
+29,NVIDIA GeForce RTX 3070,desktop,57.86,Ampere,2020,662 USD,220 W
+30,AMD Radeon RX 7900M,notebook,57.78,RDNA 3,2023,−,180 W
+31,AMD Radeon RX 6800,desktop,57.64,Navi / RDNA2,2020,781 USD,250 W
+32,NVIDIA GeForce RTX 2080 Ti,desktop,56.24,Turing,2018,297 USD,270 W
+33,NVIDIA RTX A4500,workstation,56.13,Ampere,2021,2591 USD,200 W
+34,AMD Radeon RX 7700 XT,desktop,56.00,RDNA 3,2023,−,245 W
+35,NVIDIA RTX A5500,desktop,54.75,Ampere,2022,3965 USD,230 W
+36,AMD Radeon RX 6750 XT,desktop,53.66,Navi / RDNA2,2022,559 USD,250 W
+37,AMD Radeon PRO W7700,workstation,53.47,RDNA 3.0,2023,−,190 W
+38,NVIDIA GeForce RTX 4090 Mobile,notebook,53.47,Ada Lovelace,2023,−,150 W
+39,AMD Radeon RX 6750 GRE 10 GB,desktop,53.30,RDNA 2.0,2023,−,170 W
+40,NVIDIA RTX 4000 SFF Ada Generation,desktop,53.12,Ada Lovelace,2023,−,70 W
+41,NVIDIA GeForce RTX 3060 Ti,desktop,53.06,Ampere,2020,361 USD,220 W
+42,NVIDIA GeForce RTX 4080 Mobile,notebook,52.44,Ada Lovelace,2023,−,150 W
+43,NVIDIA GeForce RTX 4060 Ti 8G,desktop,52.40,Ada Lovelace,2023,424 USD,160 W
+44,NVIDIA RTX 5000 Ada Generation Mobile,notebook,52.18,Ada Lovelace,2022,−,225 W
+45,NVIDIA Quadro GV100,workstation,51.69,Volta,2018,5183 USD,250 W
+46,AMD Radeon RX 6700 XT,desktop,51.35,Navi / RDNA2,2021,685 USD,230 W
+47,AMD Radeon Pro W6800,workstation,51.33,Navi / RDNA2,2021,1990 USD,250 W
+48,NVIDIA GeForce RTX 4060,desktop,50.65,Ada Lovelace,2023,340 USD,115 W
+49,NVIDIA GeForce RTX 2080 Super,desktop,50.63,Turing,2019,599 USD,250 W
+50,NVIDIA TITAN Xp,desktop,50.15,Pascal,2017,174 USD,250 W
+51,NVIDIA RTX A4000,workstation,50.13,Ampere,2021,1112 USD,140 W
+52,NVIDIA Quadro RTX 8000,workstation,50.01,Turing,2018,3230 USD,260 W
+53,NVIDIA RTX 2000 Ada Generation,desktop,49.41,Ada Lovelace,2024,−,70 W
+54,NVIDIA GeForce RTX 4060 Ti 16G,desktop,49.40,Ada Lovelace,2023,−,−
+55,AMD Radeon RX 6750 GRE 12 GB,desktop,48.83,RDNA 2.0,2023,−,250 W
+56,NVIDIA Quadro RTX 6000,workstation,48.72,Turing,2018,3083 USD,260 W
+57,NVIDIA TITAN RTX,desktop,48.69,Turing,2018,1035 USD,280 W
+58,NVIDIA GeForce RTX 2080,desktop,48.57,Turing,2018,426 USD,215 W
+59,NVIDIA A10G,desktop,48.34,Ampere,2021,216 USD,150 W
+60,AMD Radeon RX 6700,desktop,48.13,RDNA 2.0,2021,551 USD,175 W
+61,NVIDIA GeForce GTX 1080 Ti,desktop,47.91,Pascal,2017,321 USD,250 W
+62,NVIDIA GeForce RTX 2070 Super,desktop,47.13,Turing,2019,261 USD,215 W
+63,AMD Radeon PRO W7600,workstation,46.23,RDNA 3.0,2023,−,130 W
+64,NVIDIA GeForce RTX 3080 Ti Mobile,notebook,45.80,Ampere,2022,−,150 W
+65,AMD Radeon RX 6850M XT,notebook,45.56,RDNA 2,2022,−,145 W
+66,NVIDIA GeForce RTX 4070 Mobile,notebook,45.53,Ada Lovelace,2023,−,115 W
+67,AMD Radeon Pro W5700X,workstation,45.41,RDNA 1.0,2019,−,205 W
+68,AMD Radeon RX 7600 XT,desktop,44.96,RDNA 3.0,2024,−,190 W
+69,AMD Radeon RX 6650 XT,desktop,44.71,Navi / RDNA2,2022,465 USD,176 W
+70,NVIDIA TITAN V,desktop,44.21,Volta,2017,228 USD,250 W
+71,NVIDIA GeForce RTX 3060,desktop,44.11,Ampere,2021,317 USD,170 W
+72,NVIDIA TITAN V CEO Edition,desktop,43.86,Volta,2018,1630 USD,250 W
+73,Intel Arc A750,desktop,43.73,Generation 12.7,2022,625 USD,225 W
+74,AMD Radeon VII,desktop,43.09,Vega,2019,160 USD,295 W
+75,AMD Radeon RX 5700 XT,desktop,43.03,Navi / RDNA,2019,111 USD,225 W
+76,AMD Radeon RX 5700 XT 50th Anniversary,desktop,42.87,RDNA 1.0,2019,409 USD,225 W
+77,NVIDIA GeForce RTX 2060 Super,desktop,42.79,Turing,2019,374 USD,175 W
+78,AMD Radeon RX 6600 XT,desktop,42.56,Navi / RDNA2,2021,283 USD,160 W
+79,NVIDIA Quadro GP100,workstation,42.28,Pascal,2016,1482 USD,235 W
+80,NVIDIA GeForce RTX 4060 Mobile,notebook,42.11,Ada Lovelace,2023,−,115 W
+81,NVIDIA GeForce RTX 3070 Ti Mobile,notebook,42.01,Ampere,2022,−,125 W
+82,AMD Radeon RX 7600,desktop,41.96,RDNA 3.0,2023,352 USD,165 W
+83,NVIDIA Quadro RTX A6000,workstation,41.95,Ampere,2020,8932 USD,300 W
+84,NVIDIA GeForce RTX 2070,desktop,41.75,Turing,2018,309 USD,175 W
+85,NVIDIA GeForce RTX 3080 Mobile,notebook,41.70,Ampere,2021,−,150 W
+86,NVIDIA Quadro RTX 5000,workstation,41.46,Turing,2018,1540 USD,230 W
+87,Intel Arc A580,desktop,41.39,,2023,−,175 W
+88,NVIDIA GeForce GTX 1070 SLI Mobile,notebook,41.39,Pascal,2016,274 USD,−
+89,AMD Radeon Pro Vega II Duo,workstation,41.25,GCN 5.1,2019,5226 USD,475 W
+90,NVIDIA GeForce RTX 2060 12 GB,desktop,41.00,Turing,2021,530 USD,184 W
+91,AMD Radeon Pro W6600,workstation,40.95,RDNA 2.0,2021,1522 USD,100 W
+92,AMD Radeon RX 6800S,notebook,40.32,RDNA 2,2021,−,100 W
+93,NVIDIA GeForce GTX 1080,desktop,40.09,Pascal,2016,241 USD,180 W
+94,Intel Arc A770M,notebook,40.08,Xe HPG,2022,−,150 W
+95,NVIDIA RTX A5000 Mobile,notebook,40.00,Ampere,2021,−,165 W
+96,NVIDIA RTX A5500 Mobile,notebook,39.99,Ampere,2022,−,165 W
+97,AMD Radeon Pro Vega II,workstation,39.95,GCN 5.1,2019,9999 USD,475 W
+98,NVIDIA Quadro RTX 4000,workstation,39.80,Turing,2018,974 USD,160 W
+99,NVIDIA GeForce RTX 3060 8 GB,desktop,39.73,Ampere,2022,384 USD,170 W
+100,AMD Radeon Pro W5700,workstation,39.32,RDNA 1.0,2019,748 USD,205 W
+101,AMD Radeon RX 7700S,notebook,39.31,RDNA 3,2023,−,100 W
+102,NVIDIA GeForce RTX 2080 Super Mobile,notebook,39.08,Turing,2020,1671 USD,150 W
+103,AMD Radeon RX 6600,desktop,39.04,Navi / RDNA2,2021,358 USD,132 W
+104,NVIDIA GeForce RTX 2080 Mobile,notebook,39.00,Turing,2019,2003 USD,150 W
+105,NVIDIA GeForce RTX 4050 Mobile,notebook,38.97,Ada Lovelace,2023,−,115 W
+106,NVIDIA Quadro P6000,workstation,38.93,Pascal,2016,989 USD,250 W
+107,NVIDIA GeForce GTX 980 SLI Mobile,notebook,38.78,Maxwell,2015,301 USD,330 W
+108,NVIDIA GeForce GTX 1070 SLI,desktop,38.56,Pascal,2016,185 USD,300 W
+109,AMD Radeon RX 6700S,notebook,38.41,RDNA 2,2022,−,80 W
+110,NVIDIA Quadro RTX 5000 Mobile,mobile workstation,38.29,Turing,2019,3065 USD,110 W
+111,AMD Radeon RX 6650M,notebook,38.03,RDNA 2,2022,−,120 W
+112,NVIDIA GeForce GTX 1070 Ti,desktop,37.91,Pascal,2017,231 USD,180 W
+113,AMD Radeon PRO W7500,workstation,37.89,RDNA 3.0,2023,−,70 W
+114,AMD Radeon Pro Vega 64X,mobile workstation,37.77,GCN 5.0,2019,366 USD,250 W
+115,AMD Radeon Pro VII,workstation,37.66,GCN 5.1,2020,2378 USD,250 W
+116,NVIDIA GeForce GTX 1080 SLI Mobile,notebook,37.47,Pascal,2016,352 USD,−
+117,AMD Radeon RX 5700,desktop,37.43,Navi / RDNA,2019,116 USD,180 W
+118,AMD Radeon RX Vega 64,desktop,37.16,Vega,2017,125 USD,295 W
+119,NVIDIA GeForce RTX 3070 Mobile,notebook,37.09,Ampere,2021,−,125 W
+120,NVIDIA GeForce RTX 2070 Super Mobile,notebook,36.60,Turing,2020,1443 USD,115 W
+121,NVIDIA GeForce RTX 2060,desktop,36.53,Turing,2019,397 USD,175 W
+122,NVIDIA RTX 2000 Ada Generation Mobile,notebook,36.48,Ada Lovelace,2023,−,115 W
+123,AMD Radeon RX 7600S,notebook,36.19,RDNA 3,2023,−,75 W
+124,NVIDIA RTX 3000 Ada Generation Mobile,notebook,36.08,Ada Lovelace,2023,−,115 W
+125,AMD Radeon Pro WX 8200,workstation,35.97,GCN 5.0,2018,2172 USD,230 W
+126,NVIDIA GeForce RTX 2070 Super Max-Q,notebook,35.95,Turing,2020,812 USD,80 W
+127,NVIDIA GeForce RTX 2080 Max-Q,notebook,35.87,Turing,2019,1268 USD,80 W
+128,NVIDIA GeForce GTX 1080 Mobile,notebook,35.71,Pascal,2016,230 USD,150 W
+129,NVIDIA GeForce GTX 980 Ti,desktop,35.66,Maxwell,2015,1195 USD,250 W
+130,NVIDIA GeForce RTX 2080 Super Max-Q,notebook,35.63,Turing,2020,812 USD,90 W
+131,NVIDIA RTX A2000,desktop,35.55,Ampere,2021,567 USD,70 W
+132,Intel Arc A730M,notebook,35.54,Xe HPG,2022,−,120 W
+133,NVIDIA RTX A2000 12 GB,desktop,35.39,Ampere,2021,967 USD,70 W
+134,AMD Radeon RX 5600 XT,desktop,35.34,RDNA 1.0,2020,94 USD,150 W
+135,AMD Radeon RX 6600S,notebook,35.31,RDNA 2,2022,−,80 W
+136,NVIDIA Quadro RTX 5000 Max-Q,mobile workstation,35.21,Turing,2019,2130 USD,80 W
+137,AMD Radeon RX 6600M,notebook,35.10,RDNA 2,2020,−,100 W
+138,AMD Radeon Pro W6600M,mobile workstation,34.98,RDNA 2,2021,−,90 W
+139,NVIDIA GeForce GTX 1070,desktop,34.88,Pascal,2016,180 USD,150 W
+140,AMD Radeon RX 6700M,notebook,34.59,RDNA 2,2020,−,135 W
+141,AMD Radeon Vega Frontier Edition,desktop,34.41,GCN 5.0,2017,961 USD,300 W
+142,AMD Radeon RX Vega 56,desktop,34.33,Vega,2017,224 USD,210 W
+143,AMD Radeon RX 6800M,notebook,34.33,RDNA 2,2021,−,145 W
+144,AMD Radeon Pro W6600X,workstation,33.86,RDNA 2.0,2021,−,120 W
+145,NVIDIA GeForce GTX TITAN X,desktop,33.69,Maxwell 2.0,2015,290 USD,250 W
+146,NVIDIA Titan X Pascal,desktop,33.63,Pascal,2016,312 USD,250 W
+147,AMD Radeon Pro Vega 64,workstation,33.52,GCN 5.0,2017,6074 USD,250 W
+148,NVIDIA GeForce GTX 1660 Ti,desktop,33.38,Turing,2019,284 USD,120 W
+149,AMD Radeon PRO WX 9100,workstation,33.16,GCN 5.0,2017,1880 USD,230 W
+150,NVIDIA RTX A3000 Mobile,notebook,33.10,Ampere,2021,−,130 W
+151,NVIDIA Quadro RTX 4000 Max-Q,mobile workstation,33.03,Turing,2019,−,80 W
+152,NVIDIA GeForce GTX 1660 Super,desktop,32.99,Turing,2019,277 USD,125 W
+153,NVIDIA Tesla P40,workstation,32.73,Pascal,2016,131 USD,250 W
+154,NVIDIA Tesla T10,workstation,32.66,Turing,−,−,260 W
+155,NVIDIA Quadro RTX 4000 Mobile,mobile workstation,32.60,Turing,2019,2890 USD,110 W
+156,AMD Radeon Pro 5700 XT,workstation,32.56,RDNA 1.0,2020,−,130 W
+157,NVIDIA GeForce RTX 3050 8 GB,desktop,32.56,Ampere,2022,385 USD,130 W
+158,NVIDIA GeForce RTX 3060 Mobile,notebook,32.40,Ampere,2021,−,115 W
+159,NVIDIA Quadro P5000,workstation,31.97,Pascal,2016,1270 USD,180 W
+160,NVIDIA Quadro P5200 Max-Q,mobile workstation,31.90,Pascal,2018,−,100 W
+161,NVIDIA GeForce RTX 2070 Mobile,notebook,31.90,Turing,2019,1758 USD,115 W
+162,AMD Radeon Pro Vega 56,workstation,31.89,Vega,2017,4999 USD,210 W
+163,NVIDIA Quadro P5200,mobile workstation,31.74,Pascal,2017,3894 USD,150 W
+164,NVIDIA GeForce RTX 3050 OEM,desktop,31.10,Ampere,2022,−,130 W
+165,AMD Radeon RX 5600 OEM,desktop,30.88,RDNA 1.0,2020,154 USD,150 W
+166,NVIDIA Quadro M6000 24 GB,workstation,30.64,Maxwell 2.0,2016,2104 USD,250 W
+167,AMD Radeon Pro 5700,workstation,30.58,RDNA 1.0,2020,356 USD,130 W
+168,NVIDIA Quadro M6000,workstation,30.45,Maxwell 2.0,2015,1792 USD,250 W
+169,NVIDIA GeForce RTX 2070 Max-Q,notebook,30.34,Turing,2019,1311 USD,80 W
+170,NVIDIA GeForce GTX 1660,desktop,30.18,Turing,2019,252 USD,120 W
+171,NVIDIA Quadro P4000,workstation,30.10,Pascal,2017,485 USD,105 W
+172,NVIDIA Quadro P5000 Mobile,mobile workstation,29.85,Pascal,2017,2137 USD,100 W
+173,NVIDIA L4,desktop,29.74,Ada Lovelace,2023,240 USD,72 W
+174,NVIDIA Quadro P4200 Max-Q,mobile workstation,29.35,Pascal,2018,−,100 W
+175,NVIDIA GeForce RTX 2060 Mobile,notebook,29.31,Turing,2019,1250 USD,80 W
+176,AMD Radeon Pro Vega 48,mobile workstation,29.17,GCN 5.0,2019,671 USD,−
+177,AMD Radeon RX 7600M XT,notebook,29.06,RDNA 3,2023,−,120 W
+178,NVIDIA GeForce GTX 980,desktop,28.72,Maxwell,2014,339 USD,220 W
+179,NVIDIA CMP 40HX,desktop,28.58,Turing,2021,152 USD,185 W
+180,NVIDIA GeForce GTX 1070 Mobile,notebook,28.40,Pascal,2016,379 USD,115 W
+181,AMD Radeon Pro SSG,workstation,28.33,GCN 3.0,2016,321 USD,260 W
+182,AMD Fiji,desktop,28.31,GCN 3.0,−,22 USD,−
+183,NVIDIA Tesla T4,workstation,28.16,Turing,2018,782 USD,70 W
+184,NVIDIA Tesla M40 24 GB,workstation,27.04,Maxwell 2.0,2015,250 USD,250 W
+185,NVIDIA GeForce GTX 1060 6 GB,desktop,26.47,Pascal,2016,911 USD,120 W
+186,NVIDIA GeForce GTX 1080 Max-Q,notebook,26.35,Pascal,2017,1008 USD,90 W
+187,NVIDIA GeForce GTX 1660 Ti Mobile,notebook,26.34,Turing,2019,682 USD,80 W
+188,NVIDIA Tesla M40,workstation,26.29,Maxwell 2.0,2015,101 USD,250 W
+189,NVIDIA GeForce GTX 1650 SUPER,desktop,26.19,Turing,2019,206 USD,125 W
+190,NVIDIA Quadro RTX 3000 Mobile,mobile workstation,26.12,Turing,2019,2393 USD,80 W
+191,AMD Radeon R9 FURY X,desktop,25.86,GCN 3.0,2015,350 USD,275 W
+192,Intel Arc A770,desktop,25.78,Alchemist,2022,597 USD,225 W
+193,NVIDIA RTX A2000 Mobile,notebook,25.52,Ampere,2021,−,95 W
+194,NVIDIA GeForce RTX 2060 Max-Q,notebook,25.27,Turing,2019,1680 USD,65 W
+195,NVIDIA Quadro P4200,mobile workstation,25.04,Pascal,2018,1526 USD,115 W
+196,NVIDIA GeForce RTX 3050 Ti Mobile,notebook,24.98,Ampere,2021,−,60 W
+197,NVIDIA GeForce RTX 3050 6GB Mobile,notebook,24.98,Ampere,2023,−,60 W
+198,NVIDIA GeForce GTX 970,desktop,24.90,Maxwell,2014,105 USD,150 W
+199,NVIDIA GeForce RTX 3050 4GB Mobile,notebook,24.82,Ampere,2021,−,60 W
+200,AMD Radeon R9 Fury,desktop,24.77,GCN 1.2,2015,44 USD,275 W
+201,NVIDIA GeForce GTX 1060 3 GB,desktop,24.75,Pascal,2016,1112 USD,120 W
+202,NVIDIA GeForce GTX 980M SLI,notebook,24.67,Maxwell,2014,499 USD,200 W
+203,AMD Radeon RX 6500 XT,desktop,24.57,Navi / RDNA2,2022,274 USD,107 W
+204,NVIDIA GeForce GTX 780 Ti,desktop,24.57,Kepler,2013,461 USD,250 W
+205,AMD Radeon RX 590,desktop,24.43,Polaris,2018,133 USD,175 W
+206,AMD Radeon R9 390X,desktop,24.38,GCN,2015,20 USD,275 W
+207,NVIDIA Quadro M5000,workstation,24.22,Maxwell 2.0,2015,823 USD,150 W
+208,NVIDIA GeForce GTX 970M SLI,notebook,24.20,Maxwell,2014,1326 USD,162 W
+209,NVIDIA Quadro P2200,workstation,24.07,Pascal,2019,409 USD,75 W
+210,AMD Radeon Pro 5600M,mobile workstation,24.04,Navi / RDNA,2020,−,50 W
+211,NVIDIA Quadro P3200 Max-Q,mobile workstation,23.80,Pascal,2018,−,75 W
+212,Intel Arc A550M,notebook,23.68,Xe HPG,2022,−,80 W
+213,AMD Radeon RX 5500 XT,desktop,23.66,RDNA 1.0,2019,317 USD,130 W
+214,AMD Radeon Pro W5500,workstation,23.61,RDNA 1.0,2020,308 USD,125 W
+215,NVIDIA GeForce RTX 3050 Mobile,notebook,23.55,Ampere,2022,−,130 W
+216,NVIDIA GeForce GTX TITAN BLACK,desktop,23.36,Kepler,2014,799 USD,250 W
+217,NVIDIA GeForce GTX 1060 5 GB,desktop,23.34,Pascal,2017,203 USD,120 W
+218,NVIDIA GeForce GTX TITAN Z,desktop,23.20,Kepler,2014,830 USD,375 W
+219,AMD Radeon R9 390,desktop,23.07,GCN 2.0,2015,20 USD,300 W
+220,NVIDIA RTX A1000 Mobile,notebook,23.05,Ampere,2022,−,95 W
+221,NVIDIA Quadro P3200,mobile workstation,23.03,Pascal,2017,2122 USD,78 W
+222,AMD Radeon RX 6550M,notebook,23.02,RDNA 2,2023,−,80 W
+223,AMD Radeon RX 580,desktop,22.92,Polaris,2017,138 USD,185 W
+224,NVIDIA Quadro P4000 Max-Q,mobile workstation,22.76,Pascal,2017,803 USD,80 W
+225,NVIDIA GeForce GTX 1660 Ti Max-Q,notebook,22.76,Turing,2019,1037 USD,60 W
+226,AMD Radeon RX 5500,desktop,22.73,RDNA 1.0,2019,444 USD,110 W
+227,NVIDIA Tesla P4,workstation,22.64,Pascal,2016,92 USD,75 W
+228,AMD Radeon RX 5600M,notebook,22.34,Navi / RDNA,2020,525 USD,60 W
+229,AMD Radeon RX 480,desktop,22.28,Polaris,2016,174 USD,150 W
+230,AMD Radeon R9 295X2,desktop,22.26,GCN 2.0,2014,600 USD,500 W
+231,NVIDIA GeForce GTX 980 Mobile,notebook,22.14,Maxwell,2014,251 USD,100 W
+232,AMD Radeon R9 Nano,desktop,21.91,GCN 1.2,2015,27 USD,175 W
+233,NVIDIA GeForce GTX 880M SLI,notebook,21.91,Kepler,2014,3098 USD,206 W
+234,NVIDIA Quadro RTX 3000 Max-Q,mobile workstation,21.60,Turing,2019,−,60 W
+235,AMD Radeon Pro 5500 XT,workstation,21.58,RDNA 1.0,2020,2499 USD,125 W
+236,AMD Hawaii,desktop,21.24,GCN 2.0,−,11 USD,−
+237,NVIDIA Quadro P4000 Mobile,mobile workstation,21.14,Pascal,2017,1053 USD,73.4 W
+238,NVIDIA GeForce GTX TITAN,desktop,21.12,Kepler,2013,640 USD,250 W
+239,NVIDIA GeForce GTX 1060 Mobile,notebook,21.07,Pascal,2016,240 USD,80 W
+240,AMD Radeon Pro Duo,workstation,21.01,GCN 3.0,2016,4200 USD,350 W
+241,AMD Radeon RX 470,desktop,20.90,Polaris,2016,14 USD,120 W
+242,AMD Radeon R9 290,desktop,20.89,GCN 2.0,2013,20 USD,275 W
+243,NVIDIA Quadro K6000,workstation,20.81,Kepler,2013,429 USD,225 W
+244,NVIDIA GeForce GTX 780,desktop,20.69,Kepler,2013,100 USD,250 W
+245,AMD FirePro W9100,workstation,20.62,GCN 2.0,2014,1566 USD,275 W
+246,NVIDIA Quadro T2000 Mobile,mobile workstation,20.62,Turing,2019,2221 USD,60 W
+247,AMD Radeon Pro W6400,workstation,20.54,RDNA 2.0,2022,206 USD,50 W
+248,AMD Radeon RX 580 Mobile,notebook,20.50,Polaris,2017,410 USD,100 W
+249,NVIDIA Tesla M60,workstation,20.47,Maxwell 2.0,2015,81 USD,300 W
+250,NVIDIA Quadro M5500,mobile workstation,20.44,Maxwell,2016,1700 USD,150 W
+251,AMD Radeon Pro WX 7100,workstation,20.36,Polaris,2017,582 USD,130 W
+252,NVIDIA GeForce GTX 1650,desktop,20.34,Turing,2019,185 USD,75 W
+253,AMD Radeon RX 6500M,notebook,20.27,RDNA 2,2022,−,50 W
+254,AMD Radeon RX 6500,notebook,20.25,,−,−,−
+255,AMD Radeon RX 580X,desktop,20.13,GCN 4.0,2018,191 USD,185 W
+256,NVIDIA GeForce GTX 1650 Ti Mobile,notebook,20.13,Turing,2020,892 USD,50 W
+257,AMD Radeon Pro 580,mobile workstation,20.02,GCN 4.0,2017,5999 USD,150 W
+258,NVIDIA GeForce GTX 780M SLI,notebook,19.99,Kepler,2013,149 USD,200 W
+259,NVIDIA Quadro T1200 Mobile,mobile workstation,19.91,Turing,2021,−,95 W
+260,NVIDIA T1200 Mobile,notebook,19.91,Turing,2021,−,95 W
+261,AMD Radeon RX 580 2048SP,desktop,19.90,GCN 4.0,2018,110 USD,150 W
+262,NVIDIA T1000,desktop,19.83,Turing,2021,119 USD,50 W
+263,AMD Radeon RX 5300,desktop,19.69,RDNA 1.0,2020,558 USD,100 W
+264,NVIDIA T1000 8 GB,desktop,19.56,Turing,2021,690 USD,50 W
+265,AMD Ellesmere,desktop,19.53,GCN 4.0,−,16 USD,−
+266,AMD Radeon R9 M290X Crossfire,notebook,19.52,GCN,2014,−,200 W
+267,AMD Radeon RX 6400,desktop,19.47,RDNA 2.0,2022,376 USD,53 W
+268,AMD Radeon Pro 580X,mobile workstation,19.47,GCN 4.0,2019,5999 USD,150 W
+269,NVIDIA Quadro P3000 Mobile,mobile workstation,19.19,Pascal,2017,537 USD,75 W
+270,AMD Radeon R9 290X,desktop,19.17,GCN,2013,20 USD,350 W
+271,AMD Radeon HD 8970M Crossfire,notebook,18.97,GCN,2012,170 USD,200 W
+272,NVIDIA GeForce GTX 980M,notebook,18.97,Maxwell,2014,583 USD,100 W
+273,AMD Radeon RX 470 Mobile,notebook,18.85,Polaris,2016,148 USD,120 W
+274,AMD FirePro W8100,workstation,18.79,GCN 2.0,2014,590 USD,220 W
+275,NVIDIA Quadro P2000,workstation,18.76,Pascal,2017,371 USD,75 W
+276,AMD Radeon Pro 5300,workstation,18.66,RDNA 1.0,2020,1300 USD,85 W
+277,NVIDIA GeForce RTX 2050 Mobile,notebook,18.55,Ampere,2021,−,30 W
+278,NVIDIA GeForce GTX 1650 Mobile,notebook,18.37,Turing,2019,301 USD,50 W
+279,AMD Radeon 780M,notebook,18.36,RDNA 3,2023,−,54 W
+280,AMD Radeon RX 570,desktop,17.99,Polaris,2017,114 USD,120 W
+281,AMD Radeon Pro W5500X,workstation,17.99,RDNA 1.0,2019,224 USD,125 W
+282,NVIDIA GeForce GTX 1070 Max-Q,notebook,17.94,Pascal,2017,1244 USD,115 W
+283,Intel Arc A310,notebook,17.91,Xe HPG,2022,−,75 W
+284,NVIDIA Quadro M5000M,mobile workstation,17.89,Maxwell,2015,468 USD,100 W
+285,NVIDIA Quadro T2000 Max-Q,mobile workstation,17.87,Turing,2019,−,35 W
+286,Intel Arc 8-Cores iGPU,notebook,17.81,Xe LPG,2023,−,−
+287,AMD Radeon Pro 5500M,mobile workstation,17.64,Navi / RDNA,2019,1950 USD,50 W
+288,NVIDIA CMP 30HX,desktop,17.54,Turing,2021,24 USD,125 W
+289,NVIDIA Quadro T1000 Max-Q,mobile workstation,17.36,Turing,2019,−,35 W
+290,Intel Arc 7-Cores iGPU,notebook,17.30,Xe LPG,2023,−,−
+291,NVIDIA Quadro M4000,workstation,17.28,Maxwell 2.0,2015,314 USD,120 W
+292,NVIDIA GeForce GTX 965M SLI,notebook,17.25,Maxwell,2015,149 USD,−
+293,AMD Radeon R9 285,desktop,17.25,GCN 3.0,2014,85 USD,190 W
+294,NVIDIA Quadro T1000,workstation,17.04,Turing,2019,920 USD,50 W
+295,AMD Radeon RX Vega M GH,notebook,16.92,Vega,2018,1031 USD,100 W
+296,AMD Radeon 680M,notebook,16.91,RDNA 2,2022,−,45 W
+297,NVIDIA Quadro T1000 Mobile,mobile workstation,16.89,Turing,2019,1890 USD,50 W
+298,NVIDIA Quadro P2000 Mobile,mobile workstation,16.86,Pascal,2017,1477 USD,50 W
+299,NVIDIA T600,desktop,16.69,Turing,2021,143 USD,40 W
+300,NVIDIA GeForce GTX 1650 Ti Max-Q,notebook,16.56,Turing,2020,1183 USD,35 W
+301,NVIDIA GeForce GTX 680M SLI,notebook,16.50,Kepler,2012,149 USD,−
+302,NVIDIA P106-100,desktop,16.41,Pascal,2017,15 USD,120 W
+303,NVIDIA Quadro T600 Mobile,mobile workstation,16.36,Turing,2021,−,40 W
+304,AMD Radeon Pro 570,mobile workstation,16.36,GCN 4.0,2017,356 USD,120 W
+305,NVIDIA GeForce GTX 1050 Ti,desktop,16.30,Pascal,2016,207 USD,70 W
+306,AMD Radeon R9 380X,desktop,16.07,GCN 3.0,2015,12 USD,250 W
+307,NVIDIA Quadro M4000M,mobile workstation,15.98,Maxwell,2015,832 USD,100 W
+308,AMD Radeon HD 7970M Crossfire,notebook,15.97,GCN,2012,126 USD,200 W
+309,NVIDIA GeForce GTX 1650 Max-Q,notebook,15.90,Turing,2019,1185 USD,35 W
+310,AMD Radeon R9 380,desktop,15.89,GCN,2015,13 USD,220 W
+311,NVIDIA GeForce MX570 A,desktop,15.88,Ampere,2022,1574 USD,25 W
+312,AMD FirePro W9000,workstation,15.85,GCN 1.0,2012,877 USD,274 W
+313,Intel Arc A370M,notebook,15.75,Xe HPG,2022,−,50 W
+314,NVIDIA GeForce GTX 960,desktop,15.66,Maxwell,2015,440 USD,100 W
+315,NVIDIA Quadro K5200,workstation,15.57,Kepler,2014,451 USD,150 W
+316,NVIDIA GeForce MX570,notebook,15.49,Ampere,2021,−,15 W
+317,AMD Radeon Pro 5300M,mobile workstation,15.48,Navi / RDNA,2019,2068 USD,65 W
+318,NVIDIA Tesla M6,workstation,15.32,Maxwell 2.0,2015,350 USD,100 W
+319,NVIDIA GeForce GTX 770,desktop,15.30,Kepler,2013,254 USD,230 W
+320,NVIDIA GeForce GTX 1050 Ti Mobile,notebook,15.28,Pascal,2017,545 USD,75 W
+321,AMD Radeon 760M,notebook,15.25,RDNA 3,2023,−,54 W
+322,AMD Radeon PRO W6300,workstation,15.23,RDNA 2.0,2022,−,25 W
+323,NVIDIA GeForce GTX 1060 Max-Q 6 GB,notebook,15.21,Pascal,2017,1010 USD,60 W
+324,AMD Radeon RX 6300,desktop,15.15,RDNA 2.0,−,−,32 W
+325,NVIDIA Tesla K80,workstation,15.11,Kepler 2.0,2014,83 USD,300 W
+326,AMD Radeon R9 280X,desktop,15.07,GCN,2013,12 USD,200 W
+327,AMD FirePro W7100,workstation,14.96,GCN 3.0,2014,466 USD,150 W
+328,NVIDIA GeForce GTX 970M,notebook,14.77,Maxwell,2014,848 USD,81 W
+329,Intel Arc A380,notebook,14.45,Generation 12.7,2022,591 USD,75 W
+330,NVIDIA GeForce GTX 690,desktop,14.43,Kepler,2012,411 USD,300 W
+331,AMD Radeon Pro WX 5100,workstation,14.41,GCN 4.0,2016,854 USD,75 W
+332,AMD Radeon HD 7990,desktop,14.37,GCN 1.0,2013,486 USD,375 W
+333,AMD Radeon R9 280,desktop,14.36,GCN 1.0,2014,91 USD,200 W
+334,NVIDIA GeForce GTX 770M SLI,notebook,14.34,Kepler,2013,149 USD,150 W
+335,AMD Radeon RX Vega M GL / 870,notebook,14.31,Vega,2018,−,65 W
+336,AMD Tonga,desktop,14.31,GCN 3.0,−,23 USD,−
+337,NVIDIA GeForce GTX 680,desktop,14.31,Kepler,2012,156 USD,195 W
+338,NVIDIA Quadro M3000M,mobile workstation,14.27,Maxwell,2015,981 USD,75 W
+339,Intel UHD Graphics 730 (Rocket Lake),notebook,14.23,,2021,−,15 W
+340,AMD Radeon RX 5500M,notebook,14.16,Navi / RDNA,2019,998 USD,85 W
+341,Intel Arc A350M,notebook,14.15,Xe HPG,2022,−,35 W
+342,AMD Radeon E8950,desktop,14.14,GCN 3.0,2015,−,95 W
+343,Apple M1 8-Core GPU,notebook,14.04,,2020,−,−
+344,NVIDIA GeForce GTX 760 Ti OEM,desktop,14.01,Kepler,2013,229 USD,170 W
+345,NVIDIA GeForce GTX 1050 Ti Max-Q,notebook,13.87,Pascal,2018,1140 USD,40 W
+346,AMD FirePro D700,workstation,13.83,GCN 1.0,2014,413 USD,274 W
+347,NVIDIA GeForce GTX 950,desktop,13.78,Maxwell,2015,13 USD,90 W
+348,NVIDIA GeForce GTX 670,desktop,13.76,Kepler,2012,22 USD,170 W
+349,AMD Radeon Pro Vega 20,mobile workstation,13.68,Vega,2018,360 USD,100 W
+350,NVIDIA Quadro P2000 Max-Q,mobile workstation,13.64,Pascal,2017,426 USD,−
+351,AMD Radeon HD 7970,desktop,13.55,GCN,2011,89 USD,250 W
+352,NVIDIA GRID M60-2Q,workstation,13.43,Maxwell 2.0,2015,−,225 W
+353,AMD Radeon R9 M395X,notebook,13.41,GCN 3,2014,−,125 W
+354,AMD Radeon R9 M295X Mac Edition,desktop,13.37,GCN 3.0,2014,−,250 W
+355,AMD Radeon R9 M295X,notebook,13.30,GCN 3,2014,−,125 W
+356,NVIDIA GeForce GTX 1050 3 GB,desktop,13.29,Pascal,2018,1118 USD,75 W
+357,AMD FirePro S9000,workstation,13.06,GCN 1.0,2012,433 USD,225 W
+358,NVIDIA GeForce GTX 1050,desktop,13.04,Pascal,2016,211 USD,60 W
+359,AMD Radeon R9 M395,notebook,12.97,GCN,2015,1288 USD,−
+360,NVIDIA GeForce GTX 1630,desktop,12.88,Turing,2022,213 USD,75 W
+361,Nvidia GeForce GTX 1050 3GB Mobile,notebook,12.78,,2018,−,−
+362,AMD FirePro S9050,workstation,12.65,GCN 1.0,2014,782 USD,225 W
+363,AMD Radeon R9 270X,desktop,12.62,GCN,2013,136 USD,180 W
+364,AMD Radeon Pro Vega 16,mobile workstation,12.42,Vega,2018,511 USD,75 W
+365,NVIDIA GeForce GTX 760,desktop,12.36,Kepler,2013,136 USD,170 W
+366,AMD FirePro S10000,workstation,12.31,GCN 1.0,2012,22 USD,375 W
+367,AMD Radeon HD 7950,desktop,12.30,GCN 1.0,2012,431 USD,200 W
+368,AMD Radeon Sky 500,desktop,12.30,GCN 1.0,2013,129 USD,150 W
+369,NVIDIA GeForce GTX 860M SLI,notebook,12.28,Maxwell,2014,489 USD,120 W
+370,AMD Radeon R9 370,desktop,12.19,GCN 1.0,2015,325 USD,110 W
+371,AMD Radeon Pro WX Vega M GL,mobile workstation,11.99,Vega,2018,1359 USD,65 W
+372,AMD Radeon HD 7870,desktop,11.97,GCN,2012,200 USD,200 W
+373,NVIDIA GeForce MX550,notebook,11.88,Turing,2021,−,15 W
+374,NVIDIA GeForce GTX 580,desktop,11.78,Fermi,2010,15 USD,244 W
+375,AMD FirePro S7000,workstation,11.68,GCN 1.0,2012,300 USD,150 W
+376,AMD Radeon R7 370,desktop,11.67,GCN 1.0,2015,378 USD,100 W
+377,NVIDIA Tesla K40c,workstation,11.60,Kepler,2013,360 USD,245 W
+378,AMD Radeon HD 7870 XT,desktop,11.54,GCN 1.0,2012,133 USD,185 W
+379,NVIDIA GeForce GTX 1050 Mobile,notebook,11.52,Pascal,2017,256 USD,75 W
+380,NVIDIA Quadro P1000,workstation,11.49,Pascal,2017,301 USD,40 W
+381,NVIDIA Tesla K20m,workstation,11.44,Kepler,2013,5781 USD,225 W
+382,Intel Iris Xe MAX Graphics,notebook,11.39,Gen. 12 Xe,2020,−,25 W
+383,NVIDIA GeForce GTX 660 Ti,desktop,11.38,Kepler,2012,189 USD,150 W
+384,AMD Radeon RX 560 Mobile,notebook,11.24,Polaris,2017,468 USD,75 W
+385,NVIDIA Quadro K4200,workstation,11.17,Kepler,2014,311 USD,108 W
+386,AMD Radeon RX 5300M,notebook,11.12,Navi / RDNA,2019,525 USD,65 W
+387,AMD Radeon R9 270,desktop,11.12,GCN 1.0,2013,229 USD,150 W
+388,AMD Radeon RX 560X Mobile,notebook,11.08,Polaris,2017,520 USD,60 W
+389,NVIDIA Quadro M2200,mobile workstation,11.08,Maxwell,2017,1967 USD,55 W
+390,AMD FirePro W7000,workstation,11.04,GCN 1.0,2012,195 USD,150 W
+391,NVIDIA GeForce GTX 680MX,notebook,10.69,Kepler,2012,200 USD,122 W
+392,Intel Iris Xe Graphics G7,notebook,10.66,Gen. 11 Ice Lake,2020,−,−
+393,NVIDIA GeForce GTX 765M SLI,notebook,10.60,Kepler,2013,149 USD,130 W
+394,NVIDIA GeForce GTX 480,desktop,10.59,Fermi,2010,16 USD,295 W
+395,AMD Radeon RX 460,desktop,10.59,Polaris,2016,397 USD,75 W
+396,AMD FirePro W8000,workstation,10.57,GCN 1.0,2012,215 USD,225 W
+397,NVIDIA GeForce GTX 1050 Max-Q,notebook,10.43,Pascal,2018,1085 USD,34 W
+398,NVIDIA T550 Mobile,notebook,10.35,Turing,2022,−,25 W
+399,NVIDIA GeForce GTX 780 Rev. 2,desktop,10.35,Kepler,2013,270 USD,250 W
+400,AMD FirePro D500,workstation,10.34,GCN 1.0,2014,475 USD,274 W
+401,AMD Radeon R7 265,desktop,10.33,GCN 1.0,2014,242 USD,150 W
+402,NVIDIA GeForce GTX 660,desktop,10.32,Kepler,2012,172 USD,140 W
+403,NVIDIA Quadro M2000,workstation,10.32,Maxwell 2.0,2016,285 USD,75 W
+404,NVIDIA Quadro K5000,workstation,10.29,Kepler,2012,289 USD,122 W
+405,AMD Radeon RX 7600M,notebook,10.17,RDNA 3,2023,−,90 W
+406,AMD Radeon RX 460 Mobile,notebook,10.15,Polaris,2016,95 USD,75 W
+407,NVIDIA GeForce GTX 580M SLI,notebook,10.15,Fermi,2011,249 USD,100 W
+408,NVIDIA GeForce GTX 570,desktop,10.14,Fermi,2010,13 USD,219 W
+409,NVIDIA GeForce GTX 750 Ti,desktop,10.08,Maxwell,2014,357 USD,75 W
+410,NVIDIA GRID M60-8Q,workstation,10.03,Maxwell 2.0,2015,−,225 W
+411,AMD Radeon HD 8970M,notebook,10.01,GCN,2013,135 USD,100 W
+412,AMD Radeon HD 6990M Crossfire,notebook,9.99,Terascale 2,2011,170 USD,−
+413,Intel Tiger Lake-U Xe Graphics G7,notebook,9.97,Gen. 11 Ice Lake,2020,−,−
+414,AMD Radeon HD 7850,desktop,9.95,GCN 1.0,2012,267 USD,130 W
+415,AMD Radeon HD 7970M,notebook,9.93,GCN,2012,338 USD,100 W
+416,NVIDIA GeForce GTX 880M,notebook,9.92,Kepler,2014,1544 USD,103 W
+417,NVIDIA GeForce GTX 780M,notebook,9.84,Kepler,2013,1093 USD,100 W
+418,AMD Radeon R9 M390,notebook,9.81,GCN,2015,−,−
+419,NVIDIA GeForce GTX 670MX SLI,notebook,9.80,Kepler,2012,−,150 W
+420,AMD FirePro D300,workstation,9.79,GCN 1.0,2014,260 USD,150 W
+421,AMD Radeon 660M,notebook,9.78,RDNA 2,2022,−,45 W
+422,NVIDIA GeForce GTX 965M,notebook,9.75,Maxwell,2015,1546 USD,50 W
+423,NVIDIA GeForce MX450,notebook,9.64,Turing,2020,−,25 W
+424,NVIDIA T400 4 GB,desktop,9.61,Turing,2021,216 USD,30 W
+425,AMD Radeon Pro WX 4100,workstation,9.60,GCN 4.0,2016,711 USD,50 W
+426,NVIDIA GRID M60-1Q,workstation,9.54,Maxwell 2.0,2015,−,225 W
+427,NVIDIA Tesla K8,workstation,9.53,Kepler,2014,249 USD,100 W
+428,AMD Radeon Pro 560X,mobile workstation,9.49,Polaris,2017,133 USD,35 W
+429,NVIDIA Tesla M2090,workstation,9.47,Fermi 2.0,2011,1844 USD,250 W
+430,AMD Radeon R9 M485X,notebook,9.45,GCN 3,2016,2500 USD,125 W
+431,AMD Radeon RX 560,desktop,9.41,GCN 4.0,2017,381 USD,75 W
+432,NVIDIA P104-100,desktop,9.39,Pascal,2017,17 USD,−
+433,NVIDIA T400,desktop,9.37,Turing,2021,83 USD,30 W
+434,NVIDIA Quadro P620,workstation,9.36,Pascal,2019,170 USD,25 W
+435,AMD Radeon RX Vega M GL,notebook,9.35,GCN 4.0,2018,1307 USD,65 W
+436,AMD Radeon R9 M390X,notebook,9.29,GCN 3,2015,−,125 W
+437,NVIDIA GeForce GTX 775M,notebook,9.28,Kepler,2013,780 USD,100 W
+438,NVIDIA GRID M6-8Q,workstation,9.21,Maxwell 2.0,2015,−,100 W
+439,NVIDIA GeForce GTX 485M SLI,notebook,9.19,Fermi,2011,149 USD,100 W
+440,NVIDIA Quadro K2200,workstation,9.17,Maxwell,2014,313 USD,68 W
+441,AMD Radeon 740M,notebook,9.10,RDNA 3,2023,−,30 W
+442,NVIDIA GRID K520,workstation,9.08,Kepler,2013,80 USD,225 W
+443,AMD Radeon RX Vega 8 (Ryzen 4000/5000),notebook,9.06,Vega,2020,−,15 W
+444,NVIDIA Quadro 7000,workstation,9.05,Fermi 2.0,2012,965 USD,204 W
+445,Intel Iris Xe Graphics G7 96EUs,notebook,9.02,Gen. 11 Ice Lake,2020,−,28 W
+446,AMD Radeon HD 6970M Crossfire,notebook,9.00,Terascale 2,2011,170 USD,−
+447,AMD Radeon Pro 560,mobile workstation,8.97,Polaris,2017,127 USD,35 W
+448,NVIDIA Quadro K2200M,mobile workstation,8.95,Maxwell,2014,228 USD,65 W
+449,NVIDIA Quadro M2000M,mobile workstation,8.95,Maxwell,2015,363 USD,55 W
+450,NVIDIA Quadro T500 Mobile,mobile workstation,8.92,Turing,2019,−,25 W
+451,AMD Radeon Pro 460,mobile workstation,8.91,Polaris,2016,100 USD,35 W
+452,NVIDIA GeForce GTX 870M,notebook,8.90,Kepler,2014,403 USD,100 W
+453,NVIDIA Tesla K20c,workstation,8.90,Kepler,2012,591 USD,225 W
+454,NVIDIA GeForce GTX 960M,notebook,8.78,Maxwell,2015,799 USD,75 W
+455,NVIDIA GeForce GTX 675M SLI,notebook,8.75,Fermi,2011,499 USD,2 W
+456,NVIDIA Tesla C2075,workstation,8.69,Fermi 2.0,2011,2237 USD,247 W
+457,NVIDIA GeForce GT 755M SLI,notebook,8.67,Kepler,2013,545 USD,2 W
+458,NVIDIA GeForce GTX 750,desktop,8.66,Maxwell,2014,340 USD,55 W
+459,NVIDIA GeForce GTX 650 Ti Boost,desktop,8.65,Kepler,2013,285 USD,134 W
+460,NVIDIA GeForce GTX 590,desktop,8.63,Fermi,2011,600 USD,365 W
+461,NVIDIA Tesla K40m,workstation,8.47,Kepler,2013,744 USD,245 W
+462,NVIDIA Quadro P600,workstation,8.45,Pascal,2017,207 USD,25 W
+463,AMD Radeon R9 M290X,notebook,8.42,GCN,2014,613 USD,100 W
+464,AMD Radeon R9 M470X,notebook,8.38,GCN 2,2016,−,−
+465,NVIDIA Quadro M1200,mobile workstation,8.37,Maxwell,2017,1372 USD,45 W
+466,AMD Radeon Pro 555X,mobile workstation,8.35,Polaris,2017,894 USD,−
+467,NVIDIA GeForce GTX 680M,notebook,8.30,Kepler,2012,293 USD,100 W
+468,AMD Radeon RX 560X,desktop,8.25,GCN 4.0,2018,999 USD,75 W
+469,AMD Radeon R7 260X,desktop,8.22,GCN 2.0,2013,204 USD,115 W
+470,NVIDIA Tesla C2050,workstation,8.20,Fermi,2011,70 USD,238 W
+471,NVIDIA Tesla M10,workstation,8.19,Maxwell,2016,1999 USD,225 W
+472,AMD Bonaire,desktop,8.17,GCN 2.0,−,41 USD,−
+473,AMD FirePro W7170M,mobile workstation,8.16,GCN 3,2015,600 USD,100 W
+474,NVIDIA GeForce GTX 560 Ti 448,desktop,8.16,Fermi 2.0,2011,624 USD,210 W
+475,AMD Radeon Pro 555,mobile workstation,8.11,Polaris,2017,894 USD,−
+476,AMD Baffin,desktop,8.10,GCN 4.0,−,127 USD,−
+477,AMD Radeon Pro 455,mobile workstation,8.03,Polaris,2016,696 USD,−
+478,NVIDIA GeForce GTX 470,desktop,8.02,Fermi,2010,10 USD,225 W
+479,AMD Radeon R7 360,desktop,7.98,GCN 2.0,2015,14 USD,80 W
+480,AMD Radeon HD 7790,desktop,7.98,GCN 2.0,2013,219 USD,85 W
+481,NVIDIA Quadro K5100M,mobile workstation,7.93,Kepler,2013,440 USD,100 W
+482,NVIDIA GeForce GTX 560 Ti,desktop,7.84,Fermi,2011,130 USD,160 W
+483,NVIDIA GeForce GTX 860M,notebook,7.82,Maxwell,2014,875 USD,75 W
+484,AMD FirePro W5100,workstation,7.78,GCN 2.0,2014,220 USD,50 W
+485,AMD Radeon HD 6990,desktop,7.78,TeraScale 3,2011,144 USD,375 W
+486,AMD Cypress,desktop,7.68,TeraScale 2,−,12 USD,−
+487,AMD FirePro W5000,workstation,7.68,GCN 1.0,2012,141 USD,75 W
+488,AMD Tahiti,desktop,7.66,GCN 1.0,−,20 USD,−
+489,NVIDIA GRID M3-3020,workstation,7.63,Maxwell,2016,−,−
+490,NVIDIA GRID K260Q,workstation,7.61,Kepler,2013,−,225 W
+491,Intel Iris Xe Graphics G7 80EUs,notebook,7.60,Gen. 11 Ice Lake,2020,−,28 W
+492,NVIDIA Quadro K1200,workstation,7.53,Maxwell,2015,124 USD,45 W
+493,NVIDIA Tesla K20Xm,workstation,7.53,Kepler,2012,−,235 W
+494,AMD FirePro W4300,workstation,7.47,GCN 2.0,2015,129 USD,50 W
+495,AMD Radeon R7 260,desktop,7.46,GCN 2.0,2013,205 USD,95 W
+496,NVIDIA Quadro M1000M,mobile workstation,7.44,Maxwell,2015,706 USD,40 W
+497,AMD Radeon RX Vega 7,notebook,7.43,Vega,2020,387 USD,15 W
+498,AMD Radeon Pro V340 MxGPU,workstation,7.37,GCN 5.0,2018,−,300 W
+499,NVIDIA Tesla C2070,workstation,7.33,Fermi,2011,5193 USD,238 W
+500,NVIDIA GRID K280Q,workstation,7.33,Kepler,2013,−,225 W
+501,AMD Radeon HD 6970,desktop,7.32,Terascale 2,2010,189 USD,250 W
+502,NVIDIA Quadro M620,mobile workstation,7.27,Maxwell,2017,1958 USD,30 W
+503,AMD Radeon HD 6930,desktop,7.26,TeraScale 3,2011,12 USD,186 W
+504,NVIDIA GeForce MX350,notebook,7.24,Pascal,2020,−,25 W
+505,NVIDIA GeForce GTX 770M,notebook,7.22,Kepler,2013,178 USD,50 W
+506,AMD Radeon RX 540,notebook,7.20,Polaris,2017,166 USD,75 W
+507,NVIDIA Quadro K5000M,mobile workstation,7.17,Kepler,2012,382 USD,100 W
+508,Intel UHD Graphics 64EUs (Alder Lake 12th Gen),notebook,7.17,Gen. 12,2022,−,−
+509,AMD Radeon R9 M380,notebook,7.13,GCN,2015,−,−
+510,NVIDIA GeForce GTX 675MX,notebook,7.08,Kepler,2012,868 USD,100 W
+511,NVIDIA GRID K2,workstation,7.06,Kepler,2013,10 USD,225 W
+512,NVIDIA GeForce GTX 560,desktop,7.06,Fermi 2.0,2011,76 USD,150 W
+513,NVIDIA Quadro K4100M,mobile workstation,7.06,Kepler,2013,323 USD,100 W
+514,AMD FirePro S7150,workstation,7.04,GCN 3.0,2016,7738 USD,150 W
+515,NVIDIA Quadro K4000,workstation,7.03,Kepler,2013,330 USD,80 W
+516,AMD Radeon Pro 450,mobile workstation,7.03,Polaris,2016,183 USD,75 W
+517,NVIDIA GeForce GTX 570 Rev. 2,desktop,7.03,Fermi 2.0,2010,249 USD,219 W
+518,AMD Radeon RX 550,desktop,7.00,GCN 4.0,2017,121 USD,50 W
+519,NVIDIA Quadro 6000,workstation,6.99,Fermi,2010,1730 USD,204 W
+520,AMD Radeon RX 550 Mobile,notebook,6.92,Polaris,2017,294 USD,50 W
+521,NVIDIA GeForce GTX 465,desktop,6.88,Fermi,2010,16 USD,200 W
+522,NVIDIA GeForce GT 750M SLI,notebook,6.87,Kepler,2013,545 USD,−
+523,AMD FirePro R5000,workstation,6.83,GCN 1.0,2013,500 USD,150 W
+524,AMD Radeon HD 6950,desktop,6.74,TeraScale 3,2010,320 USD,200 W
+525,NVIDIA GRID M10-8Q,workstation,6.73,Maxwell,2016,−,225 W
+526,NVIDIA GeForce GTX 950A,desktop,6.72,Maxwell,2015,1099 USD,75 W
+527,NVIDIA GeForce GTX 950M,notebook,6.67,Maxwell,2015,797 USD,75 W
+528,NVIDIA GeForce GTX 780M Mac Edition,desktop,6.67,Kepler,2013,149 USD,122 W
+529,NVIDIA GeForce GTX 470M SLI,notebook,6.62,Fermi,2010,149 USD,−
+530,NVIDIA GRID K240Q,workstation,6.56,Kepler,2013,−,225 W
+531,AMD Radeon HD 6850 X2,desktop,6.54,TeraScale 2,2011,−,254 W
+532,AMD FireStream 9370,desktop,6.53,TeraScale 2,2010,−,225 W
+533,AMD Radeon PRO WX 3100,mobile workstation,6.51,Polaris,2017,242 USD,65 W
+534,NVIDIA GeForce GTX 650 Ti,desktop,6.51,Kepler,2012,251 USD,110 W
+535,NVIDIA GeForce GTX 850M,notebook,6.48,Maxwell,2014,163 USD,45 W
+536,NVIDIA GeForce GTX 560M SLI,notebook,6.46,Fermi,2011,149 USD,100 W
+537,AMD Radeon Pro WX 4150,mobile workstation,6.45,Polaris,2017,2000 USD,50 W
+538,NVIDIA GeForce GTX 480M SLI,notebook,6.44,Fermi,2010,149 USD,100 W
+539,NVIDIA GeForce GT 1030,desktop,6.38,Pascal,2017,137 USD,30 W
+540,NVIDIA GeForce MX330,notebook,6.34,Pascal,2020,1079 USD,25 W
+541,AMD Radeon Pro WX 3200,workstation,6.27,Polaris,2019,740 USD,65 W
+542,NVIDIA GeForce MX250,notebook,6.26,Pascal,2019,1165 USD,10 W
+543,AMD Radeon RX Vega 6 (Ryzen 4000/5000),notebook,6.23,Vega,2020,−,15 W
+544,NVIDIA GeForce GTX 960A,desktop,6.22,Maxwell,2015,243 USD,75 W
+545,Intel UHD Graphics 770,desktop,6.13,Alder Lake,2022,878 USD,15 W
+546,NVIDIA GeForce GTX 485M,notebook,6.09,Fermi,2010,163 USD,100 W
+547,AMD FirePro W6150M,mobile workstation,6.09,GCN 2.0,2015,299 USD,−
+548,AMD Radeon RX 550X Mobile,notebook,6.08,Polaris,2019,299 USD,50 W
+549,NVIDIA P106-090,desktop,6.05,Pascal,2017,26 USD,75 W
+550,AMD Radeon R9 M470,notebook,6.02,GCN 2,2016,−,−
+551,AMD FirePro V7900,workstation,5.95,TeraScale 3,2011,165 USD,150 W
+552,ATI Radeon HD 5970,desktop,5.94,TeraScale 2,2009,69 USD,294 W
+553,NVIDIA GeForce MX150,notebook,5.88,Pascal,2017,1049 USD,25 W
+554,NVIDIA Quadro K3100M,mobile workstation,5.86,Kepler,2013,683 USD,75 W
+555,AMD Radeon HD 6970M,notebook,5.86,Terascale 2,2011,257 USD,75 W
+556,AMD Radeon R7 250X,desktop,5.86,GCN 1.0,2014,207 USD,80 W
+557,NVIDIA GeForce GTX 460,desktop,5.84,Fermi,2010,128 USD,160 W
+558,AMD Radeon RX 550X,desktop,5.81,GCN 4.0,2018,259 USD,50 W
+559,NVIDIA Quadro K620,workstation,5.77,Maxwell,2014,286 USD,45 W
+560,AMD Radeon HD 6870,desktop,5.73,Terascale 2,2010,332 USD,151 W
+561,ATI Radeon HD 5870,desktop,5.72,TeraScale 2,2009,125 USD,188 W
+562,AMD FirePro W5170M,mobile workstation,5.66,GCN,2015,1530 USD,−
+563,NVIDIA Quadro M600M,mobile workstation,5.62,Maxwell,2015,103 USD,30 W
+564,AMD Radeon RX Vega 9,notebook,5.61,Vega,2017,302 USD,15 W
+565,AMD Radeon HD 7770,desktop,5.61,GCN,2012,300 USD,80 W
+566,AMD Radeon R7 350,desktop,5.56,GCN 1.0,2016,142 USD,55 W
+567,Intel Iris Plus Graphics G7 (Ice Lake 64 EU),notebook,5.53,Gen. 11 Ice Lake,2019,−,12 W
+568,AMD FirePro M6100,mobile workstation,5.48,GCN,2013,120 USD,−
+569,AMD Juniper,desktop,5.47,TeraScale 2,−,23 USD,−
+570,AMD Radeon RX Vega 11,desktop,5.47,Vega,2017,475 USD,65 W
+571,NVIDIA GeForce 945M,notebook,5.44,Maxwell,2015,163 USD,75 W
+572,NVIDIA Quadro P520,mobile workstation,5.43,Pascal,2019,1670 USD,18 W
+573,AMD FirePro M5100,mobile workstation,5.43,GCN,2013,105 USD,−
+574,NVIDIA GeForce GTX 580M,notebook,5.35,Fermi,2011,170 USD,100 W
+575,AMD Radeon R9 M385,notebook,5.32,GCN,2015,999 USD,−
+576,NVIDIA Quadro 5000M,mobile workstation,5.32,Fermi,2010,3732 USD,100 W
+577,AMD Radeon HD 6990M,notebook,5.22,Terascale 2,2011,190 USD,100 W
+578,Intel Iris Pro Graphics P580,notebook,5.22,Gen. 9 Skylake,2015,−,15 W
+579,NVIDIA GeForce GTX 460 SE,desktop,5.19,Fermi,2010,350 USD,150 W
+580,AMD Radeon Pro W5500M,mobile workstation,5.19,RDNA 1.0,2020,2381 USD,85 W
+581,AMD Radeon R9 M385X,notebook,5.15,GCN,2015,999 USD,−
+582,NVIDIA GeForce GTX 765M,notebook,5.14,Kepler,2013,93 USD,60 W
+583,ATI Radeon HD 5850,desktop,5.13,Terascale 2,2009,120 USD,151 W
+584,AMD Radeon HD 6850,desktop,5.09,TeraScale 2,2010,177 USD,127 W
+585,NVIDIA GeForce GT 650M SLI,notebook,5.09,Kepler,2012,545 USD,−
+586,AMD Radeon Pro WX 4130,mobile workstation,5.08,Polaris,2017,2000 USD,50 W
+587,NVIDIA Quadro K4000M,mobile workstation,5.06,Kepler,2012,240 USD,100 W
+588,NVIDIA GeForce GTX 470M,notebook,5.04,Fermi,2010,78 USD,75 W
+589,AMD Radeon RX 640,notebook,5.04,Polaris,2019,193 USD,50 W
+590,NVIDIA GeForce GTX 670MX,notebook,5.03,Kepler,2012,−,75 W
+591,NVIDIA Quadro 5000,workstation,4.98,Fermi,2011,991 USD,152 W
+592,NVIDIA GeForce GTX 675M,notebook,4.98,Fermi,2012,218 USD,100 W
+593,AMD Radeon RX 570X,desktop,4.96,GCN 4.0,2018,186 USD,120 W
+594,NVIDIA GeForce GTX 560 SE,desktop,4.94,Fermi 2.0,2012,703 USD,150 W
+595,NVIDIA GeForce GTX 460M SLI,notebook,4.92,Fermi,2010,149 USD,−
+596,AMD Radeon 550,desktop,4.87,GCN 4.0,2017,94 USD,50 W
+597,NVIDIA Tesla M2070,workstation,4.87,Fermi,2011,4064 USD,225 W
+598,ATI Mobility Radeon HD 5870 Crossfire,notebook,4.85,Terascale 2,2010,56 USD,120 W
+599,Qualcomm Adreno 690,notebook,4.84,,2018,−,7 W
+600,NVIDIA GeForce GTX 460 v2,desktop,4.83,Fermi 2.0,2011,235 USD,160 W
+601,NVIDIA Quadro M520,mobile workstation,4.83,Maxwell,2017,−,25 W
+602,NVIDIA GeForce GTX 570M,notebook,4.81,Fermi,2011,163 USD,75 W
+603,NVIDIA GeForce MX130,notebook,4.79,Maxwell,2018,899 USD,15 W
+604,NVIDIA GeForce 945A,desktop,4.78,Maxwell,2015,−,33 W
+605,Intel Iris Pro Graphics 580,notebook,4.75,Gen. 9 Skylake,2015,2427 USD,15 W
+606,NVIDIA GeForce MX230,notebook,4.75,Pascal,2019,1221 USD,10 W
+607,AMD Radeon R9 M360,desktop,4.74,GCN 1.0,2015,1140 USD,−
+608,AMD Radeon PRO WX 2100,mobile workstation,4.73,Polaris,2018,343 USD,50 W
+609,Intel UHD Graphics Xe 32EUs (Tiger Lake-H),notebook,4.70,Gen. 12,2021,−,−
+610,AMD FirePro M6000,mobile workstation,4.70,GCN,2012,162 USD,43 W
+611,AMD Radeon RX Vega 5,notebook,4.65,Vega,2020,287 USD,15 W
+612,NVIDIA Quadro 5010M,mobile workstation,4.57,Fermi,2011,134 USD,100 W
+613,Intel Iris Plus Graphics 650,notebook,4.54,Gen. 9.5 Kaby Lake,2017,949 USD,15 W
+614,Intel UHD Graphics Xe G4 48EUs,notebook,4.53,Gen. 11 Ice Lake,2020,−,28 W
+615,NVIDIA GeForce GTX 650,desktop,4.52,Kepler,2012,207 USD,65 W
+616,AMD Radeon R9 M375X,desktop,4.49,GCN 1.0,2015,448 USD,−
+617,AMD Radeon RX Vega 8 (Ryzen 2000/3000),notebook,4.48,Vega,2017,−,15 W
+618,NVIDIA GeForce GTX 670M,notebook,4.48,Fermi,2012,3 USD,75 W
+619,ATI Radeon HD 5830,desktop,4.48,TeraScale 2,2010,12 USD,175 W
+620,Intel UHD Graphics 750,notebook,4.47,Generation 12.1,2021,1454 USD,15 W
+621,NVIDIA GeForce GTX 760M,notebook,4.43,Kepler,2013,163 USD,45 W
+622,ATI Radeon HD 5770,desktop,4.40,Terascale 2,2009,103 USD,108 W
+623,Intel UHD Graphics Xe 750 32EUs,notebook,4.39,Gen. 12,2021,−,−
+624,AMD Radeon HD 7750,desktop,4.38,GCN 1.0,2012,108 USD,55 W
+625,NVIDIA GeForce GTS 450 Rev. 2,desktop,4.38,Fermi 2.0,2011,−,106 W
+626,NVIDIA GeForce GTX 460 768MB,desktop,4.38,Fermi,−,149 USD,−
+627,NVIDIA GeForce GT 755M,notebook,4.36,Kepler,2013,310 USD,50 W
+628,AMD Radeon E8860,desktop,4.35,GCN 1.0,2014,−,37 W
+629,AMD Radeon Graphics (Ryzen 7000),notebook,4.33,RDNA 2,2022,−,−
+630,NVIDIA GeForce GT 750M Mac Edition,desktop,4.32,Kepler,2013,50 USD,50 W
+631,AMD FirePro W600,workstation,4.31,GCN 1.0,2012,358 USD,75 W
+632,AMD Radeon R7 M380,notebook,4.31,GCN,2015,−,−
+633,AMD Radeon R7 250E,desktop,4.28,GCN 1.0,2013,599 USD,55 W
+634,NVIDIA Quadro K3000M,mobile workstation,4.25,Kepler,2012,223 USD,75 W
+635,NVIDIA GRID M40,workstation,4.25,Maxwell,2016,484 USD,50 W
+636,AMD Radeon RX Vega 10,notebook,4.23,Vega,2017,449 USD,15 W
+637,AMD Radeon HD 8870M,notebook,4.23,GCN,2012,338 USD,−
+638,NVIDIA Quadro P400,workstation,4.23,Pascal,2017,73 USD,30 W
+639,NVIDIA Quadro P500,mobile workstation,4.21,Pascal,2017,300 USD,18 W
+640,NVIDIA GeForce GTX 285M SLI,notebook,4.20,G9x,2009,149 USD,150 W
+641,Intel Iris Plus Graphics 655,notebook,4.20,Gen. 9.5 Kaby Lake,2017,999 USD,15 W
+642,AMD Radeon R7 M465X,desktop,4.19,GCN 1.0,2016,−,−
+643,NVIDIA GeForce GTX 480M,notebook,4.17,Fermi,2010,163 USD,100 W
+644,AMD Radeon HD 6790,desktop,4.17,Terascale 2,2011,184 USD,150 W
+645,AMD FirePro M4000,mobile workstation,4.14,GCN,2012,433 USD,33 W
+646,NVIDIA Quadro K2000,workstation,4.07,Kepler,2013,550 USD,51 W
+647,NVIDIA Quadro K2000D,workstation,4.07,Kepler,2013,438 USD,51 W
+648,Intel Iris Plus Graphics G4 (Ice Lake 48 EU),notebook,4.02,Gen. 11 Ice Lake,2019,−,12 W
+649,NVIDIA GeForce GTX 550 Ti,desktop,3.99,Fermi,2011,197 USD,116 W
+650,AMD Radeon R9 M370X,notebook,3.99,GCN 1.0,2015,−,−
+651,Intel Iris Plus Graphics 645,notebook,3.97,Gen. 9.5 Coffee Lake,2019,−,15 W
+652,AMD Radeon R9 M275X,desktop,3.97,GCN 1.0,2014,10 USD,−
+653,AMD FirePro W4100,workstation,3.95,GCN,2015,916 USD,50 W
+654,NVIDIA GeForce 845M,notebook,3.93,Maxwell,2014,163 USD,33 W
+655,NVIDIA GeForce GTX 285,desktop,3.91,Tesla 2.0,2008,98 USD,204 W
+656,NVIDIA GeForce 940MX,notebook,3.91,Maxwell,2016,950 USD,15 W
+657,Intel Iris Pro Graphics 6200,notebook,3.90,Gen. 8 Broadwell,2015,645 USD,15 W
+658,AMD Radeon HD 7870M,notebook,3.89,GCN,2012,338 USD,45 W
+659,ATI Radeon HD 4890,desktop,3.89,TeraScale,2009,12 USD,190 W
+660,NVIDIA GeForce GT 740,desktop,3.84,Kepler,2014,279 USD,64 W
+661,Intel Iris Plus Graphics 640,notebook,3.84,Gen. 9.5 Kaby Lake,2017,669 USD,15 W
+662,AMD Radeon R9 M365X,notebook,3.82,GCN,2015,−,−
+663,NVIDIA Quadro 4000,workstation,3.82,Fermi,2010,295 USD,142 W
+664,AMD Radeon 550X,desktop,3.77,GCN 4.0,2019,468 USD,50 W
+665,NVIDIA GeForce MX110,notebook,3.73,Maxwell,2018,1057 USD,30 W
+666,NVIDIA GeForce GTX 660M,notebook,3.69,Kepler,2012,276 USD,50 W
+667,AMD Radeon 540X,notebook,3.68,GCN 4.0,2019,421 USD,50 W
+668,NVIDIA Maxwell GPU Surface Book,notebook,3.67,Maxwell,2015,−,−
+669,AMD Oland,desktop,3.66,GCN 1.0,−,166 USD,−
+670,AMD Radeon R7 M370,notebook,3.66,GCN,2015,875 USD,−
+671,ATI FirePro V5800,workstation,3.65,TeraScale 2,2010,354 USD,74 W
+672,NVIDIA GeForce GTX 275,desktop,3.65,Tesla 2.0,2009,82 USD,219 W
+673,"NVIDIA Maxwell GPU Surface Book (940M, GDDR5)",notebook,3.65,Maxwell,2015,−,−
+674,AMD FirePro W5130M,mobile workstation,3.64,GCN,2015,1041 USD,−
+675,Intel UHD Graphics 32EUs (Alder Lake),notebook,3.59,,−,−,−
+676,Intel Iris Graphics 550,notebook,3.58,Gen. 9 Skylake,2015,−,15 W
+677,AMD Radeon HD 7770M,notebook,3.56,GCN,2012,338 USD,32 W
+678,AMD Radeon HD 7850M,notebook,3.54,GCN,2012,338 USD,32 W
+679,AMD Radeon HD 6950M,notebook,3.53,Terascale 2,2011,338 USD,50 W
+680,ATI Radeon HD 4870,desktop,3.53,TeraScale,2008,162 USD,150 W
+681,AMD Radeon 540,desktop,3.51,GCN 4.0,2019,1233 USD,50 W
+682,NVIDIA GeForce GT 640 Rev. 2,desktop,3.51,Kepler 2.0,2013,230 USD,49 W
+683,NVIDIA Quadro K2100M,mobile workstation,3.51,Kepler,2013,208 USD,55 W
+684,NVIDIA GeForce GTX 280M SLI,notebook,3.46,G9x,2009,149 USD,150 W
+685,AMD FireStream 9270,desktop,3.46,TeraScale,2008,−,160 W
+686,NVIDIA Quadro 4000M,mobile workstation,3.43,Fermi,2011,118 USD,100 W
+687,NVIDIA GeForce GT 750M,notebook,3.42,Kepler,2013,1119 USD,35 W
+688,NVIDIA GeForce GTS 450,desktop,3.42,Fermi,2010,127 USD,106 W
+689,AMD FirePro M5950,mobile workstation,3.39,Terascale 2,2011,386 USD,35 W
+690,ATI Radeon HD 4870 X2,desktop,3.38,TeraScale,2008,202 USD,286 W
+691,AMD Radeon HD 8790M,notebook,3.37,GCN,2012,460 USD,−
+692,NVIDIA Tesla M2070-Q,workstation,3.37,Fermi,2011,−,225 W
+693,AMD Radeon R7 M275DX,notebook,3.37,GCN,2014,−,−
+694,NVIDIA GeForce GTX 280,desktop,3.35,Tesla 2.0,2008,159 USD,236 W
+695,NVIDIA GeForce GTX 660 OEM,desktop,3.34,Kepler,2012,481 USD,130 W
+696,NVIDIA GeForce 930MX,notebook,3.33,Maxwell,2016,1808 USD,15 W
+697,AMD Cayman,desktop,3.31,TeraScale 3,−,15 USD,−
+698,AMD FirePro V5900,workstation,3.28,TeraScale 3,2011,89 USD,75 W
+699,AMD Radeon 630,notebook,3.28,GCN 1.0,2019,65 USD,50 W
+700,NVIDIA GeForce 930A,desktop,3.27,Maxwell,2015,350 USD,33 W
+701,NVIDIA GeForce GTX 260M SLI,notebook,3.24,G9x,2009,149 USD,150 W
+702,AMD Radeon HD 6770,desktop,3.22,TeraScale 2,2011,150 USD,108 W
+703,NVIDIA GeForce GTX 560M,notebook,3.21,Fermi,2011,1198 USD,75 W
+704,NVIDIA GeForce GTX 460M,notebook,3.19,Fermi,2010,88 USD,50 W
+705,NVIDIA GeForce GT 745A,desktop,3.17,Kepler,2013,530 USD,33 W
+706,NVIDIA GeForce GTX 760A,desktop,3.17,Kepler,2014,−,55 W
+707,NVIDIA GeForce GTX 260,desktop,3.16,Tesla 2.0,2008,49 USD,182 W
+708,NVIDIA Quadro FX 5800,workstation,3.16,Tesla 2.0,2008,157 USD,189 W
+709,ATI Mobility Radeon HD 4870 X2,notebook,3.15,Terascale 1,2009,305 USD,−
+710,NVIDIA GeForce GTX 775M Mac Edition,desktop,3.14,Kepler,2013,149 USD,100 W
+711,NVIDIA GeForce GTX 295,desktop,3.11,Tesla 2.0,2009,200 USD,289 W
+712,AMD Radeon HD 7730,desktop,3.11,GCN 1.0,2013,207 USD,47 W
+713,NVIDIA GeForce GT 650M,notebook,3.11,Kepler,2012,679 USD,45 W
+714,AMD Radeon R9 M270X,desktop,3.11,GCN 1.0,2014,−,−
+715,NVIDIA GeForce 9800M GTX SLI,notebook,3.10,G9x,2008,149 USD,150 W
+716,Intel HD Graphics P630,desktop,3.09,Gen. 9.5 Kaby Lake,2016,1449 USD,15 W
+717,Intel HD Graphics 630,desktop,3.09,Gen. 9.5 Kaby Lake,2017,370 USD,15 W
+718,NVIDIA GRID K340,workstation,3.08,Kepler,2013,99 USD,225 W
+719,Intel UHD Graphics 630,desktop,3.08,Gen. 9.5,2017,457 USD,15 W
+720,AMD Radeon HD 7750M,notebook,3.07,GCN,2012,338 USD,36 W
+721,Intel Iris Graphics 540,notebook,3.05,Gen. 9 Skylake,2015,1043 USD,15 W
+722,AMD Radeon R7 512 Cores (Kaveri Desktop),desktop,3.05,GCN,2014,−,−
+723,AMD Hainan,desktop,3.05,Sea Islands,−,23 USD,−
+724,NVIDIA NVS 810,workstation,3.04,Maxwell,2015,848 USD,68 W
+725,NVIDIA GeForce 840A,desktop,3.04,Maxwell,2014,−,33 W
+726,NVIDIA GeForce GT 640,desktop,3.04,Kepler,2012,157 USD,65 W
+727,Intel UHD Graphics G1 (Ice Lake 32 EU),notebook,3.04,Gen. 11 Ice Lake,2019,−,12 W
+728,Intel UHD Graphics Xe 750 32EUs (Rocket Lake),desktop,3.04,Gen. 12,2021,−,−
+729,NVIDIA GeForce GTX 460 OEM,desktop,3.03,Fermi,2010,99 USD,150 W
+730,NVIDIA Quadro M500M,mobile workstation,3.03,Maxwell,2015,775 USD,30 W
+731,AMD Radeon RX Vega 6 (Ryzen 2000/3000),notebook,3.03,Vega,2018,−,15 W
+732,AMD FireStream 9250,desktop,3.01,TeraScale,2008,−,150 W
+733,AMD FirePro W4190M,mobile workstation,3.00,GCN,2015,4205 USD,−
+734,NVIDIA Quadro K620M,mobile workstation,3.00,Maxwell,2015,−,30 W
+735,ATI Radeon HD 5750,desktop,3.00,TeraScale 2,2009,189 USD,86 W
+736,Intel Iris Pro Graphics 5200,notebook,2.98,Gen. 7.5 Haswell,2013,1086 USD,30 W
+737,AMD Radeon RX Vega 3,notebook,2.97,Vega,2018,371 USD,15 W
+738,AMD Radeon HD 8770M,notebook,2.95,GCN,2012,338 USD,−
+739,ATI Mobility Radeon HD 5870,notebook,2.95,Terascale 2,2010,108 USD,50 W
+740,AMD Radeon R9 M265X,notebook,2.94,GCN,2014,−,−
+741,NVIDIA GeForce 830A,desktop,2.94,Maxwell,2014,−,33 W
+742,ATI Radeon HD 4850 X2,desktop,2.92,TeraScale,2008,−,250 W
+743,NVIDIA GeForce 940M,notebook,2.90,Maxwell,2015,879 USD,25 W
+744,AMD FirePro M4170,mobile workstation,2.89,GCN 1.0,2015,474 USD,−
+745,AMD Radeon R9 M275,notebook,2.88,GCN,2014,912 USD,−
+746,AMD Radeon 610M,notebook,2.87,RDNA 2,2022,−,15 W
+747,AMD Radeon R6 M340DX,notebook,2.87,GCN,2015,−,−
+748,NVIDIA GeForce 940A,desktop,2.86,Maxwell,2015,−,33 W
+749,NVIDIA GeForce GT 545,desktop,2.84,Fermi 2.0,2011,195 USD,70 W
+750,AMD Radeon R7 M465,notebook,2.83,GCN,2017,−,−
+751,NVIDIA GeForce GT 745M,notebook,2.82,Kepler,2013,55 USD,25 W
+752,AMD Radeon R7 M350,desktop,2.82,GCN 3.0,2015,−,35 W
+753,AMD Radeon R7 M460,notebook,2.81,GCN,2016,900 USD,−
+754,NVIDIA Quadro K1100M,mobile workstation,2.81,Kepler,2013,350 USD,45 W
+755,NVIDIA GeForce 840M,notebook,2.80,Maxwell,2014,743 USD,33 W
+756,AMD Radeon 625,notebook,2.80,GCN 1.0,2019,68 USD,50 W
+757,NVIDIA GeForce 920MX,notebook,2.78,Maxwell,2015,1597 USD,16 W
+758,AMD Radeon R7 250,desktop,2.77,GCN,2013,256 USD,65 W
+759,Intel HD Graphics P530,notebook,2.77,Gen. 9 Skylake,2015,895 USD,15 W
+760,AMD Radeon HD 8550G + HD 8750M Dual Graphics,notebook,2.76,,2013,105 USD,−
 761,Qualcomm Adreno 680,notebook,2.74,,2018,−,7 W
-762,FirePro M4100,mobile workstation,2.73,GCN,2013,−,−
-763,Radeon R7 384 Cores (Kaveri Desktop),desktop,2.72,GCN,2014,−,−
-764,Radeon HD 7670A,desktop,2.71,TeraScale 2,2012,−,45 W
-765,GeForce GTX 850A,desktop,2.71,Maxwell,2014,−,45 W
-766,Radeon HD 6750,desktop,2.69,TeraScale 2,2011,161 USD,86 W
-767,Radeon HD 8650G + HD 8670M Dual Graphics,notebook,2.69,,2013,90 USD,−
-768,FirePro W4170M,mobile workstation,2.67,GCN,2012,495 USD,−
-769,Qualcomm Adreno 685,notebook,2.67,,2018,1429 USD,7 W
-770,Radeon R5 430 OEM,desktop,2.66,GCN 1.0,2016,−,50 W
-771,UHD Graphics 620,notebook,2.66,Gen. 9.5,2017,706 USD,15 W
-772,Radeon HD 4850,desktop,2.65,Terascale 1,2008,138 USD,110 W
-773,Radeon R9 A375,desktop,2.64,GCN 1.0,2015,−,−
-774,Quadro 3000M,mobile workstation,2.63,Fermi,2011,447 USD,75 W
-775,Quadro K2000M,mobile workstation,2.61,Kepler,2012,92 USD,55 W
-776,Radeon 530,notebook,2.61,GCN,2017,627 USD,50 W
-777,GeForce 930M,notebook,2.61,Maxwell,2015,160 USD,12 W
-778,Radeon HD 7690M XT,notebook,2.60,Terascale 2,2011,180 USD,25 W
-779,GeForce 830M,notebook,2.59,Maxwell,2014,160 USD,33 W
-780,Radeon HD 7690M,notebook,2.59,Terascale 2,2011,338 USD,20 W
-781,HD Graphics 530,notebook,2.58,Gen. 9 Skylake,2015,526 USD,15 W
-782,Radeon R7 M260X,notebook,2.57,GCN,2014,−,−
-783,Radeon R7 A265,desktop,2.56,GCN 1.0,2014,324 USD,−
-784,Quadro FX 4800,workstation,2.56,Tesla 2.0,2008,632 USD,150 W
-785,FirePro V4900,workstation,2.55,TeraScale 2,2011,155 USD,75 W
-786,Radeon HD 8690M,notebook,2.54,GCN,2012,596 USD,−
-787,Radeon R9 M375,notebook,2.53,GCN,2015,1699 USD,−
-788,Radeon HD 8750M,notebook,2.52,GCN,2012,338 USD,−
-789,UHD Graphics G7 (Lakefield GT2 64 EU),notebook,2.52,Gen. 11 Ice Lake,2020,−,7 W
-790,Quadro 2000D,workstation,2.51,Fermi,2011,151 USD,62 W
-791,Radeon HD 8850M,notebook,2.51,GCN,2012,338 USD,−
-792,Radeon HD 6770M,notebook,2.49,Terascale 2,2011,243 USD,35 W
-793,Radeon R7 M270DX,desktop,2.48,GCN 3.0,2014,−,−
-794,Quadro 2000,workstation,2.44,Fermi,2010,141 USD,62 W
-795,Quadro CX,workstation,2.44,Tesla 2.0,2008,18 USD,150 W
-796,FirePro M4150,workstation,2.44,GCN 1.0,2013,170 USD,−
-797,Radeon R5 (Bristol Ridge),notebook,2.44,GCN 1.2/2.0,2016,53 USD,12 W
-798,Radeon R7 M445,notebook,2.43,GCN,2016,809 USD,15 W
-799,Radeon HD 6750M,notebook,2.42,Terascale 2,2011,506 USD,35 W
-800,HD Graphics 620,notebook,2.41,Gen. 9.5 Kaby Lake,2016,353 USD,15 W
-801,GeForce GT 645M,notebook,2.39,Kepler,2012,310 USD,32 W
-802,GeForce GT 640M,notebook,2.37,Kepler,2012,310 USD,32 W
-803,GRID K220Q,workstation,2.35,Kepler,2014,−,225 W
-804,Radeon HD 4770,desktop,2.34,TeraScale,2009,182 USD,80 W
-805,Radeon R7 240,desktop,2.34,GCN 1.0,2013,109 USD,30 W
-806,Radeon R7 M440,notebook,2.34,GCN 1.0,2016,737 USD,−
-807,UHD Graphics 24EUs (Alder Lake-N),notebook,2.34,Gen. 12,−,−,−
-808,FirePro W2100,workstation,2.33,GCN,2015,123 USD,26 W
-809,Radeon 620,notebook,2.32,GCN 1.0,2019,67 USD,50 W
-810,UHD Graphics Xe 16EUs (Tiger Lake-H),notebook,2.27,Gen. 12,2021,−,−
-811,Radeon E6760,desktop,2.26,TeraScale 2,2011,90 USD,45 W
-812,UHD Graphics (Jasper Lake 24 EU),notebook,2.19,Gen. 11,2021,−,4.8 W
-813,HD Graphics 6000,notebook,2.19,Gen. 8 Broadwell,2015,286 USD,15 W
-814,Mobility Radeon HD 3870 X2,notebook,2.18,RV6xx,2008,−,110 W
-815,GeForce 920A,desktop,2.18,Kepler 2.0,2015,179 USD,33 W
-816,Radeon HD 4830,desktop,2.16,TeraScale,2008,31 USD,95 W
-817,Radeon HD 6650A,desktop,2.16,TeraScale 2,2011,−,45 W
-818,GeForce GT 730,desktop,2.15,Fermi,2014,77 USD,49 W
-819,HD Graphics 520,notebook,2.15,Gen. 9 Skylake,2015,309 USD,15 W
-820,GeForce GT 755M Mac Edition,desktop,2.14,Kepler,2013,50 USD,50 W
-821,Radeon HD 3850 X2,desktop,2.12,TeraScale,2008,−,140 W
-822,Radeon R7 M260DX,desktop,2.11,GCN 1.0,2014,−,−
-823,GeForce GT 730M,notebook,2.10,Kepler,2013,1000 USD,33 W
-824,Radeon R9 M280X,notebook,2.10,GCN,2015,−,−
-825,GeForce GT 445M,notebook,2.09,Fermi,2010,310 USD,35 W
-826,FirePro M7740,mobile workstation,2.07,Terascale 1,2009,255 USD,60 W
-827,Radeon HD 5670,desktop,2.07,Terascale 2,2010,132 USD,64 W
-828,Radeon R5 M435,desktop,2.07,GCN 1.0,2016,120 USD,−
-829,Mobility Radeon HD 4870,notebook,2.06,Terascale 1,2009,305 USD,−
-830,Quadro FX 3800,workstation,2.06,Tesla 2.0,2009,171 USD,108 W
-831,GeForce 9800 GX2,desktop,2.06,Tesla,2008,140 USD,197 W
-832,Radeon R8 M445DX,notebook,2.05,GCN,2016,550 USD,−
-833,GeForce GT 740M,notebook,2.04,Kepler,2013,310 USD,25 W
-834,Iris Graphics 6100,notebook,2.04,Gen. 8 Broadwell,2015,854 USD,28 W
-835,Radeon HD 7660G + HD 7670M Dual Graphics,notebook,2.04,Terascale 2,2012,90 USD,−
-836,Radeon 520,notebook,2.03,GCN 1.0,2017,140 USD,50 W
-837,Quadro K1000M,mobile workstation,2.02,Kepler,2012,232 USD,45 W
-838,GeForce 825M,notebook,2.02,Kepler,2014,160 USD,33 W
-839,Quadro 2000M,mobile workstation,2.02,Fermi,2011,135 USD,55 W
-840,Radeon HD 8550G + HD 8670M Dual Graphics,notebook,2.00,,2013,90 USD,−
-841,Radeon HD 8650G + HD 8570M Dual Graphics,notebook,1.99,,2013,90 USD,−
-842,Radeon R7 M365X,desktop,1.99,GCN 1.0,2015,−,−
-843,GeForce GT 440,desktop,1.99,Fermi,2011,160 USD,65 W
-844,GeForce 9800M GTS SLI,notebook,1.99,G9x,2008,149 USD,150 W
-845,GeForce 9800 GTX,desktop,1.99,Tesla,2008,151 USD,140 W
-846,Radeon HD 4810,desktop,1.99,TeraScale,2009,−,95 W
-847,HD Graphics 5600,notebook,1.98,Gen. 8 Broadwell,2015,121 USD,15 W
-848,Radeon R7 M270,notebook,1.98,GCN,2014,−,−
-849,GeForce 8800M GTX SLI,notebook,1.97,G9x,2007,149 USD,130 W
-850,Radeon HD 8730M,notebook,1.97,GCN,2012,338 USD,−
-851,Mobility Radeon HD 5850,notebook,1.96,Terascale 2,2010,153 USD,39 W
-852,Radeon HD 7730M,notebook,1.96,GCN,2012,338 USD,32 W
-853,GeForce 9800M GT SLI,notebook,1.96,G9x,2008,545 USD,130 W
-854,Radeon HD 6850M,notebook,1.95,Terascale 2,2011,338 USD,50 W
-855,UHD Graphics (Jasper Lake 32 EU),notebook,1.95,Gen. 11,2021,−,4.8 W
-856,Radeon R7 (Bristol Ridge),notebook,1.95,GCN 1.2,2016,80 USD,12 W
-857,Radeon HD 6650M,notebook,1.95,Terascale 2,2011,53 USD,−
-858,Radeon R7 (Carrizo),notebook,1.93,GCN 1.2/2.0,2015,999 USD,12 W
-859,Quadro K420,workstation,1.92,Kepler,2014,402 USD,41 W
-860,Quadro K600,workstation,1.92,Kepler,2013,220 USD,41 W
-861,GeForce GT 730A,desktop,1.92,Kepler 2.0,2014,−,33 W
-862,Radeon HD 6620G + HD 7670M Dual Graphics,notebook,1.90,Terascale 2,2012,90 USD,−
-863,Radeon HD 8650M,notebook,1.90,GCN,2013,338 USD,−
-864,Radeon HD 6670,desktop,1.89,TeraScale 2,2011,134 USD,66 W
-865,UHD Graphics 617,notebook,1.89,Gen. 9 Amber Lake,2018,950 USD,15 W
-866,GRID K140Q,workstation,1.88,Kepler,2013,−,130 W
-867,Quadro K610M,mobile workstation,1.88,Kepler,2013,210 USD,30 W
-868,GeForce 920M,notebook,1.87,Kepler,2015,895 USD,33 W
-869,HD Graphics 615,notebook,1.86,Gen. 9 Kaby Lake,2016,548 USD,5 W
-870,HD Graphics 610,notebook,1.84,Gen. 9 Kaby Lake,2017,86 USD,5 W
-871,HD Graphics 4600,notebook,1.83,Gen. 7.5 Haswell,2013,464 USD,20 W
-872,Radeon HD 3870 X2,desktop,1.83,TeraScale,2008,254 USD,165 W
-873,Radeon R5 (Carrizo),notebook,1.83,GCN 1.2/2.0,2015,−,12 W
-874,Radeon HD 6550A,desktop,1.83,TeraScale 2,2011,−,35 W
-875,NVS 510,workstation,1.81,Kepler,2012,61 USD,35 W
-876,Iris Graphics 5100,notebook,1.81,Gen. 7.5 Haswell,2013,696 USD,30 W
-877,GeForce GT 640M LE,notebook,1.79,Fermi / Kepler,2012,310 USD,32 W
-878,Radeon R6 (Kaveri),notebook,1.78,GCN 1.1,2014,−,−
-879,Radeon HD 6630M,notebook,1.77,Terascale 2,2011,338 USD,26 W
-880,GeForce GT 630,desktop,1.75,Fermi,2012,112 USD,65 W
-881,GeForce GTS 160M,notebook,1.75,G9x,2009,230 USD,60 W
-882,Quadro FX 4700 X2,workstation,1.75,Tesla,2008,−,226 W
-883,Radeon R8 M535DX,desktop,1.73,GCN 3.0,2017,299 USD,−
-884,GeForce GT 740A,desktop,1.72,Kepler 2.0,2013,−,33 W
-885,Radeon R7 M340,notebook,1.71,GCN,2015,−,−
-886,GeForce GT 555M,notebook,1.70,Fermi,2011,310 USD,35 W
-887,Radeon HD 2900 XT,desktop,1.70,TeraScale,2007,−,215 W
-888,GeForce GT 640 OEM,desktop,1.70,Kepler,2012,99 USD,50 W
-889,GeForce GTS 360M,notebook,1.68,GT2xx,2010,230 USD,38 W
-890,GeForce GTX 285M,notebook,1.68,G9x,2009,111 USD,75 W
-891,GRID K1,workstation,1.68,Kepler,2013,317 USD,130 W
-892,Radeon R5 M430,notebook,1.67,GCN,2016,749 USD,−
-893,FireStream 9170,desktop,1.67,TeraScale,2007,360 USD,105 W
-894,FirePro V3900,workstation,1.67,TeraScale 2,2012,110 USD,50 W
-895,GeForce 8800 Ultra,desktop,1.66,Tesla,2007,235 USD,171 W
-896,GeForce GT 630 OEM,desktop,1.65,Kepler,2012,429 USD,50 W
-897,Quadro K510M,mobile workstation,1.65,Kepler,2013,−,30 W
-898,Radeon HD 6740G2,notebook,1.65,Terascale 2,2011,−,−
-899,GeForce GT 735M,notebook,1.64,Kepler,2013,310 USD,33 W
-900,Mobility Radeon HD 4850,notebook,1.63,Terascale 1,2009,187 USD,−
-901,Radeon HD 7610M,notebook,1.63,Terascale 2,2012,338 USD,20 W
-902,GeForce GT 710,desktop,1.63,Kepler,2014,81 USD,19 W
-903,GRID K160Q,workstation,1.62,Kepler,2013,−,130 W
-904,Radeon HD 2900 PRO,desktop,1.62,TeraScale,2007,−,200 W
-905,NVS 5400M,mobile workstation,1.62,Fermi,2012,381 USD,35 W
-906,Radeon HD 7520G + HD 7670M Dual Graphics,notebook,1.62,Terascale 3,2012,90 USD,−
-907,Radeon HD 8450G + Radeon HD 8570M Dual Graphics,notebook,1.61,Terascale 3 / GCN,2012,74 USD,−
-908,GeForce 810A,desktop,1.61,Kepler 2.0,2014,−,15 W
-909,Radeon HD 7640G + HD 7610M Dual Graphics,notebook,1.60,Terascale 3,2012,90 USD,−
-910,Radeon HD 7570,desktop,1.59,TeraScale 2,2012,67 USD,60 W
-911,GeForce GT 650M Mac Edition,desktop,1.59,Kepler,2012,50 USD,45 W
-912,GeForce 720A,desktop,1.58,Fermi 2.0,2014,639 USD,33 W
-913,Radeon HD 7640G + HD 7670M Dual Graphics,notebook,1.58,Terascale 3,2012,90 USD,−
-914,UHD Graphics 615,notebook,1.58,Gen. 9 Amber Lake,2018,518 USD,5 W
-915,GeForce GT 720,desktop,1.57,Kepler 2.0,2014,394 USD,19 W
-916,Radeon R7 A360,desktop,1.57,GCN 3.0,2015,2500 USD,−
-917,HD Graphics P4600,desktop,1.56,Generation 7.5,2013,225 USD,84 W
-918,Radeon R6 M255DX,notebook,1.56,GCN,2014,−,−
-919,Radeon HD 6720G2,notebook,1.56,Terascale 2,2011,−,−
-920,GeForce GTX 660M Mac Edition,desktop,1.56,Kepler,2013,149 USD,50 W
-921,GeForce 910M,notebook,1.55,Kepler,2015,163 USD,15 W
-922,GeForce GTS 250,desktop,1.55,Tesla,2009,131 USD,150 W
-923,Radeon R8 M365DX,notebook,1.55,GCN,2015,−,−
-924,GeForce GT 430,desktop,1.55,Fermi,2010,59 USD,49 W
-925,Radeon R5 M330,notebook,1.54,GCN 1.0,2015,−,18 W
-926,GeForce 8800 GTX,desktop,1.52,Tesla,2006,357 USD,155 W
-927,Quadro FX 3800M,mobile workstation,1.51,G9x,2009,199 USD,100 W
-928,GeForce GT 720A,desktop,1.50,Fermi 2.0,2014,639 USD,33 W
-929,HD Graphics 5500,notebook,1.50,Gen. 8 Broadwell,2015,410 USD,15 W
-930,Radeon R5 A240,desktop,1.49,GCN 1.0,2014,−,50 W
-931,GeForce GTX 280M,notebook,1.48,G9x,2009,140 USD,75 W
-932,GeForce GT 550M,notebook,1.48,Fermi,2011,55 USD,35 W
-933,Radeon R7 (Kaveri),notebook,1.48,GCN 1.1,2014,135 USD,−
-934,Radeon HD 7650A,desktop,1.48,TeraScale 2,2012,46 USD,33 W
-935,Quadro 1000M,mobile workstation,1.47,Fermi,2011,129 USD,45 W
-936,Quadro 500M,workstation,1.47,Fermi,2011,58 USD,35 W
-937,GeForce GT 820M,desktop,1.47,Fermi 2.0,2013,310 USD,15 W
-938,GeForce 8800 GTS 512,desktop,1.47,Tesla,2007,146 USD,135 W
-939,Radeon R7 M360,notebook,1.46,GCN 2.0,2015,879 USD,−
-940,Radeon R6 (Carrizo),notebook,1.46,GCN 1.2/2.0,2015,−,12 W
-941,Radeon HD 6610M,desktop,1.46,TeraScale 2,2011,338 USD,26 W
-942,GeForce GT 635M,notebook,1.45,Fermi,2011,55 USD,35 W
-943,Radeon HD 6570,desktop,1.44,TeraScale 2,2011,66 USD,60 W
-944,GeForce 820A,desktop,1.43,Fermi 2.0,2014,238 USD,15 W
-945,Radeon HD 3870,desktop,1.43,TeraScale,2007,195 USD,106 W
-946,GF117,desktop,1.43,Fermi 2.0,−,70 USD,−
-947,GeForce 9800M GS,notebook,1.43,G9x,2008,180 USD,60 W
-948,GeForce GTS 250M,notebook,1.43,GT2xx,2009,230 USD,28 W
-949,Radeon HD 6755G2,notebook,1.42,Terascale 2,2011,−,−
-950,Radeon R5 M335,notebook,1.41,GCN 1.0,2015,891 USD,−
-951,Radeon HD 8550M,notebook,1.41,GCN,2012,338 USD,−
-952,GeForce 615,desktop,1.41,Fermi,2012,858 USD,49 W
-953,Radeon R7 M265,notebook,1.41,GCN,2014,585 USD,−
-954,Mobility Radeon HD 5730,notebook,1.40,Terascale 2,2010,−,26 W
-955,GeForce GT 630M,notebook,1.39,Fermi,2011,1121 USD,35 W
-956,GeForce GT 435M,notebook,1.39,Fermi,2010,67 USD,35 W
-957,Mobility Radeon HD 5830,notebook,1.39,Terascale 2,2010,−,24 W
-958,HD Graphics 5000,notebook,1.38,Gen. 7.5 Haswell,2013,489 USD,30 W
-959,Quadro 600,workstation,1.38,Fermi,2010,118 USD,40 W
-960,GRID K180Q,workstation,1.38,Kepler,2013,−,130 W
-961,Radeon HD 6680G2,notebook,1.37,Terascale 2,2011,−,−
-962,Radeon HD 6570M,notebook,1.37,Terascale 2,2010,338 USD,30 W
-963,Radeon HD 8670D,desktop,1.37,Terascale 3,2013,89 USD,100 W
-964,Radeon R5 M255,notebook,1.37,GCN,2014,−,−
-965,HD Graphics 510,notebook,1.37,Gen. 9 Skylake,2015,476 USD,15 W
-966,FirePro M5800,mobile workstation,1.37,Terascale 2,2010,60 USD,26 W
-967,Mobility Radeon HD 5650,notebook,1.36,Terascale 2,2010,24 USD,15 W
-968,HD Graphics 515,notebook,1.36,Gen. 9 Skylake,2015,512 USD,15 W
-969,Quadro FX 5600,workstation,1.36,Tesla,2007,209 USD,171 W
-970,Radeon HD 8650G,notebook,1.36,Terascale 3,2013,300 USD,35 W
-971,GeForce GT 425M,notebook,1.35,Fermi,2010,45 USD,23 W
-972,HD Graphics 4400,notebook,1.35,Gen. 7.5 Haswell,2013,425 USD,20 W
-973,Radeon HD 8670M,notebook,1.34,GCN,2012,338 USD,−
-974,UHD Graphics 610,notebook,1.34,Gen. 9 Kaby Lake,2019,601 USD,15 W
-975,Mobility Radeon HD 3870,notebook,1.34,RV6xx,2008,−,55 W
-976,Mobility Radeon,desktop,1.33,Rage 6,2001,202 USD,−
-977,Mobility Radeon HD 4830,notebook,1.33,Terascale 1,2009,−,−
-978,Radeon R5 (Stoney Ridge),notebook,1.33,GCN 1.2/2.0,2016,−,12 W
-979,UHD Graphics (Jasper Lake 16 EU),notebook,1.32,Gen. 11,2021,−,4.8 W
-980,NVS 5200M,mobile workstation,1.32,Fermi,2012,139 USD,25 W
-981,Radeon HD 6510G2,notebook,1.32,Terascale 2,2011,−,−
-982,Radeon HD 6730M,notebook,1.32,Terascale 2,2011,338 USD,35 W
-983,GeForce GT 240,desktop,1.32,GT2xx,2009,708 USD,69 W
-984,Radeon HD 6520G + HD 7450M Dual Graphics,notebook,1.32,Terascale 2,2012,90 USD,−
-985,Radeon HD 6550M,notebook,1.32,Terascale 2,2010,338 USD,26 W
-986,GeForce 9800 GTX+,desktop,1.31,Tesla,2009,151 USD,141 W
-987,GeForce GTS 150M,notebook,1.30,G9x,2009,230 USD,45 W
-988,Radeon HD 7660D,desktop,1.30,Terascale 3,2012,41 USD,100 W
-989,GeForce 820M,notebook,1.29,Fermi,2014,490 USD,15 W
-990,Radeon HD 6540G2,notebook,1.29,Terascale 2,2011,−,−
-991,Radeon R7 M265DX,desktop,1.29,GCN 3.0,2014,−,−
-992,Radeon R7 M260,notebook,1.28,GCN,2014,430 USD,−
-993,Radeon HD 6530M,notebook,1.28,Terascale 2,2010,338 USD,26 W
-994,Radeon R5 M420,notebook,1.27,GCN,2016,−,−
-995,GeForce 9600 GT,desktop,1.26,Tesla,2008,141 USD,95 W
-996,GeForce 8800 GT,desktop,1.24,Tesla,2007,166 USD,125 W
-997,Radeon HD 5570,desktop,1.24,Terascale 2,2010,149 USD,39 W
-998,Quadro K500M,mobile workstation,1.24,Kepler,2012,20 USD,35 W
-999,GeForce GT 540M,notebook,1.24,Fermi,2011,283 USD,35 W
-1000,GeForce 9800 GT,desktop,1.23,Tesla,2008,154 USD,125 W
-1001,GeForce GT 625M,notebook,1.23,Fermi,2012,310 USD,15 W
-1002,GeForce 800A,desktop,1.23,Fermi 2.0,2014,−,15 W
-1003,Radeon HD 7670M,notebook,1.23,Terascale 2,2011,338 USD,20 W
-1004,GeForce 710A,desktop,1.23,Fermi 2.0,2013,−,33 W
-1005,Radeon HD 7660G,notebook,1.22,Terascale 3,2012,950 USD,35 W
-1006,Radeon R5 M315,notebook,1.22,GCN,2015,−,−
-1007,Mobility Radeon HD 4670,notebook,1.22,Terascale 1,2009,143 USD,35 W
-1008,Radeon HD 7500G + HD 7550M Dual Graphics,notebook,1.21,Terascale 3,2012,105 USD,−
-1009,HD Graphics 5300,notebook,1.21,Gen. 8 Broadwell,2014,623 USD,15 W
-1010,Radeon R5 (Kaveri),notebook,1.21,GCN 1.1,2014,−,−
-1011,Quadro FX 1800M,mobile workstation,1.20,GT2xx,2010,309 USD,45 W
-1012,Quadro FX 3600M,mobile workstation,1.20,G9x,2008,80 USD,70 W
-1013,Radeon HD 7550M,notebook,1.20,Terascale 2,2012,338 USD,14 W
-1014,GeForce 8800M GTX,notebook,1.19,G9x,2007,160 USD,65 W
-1015,GeForce GT 720M,notebook,1.19,Fermi,2013,499 USD,18 W
-1016,GeForce 710M,notebook,1.19,Fermi,2013,44 USD,15 W
-1017,GeForce GT 525M,notebook,1.19,Fermi,2011,310 USD,25 W
-1018,Radeon HD 6480G + HD 7450M Dual Graphics,notebook,1.18,Terascale 2,2012,90 USD,−
-1019,Radeon HD 7640G,notebook,1.18,Terascale 3,2012,338 USD,35 W
-1020,GeForce 800M,desktop,1.18,Fermi 2.0,2014,163 USD,15 W
-1021,Quadro FX 3700M,mobile workstation,1.18,G9x,2008,163 USD,75 W
-1022,Radeon HD 7560D,desktop,1.18,Terascale 3,2012,39 USD,65 W
-1023,GeForce 705M,notebook,1.17,Fermi,2013,163 USD,15 W
-1024,Radeon R4 (Stoney Ridge),notebook,1.17,GCN 1.2/2.0,2016,−,15 W
-1025,HD Graphics 4000,notebook,1.17,Gen. 7 Ivy Bridge,2011,91 USD,45 W
-1026,GeForce 9800M GTX,notebook,1.17,G9x,2008,103 USD,75 W
-1027,UHD Graphics 605,notebook,1.17,Gen. 9 Apollo Lake,2017,458 USD,5 W
-1028,Radeon R5 M240,notebook,1.16,GCN,2014,−,−
-1029,GeForce GT 710M,desktop,1.15,Fermi 2.0,2013,23 USD,15 W
-1030,Radeon R5 M320,notebook,1.15,GCN 2.0,2015,−,−
-1031,Radeon HD 8570D,desktop,1.14,Terascale 3,2012,79 USD,65 W
-1032,Radeon HD 7650M,notebook,1.14,Terascale 2,2012,338 USD,20 W
-1033,Radeon HD 8570M,notebook,1.14,GCN,2012,338 USD,−
-1034,Quadro 410,workstation,1.14,Kepler,2012,41 USD,38 W
-1035,GeForce GT 625 OEM,desktop,1.13,Fermi 2.0,2013,100 USD,29 W
-1036,GeForce GT 620M,notebook,1.13,Fermi,2012,300 USD,15 W
-1037,HD Graphics 400,desktop,1.12,Generation 8.0,2015,710 USD,6 W
-1038,Radeon HD 8410G,notebook,1.12,TeraScale 3,2013,338 USD,35 W
-1039,Radeon HD 3850 AGP,desktop,1.12,TeraScale,2008,−,75 W
-1040,Quadro FX 4600,workstation,1.11,Tesla,2007,179 USD,134 W
-1041,Radeon HD 7570M,notebook,1.10,Terascale 2,2012,712 USD,13 W
-1042,Radeon HD 8610G,notebook,1.10,Terascale 3,2013,338 USD,−
-1043,FirePro M2000,mobile workstation,1.09,Terascale 2,2012,387 USD,33 W
-1044,Caicos,desktop,1.09,TeraScale 2,−,18 USD,−
-1045,Mobility Radeon HD 5165,notebook,1.09,Terascale 1,2010,−,35 W
-1046,Radeon R5 (Beema/Carrizo-L),notebook,1.08,GCN 1.1,2014,−,−
-1047,Quadro FX 2800M,mobile workstation,1.07,G9x,2009,140 USD,75 W
-1048,Radeon R5 M230,notebook,1.07,GCN,2014,−,−
-1049,Radeon HD 8550G,notebook,1.06,Terascale 3,2013,338 USD,35 W
-1050,Radeon HD 7470M,notebook,1.05,Terascale 2,2011,700 USD,7 W
-1051,GeForce GTS 350M,notebook,1.05,GT2xx,2010,230 USD,28 W
-1052,GeForce GT 640M Mac Edition,desktop,1.05,Kepler,2013,50 USD,32 W
-1053,UHD Graphics (Elkhart Lake 16 EU),desktop,1.05,,2021,−,4.8 W
-1054,Radeon E4690,desktop,1.05,TeraScale,2009,−,30 W
-1055,GeForce GT 420M,notebook,1.05,Fermi,2010,310 USD,23 W
-1056,GeForce 810M,desktop,1.04,Fermi 2.0,2014,163 USD,15 W
-1057,Radeon HD 6550D,desktop,1.04,Terascale 2,2011,49 USD,65 W
-1058,GeForce 9800M GTS,notebook,1.04,G9x,2008,230 USD,75 W
-1059,Mobility Radeon HD 4650,notebook,1.04,Terascale 1,2009,−,35 W
-1060,Radeon R2 (Stoney Ridge),notebook,1.03,GCN 1.2/2.0,2016,−,15 W
-1061,Radeon R4 (Beema),notebook,1.03,GCN 1.1,2014,−,−
-1062,Quadro FX 1800,workstation,1.03,Tesla,2009,132 USD,59 W
-1063,Radeon HD 3850,desktop,1.01,TeraScale,2007,30 USD,75 W
-1064,GeForce 7900 GTX,desktop,1.00,Curie,2006,228 USD,84 W
-1065,GeForce GT 335M,notebook,0.99,GT200,2010,310 USD,28 W
-1066,GeForce 8800M GTS,notebook,0.99,G9x,2007,110 USD,50 W
-1067,GeForce 9800M GT,notebook,0.98,G9x,2008,61 USD,65 W
-1068,Radeon HD 4670,desktop,0.98,TeraScale,2008,181 USD,59 W
-1069,GeForce GTX 260M,notebook,0.98,G9x,2009,109 USD,75 W
-1070,Radeon HD 6490M,notebook,0.97,Terascale 2,2011,248 USD,−
-1071,Quadro FX 3700,workstation,0.97,Tesla,2008,256 USD,78 W
-1072,GeForce GT 620,desktop,0.97,Fermi,2012,125 USD,49 W
-1073,Radeon HD 5550,desktop,0.97,TeraScale 2,2010,129 USD,39 W
-1074,Radeon HD 6450 GDDR5,desktop,0.96,Terascale 2,2011,129 USD,27 W
-1075,HD Graphics (Broadwell),notebook,0.96,Gen. 8 Broadwell,2015,437 USD,−
-1076,Quadro FX 2700M,mobile workstation,0.96,G9x,2008,296 USD,65 W
-1077,HD Graphics 4200,notebook,0.94,Gen. 7.5 Haswell,2013,427 USD,4 W
-1078,Radeon HD 8470D,desktop,0.94,Terascale 3,2013,37 USD,65 W
-1079,Radeon HD 7620G,notebook,0.94,Terascale 3,2012,338 USD,25 W
-1080,Quadro NVS 5100M,mobile workstation,0.92,GT2xx,2010,105 USD,35 W
-1081,Radeon HD 8510G,notebook,0.92,TeraScale 3,2013,659 USD,35 W
-1082,Radeon HD 8450G,notebook,0.90,Terascale 3,2013,338 USD,35 W
-1083,NVS 315,workstation,0.89,Fermi 2.0,2013,213 USD,19 W
-1084,GeForce 7950 GT,desktop,0.89,Curie,2006,200 USD,65 W
-1085,Radeon HD 6620G,notebook,0.88,Terascale 2,2011,338 USD,35 W
-1086,Radeon HD 8310E,desktop,0.88,GCN 2.0,2013,−,25 W
-1087,HD Graphics 505,notebook,0.86,Gen. 9 Apollo Lake,2016,659 USD,6 W
-1088,UHD Graphics 600,notebook,0.86,Gen. 9 Gemini Lake,2017,274 USD,5 W
-1089,GeForce 8800 GS,desktop,0.85,Tesla,2008,145 USD,105 W
-1090,GeForce 9600 GSO 512,desktop,0.85,Tesla,2008,75 USD,90 W
-1091,Radeon HD 7450M,notebook,0.85,Terascale 2,2012,338 USD,7 W
-1092,Radeon R4 (Kaveri),notebook,0.85,GCN 1.1,2014,−,−
-1093,Radeon HD 7600G,notebook,0.84,Terascale 3,2012,338 USD,19 W
-1094,GeForce 9600 GSO,desktop,0.84,Tesla,2008,75 USD,84 W
-1095,Radeon R3 (Mullins/Beema),notebook,0.84,GCN 1.1,2014,−,−
-1096,Radeon E6460,desktop,0.83,TeraScale 2,2011,150 USD,25 W
-1097,GeForce GT 230,desktop,0.83,Tesla,2009,123 USD,75 W
-1098,HD Graphics (Haswell),notebook,0.83,Gen. 7.5 Haswell,2012,273 USD,−
-1099,Radeon HD 7520G,notebook,0.81,Terascale 3,2012,90 USD,35 W
-1100,Mobility Radeon HD 560v,notebook,0.80,Terascale 1,2010,56 USD,15 W
-1101,Radeon HD 7420G,notebook,0.80,Terascale 3,2012,338 USD,35 W
-1102,GeForce GT 520,desktop,0.80,Fermi 2.0,2011,88 USD,29 W
-1103,Radeon HD 7500G,notebook,0.79,Terascale 3,2012,338 USD,17 W
-1104,GeForce GT 610,desktop,0.79,Fermi 2.0,2012,98 USD,29 W
-1105,Quadro FX 3500M,mobile workstation,0.79,G7x,2007,69 USD,45 W
-1106,Radeon HD 8350G,notebook,0.78,Terascale 3,2013,338 USD,35 W
-1107,Cedar,desktop,0.78,TeraScale 2,−,14 USD,−
-1108,GeForce 8700M GT SLI,notebook,0.78,G8x,2007,545 USD,58 W
-1109,Radeon HD 6520G,notebook,0.77,Terascale 2,2011,338 USD,35 W
-1110,Mobility Radeon HD 550v,notebook,0.77,Terascale 1,2010,56 USD,10 W
-1111,GRID K120Q,workstation,0.76,Kepler,2014,−,130 W
-1112,Radeon HD 2900 GT,desktop,0.75,TeraScale,2007,−,150 W
-1113,GeForce 610M,notebook,0.75,Fermi,2011,55 USD,12 W
-1114,GeForce 7800 GTX,desktop,0.75,Curie,2005,176 USD,86 W
-1115,HD Graphics 500,notebook,0.74,Gen. 9 Apollo Lake,2016,414 USD,6 W
-1116,Radeon HD 7450A,desktop,0.74,TeraScale 2,2012,13 USD,25 W
-1117,GeForce GT 415M,notebook,0.74,Fermi,2010,310 USD,12 W
-1118,Radeon HD 2600 XT,desktop,0.73,TeraScale,2007,144 USD,45 W
-1119,GeForce GT 520MX,notebook,0.73,Fermi,2011,3 USD,20 W
-1120,GeForce GT 520M,notebook,0.72,Fermi,2011,237 USD,17 W
-1121,HD Graphics 405,notebook,0.72,Gen. 8,2016,254 USD,6 W
-1122,GeForce 9700M GTS,notebook,0.72,G9x,2008,230 USD,60 W
-1123,Radeon HD 7480D,desktop,0.72,Terascale 3,2012,215 USD,65 W
-1124,NVS 4200M,mobile workstation,0.71,Fermi,2011,229 USD,25 W
-1125,Radeon HD 6370M,notebook,0.71,Terascale 2,2010,338 USD,11 W
-1126,Radeon HD 8400E,desktop,0.71,GCN 2.0,2013,293 USD,25 W
-1127,GeForce Go 7900 GTX,notebook,0.70,G7x,2006,535 USD,45 W
-1128,GeForce 9650M GS,notebook,0.70,G8x,2008,180 USD,29 W
-1129,Radeon HD 5470,desktop,0.69,TeraScale 2,2012,73 USD,19 W
-1130,Radeon HD 7400G,notebook,0.69,Terascale 3,2012,338 USD,17 W
-1131,Radeon HD 8330E,desktop,0.69,GCN 2.0,2013,142 USD,15 W
-1132,GeForce Go 7950 GTX,notebook,0.68,G7x,2006,−,45 W
-1133,HD Graphics 2500,notebook,0.68,Gen. 7 Ivy Bridge,2012,521 USD,−
-1134,Radeon HD 8400,notebook,0.67,GCN,2013,78 USD,25 W
-1135,Radeon HD 8280,notebook,0.67,GCN,2013,−,15 W
-1136,Radeon HD 6450A,desktop,0.67,TeraScale 2,2011,123 USD,25 W
-1137,Quadro FX 3500,workstation,0.67,Curie,2006,920 USD,80 W
-1138,Mobility Radeon HD 3850,notebook,0.67,RV6xx,2007,−,55 W
-1139,GeForce 7900 GT,desktop,0.67,Curie,2006,241 USD,48 W
-1140,Radeon HD 8330,notebook,0.66,GCN,2013,143 USD,15 W
-1141,GeForce 410M,notebook,0.66,Fermi,2011,163 USD,15 W
-1142,Radeon HD 6480G,notebook,0.66,Terascale 2,2011,362 USD,35 W
-1143,HD Graphics 3000,notebook,0.66,Gen. 6 Sandy Bridge,2011,476 USD,−
-1144,GeForce 7900 GS,desktop,0.65,Curie,2006,124 USD,49 W
-1145,Quadro NVS 510M,workstation,0.65,Curie,2006,105 USD,35 W
-1146,Radeon R2 (Mullins/Beema/Carrizo-L),notebook,0.65,GCN 1.1,2014,−,−
-1147,NVS 310,workstation,0.64,Fermi 2.0,2012,80 USD,20 W
-1148,GeForce 7800 GT,desktop,0.63,Curie,2005,225 USD,65 W
-1149,Radeon HD 6450M,notebook,0.63,Terascale 2,2011,35 USD,−
-1150,Quadro FX 5500,workstation,0.62,Curie,2006,150 USD,96 W
-1151,HD Graphics (Ivy Bridge),notebook,0.62,Gen. 7 Ivy Bridge,2012,168 USD,−
-1152,HD Graphics (Braswell),notebook,0.62,Gen. 8,2015,216 USD,−
-1153,Radeon R6 (Mullins),notebook,0.62,GCN 1.1,2014,−,−
-1154,Radeon HD 4650,desktop,0.61,TeraScale,2008,154 USD,48 W
-1155,Quadro FX 4500 X2,workstation,0.61,Curie,2006,300 USD,145 W
-1156,Mobility Radeon HD 5470,notebook,0.61,Terascale 2,2010,94 USD,13 W
-1157,Radeon HD 8280E,desktop,0.61,GCN 2.0,2013,59 USD,15 W
-1158,Radeon HD 4550,desktop,0.61,TeraScale,2008,116 USD,25 W
-1159,Radeon HD 8240,notebook,0.60,GCN,2013,280 USD,15 W
-1160,Quadro FX 570,workstation,0.60,Tesla,2007,173 USD,38 W
-1161,Radeon E6465,desktop,0.60,TeraScale 2,2015,−,25 W
-1162,Quadro NVS 290,workstation,0.59,Tesla,2007,68 USD,21 W
-1163,Quadro FX 4500,workstation,0.59,Curie,2005,115 USD,109 W
-1164,Radeon HD 6470M,notebook,0.59,Terascale 2,2011,201 USD,−
-1165,Radeon R5 230,desktop,0.57,TeraScale 2,2014,76 USD,19 W
-1166,GeForce 7600 GT,desktop,0.56,Curie,2006,123 USD,40 W
-1167,Quadro FX 2500M,mobile workstation,0.56,G7x,2005,126 USD,45 W
-1168,Radeon HD 8250,notebook,0.56,GCN,2013,501 USD,8 W
-1169,Quadro FX 880M,mobile workstation,0.55,GT2xx,2010,980 USD,35 W
-1170,GeForce GT 220,desktop,0.55,GT2xx,2009,121 USD,58 W
-1171,GeForce GT 330M,notebook,0.55,GT2xx,2010,448 USD,23 W
-1172,GeForce GT 230M,notebook,0.55,GT2xx,2009,57 USD,23 W
-1173,Radeon HD 2600 PRO,desktop,0.54,TeraScale,2007,100 USD,35 W
-1174,GeForce Go 7600 GT,notebook,0.54,Curie,2006,535 USD,−
-1175,GeForce 320M,notebook,0.54,GT2xx,2010,408 USD,23 W
-1176,GeForce Go 7800 GTX,notebook,0.54,G7x,2005,207 USD,65 W
-1177,Quadro NVS 320M,mobile workstation,0.54,G8x,2007,66 USD,20 W
-1178,GeForce 9700M GT,notebook,0.54,G9x,2008,310 USD,45 W
-1179,Radeon HD 4650 AGP,desktop,0.53,TeraScale,2008,249 USD,48 W
-1180,NVS 3100M,mobile workstation,0.53,GT2xx,2010,269 USD,14 W
-1181,GeForce GT 240M,notebook,0.52,GT2xx,2009,129 USD,23 W
-1182,GeForce 7950 GX2,desktop,0.52,Curie,2006,252 USD,110 W
-1183,Radeon HD 6380G,notebook,0.52,Terascale 2,2011,338 USD,35 W
-1184,Radeon HD 6450,desktop,0.51,TeraScale 2,2011,166 USD,18 W
-1185,Radeon HD 4570,desktop,0.51,TeraScale,2008,25 USD,25 W
-1186,Radeon HD 6430M,notebook,−,Terascale 2,2011,338 USD,−
-1187,Radeon HD 8210E,desktop,−,GCN 2.0,2013,−,9 W
-1188,GeForce 6800 GS,desktop,−,Curie,2005,181 USD,−
-1189,NVS 5100M,workstation,−,Tesla 2.0,2010,25 USD,35 W
-1190,GeForce 9500 GS,desktop,−,Tesla,2008,3 USD,40 W
-1191,Radeon HD 8210,notebook,−,GCN,2013,260 USD,8 W
-1192,Radeon HD 6230,desktop,−,TeraScale 2,2011,−,19 W
-1193,GeForce Go 7900 GS,notebook,−,G7x,2006,−,20 W
-1194,Mobility Radeon HD 3670,notebook,−,RV6xx,2008,−,30 W
-1195,HD Graphics 400 (Braswell),notebook,−,Gen. 8,2016,−,−
-1196,GeForce GT 325M,notebook,−,GT2xx,2010,310 USD,23 W
-1197,Quadro FX 1500,workstation,−,Curie,2006,159 USD,65 W
-1198,Quadro FX 1500M,mobile workstation,−,G7x,2006,69 USD,20 W
-1199,Quadro FX 1700M,mobile workstation,−,G9x,2008,69 USD,50 W
-1200,Quadro FX 770M,mobile workstation,−,G9x,2008,387 USD,35 W
-1201,GeForce 9200,desktop,−,Tesla,2007,92 USD,40 W
-1202,GeForce G102M,desktop,−,Tesla,2009,−,14 W
-1203,GeForce 7600 GS,desktop,−,Curie,2006,179 USD,27 W
-1204,Quadro FX 1700,workstation,−,Tesla,2007,272 USD,42 W
-1205,Quadro FX 380,workstation,−,Tesla,2009,38 USD,34 W
-1206,GeForce 8200,desktop,−,Tesla,2007,153 USD,40 W
-1207,GeForce 9500 GT,desktop,−,Tesla,2008,153 USD,50 W
-1208,Quadro FX 580,workstation,−,Tesla,2009,84 USD,40 W
-1209,Radeon HD 7340,notebook,−,Terascale 2,2012,199 USD,18 W
-1210,Mobility Radeon HD 5145,notebook,−,Terascale 1,2010,−,15 W
-1211,Radeon HD 3650 AGP,desktop,−,TeraScale,2008,120 USD,65 W
-1212,Radeon X1950 CrossFire Edition,desktop,−,R500,2006,−,−
-1213,GeForce 305M,notebook,−,GT2xx,2010,163 USD,14 W
-1214,GeForce 8400 GS,desktop,−,Tesla,2007,125 USD,40 W
-1215,GeForce GT 120M,notebook,−,G9x,2009,110 USD,23 W
-1216,Radeon HD 6320,notebook,−,Terascale 2,2010,115 USD,18 W
-1217,GeForce 8600 GTS,desktop,−,Tesla,2007,84 USD,60 W
-1218,GeForce Go 7700,notebook,−,Curie,2006,925 USD,−
-1219,GeForce GT 130M,notebook,−,G9x,2009,89 USD,23 W
-1220,Quadro 400,workstation,−,Tesla 2.0,2011,217 USD,32 W
-1221,Quadro FX 3450,workstation,−,Curie,2005,17 USD,83 W
-1222,FirePro 2270,workstation,−,TeraScale 2,2011,218 USD,15 W
-1223,Radeon X1900 GT,desktop,−,R500,2006,44 USD,75 W
-1224,HD Graphics,desktop,−,Generation 7.0,2012,286 USD,35 W
-1225,GeForce 6600 GT,desktop,−,Curie,2004,20 USD,−
-1226,GeForce 6800 GT,desktop,−,Curie,2004,213 USD,67 W
-1227,GeForce 9400 GT,desktop,−,Tesla,2008,128 USD,50 W
-1228,Radeon HD 6350,desktop,−,TeraScale 2,2011,19 USD,19 W
-1229,Radeon HD 8180,notebook,−,GCN,2013,−,4 W
-1230,Radeon X1800 GTO,desktop,−,R500,2006,220 USD,48 W
-1231,HD Graphics 2000,notebook,−,Gen. 6 Sandy Bridge,2011,318 USD,−
-1232,GeForce 6800 Ultra,desktop,−,Curie,2004,300 USD,81 W
-1233,NVS 2100M,mobile workstation,−,GT2xx,2010,142 USD,11 W
-1234,Mobility Radeon HD 3650,notebook,−,RV6xx,2008,93 USD,30 W
-1235,Mobility Radeon HD 545v,notebook,−,Terascale 1,2010,56 USD,15 W
-1236,Radeon HD 5450,desktop,−,TeraScale 2,2010,205 USD,19 W
-1237,Radeon X1900 CrossFire Edition,desktop,−,R500,2006,−,100 W
-1238,GeForce 7300 GT,desktop,−,Curie,2006,86 USD,24 W
-1239,GeForce 7650 GS,desktop,−,Curie,2006,130 USD,−
-1240,GeForce 9500M GS,notebook,−,G8x,2008,180 USD,20 W
-1241,GeForce 9600M GT,notebook,−,G9x,2008,287 USD,23 W
-1242,GeForce 9650M GT,notebook,−,G9x,2008,49 USD,23 W
-1243,GeForce Go 6800 Ultra,notebook,−,Curie,2005,−,89 W
-1244,Quadro NVS 160M,mobile workstation,−,Tesla,2008,105 USD,12 W
-1245,Mobility Radeon HD 540v,notebook,−,Terascale 1,2010,56 USD,15 W
-1246,Radeon HD 4350,desktop,−,Terascale 1,2008,81 USD,20 W
-1247,HD Graphics (Sandy Bridge),notebook,−,Gen. 6 Sandy Bridge,2011,760 USD,−
-1248,Quadro FX 1600M,mobile workstation,−,G8x,2007,212 USD,50 W
-1249,Radeon HD 7310,notebook,−,Terascale 2,2012,516 USD,18 W
-1250,Mobility FireGL V5700,mobile workstation,−,RV6xx,2008,−,−
-1251,Mobility Radeon HD 4530,notebook,−,Terascale 1,2009,−,−
-1252,Mobility Radeon HD 4550,notebook,−,Terascale 1,2010,−,−
-1253,Mobility Radeon HD 5430,notebook,−,Terascale 2,2010,−,7 W
-1254,Radeon X800 SE,desktop,−,R400,2004,130 USD,−
-1255,GeForce 8500 GT,desktop,−,Tesla,2007,231 USD,30 W
-1256,GeForce Go 7600,notebook,−,Curie,2006,450 USD,−
-1257,ION 2,notebook,−,GT2xx,2010,622 USD,6 W
-1258,Mobility Radeon HD 4570,notebook,−,Terascale 1,2009,−,−
-1259,GeForce 6800 XT,desktop,−,Curie,2005,120 USD,−
-1260,GeForce 8700M GT,notebook,−,G8x,2007,310 USD,29 W
-1261,GeForce G105M,notebook,−,Tesla 2.0,2009,109 USD,14 W
-1262,Quadro FX 1400,workstation,−,Curie,2004,552 USD,55 W
-1263,Radeon HD 6310,notebook,−,Terascale 2,2010,461 USD,18 W
-1264,Mobility Radeon HD 2600 XT,notebook,−,RV6xx,2007,−,−
-1265,Mobility Radeon HD 4330,notebook,−,Terascale 1,2009,−,−
-1266,Radeon HD 2400,desktop,−,TeraScale,2008,44 USD,20 W
-1267,Radeon HD 3450,desktop,−,TeraScale,2007,56 USD,25 W
-1268,Radeon HD 4250,notebook,−,RV6xx,2010,199 USD,25 W
-1269,GeForce 8600 GT,desktop,−,Tesla,2007,182 USD,47 W
-1270,GeForce 9500M G,notebook,−,G9x,2008,1279 USD,20 W
-1271,GeForce GT 220M,notebook,−,GT2xx,2009,310 USD,23 W
-1272,NVS 300,workstation,−,Tesla 2.0,2011,101 USD,18 W
-1273,Quadro FX 380 LP,workstation,−,Tesla 2.0,2009,92 USD,28 W
-1274,Quadro FX 380M,mobile workstation,−,GT2xx,2010,69 USD,25 W
-1275,Radeon HD 2400 XT,desktop,−,TeraScale,2007,47 USD,25 W
-1276,Radeon HD 3470,desktop,−,TeraScale,2008,92 USD,30 W
-1277,Radeon X1600 XT,desktop,−,R500,2007,76 USD,42 W
-1278,GeForce 315M,notebook,−,GT2xx,2010,163 USD,14 W
-1279,GeForce 8300 GS,desktop,−,Tesla,2007,24 USD,40 W
-1280,GeForce 9400M (G) / ION (LE),notebook,−,,2008,1030 USD,12 W
-1281,GeForce 9600M GS,notebook,−,G9x,2008,154 USD,20 W
-1282,GeForce G210M,notebook,−,GT2xx,2009,43 USD,14 W
-1283,Radeon HD 7290,notebook,−,Terascale 2,2011,160 USD,18 W
-1284,Radeon HD 2400 PRO,desktop,−,TeraScale,2007,57 USD,20 W
-1285,Radeon HD 4200,notebook,−,RV6xx,2009,139 USD,−
-1286,Radeon X1950 PRO,desktop,−,R500,2006,147 USD,66 W
-1287,Radeon X800 GTO,desktop,−,R400,2007,246 USD,49 W
-1288,GeForce 210,desktop,−,Tesla 2.0,2009,96 USD,31 W
-1289,GeForce 310M,notebook,−,GT2xx,2010,163 USD,14 W
-1290,GeForce 6800,desktop,−,Curie,2004,250 USD,−
-1291,GeForce 8400M GS,notebook,−,Tesla,2007,18 USD,11 W
-1292,GeForce 9200M GS,notebook,−,Tesla,2008,180 USD,13 W
-1293,GeForce Go 7800,notebook,−,G7x,2006,207 USD,35 W
-1294,Quadro FX 560,workstation,−,Curie,2006,89 USD,30 W
-1295,Radeon HD 2600 PRO AGP,desktop,−,TeraScale,2007,−,35 W
-1296,Radeon HD 4270,notebook,−,RV6xx,2010,−,−
-1297,GeForce 6800 LE,desktop,−,Curie,2004,161 USD,−
-1298,Quadro FX 370 LP,workstation,−,Tesla,2008,125 USD,25 W
-1299,Radeon HD 6290,notebook,−,Terascale 2,2011,−,19 W
-1300,Radeon X1950 GT,desktop,−,R500,2007,−,57 W
-1301,GeForce Go 6800,notebook,−,Curie,2005,218 USD,45 W
-1302,GeForce GT 320M,notebook,−,GT2xx,2010,310 USD,14 W
-1303,Quadro FX 570M,mobile workstation,−,G8x,2007,69 USD,35 W
-1304,GeForce 8300,desktop,−,Tesla,2007,215 USD,40 W
-1305,GeForce 9300 GS,desktop,−,Tesla,2008,89 USD,−
-1306,Quadro FX 4000,workstation,−,Curie,2004,168 USD,142 W
-1307,Quadro FX Go1400,workstation,−,Curie,2005,−,−
-1308,Radeon X1600 PRO,desktop,−,R500,2007,124 USD,41 W
-1309,Radeon X800 XT,desktop,−,R400,2004,95 USD,54 W
-1310,GeForce 6700 XL,desktop,−,Curie,2004,535 USD,−
-1311,GeForce 9400,desktop,−,Tesla,2007,190 USD,40 W
-1312,ION LE,desktop,−,Tesla,2008,72 USD,20 W
-1313,Quadro NVS 130M,mobile workstation,−,Tesla,2007,105 USD,10 W
-1314,Radeon HD 6250,notebook,−,Terascale 2,2010,225 USD,19 W
-1315,Mobility Radeon HD 3470,notebook,−,RV6xx,2007,149 USD,12 W
-1316,Quadro FX 370M,mobile workstation,−,Tesla,2008,69 USD,20 W
-1317,GeForce 6610 XL,desktop,−,Curie,2004,−,−
-1318,GeForce 7500 LE,desktop,−,Curie,2006,522 USD,−
-1319,GeForce 8600 GS,desktop,−,Tesla,2007,7 USD,47 W
-1320,GeForce 8600M GT,notebook,−,G8x,2007,414 USD,20 W
-1321,GeForce G205M,desktop,−,Tesla,2009,−,14 W
-1322,Radeon X1300 PRO,desktop,−,R500,2005,64 USD,31 W
-1323,Radeon X1650 PRO,desktop,−,Ultra-Threaded SE,2007,166 USD,44 W
-1324,Radeon X800 GT,desktop,−,R400,2005,−,40 W
-1325,GeForce 6600,desktop,−,Curie,2004,34 USD,−
-1326,GeForce 9300M G,notebook,−,Tesla,2008,1279 USD,13 W
-1327,GeForce 9300M GS,notebook,−,Tesla,2008,20 USD,13 W
-1328,ION,desktop,−,Tesla,2008,69 USD,20 W
-1329,Quadro FX 350,workstation,−,Curie,2006,80 USD,21 W
-1330,Quadro FX 360M,mobile workstation,−,Tesla,2007,69 USD,17 W
-1331,Radeon HD 3200,notebook,−,RV6xx,2008,260 USD,−
-1332,Radeon X850 XT,desktop,−,R400,2004,70 USD,69 W
-1333,GeForce 7300 LE,desktop,−,Curie,2006,79 USD,−
-1334,GeForce 8400,desktop,−,Tesla,2007,134 USD,25 W
-1335,GeForce 9100,desktop,−,Tesla,2007,4 USD,40 W
-1336,GeForce 9300 SE,desktop,−,Tesla,2008,69 USD,−
-1337,Quadro FX 370,workstation,−,Tesla,2007,90 USD,35 W
-1338,Quadro FX 540,workstation,−,Curie,2004,50 USD,25 W
-1339,GeForce 7300 GS,desktop,−,Curie,2006,171 USD,23 W
-1340,GeForce 9300 GE,desktop,−,Tesla,2008,55 USD,−
-1341,Quadro NVS 295,workstation,−,Tesla,2009,54 USD,23 W
-1342,Radeon X1650 GTO,desktop,−,R500,2007,−,−
-1343,Radeon X700,desktop,−,R400,2004,314 USD,44 W
-1344,Radeon X700 PRO,desktop,−,R400,2004,682 USD,33 W
-1345,Radeon X850 PRO,desktop,−,R400,2004,180 USD,−
-1346,GeForce 7350 LE,desktop,−,Curie,2006,30 USD,−
-1347,Radeon X1650 SE,desktop,−,Ultra-Threaded SE,2007,−,27 W
-1348,Radeon X700 SE,desktop,−,R400,2005,−,−
-1349,Radeon X800 XL,desktop,−,R400,2004,259 USD,49 W
-1350,GeForce 8400 SE,desktop,−,Tesla,2008,−,50 W
-1351,GeForce 8600M GS,notebook,−,G8x,2007,66 USD,20 W
-1352,GeForce 9100M G,notebook,−,,2008,1279 USD,−
-1353,GeForce Go 6600,notebook,−,Curie,2005,161 USD,−
-1354,Quadro FX 3000,workstation,−,Rankine,2003,533 USD,−
-1355,Quadro NVS 140M,mobile workstation,−,Tesla,2007,105 USD,10 W
-1356,Quadro NVS 150M,mobile workstation,−,Tesla,2008,105 USD,10 W
-1357,Quadro NVS 420,workstation,−,Tesla,2009,102 USD,40 W
-1358,Radeon X1550,desktop,−,Ultra-Threaded SE,2007,129 USD,27 W
-1359,Radeon X600 PRO,desktop,−,Rage 9,2004,50 USD,36 W
-1360,Radeon X800 PRO,desktop,−,R400,2004,307 USD,48 W
-1361,GeForce 8400M GT,notebook,−,Tesla,2007,310 USD,14 W
-1362,GeForce 9400M,desktop,−,Tesla,2008,33 USD,12 W
-1363,GeForce 9400M G,desktop,−,Tesla,2008,1279 USD,12 W
-1364,GeForce Go 7400,notebook,−,Curie,2006,1000 USD,−
-1365,Quadro NVS 450,workstation,−,Tesla,2008,166 USD,35 W
-1366,GeForce G 103M,notebook,−,G9x,2009,1279 USD,−
-1367,GeForce G 105M,notebook,−,G9x,2009,1279 USD,14 W
-1368,Quadro FX 550,workstation,−,Curie,2006,289 USD,30 W
-1369,Radeon 9800,desktop,−,Rage 8,2003,43 USD,37 W
-1370,Radeon 9800 PRO,desktop,−,Rage 8,2003,54 USD,47 W
-1371,Radeon X1300,desktop,−,R500,2005,67 USD,−
-1372,GeForce 6800 XE,desktop,−,Curie,2005,−,−
-1373,GeForce 8200M G,notebook,−,,2008,1279 USD,−
-1374,GeForce 8400M G,notebook,−,Tesla,2007,1279 USD,10 W
-1375,GeForce FX 5950 Ultra,desktop,−,Rankine,2003,−,74 W
-1376,Radeon 9700 PRO,desktop,−,Rage 8,2002,80 USD,−
-1377,Radeon 9800 XT,desktop,−,Rage 9,2003,−,60 W
-1378,GeForce 6200 TurboCache,desktop,−,Curie,2004,100 USD,−
-1379,Radeon E2400,desktop,−,TeraScale,2007,−,25 W
-1380,Radeon X1050,desktop,−,Rage 9,2006,25 USD,24 W
-1381,Radeon X1600,desktop,−,Ultra-Threaded SE,2007,104 USD,27 W
-1382,Radeon X550,desktop,−,Rage 9,2005,109 USD,−
-1383,Radeon X600 SE,desktop,−,Rage 9,2004,39 USD,36 W
-1384,GeForce 6600 LE,desktop,−,Curie,2005,195 USD,−
-1385,GeForce 7100 GS,desktop,−,Curie,2006,168 USD,−
-1386,GeForce FX Go5700,desktop,−,Rankine,2005,−,−
-1387,GeForce Go 7300,notebook,−,Curie,2006,274 USD,−
-1388,Quadro NVS 135M,mobile workstation,−,Tesla,2007,105 USD,10 W
-1389,GeForce Go 7200,notebook,−,Curie,2006,1008 USD,−
-1390,Quadro NVS 110M,mobile workstation,−,Curie,2006,99 USD,10 W
-1391,Quadro NVS 120M,mobile workstation,−,Curie,2006,99 USD,10 W
-1392,Radeon 9600 PRO,desktop,−,Rage 8,2003,184 USD,18 W
-1393,Radeon Xpress 1250,notebook,−,R400,2006,−,−
-1394,GeForce FX 5900 Ultra,desktop,−,Rankine,2003,−,59 W
-1395,Quadro FX 350M,mobile workstation,−,Curie,2006,69 USD,15 W
-1396,Quadro NVS 285,workstation,−,Curie,2006,57 USD,18 W
-1397,GeForce 6200,desktop,−,Curie,2004,154 USD,−
-1398,GeForce 6500,desktop,−,Curie,2005,343 USD,−
-1399,GeForce 7300 SE,desktop,−,Curie,2006,−,−
-1400,GeForce FX 5700,desktop,−,Rankine,2003,212 USD,25 W
-1401,Quadro NVS 440,workstation,−,Curie,2006,129 USD,31 W
-1402,Radeon 9500,desktop,−,Rage 8,2003,143 USD,12 W
-1403,Radeon 9550,desktop,−,Rage 8,2003,131 USD,−
-1404,Radeon 9600 XT,desktop,−,Rage 9,2003,170 USD,22 W
-1405,Radeon Xpress 1100,notebook,−,Rage 8,2006,−,−
-1406,GeForce 6150 LE,desktop,−,Curie,2004,29 USD,−
-1407,GeForce FX 5700 Ultra,desktop,−,Rankine,2003,99 USD,46 W
-1408,GeForce FX 5900,desktop,−,Rankine,2003,315 USD,−
-1409,GeForce PCX 5750,desktop,−,Rankine,2004,123 USD,50 W
-1410,GeForce PCX 5900,desktop,−,Rankine,2003,−,−
-1411,Quadro FX 1000,workstation,−,Rankine,2003,450 USD,−
-1412,Quadro FX 1100,workstation,−,Rankine,2004,310 USD,−
-1413,Quadro FX 1300,workstation,−,Rankine,2004,300 USD,55 W
-1414,Radeon Xpress 1150,notebook,−,Rage 9,2006,−,−
-1415,GeForce 6100,desktop,−,Curie,2004,64 USD,−
-1416,GeForce 6200 LE,desktop,−,Curie,2005,130 USD,−
-1417,Radeon 9800 SE,desktop,−,Rage 8,2003,18 USD,−
-1418,Radeon Xpress 200M,notebook,−,,2005,−,−
-1419,Matrox M9125 PCIe x16,desktop,−,PX,−,20 USD,−
-1420,GeForce 7200 GS,desktop,−,Curie,2006,70 USD,−
-1421,GeForce Go 6400,notebook,−,Curie,2006,454 USD,−
-1422,Quadro NVS 210S,workstation,−,Curie,2003,149 USD,11 W
-1423,GeForce 6150,desktop,−,Curie,2004,164 USD,−
-1424,GeForce Go 6150,notebook,−,,2006,299 USD,−
-1425,Quadro FX 2000,workstation,−,Rankine,2003,529 USD,−
-1426,GeForce FX 5600 Ultra,desktop,−,Rankine,2003,154 USD,−
-1427,GeForce FX Go5650,desktop,−,Rankine,2003,−,−
-1428,GeForce Go 6100,notebook,−,,2006,322 USD,−
-1429,GeForce Go 6200,notebook,−,Curie,2006,1000 USD,10 W
-1430,NV44,desktop,−,Curie,−,12 USD,−
-1431,GeForce 7000M,notebook,−,,2006,163 USD,−
-1432,GeForce FX 5200 Ultra,desktop,−,Rankine,2003,110 USD,−
-1433,GeForce FX 5600,desktop,−,Rankine,2003,124 USD,37 W
-1434,GeForce FX Go5300,desktop,−,Rankine,2003,−,−
-1435,Radeon IGP 350M,desktop,−,Rage 6,2002,128 USD,−
-1436,GeForce FX 5100,desktop,−,Rankine,2003,−,−
-1437,GeForce FX 5200,desktop,−,Celsius,2003,103 USD,−
-1438,GeForce FX 5500,desktop,−,Rankine,2004,135 USD,−
-1439,GeForce FX Go 5200,notebook,−,,2003,−,−
-1440,GeForce PCX 5300,desktop,−,Rankine,2004,−,−
-1441,GeForce2 Ultra,desktop,−,Celsius,2000,−,−
-1442,GeForce4 Ti 4400,desktop,−,Kelvin,2002,−,−
-1443,GeForce4 Ti 4800 SE,desktop,−,Kelvin,2003,−,−
-1444,Quadro NVS 280 PCI,workstation,−,Rankine,2003,100 USD,13 W
-1445,Quadro4 380 XGL,workstation,−,Celsius,2002,30 USD,−
+762,AMD FirePro M4100,mobile workstation,2.73,GCN,2013,−,−
+763,AMD Radeon R7 384 Cores (Kaveri Desktop),desktop,2.73,GCN,2014,−,−
+764,AMD Radeon HD 7670A,desktop,2.71,TeraScale 2,2012,−,45 W
+765,NVIDIA GeForce GTX 850A,desktop,2.71,Maxwell,2014,−,45 W
+766,AMD Radeon HD 6750,desktop,2.70,TeraScale 2,2011,161 USD,86 W
+767,AMD Radeon HD 8650G + HD 8670M Dual Graphics,notebook,2.69,,2013,90 USD,−
+768,Qualcomm Adreno 685,notebook,2.68,,2018,1429 USD,7 W
+769,AMD FirePro W4170M,mobile workstation,2.67,GCN,2012,495 USD,−
+770,AMD Radeon R5 430 OEM,desktop,2.66,GCN 1.0,2016,−,50 W
+771,Intel UHD Graphics 620,notebook,2.66,Gen. 9.5,2017,706 USD,15 W
+772,ATI Radeon HD 4850,desktop,2.65,Terascale 1,2008,138 USD,110 W
+773,AMD Radeon R9 A375,desktop,2.64,GCN 1.0,2015,−,−
+774,NVIDIA Quadro 3000M,mobile workstation,2.63,Fermi,2011,447 USD,75 W
+775,AMD Radeon 530,notebook,2.62,GCN,2017,627 USD,50 W
+776,NVIDIA Quadro K2000M,mobile workstation,2.61,Kepler,2012,92 USD,55 W
+777,NVIDIA GeForce 930M,notebook,2.61,Maxwell,2015,160 USD,12 W
+778,AMD Radeon HD 7690M XT,notebook,2.61,Terascale 2,2011,180 USD,25 W
+779,NVIDIA GeForce 830M,notebook,2.59,Maxwell,2014,160 USD,33 W
+780,AMD Radeon HD 7690M,notebook,2.59,Terascale 2,2011,338 USD,20 W
+781,Intel HD Graphics 530,notebook,2.58,Gen. 9 Skylake,2015,526 USD,15 W
+782,AMD Radeon R7 M260X,notebook,2.57,GCN,2014,−,−
+783,AMD Radeon R7 A265,desktop,2.56,GCN 1.0,2014,324 USD,−
+784,AMD FirePro V4900,workstation,2.55,TeraScale 2,2011,155 USD,75 W
+785,AMD Radeon HD 8690M,notebook,2.54,GCN,2012,596 USD,−
+786,AMD Radeon HD 8750M,notebook,2.54,GCN,2012,338 USD,−
+787,NVIDIA Quadro FX 4800,workstation,2.54,Tesla 2.0,2008,632 USD,150 W
+788,AMD Radeon R9 M375,notebook,2.53,GCN,2015,1699 USD,−
+789,Intel UHD Graphics G7 (Lakefield GT2 64 EU),notebook,2.52,Gen. 11 Ice Lake,2020,−,7 W
+790,NVIDIA Quadro 2000D,workstation,2.51,Fermi,2011,151 USD,62 W
+791,AMD Radeon HD 8850M,notebook,2.51,GCN,2012,338 USD,−
+792,AMD Radeon HD 6770M,notebook,2.49,Terascale 2,2011,243 USD,35 W
+793,AMD Radeon R7 M270DX,desktop,2.48,GCN 3.0,2014,−,−
+794,NVIDIA Quadro 2000,workstation,2.45,Fermi,2010,141 USD,62 W
+795,AMD Radeon R5 (Bristol Ridge),notebook,2.45,GCN 1.2/2.0,2016,53 USD,12 W
+796,NVIDIA Quadro CX,workstation,2.45,Tesla 2.0,2008,18 USD,150 W
+797,AMD FirePro M4150,mobile workstation,2.44,GCN 1.0,2013,170 USD,−
+798,AMD Radeon R7 M445,notebook,2.43,GCN,2016,809 USD,15 W
+799,AMD Radeon HD 6750M,notebook,2.42,Terascale 2,2011,506 USD,35 W
+800,Intel HD Graphics 620,notebook,2.41,Gen. 9.5 Kaby Lake,2016,353 USD,15 W
+801,NVIDIA GeForce GT 645M,notebook,2.39,Kepler,2012,310 USD,32 W
+802,NVIDIA GeForce GT 640M,notebook,2.37,Kepler,2012,310 USD,32 W
+803,NVIDIA GRID K220Q,workstation,2.35,Kepler,2014,−,225 W
+804,ATI Radeon HD 4770,desktop,2.34,TeraScale,2009,182 USD,80 W
+805,AMD Radeon R7 240,desktop,2.34,GCN 1.0,2013,109 USD,30 W
+806,Intel UHD Graphics 24EUs (Alder Lake-N),notebook,2.34,Gen. 12,2023,−,−
+807,AMD Radeon R7 M440,notebook,2.34,GCN 1.0,2016,737 USD,−
+808,AMD FirePro W2100,workstation,2.33,GCN,2015,123 USD,26 W
+809,AMD Radeon 620,notebook,2.32,GCN 1.0,2019,67 USD,50 W
+810,Intel UHD Graphics Xe 16EUs (Tiger Lake-H),notebook,2.27,Gen. 12,2021,−,−
+811,AMD Radeon E6760,desktop,2.26,TeraScale 2,2011,90 USD,45 W
+812,Intel UHD Graphics (Jasper Lake 24 EU),notebook,2.20,Gen. 11,2021,−,4.8 W
+813,Intel HD Graphics 6000,notebook,2.19,Gen. 8 Broadwell,2015,286 USD,15 W
+814,ATI Mobility Radeon HD 3870 X2,notebook,2.18,RV6xx,2008,−,110 W
+815,NVIDIA GeForce 920A,desktop,2.18,Kepler 2.0,2015,179 USD,33 W
+816,ATI Radeon HD 4830,desktop,2.16,TeraScale,2008,31 USD,95 W
+817,AMD Radeon HD 6650A,desktop,2.16,TeraScale 2,2011,−,45 W
+818,NVIDIA GeForce GT 730,desktop,2.15,Fermi,2014,77 USD,49 W
+819,Intel HD Graphics 520,notebook,2.15,Gen. 9 Skylake,2015,309 USD,15 W
+820,NVIDIA GeForce GT 755M Mac Edition,desktop,2.14,Kepler,2013,50 USD,50 W
+821,ATI Radeon HD 3850 X2,desktop,2.12,TeraScale,2008,−,140 W
+822,AMD Radeon R7 M260DX,desktop,2.11,GCN 1.0,2014,−,−
+823,NVIDIA GeForce GT 730M,notebook,2.10,Kepler,2013,1000 USD,33 W
+824,AMD Radeon R9 M280X,notebook,2.10,GCN,2015,−,−
+825,NVIDIA GeForce GT 445M,notebook,2.09,Fermi,2010,310 USD,35 W
+826,ATI FirePro M7740,mobile workstation,2.08,Terascale 1,2009,255 USD,60 W
+827,ATI Radeon HD 5670,desktop,2.07,Terascale 2,2010,132 USD,64 W
+828,ATI Mobility Radeon HD 4870,notebook,2.07,Terascale 1,2009,305 USD,−
+829,AMD Radeon R5 M435,desktop,2.07,GCN 1.0,2016,120 USD,−
+830,NVIDIA Quadro FX 3800,workstation,2.06,Tesla 2.0,2009,171 USD,108 W
+831,NVIDIA GeForce 9800 GX2,desktop,2.06,Tesla,2008,140 USD,197 W
+832,AMD Radeon R8 M445DX,notebook,2.06,GCN,2016,550 USD,−
+833,Intel Iris Graphics 6100,notebook,2.05,Gen. 8 Broadwell,2015,854 USD,28 W
+834,AMD Radeon HD 7660G + HD 7670M Dual Graphics,notebook,2.05,Terascale 2,2012,90 USD,−
+835,NVIDIA GeForce GT 740M,notebook,2.04,Kepler,2013,310 USD,25 W
+836,AMD Radeon 520,notebook,2.03,GCN 1.0,2017,140 USD,50 W
+837,NVIDIA Quadro K1000M,mobile workstation,2.02,Kepler,2012,232 USD,45 W
+838,NVIDIA GeForce 825M,notebook,2.02,Kepler,2014,160 USD,33 W
+839,NVIDIA Quadro 2000M,mobile workstation,2.02,Fermi,2011,135 USD,55 W
+840,AMD Radeon HD 8550G + HD 8670M Dual Graphics,notebook,2.00,,2013,90 USD,−
+841,AMD Radeon HD 8650G + HD 8570M Dual Graphics,notebook,1.99,,2013,90 USD,−
+842,AMD Radeon R7 M365X,desktop,1.99,GCN 1.0,2015,−,−
+843,NVIDIA GeForce GT 440,desktop,1.99,Fermi,2011,160 USD,65 W
+844,NVIDIA GeForce 9800M GTS SLI,notebook,1.99,G9x,2008,149 USD,150 W
+845,ATI Radeon HD 4810,desktop,1.99,TeraScale,2009,−,95 W
+846,NVIDIA GeForce 9800 GTX,desktop,1.99,Tesla,2008,151 USD,140 W
+847,Intel HD Graphics 5600,notebook,1.98,Gen. 8 Broadwell,2015,121 USD,15 W
+848,NVIDIA GeForce 8800M GTX SLI,notebook,1.98,G9x,2007,149 USD,130 W
+849,AMD Radeon HD 8730M,notebook,1.98,GCN,2012,338 USD,−
+850,AMD Radeon R7 M270,notebook,1.98,GCN,2014,−,−
+851,NVIDIA GeForce 9800M GT SLI,notebook,1.96,G9x,2008,545 USD,130 W
+852,ATI Mobility Radeon HD 5850,notebook,1.96,Terascale 2,2010,153 USD,39 W
+853,AMD Radeon HD 7730M,notebook,1.96,GCN,2012,338 USD,32 W
+854,AMD Radeon HD 6850M,notebook,1.96,Terascale 2,2011,338 USD,50 W
+855,Intel UHD Graphics (Jasper Lake 32 EU),notebook,1.95,Gen. 11,2021,−,4.8 W
+856,AMD Radeon HD 6650M,notebook,1.95,Terascale 2,2011,53 USD,−
+857,AMD Radeon R7 (Bristol Ridge),notebook,1.95,GCN 1.2,2016,80 USD,12 W
+858,AMD Radeon R7 (Carrizo),notebook,1.93,GCN 1.2/2.0,2015,999 USD,12 W
+859,NVIDIA Quadro K420,workstation,1.92,Kepler,2014,402 USD,41 W
+860,NVIDIA Quadro K600,workstation,1.92,Kepler,2013,220 USD,41 W
+861,NVIDIA GeForce GT 730A,desktop,1.92,Kepler 2.0,2014,−,33 W
+862,AMD Radeon HD 6620G + HD 7670M Dual Graphics,notebook,1.90,Terascale 2,2012,90 USD,−
+863,AMD Radeon HD 8650M,notebook,1.90,GCN,2013,338 USD,−
+864,AMD Radeon HD 6670,desktop,1.89,TeraScale 2,2011,134 USD,66 W
+865,Intel UHD Graphics 617,notebook,1.89,Gen. 9 Amber Lake,2018,950 USD,15 W
+866,NVIDIA Quadro K610M,mobile workstation,1.88,Kepler,2013,210 USD,30 W
+867,NVIDIA GRID K140Q,workstation,1.88,Kepler,2013,−,130 W
+868,NVIDIA GeForce 920M,notebook,1.87,Kepler,2015,895 USD,33 W
+869,Intel HD Graphics 615,notebook,1.86,Gen. 9 Kaby Lake,2016,548 USD,5 W
+870,Intel HD Graphics 610,notebook,1.84,Gen. 9 Kaby Lake,2017,86 USD,5 W
+871,Intel HD Graphics 4600,notebook,1.83,Gen. 7.5 Haswell,2013,464 USD,20 W
+872,ATI Radeon HD 3870 X2,desktop,1.83,TeraScale,2008,254 USD,165 W
+873,AMD Radeon R5 (Carrizo),notebook,1.83,GCN 1.2/2.0,2015,−,12 W
+874,AMD Radeon HD 6550A,desktop,1.83,TeraScale 2,2011,−,35 W
+875,NVIDIA NVS 510,workstation,1.81,Kepler,2012,61 USD,35 W
+876,Intel Iris Graphics 5100,notebook,1.81,Gen. 7.5 Haswell,2013,696 USD,30 W
+877,NVIDIA GeForce GT 640M LE,notebook,1.79,Fermi / Kepler,2012,310 USD,32 W
+878,AMD Radeon R6 (Kaveri),notebook,1.78,GCN 1.1,2014,−,−
+879,AMD Radeon HD 6630M,notebook,1.77,Terascale 2,2011,338 USD,26 W
+880,NVIDIA GeForce GT 630,desktop,1.75,Fermi,2012,112 USD,65 W
+881,NVIDIA GeForce GTS 160M,notebook,1.75,G9x,2009,230 USD,60 W
+882,NVIDIA Quadro FX 4700 X2,workstation,1.75,Tesla,2008,−,226 W
+883,AMD Radeon R8 M535DX,desktop,1.73,GCN 3.0,2017,299 USD,−
+884,NVIDIA GeForce GT 740A,desktop,1.72,Kepler 2.0,2013,−,33 W
+885,AMD Radeon R7 M340,notebook,1.71,GCN,2015,−,−
+886,NVIDIA GeForce GT 555M,notebook,1.70,Fermi,2011,310 USD,35 W
+887,ATI Radeon HD 2900 XT,desktop,1.70,TeraScale,2007,−,215 W
+888,NVIDIA GeForce GT 640 OEM,desktop,1.70,Kepler,2012,99 USD,50 W
+889,NVIDIA GeForce GTS 360M,notebook,1.68,GT2xx,2010,230 USD,38 W
+890,NVIDIA GRID K1,workstation,1.68,Kepler,2013,317 USD,130 W
+891,AMD Radeon R5 M430,notebook,1.67,GCN,2016,749 USD,−
+892,AMD FireStream 9170,desktop,1.67,TeraScale,2007,360 USD,105 W
+893,AMD FirePro V3900,workstation,1.67,TeraScale 2,2012,110 USD,50 W
+894,NVIDIA GeForce 8800 Ultra,desktop,1.66,Tesla,2007,235 USD,171 W
+895,NVIDIA GeForce GT 630 OEM,desktop,1.66,Kepler,2012,429 USD,50 W
+896,NVIDIA Quadro K510M,mobile workstation,1.65,Kepler,2013,−,30 W
+897,AMD Radeon HD 6740G2,notebook,1.65,Terascale 2,2011,−,−
+898,NVIDIA GeForce GTX 285M,notebook,1.64,G9x,2009,111 USD,75 W
+899,NVIDIA GeForce GT 735M,notebook,1.64,Kepler,2013,310 USD,33 W
+900,ATI Mobility Radeon HD 4850,notebook,1.63,Terascale 1,2009,187 USD,−
+901,AMD Radeon HD 7610M,notebook,1.63,Terascale 2,2012,338 USD,20 W
+902,NVIDIA GeForce GT 710,desktop,1.63,Kepler,2014,81 USD,19 W
+903,NVIDIA GRID K160Q,workstation,1.62,Kepler,2013,−,130 W
+904,NVIDIA NVS 5400M,mobile workstation,1.62,Fermi,2012,381 USD,35 W
+905,ATI Radeon HD 2900 PRO,desktop,1.62,TeraScale,2007,−,200 W
+906,AMD Radeon HD 7520G + HD 7670M Dual Graphics,notebook,1.62,Terascale 3,2012,90 USD,−
+907,AMD Radeon HD 8450G + Radeon HD 8570M Dual Graphics,notebook,1.61,Terascale 3 / GCN,2012,74 USD,−
+908,NVIDIA GeForce 810A,desktop,1.61,Kepler 2.0,2014,−,15 W
+909,AMD Radeon HD 7640G + HD 7610M Dual Graphics,notebook,1.60,Terascale 3,2012,90 USD,−
+910,AMD Radeon HD 7570,desktop,1.59,TeraScale 2,2012,67 USD,60 W
+911,NVIDIA GeForce GT 650M Mac Edition,desktop,1.59,Kepler,2012,50 USD,45 W
+912,NVIDIA GeForce 720A,desktop,1.59,Fermi 2.0,2014,639 USD,33 W
+913,AMD Radeon HD 7640G + HD 7670M Dual Graphics,notebook,1.58,Terascale 3,2012,90 USD,−
+914,Intel UHD Graphics 615,notebook,1.58,Gen. 9 Amber Lake,2018,518 USD,5 W
+915,NVIDIA GeForce GT 720,desktop,1.57,Kepler 2.0,2014,394 USD,19 W
+916,AMD Radeon R7 A360,desktop,1.57,GCN 3.0,2015,2500 USD,−
+917,Intel HD Graphics P4600,desktop,1.56,Generation 7.5,2013,225 USD,84 W
+918,AMD Radeon R6 M255DX,notebook,1.56,GCN,2014,−,−
+919,AMD Radeon HD 6720G2,notebook,1.56,Terascale 2,2011,−,−
+920,NVIDIA GeForce GTX 660M Mac Edition,desktop,1.56,Kepler,2013,149 USD,50 W
+921,NVIDIA GeForce 910M,notebook,1.55,Kepler,2015,163 USD,15 W
+922,NVIDIA GeForce GTS 250,desktop,1.55,Tesla,2009,131 USD,150 W
+923,AMD Radeon R8 M365DX,notebook,1.55,GCN,2015,−,−
+924,NVIDIA GeForce GT 430,desktop,1.55,Fermi,2010,59 USD,49 W
+925,AMD Radeon R5 M330,notebook,1.54,GCN 1.0,2015,−,18 W
+926,NVIDIA GeForce 8800 GTX,desktop,1.52,Tesla,2006,357 USD,155 W
+927,NVIDIA Quadro FX 3800M,mobile workstation,1.51,G9x,2009,199 USD,100 W
+928,Intel HD Graphics 5500,notebook,1.50,Gen. 8 Broadwell,2015,410 USD,15 W
+929,NVIDIA GeForce GT 720A,desktop,1.50,Fermi 2.0,2014,639 USD,33 W
+930,AMD Radeon R5 A240,desktop,1.49,GCN 1.0,2014,−,50 W
+931,NVIDIA GeForce GTX 280M,notebook,1.48,G9x,2009,140 USD,75 W
+932,AMD Radeon R7 (Kaveri),notebook,1.48,GCN 1.1,2014,135 USD,−
+933,NVIDIA GeForce GT 550M,notebook,1.48,Fermi,2011,55 USD,35 W
+934,AMD Radeon HD 7650A,desktop,1.48,TeraScale 2,2012,46 USD,33 W
+935,NVIDIA Quadro 500M,mobile workstation,1.47,Fermi,2011,58 USD,35 W
+936,NVIDIA GeForce GT 820M,desktop,1.47,Fermi 2.0,2013,310 USD,15 W
+937,NVIDIA Quadro 1000M,mobile workstation,1.47,Fermi,2011,129 USD,45 W
+938,NVIDIA GeForce 8800 GTS 512,desktop,1.47,Tesla,2007,146 USD,135 W
+939,AMD Radeon R7 M360,notebook,1.46,GCN 2.0,2015,879 USD,−
+940,AMD Radeon R6 (Carrizo),notebook,1.46,GCN 1.2/2.0,2015,−,12 W
+941,AMD Radeon HD 6610M,desktop,1.46,TeraScale 2,2011,338 USD,26 W
+942,NVIDIA GeForce GT 635M,notebook,1.45,Fermi,2011,55 USD,35 W
+943,AMD Radeon HD 6570,desktop,1.44,TeraScale 2,2011,66 USD,60 W
+944,NVIDIA GeForce 820A,desktop,1.43,Fermi 2.0,2014,238 USD,15 W
+945,ATI Radeon HD 3870,desktop,1.43,TeraScale,2007,195 USD,106 W
+946,NVIDIA GF117,desktop,1.43,Fermi 2.0,−,70 USD,−
+947,NVIDIA GeForce 9800M GS,notebook,1.43,G9x,2008,180 USD,60 W
+948,NVIDIA GeForce GTS 250M,notebook,1.43,GT2xx,2009,230 USD,28 W
+949,AMD Radeon HD 6755G2,notebook,1.42,Terascale 2,2011,−,−
+950,AMD Radeon R5 M335,notebook,1.41,GCN 1.0,2015,891 USD,−
+951,AMD Radeon HD 8550M,notebook,1.41,GCN,2012,338 USD,−
+952,NVIDIA GeForce 615,desktop,1.41,Fermi,2012,858 USD,49 W
+953,AMD Radeon R7 M265,notebook,1.41,GCN,2014,585 USD,−
+954,ATI Mobility Radeon HD 5730,notebook,1.40,Terascale 2,2010,−,26 W
+955,NVIDIA GeForce GT 630M,notebook,1.39,Fermi,2011,1121 USD,35 W
+956,NVIDIA GeForce GT 435M,notebook,1.39,Fermi,2010,67 USD,35 W
+957,ATI Mobility Radeon HD 5830,notebook,1.39,Terascale 2,2010,−,24 W
+958,Intel HD Graphics 5000,notebook,1.38,Gen. 7.5 Haswell,2013,489 USD,30 W
+959,NVIDIA Quadro 600,workstation,1.38,Fermi,2010,118 USD,40 W
+960,AMD Radeon R5 M255,notebook,1.38,GCN,2014,−,−
+961,AMD Radeon HD 6680G2,notebook,1.38,Terascale 2,2011,−,−
+962,NVIDIA GRID K180Q,workstation,1.38,Kepler,2013,−,130 W
+963,AMD Radeon HD 6570M,notebook,1.38,Terascale 2,2010,338 USD,30 W
+964,AMD Radeon HD 8670D,desktop,1.37,Terascale 3,2013,89 USD,100 W
+965,Intel HD Graphics 510,notebook,1.37,Gen. 9 Skylake,2015,476 USD,15 W
+966,ATI FirePro M5800,mobile workstation,1.37,Terascale 2,2010,60 USD,26 W
+967,ATI Mobility Radeon HD 5650,notebook,1.36,Terascale 2,2010,24 USD,15 W
+968,Intel HD Graphics 515,notebook,1.36,Gen. 9 Skylake,2015,512 USD,15 W
+969,NVIDIA Quadro FX 5600,workstation,1.36,Tesla,2007,209 USD,171 W
+970,AMD Radeon HD 8650G,notebook,1.36,Terascale 3,2013,300 USD,35 W
+971,NVIDIA GeForce GT 425M,notebook,1.35,Fermi,2010,45 USD,23 W
+972,Intel HD Graphics 4400,notebook,1.35,Gen. 7.5 Haswell,2013,425 USD,20 W
+973,AMD Radeon HD 8670M,notebook,1.34,GCN,2012,338 USD,−
+974,Intel UHD Graphics 610,notebook,1.34,Gen. 9 Kaby Lake,2019,601 USD,15 W
+975,ATI Mobility Radeon HD 3870,notebook,1.34,RV6xx,2008,−,55 W
+976,ATI Mobility Radeon,desktop,1.33,Rage 6,2001,202 USD,−
+977,ATI Mobility Radeon HD 4830,notebook,1.33,Terascale 1,2009,−,−
+978,AMD Radeon R5 (Stoney Ridge),notebook,1.33,GCN 1.2/2.0,2016,−,12 W
+979,Intel UHD Graphics (Jasper Lake 16 EU),notebook,1.32,Gen. 11,2021,−,4.8 W
+980,NVIDIA NVS 5200M,mobile workstation,1.32,Fermi,2012,139 USD,25 W
+981,AMD Radeon HD 6510G2,notebook,1.32,Terascale 2,2011,−,−
+982,AMD Radeon HD 6520G + HD 7450M Dual Graphics,notebook,1.32,Terascale 2,2012,90 USD,−
+983,NVIDIA GeForce GT 240,desktop,1.32,GT2xx,2009,708 USD,69 W
+984,AMD Radeon HD 6550M,notebook,1.32,Terascale 2,2010,338 USD,26 W
+985,AMD Radeon HD 6730M,notebook,1.32,Terascale 2,2011,338 USD,35 W
+986,NVIDIA GeForce 9800 GTX+,desktop,1.31,Tesla,2009,151 USD,141 W
+987,AMD Radeon HD 7660D,desktop,1.30,Terascale 3,2012,41 USD,100 W
+988,NVIDIA GeForce GTS 150M,notebook,1.30,G9x,2009,230 USD,45 W
+989,AMD Radeon HD 6540G2,notebook,1.29,Terascale 2,2011,−,−
+990,NVIDIA GeForce 820M,notebook,1.29,Fermi,2014,490 USD,15 W
+991,AMD Radeon R7 M265DX,desktop,1.29,GCN 3.0,2014,−,−
+992,AMD Radeon R7 M260,notebook,1.28,GCN,2014,430 USD,−
+993,AMD Radeon HD 6530M,notebook,1.28,Terascale 2,2010,338 USD,26 W
+994,AMD Radeon R5 M420,notebook,1.27,GCN,2016,−,−
+995,NVIDIA GeForce 9600 GT,desktop,1.26,Tesla,2008,141 USD,95 W
+996,NVIDIA GeForce 8800 GT,desktop,1.24,Tesla,2007,166 USD,125 W
+997,NVIDIA Quadro K500M,mobile workstation,1.24,Kepler,2012,20 USD,35 W
+998,NVIDIA GeForce GT 540M,notebook,1.24,Fermi,2011,283 USD,35 W
+999,ATI Radeon HD 5570,desktop,1.24,Terascale 2,2010,149 USD,39 W
+1000,NVIDIA GeForce 9800 GT,desktop,1.23,Tesla,2008,154 USD,125 W
+1001,NVIDIA GeForce GT 625M,notebook,1.23,Fermi,2012,310 USD,15 W
+1002,NVIDIA GeForce 800A,desktop,1.23,Fermi 2.0,2014,−,15 W
+1003,NVIDIA GeForce 710A,desktop,1.23,Fermi 2.0,2013,−,33 W
+1004,AMD Radeon HD 7670M,notebook,1.22,Terascale 2,2011,338 USD,20 W
+1005,AMD Radeon R5 M315,notebook,1.22,GCN,2015,−,−
+1006,ATI Mobility Radeon HD 4670,notebook,1.22,Terascale 1,2009,143 USD,35 W
+1007,AMD Radeon HD 7660G,notebook,1.21,Terascale 3,2012,950 USD,35 W
+1008,AMD Radeon HD 7500G + HD 7550M Dual Graphics,notebook,1.21,Terascale 3,2012,105 USD,−
+1009,Intel HD Graphics 5300,notebook,1.21,Gen. 8 Broadwell,2014,623 USD,15 W
+1010,AMD Radeon R5 (Kaveri),notebook,1.21,GCN 1.1,2014,−,−
+1011,NVIDIA Quadro FX 1800M,mobile workstation,1.20,GT2xx,2010,309 USD,45 W
+1012,NVIDIA Quadro FX 3600M,mobile workstation,1.20,G9x,2008,80 USD,70 W
+1013,AMD Radeon HD 7550M,notebook,1.20,Terascale 2,2012,338 USD,14 W
+1014,NVIDIA GeForce GT 720M,notebook,1.19,Fermi,2013,499 USD,18 W
+1015,NVIDIA GeForce 8800M GTX,notebook,1.19,G9x,2007,160 USD,65 W
+1016,NVIDIA GeForce GT 525M,notebook,1.19,Fermi,2011,310 USD,25 W
+1017,NVIDIA GeForce 710M,notebook,1.19,Fermi,2013,44 USD,15 W
+1018,AMD Radeon HD 7640G,notebook,1.19,Terascale 3,2012,338 USD,35 W
+1019,AMD Radeon HD 6480G + HD 7450M Dual Graphics,notebook,1.18,Terascale 2,2012,90 USD,−
+1020,NVIDIA GeForce 800M,desktop,1.18,Fermi 2.0,2014,163 USD,15 W
+1021,AMD Radeon HD 7560D,desktop,1.18,Terascale 3,2012,39 USD,65 W
+1022,NVIDIA Quadro FX 3700M,mobile workstation,1.18,G9x,2008,163 USD,75 W
+1023,NVIDIA GeForce 705M,notebook,1.17,Fermi,2013,163 USD,15 W
+1024,AMD Radeon R4 (Stoney Ridge),notebook,1.17,GCN 1.2/2.0,2016,−,15 W
+1025,NVIDIA GeForce 9800M GTX,notebook,1.17,G9x,2008,103 USD,75 W
+1026,Intel HD Graphics 4000,notebook,1.17,Gen. 7 Ivy Bridge,2011,91 USD,45 W
+1027,Intel UHD Graphics 605,notebook,1.17,Gen. 9 Apollo Lake,2017,458 USD,5 W
+1028,AMD Radeon R5 M240,notebook,1.16,GCN,2014,−,−
+1029,NVIDIA GeForce GT 710M,desktop,1.15,Fermi 2.0,2013,23 USD,15 W
+1030,AMD Radeon R5 M320,notebook,1.15,GCN 2.0,2015,−,−
+1031,AMD Radeon HD 8570D,desktop,1.14,Terascale 3,2012,79 USD,65 W
+1032,AMD Radeon HD 7650M,notebook,1.14,Terascale 2,2012,338 USD,20 W
+1033,NVIDIA Quadro 410,workstation,1.14,Kepler,2012,41 USD,38 W
+1034,AMD Radeon HD 8570M,notebook,1.14,GCN,2012,338 USD,−
+1035,NVIDIA GeForce GT 625 OEM,desktop,1.13,Fermi 2.0,2013,100 USD,29 W
+1036,NVIDIA GeForce GT 620M,notebook,1.13,Fermi,2012,300 USD,15 W
+1037,Intel HD Graphics 400,desktop,1.12,Generation 8.0,2015,710 USD,6 W
+1038,AMD Radeon HD 8410G,notebook,1.12,TeraScale 3,2013,338 USD,35 W
+1039,ATI Radeon HD 3850 AGP,desktop,1.12,TeraScale,2008,−,75 W
+1040,NVIDIA Quadro FX 4600,workstation,1.11,Tesla,2007,179 USD,134 W
+1041,AMD Radeon HD 7570M,notebook,1.11,Terascale 2,2012,712 USD,13 W
+1042,AMD Radeon HD 8610G,notebook,1.10,Terascale 3,2013,338 USD,−
+1043,AMD FirePro M2000,mobile workstation,1.09,Terascale 2,2012,387 USD,33 W
+1044,AMD Caicos,desktop,1.09,TeraScale 2,−,18 USD,−
+1045,ATI Mobility Radeon HD 5165,notebook,1.09,Terascale 1,2010,−,35 W
+1046,AMD Radeon R5 (Beema/Carrizo-L),notebook,1.08,GCN 1.1,2014,−,−
+1047,NVIDIA Quadro FX 2800M,mobile workstation,1.07,G9x,2009,140 USD,75 W
+1048,AMD Radeon R5 M230,notebook,1.07,GCN,2014,−,−
+1049,AMD Radeon HD 8550G,notebook,1.06,Terascale 3,2013,338 USD,35 W
+1050,NVIDIA GeForce GTS 350M,notebook,1.05,GT2xx,2010,230 USD,28 W
+1051,AMD Radeon HD 7470M,notebook,1.05,Terascale 2,2011,700 USD,7 W
+1052,NVIDIA GeForce GT 640M Mac Edition,desktop,1.05,Kepler,2013,50 USD,32 W
+1053,Intel UHD Graphics (Elkhart Lake 16 EU),desktop,1.05,,2021,−,4.8 W
+1054,NVIDIA GeForce GT 420M,notebook,1.05,Fermi,2010,310 USD,23 W
+1055,ATI Radeon E4690,desktop,1.05,TeraScale,2009,−,30 W
+1056,NVIDIA GeForce 810M,desktop,1.04,Fermi 2.0,2014,163 USD,15 W
+1057,AMD Radeon HD 6550D,desktop,1.04,Terascale 2,2011,49 USD,65 W
+1058,ATI Mobility Radeon HD 4650,notebook,1.04,Terascale 1,2009,−,35 W
+1059,NVIDIA GeForce 9800M GTS,notebook,1.04,G9x,2008,230 USD,75 W
+1060,AMD Radeon R2 (Stoney Ridge),notebook,1.03,GCN 1.2/2.0,2016,−,15 W
+1061,AMD Radeon R4 (Beema),notebook,1.03,GCN 1.1,2014,−,−
+1062,NVIDIA Quadro FX 1800,workstation,1.03,Tesla,2009,132 USD,59 W
+1063,ATI Radeon HD 3850,desktop,1.01,TeraScale,2007,30 USD,75 W
+1064,NVIDIA GeForce 7900 GTX,desktop,1.00,Curie,2006,228 USD,84 W
+1065,NVIDIA GeForce GT 335M,notebook,0.99,GT200,2010,310 USD,28 W
+1066,NVIDIA GeForce 8800M GTS,notebook,0.99,G9x,2007,110 USD,50 W
+1067,NVIDIA GeForce 9800M GT,notebook,0.98,G9x,2008,61 USD,65 W
+1068,ATI Radeon HD 4670,desktop,0.98,TeraScale,2008,181 USD,59 W
+1069,NVIDIA GeForce GTX 260M,notebook,0.98,G9x,2009,109 USD,75 W
+1070,AMD Radeon HD 6490M,notebook,0.97,Terascale 2,2011,248 USD,−
+1071,NVIDIA Quadro FX 3700,workstation,0.97,Tesla,2008,256 USD,78 W
+1072,NVIDIA GeForce GT 620,desktop,0.97,Fermi,2012,125 USD,49 W
+1073,ATI Radeon HD 5550,desktop,0.97,TeraScale 2,2010,129 USD,39 W
+1074,AMD Radeon HD 6450 GDDR5,desktop,0.97,Terascale 2,2011,129 USD,27 W
+1075,Intel HD Graphics (Broadwell),notebook,0.96,Gen. 8 Broadwell,2015,437 USD,−
+1076,NVIDIA Quadro FX 2700M,mobile workstation,0.96,G9x,2008,296 USD,65 W
+1077,Intel HD Graphics 4200,notebook,0.94,Gen. 7.5 Haswell,2013,427 USD,4 W
+1078,AMD Radeon HD 8470D,desktop,0.94,Terascale 3,2013,37 USD,65 W
+1079,AMD Radeon HD 7620G,notebook,0.94,Terascale 3,2012,338 USD,25 W
+1080,NVIDIA Quadro NVS 5100M,mobile workstation,0.92,GT2xx,2010,105 USD,35 W
+1081,AMD Radeon HD 8510G,notebook,0.92,TeraScale 3,2013,659 USD,35 W
+1082,AMD Radeon HD 8450G,notebook,0.90,Terascale 3,2013,338 USD,35 W
+1083,NVIDIA NVS 315,workstation,0.89,Fermi 2.0,2013,213 USD,19 W
+1084,NVIDIA GeForce 7950 GT,desktop,0.89,Curie,2006,200 USD,65 W
+1085,AMD Radeon HD 6620G,notebook,0.88,Terascale 2,2011,338 USD,35 W
+1086,AMD Radeon HD 8310E,desktop,0.88,GCN 2.0,2013,−,25 W
+1087,Intel HD Graphics 505,notebook,0.86,Gen. 9 Apollo Lake,2016,659 USD,6 W
+1088,Intel UHD Graphics 600,notebook,0.86,Gen. 9 Gemini Lake,2017,274 USD,5 W
+1089,NVIDIA GeForce 8800 GS,desktop,0.85,Tesla,2008,145 USD,105 W
+1090,AMD Radeon HD 7450M,notebook,0.85,Terascale 2,2012,338 USD,7 W
+1091,NVIDIA GeForce 9600 GSO 512,desktop,0.85,Tesla,2008,75 USD,90 W
+1092,AMD Radeon R4 (Kaveri),notebook,0.85,GCN 1.1,2014,−,−
+1093,NVIDIA GeForce 9600 GSO,desktop,0.84,Tesla,2008,75 USD,84 W
+1094,AMD Radeon HD 7600G,notebook,0.84,Terascale 3,2012,338 USD,19 W
+1095,AMD Radeon R3 (Mullins/Beema),notebook,0.84,GCN 1.1,2014,−,−
+1096,AMD Radeon E6460,desktop,0.83,TeraScale 2,2011,150 USD,25 W
+1097,NVIDIA GeForce GT 230,desktop,0.83,Tesla,2009,123 USD,75 W
+1098,Intel HD Graphics (Haswell),notebook,0.83,Gen. 7.5 Haswell,2012,273 USD,−
+1099,AMD Radeon HD 7520G,notebook,0.81,Terascale 3,2012,90 USD,35 W
+1100,ATI Mobility Radeon HD 560v,notebook,0.80,Terascale 1,2010,56 USD,15 W
+1101,NVIDIA GeForce GT 520,desktop,0.80,Fermi 2.0,2011,88 USD,29 W
+1102,AMD Radeon HD 7420G,notebook,0.80,Terascale 3,2012,338 USD,35 W
+1103,AMD Radeon HD 7500G,notebook,0.79,Terascale 3,2012,338 USD,17 W
+1104,NVIDIA GeForce GT 610,desktop,0.79,Fermi 2.0,2012,98 USD,29 W
+1105,NVIDIA Quadro FX 3500M,mobile workstation,0.79,G7x,2007,69 USD,45 W
+1106,AMD Radeon HD 8350G,notebook,0.78,Terascale 3,2013,338 USD,35 W
+1107,AMD Cedar,desktop,0.78,TeraScale 2,−,14 USD,−
+1108,NVIDIA GeForce 8700M GT SLI,notebook,0.78,G8x,2007,545 USD,58 W
+1109,AMD Radeon HD 6520G,notebook,0.77,Terascale 2,2011,338 USD,35 W
+1110,ATI Mobility Radeon HD 550v,notebook,0.77,Terascale 1,2010,56 USD,10 W
+1111,NVIDIA GRID K120Q,workstation,0.76,Kepler,2014,−,130 W
+1112,ATI Radeon HD 2900 GT,desktop,0.75,TeraScale,2007,−,150 W
+1113,NVIDIA GeForce 610M,notebook,0.75,Fermi,2011,55 USD,12 W
+1114,NVIDIA GeForce 7800 GTX,desktop,0.75,Curie,2005,176 USD,86 W
+1115,Intel HD Graphics 500,notebook,0.74,Gen. 9 Apollo Lake,2016,414 USD,6 W
+1116,AMD Radeon HD 7450A,desktop,0.74,TeraScale 2,2012,13 USD,25 W
+1117,NVIDIA GeForce GT 415M,notebook,0.74,Fermi,2010,310 USD,12 W
+1118,ATI Radeon HD 2600 XT,desktop,0.73,TeraScale,2007,144 USD,45 W
+1119,NVIDIA GeForce GT 520MX,notebook,0.73,Fermi,2011,3 USD,20 W
+1120,NVIDIA GeForce GT 520M,notebook,0.72,Fermi,2011,237 USD,17 W
+1121,Intel HD Graphics 405,notebook,0.72,Gen. 8,2016,254 USD,6 W
+1122,NVIDIA GeForce 9700M GTS,notebook,0.72,G9x,2008,230 USD,60 W
+1123,AMD Radeon HD 7480D,desktop,0.72,Terascale 3,2012,215 USD,65 W
+1124,NVIDIA NVS 4200M,mobile workstation,0.71,Fermi,2011,229 USD,25 W
+1125,AMD Radeon HD 8400E,desktop,0.71,GCN 2.0,2013,293 USD,25 W
+1126,AMD Radeon HD 6370M,notebook,0.71,Terascale 2,2010,338 USD,11 W
+1127,NVIDIA GeForce 9650M GS,notebook,0.70,G8x,2008,180 USD,29 W
+1128,NVIDIA GeForce Go 7900 GTX,notebook,0.70,G7x,2006,535 USD,45 W
+1129,ATI Radeon HD 5470,desktop,0.69,TeraScale 2,2012,73 USD,19 W
+1130,AMD Radeon HD 7400G,notebook,0.69,Terascale 3,2012,338 USD,17 W
+1131,AMD Radeon HD 8330E,desktop,0.69,GCN 2.0,2013,142 USD,15 W
+1132,NVIDIA GeForce Go 7950 GTX,notebook,0.68,G7x,2006,−,45 W
+1133,Intel HD Graphics 2500,notebook,0.68,Gen. 7 Ivy Bridge,2012,521 USD,−
+1134,AMD Radeon HD 8400,notebook,0.67,GCN,2013,78 USD,25 W
+1135,AMD Radeon HD 8280,notebook,0.67,GCN,2013,−,15 W
+1136,AMD Radeon HD 6450A,desktop,0.67,TeraScale 2,2011,123 USD,25 W
+1137,ATI Mobility Radeon HD 3850,notebook,0.67,RV6xx,2007,−,55 W
+1138,NVIDIA Quadro FX 3500,workstation,0.67,Curie,2006,920 USD,80 W
+1139,AMD Radeon HD 8330,notebook,0.67,GCN,2013,143 USD,15 W
+1140,NVIDIA GeForce 7900 GT,desktop,0.67,Curie,2006,241 USD,48 W
+1141,NVIDIA GeForce 410M,notebook,0.66,Fermi,2011,163 USD,15 W
+1142,AMD Radeon HD 6480G,notebook,0.66,Terascale 2,2011,362 USD,35 W
+1143,Intel HD Graphics 3000,notebook,0.66,Gen. 6 Sandy Bridge,2011,476 USD,−
+1144,NVIDIA GeForce 7900 GS,desktop,0.65,Curie,2006,124 USD,49 W
+1145,NVIDIA Quadro NVS 510M,mobile workstation,0.65,Curie,2006,105 USD,35 W
+1146,AMD Radeon R2 (Mullins/Beema/Carrizo-L),notebook,0.65,GCN 1.1,2014,−,−
+1147,NVIDIA NVS 310,workstation,0.64,Fermi 2.0,2012,80 USD,20 W
+1148,NVIDIA GeForce 7800 GT,desktop,0.63,Curie,2005,225 USD,65 W
+1149,AMD Radeon HD 6450M,notebook,0.63,Terascale 2,2011,35 USD,−
+1150,NVIDIA Quadro FX 5500,workstation,0.62,Curie,2006,150 USD,96 W
+1151,Intel HD Graphics (Ivy Bridge),notebook,0.62,Gen. 7 Ivy Bridge,2012,168 USD,−
+1152,Intel HD Graphics (Braswell),notebook,0.62,Gen. 8,2015,216 USD,−
+1153,AMD Radeon R6 (Mullins),notebook,0.62,GCN 1.1,2014,−,−
+1154,ATI Radeon HD 4650,desktop,0.61,TeraScale,2008,154 USD,48 W
+1155,NVIDIA Quadro FX 4500 X2,workstation,0.61,Curie,2006,300 USD,145 W
+1156,ATI Mobility Radeon HD 5470,notebook,0.61,Terascale 2,2010,94 USD,13 W
+1157,AMD Radeon HD 8280E,desktop,0.61,GCN 2.0,2013,59 USD,15 W
+1158,ATI Radeon HD 4550,desktop,0.61,TeraScale,2008,116 USD,25 W
+1159,AMD Radeon HD 8240,notebook,0.60,GCN,2013,280 USD,15 W
+1160,NVIDIA Quadro FX 570,workstation,0.60,Tesla,2007,173 USD,38 W
+1161,AMD Radeon E6465,desktop,0.60,TeraScale 2,2015,−,25 W
+1162,NVIDIA Quadro NVS 290,workstation,0.59,Tesla,2007,68 USD,21 W
+1163,NVIDIA Quadro FX 4500,workstation,0.59,Curie,2005,115 USD,109 W
+1164,AMD Radeon HD 6470M,notebook,0.59,Terascale 2,2011,201 USD,−
+1165,AMD Radeon R5 230,desktop,0.57,TeraScale 2,2014,76 USD,19 W
+1166,AMD Radeon HD 8250,notebook,0.56,GCN,2013,501 USD,8 W
+1167,NVIDIA Quadro FX 2500M,mobile workstation,0.56,G7x,2005,126 USD,45 W
+1168,NVIDIA GeForce 7600 GT,desktop,0.56,Curie,2006,123 USD,40 W
+1169,NVIDIA Quadro FX 880M,mobile workstation,0.56,GT2xx,2010,980 USD,35 W
+1170,NVIDIA GeForce GT 220,desktop,0.55,GT2xx,2009,121 USD,58 W
+1171,NVIDIA GeForce GT 330M,notebook,0.55,GT2xx,2010,448 USD,23 W
+1172,NVIDIA GeForce GT 230M,notebook,0.55,GT2xx,2009,57 USD,23 W
+1173,ATI Radeon HD 2600 PRO,desktop,0.54,TeraScale,2007,100 USD,35 W
+1174,NVIDIA GeForce Go 7600 GT,notebook,0.54,Curie,2006,535 USD,−
+1175,NVIDIA GeForce 320M,notebook,0.54,GT2xx,2010,408 USD,23 W
+1176,NVIDIA GeForce Go 7800 GTX,notebook,0.54,G7x,2005,207 USD,65 W
+1177,NVIDIA GeForce 9700M GT,notebook,0.54,G9x,2008,310 USD,45 W
+1178,NVIDIA Quadro NVS 320M,mobile workstation,0.54,G8x,2007,66 USD,20 W
+1179,ATI Radeon HD 4650 AGP,desktop,0.53,TeraScale,2008,249 USD,48 W
+1180,NVIDIA NVS 3100M,mobile workstation,0.53,GT2xx,2010,269 USD,14 W
+1181,NVIDIA GeForce GT 240M,notebook,0.52,GT2xx,2009,129 USD,23 W
+1182,NVIDIA GeForce 7950 GX2,desktop,0.52,Curie,2006,252 USD,110 W
+1183,AMD Radeon HD 6380G,notebook,0.52,Terascale 2,2011,338 USD,35 W
+1184,AMD Radeon HD 6450,desktop,0.51,TeraScale 2,2011,166 USD,18 W
+1185,ATI Radeon HD 4570,desktop,0.51,TeraScale,2008,25 USD,25 W
+1186,AMD Radeon HD 6430M,notebook,−,Terascale 2,2011,338 USD,−
+1187,AMD Radeon HD 8210E,desktop,−,GCN 2.0,2013,−,9 W
+1188,NVIDIA GeForce 6800 GS,desktop,−,Curie,2005,181 USD,−
+1189,NVIDIA NVS 5100M,mobile workstation,−,Tesla 2.0,2010,25 USD,35 W
+1190,AMD Radeon HD 8210,notebook,−,GCN,2013,260 USD,8 W
+1191,NVIDIA GeForce 9500 GS,desktop,−,Tesla,2008,3 USD,40 W
+1192,AMD Radeon HD 6230,desktop,−,TeraScale 2,2011,−,19 W
+1193,NVIDIA GeForce Go 7900 GS,notebook,−,G7x,2006,−,20 W
+1194,ATI Mobility Radeon HD 3670,notebook,−,RV6xx,2008,−,30 W
+1195,Intel HD Graphics 400 (Braswell),notebook,−,Gen. 8,2016,−,−
+1196,NVIDIA GeForce GT 325M,notebook,−,GT2xx,2010,310 USD,23 W
+1197,NVIDIA Quadro FX 1500,workstation,−,Curie,2006,159 USD,65 W
+1198,NVIDIA Quadro FX 1500M,mobile workstation,−,G7x,2006,69 USD,20 W
+1199,NVIDIA Quadro FX 1700M,mobile workstation,−,G9x,2008,69 USD,50 W
+1200,NVIDIA Quadro FX 770M,mobile workstation,−,G9x,2008,387 USD,35 W
+1201,NVIDIA GeForce 9200,desktop,−,Tesla,2007,92 USD,40 W
+1202,NVIDIA GeForce G102M,desktop,−,Tesla,2009,−,14 W
+1203,NVIDIA GeForce 7600 GS,desktop,−,Curie,2006,179 USD,27 W
+1204,NVIDIA Quadro FX 1700,workstation,−,Tesla,2007,272 USD,42 W
+1205,NVIDIA Quadro FX 380,workstation,−,Tesla,2009,38 USD,34 W
+1206,AMD Radeon HD 7340,notebook,−,Terascale 2,2012,199 USD,18 W
+1207,NVIDIA GeForce 8200,desktop,−,Tesla,2007,153 USD,40 W
+1208,NVIDIA GeForce 9500 GT,desktop,−,Tesla,2008,153 USD,50 W
+1209,NVIDIA Quadro FX 580,workstation,−,Tesla,2009,84 USD,40 W
+1210,ATI Mobility Radeon HD 5145,notebook,−,Terascale 1,2010,−,15 W
+1211,ATI Radeon HD 3650 AGP,desktop,−,TeraScale,2008,120 USD,65 W
+1212,ATI Radeon X1950 CrossFire Edition,desktop,−,R500,2006,−,−
+1213,NVIDIA GeForce 305M,notebook,−,GT2xx,2010,163 USD,14 W
+1214,NVIDIA GeForce 8400 GS,desktop,−,Tesla,2007,125 USD,40 W
+1215,NVIDIA GeForce GT 120M,notebook,−,G9x,2009,110 USD,23 W
+1216,AMD Radeon HD 6320,notebook,−,Terascale 2,2010,115 USD,18 W
+1217,NVIDIA GeForce 8600 GTS,desktop,−,Tesla,2007,84 USD,60 W
+1218,NVIDIA GeForce Go 7700,notebook,−,Curie,2006,925 USD,−
+1219,NVIDIA GeForce GT 130M,notebook,−,G9x,2009,89 USD,23 W
+1220,NVIDIA Quadro 400,workstation,−,Tesla 2.0,2011,217 USD,32 W
+1221,NVIDIA Quadro FX 3450,workstation,−,Curie,2005,17 USD,83 W
+1222,AMD FirePro 2270,workstation,−,TeraScale 2,2011,218 USD,15 W
+1223,ATI Radeon X1900 GT,desktop,−,R500,2006,44 USD,75 W
+1224,Intel HD Graphics,desktop,−,Generation 7.0,2012,286 USD,35 W
+1225,NVIDIA GeForce 6600 GT,desktop,−,Curie,2004,20 USD,−
+1226,NVIDIA GeForce 6800 GT,desktop,−,Curie,2004,213 USD,67 W
+1227,NVIDIA GeForce 9400 GT,desktop,−,Tesla,2008,128 USD,50 W
+1228,AMD Radeon HD 6350,desktop,−,TeraScale 2,2011,19 USD,19 W
+1229,AMD Radeon HD 8180,notebook,−,GCN,2013,−,4 W
+1230,ATI Radeon X1800 GTO,desktop,−,R500,2006,220 USD,48 W
+1231,Intel HD Graphics 2000,notebook,−,Gen. 6 Sandy Bridge,2011,318 USD,−
+1232,NVIDIA GeForce 6800 Ultra,desktop,−,Curie,2004,300 USD,81 W
+1233,NVIDIA NVS 2100M,mobile workstation,−,GT2xx,2010,142 USD,11 W
+1234,ATI Mobility Radeon HD 3650,notebook,−,RV6xx,2008,93 USD,30 W
+1235,ATI Mobility Radeon HD 545v,notebook,−,Terascale 1,2010,56 USD,15 W
+1236,ATI Radeon HD 5450,desktop,−,TeraScale 2,2010,205 USD,19 W
+1237,ATI Radeon X1900 CrossFire Edition,desktop,−,R500,2006,−,100 W
+1238,NVIDIA GeForce 7300 GT,desktop,−,Curie,2006,86 USD,24 W
+1239,NVIDIA GeForce 7650 GS,desktop,−,Curie,2006,130 USD,−
+1240,NVIDIA GeForce 9500M GS,notebook,−,G8x,2008,180 USD,20 W
+1241,NVIDIA GeForce 9600M GT,notebook,−,G9x,2008,287 USD,23 W
+1242,NVIDIA GeForce 9650M GT,notebook,−,G9x,2008,49 USD,23 W
+1243,NVIDIA GeForce Go 6800 Ultra,notebook,−,Curie,2005,−,89 W
+1244,NVIDIA Quadro NVS 160M,mobile workstation,−,Tesla,2008,105 USD,12 W
+1245,ATI Mobility Radeon HD 540v,notebook,−,Terascale 1,2010,56 USD,15 W
+1246,ATI Radeon HD 4350,desktop,−,Terascale 1,2008,81 USD,20 W
+1247,Intel HD Graphics (Sandy Bridge),notebook,−,Gen. 6 Sandy Bridge,2011,760 USD,−
+1248,NVIDIA Quadro FX 1600M,mobile workstation,−,G8x,2007,212 USD,50 W
+1249,AMD Radeon HD 7310,notebook,−,Terascale 2,2012,516 USD,18 W
+1250,ATI Mobility FireGL V5700,mobile workstation,−,RV6xx,2008,−,−
+1251,ATI Mobility Radeon HD 4530,notebook,−,Terascale 1,2009,−,−
+1252,ATI Mobility Radeon HD 4550,notebook,−,Terascale 1,2010,−,−
+1253,ATI Mobility Radeon HD 5430,notebook,−,Terascale 2,2010,−,7 W
+1254,ATI Radeon X800 SE,desktop,−,R400,2004,130 USD,−
+1255,NVIDIA GeForce 8500 GT,desktop,−,Tesla,2007,231 USD,30 W
+1256,NVIDIA GeForce Go 7600,notebook,−,Curie,2006,450 USD,−
+1257,NVIDIA ION 2,notebook,−,GT2xx,2010,622 USD,6 W
+1258,ATI Mobility Radeon HD 4570,notebook,−,Terascale 1,2009,−,−
+1259,NVIDIA GeForce 6800 XT,desktop,−,Curie,2005,120 USD,−
+1260,NVIDIA GeForce 8700M GT,notebook,−,G8x,2007,310 USD,29 W
+1261,NVIDIA GeForce G105M,notebook,−,Tesla 2.0,2009,109 USD,14 W
+1262,NVIDIA Quadro FX 1400,workstation,−,Curie,2004,552 USD,55 W
+1263,AMD Radeon HD 6310,notebook,−,Terascale 2,2010,461 USD,18 W
+1264,ATI Mobility Radeon HD 2600 XT,notebook,−,RV6xx,2007,−,−
+1265,ATI Mobility Radeon HD 4330,notebook,−,Terascale 1,2009,−,−
+1266,ATI Radeon HD 2400,desktop,−,TeraScale,2008,44 USD,20 W
+1267,ATI Radeon HD 3450,desktop,−,TeraScale,2007,56 USD,25 W
+1268,ATI Radeon HD 4250,notebook,−,RV6xx,2010,199 USD,25 W
+1269,NVIDIA GeForce 8600 GT,desktop,−,Tesla,2007,182 USD,47 W
+1270,NVIDIA GeForce 9500M G,notebook,−,G9x,2008,1279 USD,20 W
+1271,NVIDIA GeForce GT 220M,notebook,−,GT2xx,2009,310 USD,23 W
+1272,NVIDIA NVS 300,workstation,−,Tesla 2.0,2011,101 USD,18 W
+1273,NVIDIA Quadro FX 380 LP,workstation,−,Tesla 2.0,2009,92 USD,28 W
+1274,NVIDIA Quadro FX 380M,mobile workstation,−,GT2xx,2010,69 USD,25 W
+1275,ATI Radeon HD 2400 XT,desktop,−,TeraScale,2007,47 USD,25 W
+1276,ATI Radeon HD 3470,desktop,−,TeraScale,2008,92 USD,30 W
+1277,ATI Radeon X1600 XT,desktop,−,R500,2007,76 USD,42 W
+1278,NVIDIA GeForce 315M,notebook,−,GT2xx,2010,163 USD,14 W
+1279,NVIDIA GeForce 8300 GS,desktop,−,Tesla,2007,24 USD,40 W
+1280,NVIDIA GeForce 9400M (G) / ION (LE),notebook,−,,2008,1030 USD,12 W
+1281,NVIDIA GeForce 9600M GS,notebook,−,G9x,2008,154 USD,20 W
+1282,NVIDIA GeForce G210M,notebook,−,GT2xx,2009,43 USD,14 W
+1283,AMD Radeon HD 7290,notebook,−,Terascale 2,2011,160 USD,18 W
+1284,ATI Radeon HD 2400 PRO,desktop,−,TeraScale,2007,57 USD,20 W
+1285,ATI Radeon HD 4200,notebook,−,RV6xx,2009,139 USD,−
+1286,ATI Radeon X1950 PRO,desktop,−,R500,2006,147 USD,66 W
+1287,ATI Radeon X800 GTO,desktop,−,R400,2007,246 USD,49 W
+1288,NVIDIA GeForce 210,desktop,−,Tesla 2.0,2009,96 USD,31 W
+1289,NVIDIA GeForce 310M,notebook,−,GT2xx,2010,163 USD,14 W
+1290,NVIDIA GeForce 6800,desktop,−,Curie,2004,250 USD,−
+1291,NVIDIA GeForce 8400M GS,notebook,−,Tesla,2007,18 USD,11 W
+1292,NVIDIA GeForce 9200M GS,notebook,−,Tesla,2008,180 USD,13 W
+1293,NVIDIA GeForce Go 7800,notebook,−,G7x,2006,207 USD,35 W
+1294,NVIDIA Quadro FX 560,workstation,−,Curie,2006,89 USD,30 W
+1295,ATI Radeon HD 2600 PRO AGP,desktop,−,TeraScale,2007,−,35 W
+1296,ATI Radeon HD 4270,notebook,−,RV6xx,2010,−,−
+1297,NVIDIA GeForce 6800 LE,desktop,−,Curie,2004,161 USD,−
+1298,NVIDIA Quadro FX 370 LP,workstation,−,Tesla,2008,125 USD,25 W
+1299,AMD Radeon HD 6290,notebook,−,Terascale 2,2011,−,19 W
+1300,ATI Radeon X1950 GT,desktop,−,R500,2007,−,57 W
+1301,NVIDIA GeForce Go 6800,notebook,−,Curie,2005,218 USD,45 W
+1302,NVIDIA GeForce GT 320M,notebook,−,GT2xx,2010,310 USD,14 W
+1303,NVIDIA Quadro FX 570M,mobile workstation,−,G8x,2007,69 USD,35 W
+1304,NVIDIA GeForce 8300,desktop,−,Tesla,2007,215 USD,40 W
+1305,NVIDIA GeForce 9300 GS,desktop,−,Tesla,2008,89 USD,−
+1306,NVIDIA Quadro FX 4000,workstation,−,Curie,2004,168 USD,142 W
+1307,NVIDIA Quadro FX Go1400,mobile workstation,−,Curie,2005,−,−
+1308,ATI Radeon X1600 PRO,desktop,−,R500,2007,124 USD,41 W
+1309,ATI Radeon X800 XT,desktop,−,R400,2004,95 USD,54 W
+1310,NVIDIA GeForce 6700 XL,desktop,−,Curie,2004,535 USD,−
+1311,NVIDIA GeForce 9400,desktop,−,Tesla,2007,190 USD,40 W
+1312,NVIDIA ION LE,desktop,−,Tesla,2008,72 USD,20 W
+1313,NVIDIA Quadro NVS 130M,mobile workstation,−,Tesla,2007,105 USD,10 W
+1314,AMD Radeon HD 6250,notebook,−,Terascale 2,2010,225 USD,19 W
+1315,ATI Mobility Radeon HD 3470,notebook,−,RV6xx,2007,149 USD,12 W
+1316,NVIDIA Quadro FX 370M,mobile workstation,−,Tesla,2008,69 USD,20 W
+1317,NVIDIA GeForce 6610 XL,desktop,−,Curie,2004,−,−
+1318,NVIDIA GeForce 7500 LE,desktop,−,Curie,2006,522 USD,−
+1319,NVIDIA GeForce 8600 GS,desktop,−,Tesla,2007,7 USD,47 W
+1320,NVIDIA GeForce 8600M GT,notebook,−,G8x,2007,414 USD,20 W
+1321,NVIDIA GeForce G205M,desktop,−,Tesla,2009,−,14 W
+1322,ATI Radeon X1300 PRO,desktop,−,R500,2005,64 USD,31 W
+1323,ATI Radeon X1650 PRO,desktop,−,Ultra-Threaded SE,2007,166 USD,44 W
+1324,ATI Radeon X800 GT,desktop,−,R400,2005,−,40 W
+1325,NVIDIA GeForce 6600,desktop,−,Curie,2004,34 USD,−
+1326,NVIDIA GeForce 9300M G,notebook,−,Tesla,2008,1279 USD,13 W
+1327,NVIDIA GeForce 9300M GS,notebook,−,Tesla,2008,20 USD,13 W
+1328,NVIDIA ION,desktop,−,Tesla,2008,69 USD,20 W
+1329,NVIDIA Quadro FX 350,workstation,−,Curie,2006,80 USD,21 W
+1330,NVIDIA Quadro FX 360M,mobile workstation,−,Tesla,2007,69 USD,17 W
+1331,ATI Radeon HD 3200,notebook,−,RV6xx,2008,260 USD,−
+1332,ATI Radeon X850 XT,desktop,−,R400,2004,70 USD,69 W
+1333,NVIDIA GeForce 7300 LE,desktop,−,Curie,2006,79 USD,−
+1334,NVIDIA GeForce 8400,desktop,−,Tesla,2007,134 USD,25 W
+1335,NVIDIA GeForce 9100,desktop,−,Tesla,2007,4 USD,40 W
+1336,NVIDIA GeForce 9300 SE,desktop,−,Tesla,2008,69 USD,−
+1337,NVIDIA Quadro FX 370,workstation,−,Tesla,2007,90 USD,35 W
+1338,NVIDIA Quadro FX 540,workstation,−,Curie,2004,50 USD,25 W
+1339,NVIDIA GeForce 7300 GS,desktop,−,Curie,2006,171 USD,23 W
+1340,NVIDIA GeForce 9300 GE,desktop,−,Tesla,2008,55 USD,−
+1341,NVIDIA Quadro NVS 295,workstation,−,Tesla,2009,54 USD,23 W
+1342,ATI Radeon X1650 GTO,desktop,−,R500,2007,−,−
+1343,ATI Radeon X700,desktop,−,R400,2004,314 USD,44 W
+1344,ATI Radeon X700 PRO,desktop,−,R400,2004,682 USD,33 W
+1345,ATI Radeon X850 PRO,desktop,−,R400,2004,180 USD,−
+1346,NVIDIA GeForce 7350 LE,desktop,−,Curie,2006,30 USD,−
+1347,ATI Radeon X1650 SE,desktop,−,Ultra-Threaded SE,2007,−,27 W
+1348,ATI Radeon X700 SE,desktop,−,R400,2005,−,−
+1349,ATI Radeon X800 XL,desktop,−,R400,2004,259 USD,49 W
+1350,NVIDIA GeForce 8400 SE,desktop,−,Tesla,2008,−,50 W
+1351,NVIDIA GeForce 8600M GS,notebook,−,G8x,2007,66 USD,20 W
+1352,NVIDIA GeForce 9100M G,notebook,−,,2008,1279 USD,−
+1353,NVIDIA GeForce Go 6600,notebook,−,Curie,2005,161 USD,−
+1354,NVIDIA Quadro FX 3000,workstation,−,Rankine,2003,533 USD,−
+1355,NVIDIA Quadro NVS 140M,mobile workstation,−,Tesla,2007,105 USD,10 W
+1356,NVIDIA Quadro NVS 150M,mobile workstation,−,Tesla,2008,105 USD,10 W
+1357,NVIDIA Quadro NVS 420,workstation,−,Tesla,2009,102 USD,40 W
+1358,ATI Radeon X1550,desktop,−,Ultra-Threaded SE,2007,129 USD,27 W
+1359,ATI Radeon X600 PRO,desktop,−,Rage 9,2004,50 USD,36 W
+1360,ATI Radeon X800 PRO,desktop,−,R400,2004,307 USD,48 W
+1361,NVIDIA GeForce 8400M GT,notebook,−,Tesla,2007,310 USD,14 W
+1362,NVIDIA GeForce 9400M,desktop,−,Tesla,2008,33 USD,12 W
+1363,NVIDIA GeForce 9400M G,desktop,−,Tesla,2008,1279 USD,12 W
+1364,NVIDIA GeForce Go 7400,notebook,−,Curie,2006,1000 USD,−
+1365,NVIDIA Quadro NVS 450,workstation,−,Tesla,2008,166 USD,35 W
+1366,NVIDIA GeForce G 103M,notebook,−,G9x,2009,1279 USD,−
+1367,NVIDIA GeForce G 105M,notebook,−,G9x,2009,1279 USD,14 W
+1368,NVIDIA Quadro FX 550,workstation,−,Curie,2006,289 USD,30 W
+1369,ATI Radeon 9800,desktop,−,Rage 8,2003,43 USD,37 W
+1370,ATI Radeon 9800 PRO,desktop,−,Rage 8,2003,54 USD,47 W
+1371,ATI Radeon X1300,desktop,−,R500,2005,67 USD,−
+1372,NVIDIA GeForce 6800 XE,desktop,−,Curie,2005,−,−
+1373,NVIDIA GeForce 8200M G,notebook,−,,2008,1279 USD,−
+1374,NVIDIA GeForce 8400M G,notebook,−,Tesla,2007,1279 USD,10 W
+1375,NVIDIA GeForce FX 5950 Ultra,desktop,−,Rankine,2003,−,74 W
+1376,ATI Radeon 9700 PRO,desktop,−,Rage 8,2002,80 USD,−
+1377,ATI Radeon 9800 XT,desktop,−,Rage 9,2003,−,60 W
+1378,NVIDIA GeForce 6200 TurboCache,desktop,−,Curie,2004,100 USD,−
+1379,ATI Radeon E2400,desktop,−,TeraScale,2007,−,25 W
+1380,ATI Radeon X1050,desktop,−,Rage 9,2006,25 USD,24 W
+1381,ATI Radeon X1600,desktop,−,Ultra-Threaded SE,2007,104 USD,27 W
+1382,ATI Radeon X550,desktop,−,Rage 9,2005,109 USD,−
+1383,ATI Radeon X600 SE,desktop,−,Rage 9,2004,39 USD,36 W
+1384,NVIDIA GeForce 6600 LE,desktop,−,Curie,2005,195 USD,−
+1385,NVIDIA GeForce 7100 GS,desktop,−,Curie,2006,168 USD,−
+1386,NVIDIA GeForce FX Go5700,desktop,−,Rankine,2005,−,−
+1387,NVIDIA GeForce Go 7300,notebook,−,Curie,2006,274 USD,−
+1388,NVIDIA Quadro NVS 135M,mobile workstation,−,Tesla,2007,105 USD,10 W
+1389,NVIDIA GeForce Go 7200,notebook,−,Curie,2006,1008 USD,−
+1390,NVIDIA Quadro NVS 110M,mobile workstation,−,Curie,2006,99 USD,10 W
+1391,NVIDIA Quadro NVS 120M,mobile workstation,−,Curie,2006,99 USD,10 W
+1392,ATI Radeon 9600 PRO,desktop,−,Rage 8,2003,184 USD,18 W
+1393,ATI Radeon Xpress 1250,notebook,−,R400,2006,−,−
+1394,NVIDIA GeForce FX 5900 Ultra,desktop,−,Rankine,2003,−,59 W
+1395,NVIDIA Quadro FX 350M,mobile workstation,−,Curie,2006,69 USD,15 W
+1396,NVIDIA Quadro NVS 285,workstation,−,Curie,2006,57 USD,18 W
+1397,NVIDIA GeForce 6200,desktop,−,Curie,2004,154 USD,−
+1398,NVIDIA GeForce 6500,desktop,−,Curie,2005,343 USD,−
+1399,NVIDIA GeForce 7300 SE,desktop,−,Curie,2006,−,−
+1400,NVIDIA GeForce FX 5700,desktop,−,Rankine,2003,212 USD,25 W
+1401,NVIDIA Quadro NVS 440,workstation,−,Curie,2006,129 USD,31 W
+1402,ATI Radeon 9500,desktop,−,Rage 8,2003,143 USD,12 W
+1403,ATI Radeon 9550,desktop,−,Rage 8,2003,131 USD,−
+1404,ATI Radeon 9600 XT,desktop,−,Rage 9,2003,170 USD,22 W
+1405,ATI Radeon Xpress 1100,notebook,−,Rage 8,2006,−,−
+1406,NVIDIA GeForce 6150 LE,desktop,−,Curie,2004,29 USD,−
+1407,NVIDIA GeForce FX 5700 Ultra,desktop,−,Rankine,2003,99 USD,46 W
+1408,NVIDIA GeForce FX 5900,desktop,−,Rankine,2003,315 USD,−
+1409,NVIDIA GeForce PCX 5750,desktop,−,Rankine,2004,123 USD,50 W
+1410,NVIDIA GeForce PCX 5900,desktop,−,Rankine,2003,−,−
+1411,NVIDIA Quadro FX 1000,workstation,−,Rankine,2003,450 USD,−
+1412,NVIDIA Quadro FX 1100,workstation,−,Rankine,2004,310 USD,−
+1413,NVIDIA Quadro FX 1300,workstation,−,Rankine,2004,300 USD,55 W
+1414,ATI Radeon Xpress 1150,notebook,−,Rage 9,2006,−,−
+1415,NVIDIA GeForce 6100,desktop,−,Curie,2004,64 USD,−
+1416,NVIDIA GeForce 6200 LE,desktop,−,Curie,2005,130 USD,−
+1417,ATI Radeon 9800 SE,desktop,−,Rage 8,2003,18 USD,−
+1418,ATI Radeon Xpress 200M,notebook,−,,2005,−,−
+1419,,desktop,−,PX,−,20 USD,−
+1420,NVIDIA GeForce 7200 GS,desktop,−,Curie,2006,70 USD,−
+1421,NVIDIA GeForce Go 6400,notebook,−,Curie,2006,454 USD,−
+1422,NVIDIA Quadro NVS 210S,workstation,−,Curie,2003,149 USD,11 W
+1423,NVIDIA GeForce 6150,desktop,−,Curie,2004,164 USD,−
+1424,NVIDIA GeForce Go 6150,notebook,−,,2006,299 USD,−
+1425,NVIDIA Quadro FX 2000,workstation,−,Rankine,2003,529 USD,−
+1426,NVIDIA GeForce FX 5600 Ultra,desktop,−,Rankine,2003,154 USD,−
+1427,NVIDIA GeForce FX Go5650,desktop,−,Rankine,2003,−,−
+1428,NVIDIA GeForce Go 6100,notebook,−,,2006,322 USD,−
+1429,NVIDIA GeForce Go 6200,notebook,−,Curie,2006,1000 USD,10 W
+1430,NVIDIA NV44,desktop,−,Curie,−,12 USD,−
+1431,NVIDIA GeForce 7000M,notebook,−,,2006,163 USD,−
+1432,NVIDIA GeForce FX 5200 Ultra,desktop,−,Rankine,2003,110 USD,−
+1433,NVIDIA GeForce FX 5600,desktop,−,Rankine,2003,124 USD,37 W
+1434,NVIDIA GeForce FX Go5300,desktop,−,Rankine,2003,−,−
+1435,ATI Radeon IGP 350M,desktop,−,Rage 6,2002,128 USD,−
+1436,NVIDIA GeForce FX 5100,desktop,−,Rankine,2003,−,−
+1437,NVIDIA GeForce FX 5200,desktop,−,Celsius,2003,103 USD,−
+1438,NVIDIA GeForce FX 5500,desktop,−,Rankine,2004,135 USD,−
+1439,NVIDIA GeForce FX Go 5200,notebook,−,,2003,−,−
+1440,NVIDIA GeForce PCX 5300,desktop,−,Rankine,2004,−,−
+1441,NVIDIA GeForce2 Ultra,desktop,−,Celsius,2000,−,−
+1442,NVIDIA GeForce4 Ti 4400,desktop,−,Kelvin,2002,−,−
+1443,NVIDIA GeForce4 Ti 4800 SE,desktop,−,Kelvin,2003,−,−
+1444,NVIDIA Quadro NVS 280 PCI,workstation,−,Rankine,2003,100 USD,13 W
+1445,NVIDIA Quadro4 380 XGL,workstation,−,Celsius,2002,30 USD,−
